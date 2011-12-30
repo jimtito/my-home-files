@@ -1,0 +1,9 @@
+#!/bin/bash
+#
+# /etc/rc.single: Single-user startup script.
+#
+
+(sleep 10 && echo -n 15 > /sys/devices/system/cpu/cpufreq/ondemand/up_threshold && echo -n 10 > /sys/devices/system/cpu/cpufreq/ondemand/sampling_down_factor) &
+
+# End of file
+# vim: set ts=2 sw=2 noet

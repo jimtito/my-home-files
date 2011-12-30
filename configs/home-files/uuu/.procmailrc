@@ -1,0 +1,34 @@
+PATH=/bin:/usr/bin/:/usr/local/bin:/home/dunz0r/bin
+VERBOSE=on
+DEFAULT=/var/spool/mail/dunz0r
+MAILDIR=$HOME/mail
+LOGFILE=$MAILDIR/.procmaillog
+
+# Recipes
+:0:
+* ^(To|Cc): *awesome@naquadah.org
+awesome-mailinglist/
+
+:0
+* ^To: abbenay@eval.nu
+abbenay/
+
+:0
+* ^(To|Cc): list@ulug.org
+ulug/
+
+:0
+* ^(Cc|To): [a-z]+@securityfocus.com
+focus-ids/
+
+:0
+* ^(To|Cc): uzbl-dev@lists.uzbl.org
+uzbl-dev/
+
+:0
+* ^(Cc|From|Cc): luakit-dev@lists.luakit.org
+luakit-dev/
+
+
+#:0
+#* ^Subject: S(V|v):

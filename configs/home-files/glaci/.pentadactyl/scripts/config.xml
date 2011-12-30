@@ -1,0 +1,43 @@
+<UserScriptConfig>
+	<Script filename="smbc_reader.user.js" name="SMBC Reader" namespace="#aVg" description="Makes reading Saturday Morning Breakfast Cereal more pleasurable, with adblock and hidden comic (votey) viewer." version="0.1" enabled="true" basedir="smbc_reader" modified="1287582871000" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709">
+		<Include>http://www.smbc-comics.com/*</Include>
+	</Script>
+	<Script filename="xkcd_fan_keyboard_shortc.user.js" name="xkcd Fan (+keyboard shortcuts)" namespace="#avg" description="Read xkcd with only comic and alt-text and keyboard shortcuts, fullscreen fit and more" version="0.1.5" enabled="true" basedir="xkcd_fan_keyboard_shortc" modified="1287582871000" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709">
+		<Include>http://*xkcd.com/*</Include>
+	</Script>
+	<Script filename="mangafox3_fit_image.user.js" name="Mangafox3 Fit Image" namespace="Knace" description="Thnx to Knace. A mangafox.com script: Loads several images (up to entire chapter) vertically for your reading pleasure. You only need to scroll down to continue reading which keeps the flow of the manga. Also makes saving the entire chapter simple and easy!" version="4.2" enabled="true" basedir="mangafox3_fit_image" modified="1287582871000" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709">
+		<Include>http://www.mangafox.com/*</Include>
+	</Script>
+	<Script filename="reddit_username_colorize.user.js" name="Reddit Username Colorizer" namespace="userscripts.org" description="Colorizes usernames on reddit comments for easy recognition." version="" enabled="true" basedir="reddit_username_colorize" modified="1287582871000" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709">
+		<Include>http://www.reddit.com/*</Include>
+	</Script>
+	<Script filename="reddit_noclick.user.js" name="Reddit NoClick" namespace="akjdfkjs" description="Removes onclick handlers that interfere with vimperator's &quot;follow-hint&quot;" version="" enabled="true" basedir="reddit_noclick" modified="1290349901000" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709">
+		<Include>http://www.reddit.com/*</Include>
+		<Include>http://reddit.com/*</Include>
+	</Script>
+	<Script filename="dinosaur_comics_extra_te.user.js" name="Dinosaur Comics extra text" namespace="http://miff.furopolis.org/" description="Displays extra text on dinosaur comics pages." version="" enabled="true" basedir="dinosaur_comics_extra_te" modified="1300205654000" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" installurl="http://userscripts.org/scripts/source/53688.user.js">
+		<Include>http://qwantz.com/index.php</Include>
+		<Include>http://qwantz.com/index.php?comic=*</Include>
+		<Include>http://www.qwantz.com/index.php</Include>
+		<Include>http://www.qwantz.com/index.php?comic=*</Include>
+	</Script>
+	<Script filename="autopagerize.user.js" name="AutoPagerize" namespace="http://swdyh.yu.to/" description="loading next page and inserting into current page." version="" enabled="true" basedir="autopagerize" modified="1300376680000" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" installurl="http://userscripts.org/scripts/source/8551.user.js">
+		<Include>http://*</Include>
+		<Include>https://*</Include>
+		<Exclude>https://mail.google.com/*</Exclude>
+		<Exclude>http://b.hatena.ne.jp/*</Exclude>
+		<Exclude>http://www.facebook.com/plugins/like.php*</Exclude>
+		<Exclude>http://api.tweetmeme.com/button.js*</Exclude>
+	</Script>
+	<Script filename="reddit_enhancement_suite.user.js" name="Reddit Enhancement Suite" namespace="http://reddit.honestbleeps.com/" description="A suite of tools to enhance reddit..." version="" enabled="true" basedir="reddit_enhancement_suite" modified="1302178957000" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" installurl="http://reddit.honestbleeps.com/latest/reddit_enhancement_suite.user.js">
+		<Include>http://reddit.honestbleeps.com/*</Include>
+		<Include>http://reddit.com/*</Include>
+		<Include>https://reddit.com/*</Include>
+		<Include>http://*.reddit.com/*</Include>
+		<Include>https://*.reddit.com/*</Include>
+	</Script>
+	<Script filename="4chan_x.user.js" name="4chan x" namespace="aeosynth" description="Adds various features." version="2.10.0" enabled="true" basedir="4chan_x" modified="1306699346000" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" installurl="http://userscripts.org/scripts/source/51412.user.js">
+		<Include>http://boards.4chan.org/*</Include>
+		<Include>http://sys.4chan.org/*</Include>
+	</Script>
+</UserScriptConfig>

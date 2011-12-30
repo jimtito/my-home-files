@@ -1,0 +1,71 @@
+# Feeds file for feed-update
+# Syntax:
+#  folder   http://feed.url
+
+## Webcomics
+xkcd                        http://www.xkcd.com/rss.xml
+egs                         http://www.egscomics.com/rss.php
+egsnp                       http://www.egscomics.com/egsnp/rss.php
+pennyarcade                 http://feeds.penny-arcade.com/pa-mainsite/
+duelinganalogs              http://feeds.feedburner.com/DuelingAnalogs
+digitalunrest               http://feeds.feedburner.com/DigitalUnrestComic
+smbc                        http://www.smbc-comics.com/rss.php
+nerfnow                     http://nerfnow.com/index.xml
+extralife                   http://www.myextralife.com/?feed=rss2
+oots                        http://www.giantitp.com/comics/oots.rss
+erfworld                    http://www.erfworld.com/feed/
+vgcats                      http://www.vgcats.com/vgcats.rdf.xml
+supereffective              http://www.vgcats.com/super/se.rdf.xml
+#sinfest                     http://www.sinfest.net/rss.php
+mistakesofyouth             http://mistakesofyouth.com/feed/
+cynh                        http://feedproxy.google.com/Explosm
+lfg                         http://feeds.feedburner.com/LookingForGroup?format=xml
+abstrusegoose               http://feeds2.feedburner.com/AbstruseGoose
+subnormality                http://www.viruscomix.com/rss.xml
+marryme                     http://marryme.keenspot.com/main/feed/
+dresdencodak                http://feeds2.feedburner.com/rsspect/fJur
+oglaf                       http://oglaf.com/feeds/rss/
+qwantz                      http://www.rsspect.com/rss/qwantz.xml
+pfsc                        http://www.rsspect.com/rss/pfsc.xml
+hijinks                     http://feeds.feedburner.com/hijinksensue
+harkavagrant                http://www.rsspect.com/rss/vagrant.xml
+basicintructions            http://basicinstructions.net/basic-instructions/rss.xml
+buttersafe                  http://feeds.feedburner.com/Buttersafe
+paperhero                   http://paperherocomics.com/?feed=rss2
+bug                         http://www.bugcomic.com/feed/
+dawn                        http://www.dawnoftimecomics.com/rss.php
+nedroid                     http://nedroid.com/feed/
+amazing                     http://www.amazingsuperpowers.com/category/comics/feed/
+humon                       http://feeds.feedburner.com/HumonComics
+gunner                      http://www.rsspect.com/rss/gunner.xml
+hh                          http://hipsterhitler.com/feed/
+mn3                         http://www.menagea3.net/comic.rss
+gnk                         http://www.rsspect.com/rss/gunner.xml
+
+## Blogs
+osamuko                     http://www.osamuko.com/feed/
+dailyvim                    http://dailyvim.blogspot.com/feeds/posts/default
+mistakesofyouth-blog        http://analoghousou.com/comments/feed/
+reddit                      http://feeds.feedburner.com/redditblog?format=xml
+xkcd-blag                   http://blag.xkcd.com/feed/
+writequit                   http://feeds.feedburner.com/writequit/feed
+
+## UofR
+music                       http://www.reddit.com/r/IntroToMusicTheory/.rss
+
+## Screencasts
+fosscasts                   http://feeds.feedburner.com/Fosscasts-FreeOpenSourceScreencasts/ogg
+vimcasts                    http://vimcasts.org/feeds/ogg
+
+## Podcasts
+alive                       http://feeds.feedburner.com/itpc/wwwwaylandws/Wayland_Productions/Were_Alive_-_Podcast/rssxml
+
+## Project News
+vimperator-news             http://vimperator.org/news/rss.xml
+python-news                 http://feeds.feedburner.com/polarcloud?format=xml
+achron-news                 http://achrongame.com/achron.rss
+sr-news                     http://www.blind-mind.com/rss/srnews.rss
+
+## Manga
+nanoha-vivid                http://www.mangafox.com/rss/mahou_shoujo_lyrical_nanoha_vivid.xml
+nanoha-force                http://www.mangafox.com/rss/mahou_senki_lyrical_nanoha_force.xml

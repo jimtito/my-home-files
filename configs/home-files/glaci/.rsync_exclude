@@ -1,0 +1,14 @@
+*~
+*.swp
+*.tmp
+config_*.py
+.git
+*.pyc
+*.conf.php
+settings.py
+django.wsgi
+fcgi_start
+fcgi.sock
+fcgi.pid
+*.db
+settings.php

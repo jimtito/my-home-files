@@ -1,0 +1,2 @@
+#!/bin/sh
+unrar p -inul $1 | mplayer -idx -fs -cache 8192 -

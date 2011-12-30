@@ -1,0 +1,29 @@
+#!/bin/bash
+
+# Figure out if we're muted
+(amixer sget Capture | grep "\[on\]") &> /dev/null
+hadmic=$?
+
+# Toggle
+if (($hadmic != 0)); then
+    # Figure out if we have music
+    (mpc | grep "\[playing\]") &> /dev/null
+    hadmusic=$?
+    if (($hadmusic == 0)); then
+        echo "Had Music"
+        touch /tmp/hadmusic
+        mpc pause
+    else
+        echo "No Music"
+        rm -f /tmp/hadmusic
+    fi;
+
+    amixer set Capture toggle
+else
+    if [[ -e "/tmp/hadmusic" ]]; then
+        echo "Had Music"
+        rm -f /tmp/hadmusic
+        mpc play
+    fi;
+    amixer set Capture toggle
+fi;

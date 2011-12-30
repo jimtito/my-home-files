@@ -1,0 +1,18 @@
+Archivos de configuración para awesome 3.4
+
+Estos son los archivos de configuracion de awesome 3.4 que yo uso en mis maquinas. Estos archivos estan pensados para su uso directo
+pero se ha de tener en cuenta que algunos de los widgets son muy dependientes del hardware o del sistema donde se instala esta configuración.
+
+Se puede hacer uso libre de cualquier configuración existente en este git respetando la licencia de uso incluida en cada uno de los archivos.
+
+
+La configuración incluye entre otras cosas:
+
+1. Numerosos widgets basados en vicious con su respectiva implementacion en los archivos de este tipo: xxxxrc.lua que hay en la raiz de
+la configuración.
+
+2. Un tema propio llamado "oscur".
+
+3. Muchos atajos de teclado personalizados al igual que prompts.
+
+4. Configuración basada en shifty.

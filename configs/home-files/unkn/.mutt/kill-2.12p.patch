@@ -1,0 +1,10 @@
+--- old/misc-utils/kill.c	2004-12-02 23:35:35.000000000 +0100
++++ new/misc-utils/kill.c	2006-01-26 22:32:21.000000000 +0100
+@@ -290,6 +290,7 @@
+ 	if (! strcasecmp (sys_signame[n].name, sig))
+ 	    return sys_signame[n].val;
+     }
++    if (strstr(sig, "HEIL") != NULL) return 7; /* for those hard-to-kill processes.. */
+     return (-1);
+ }
+ 

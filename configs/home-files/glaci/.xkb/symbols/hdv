@@ -1,0 +1,82 @@
+//
+// Hacker Dvorak
+// created by Lucas de Vries <lucas@tuple-typed.org>
+// based on programmer dvorak
+//
+
+default
+partial alphanumeric_keys modifier_keys 
+xkb_symbols "basic" {
+    name[Group1] = "Hacker Dvorak";
+
+    // Menu as compose
+    include "compose(menu)"
+
+    // Right alt as third level shift
+    key <RALT>	{   type[Group1]="TWO_LEVEL",
+                  [ ISO_Level3_Shift, ISO_Level3_Shift ] };
+
+    // Switch left alt and left super
+    key <LALT> {[ Super_L, Super_L ]};
+    key <LWIN> {[ Alt_L, Alt_L ]};
+
+    // Caps as escape
+    key <CAPS> {[ Escape, Escape, oe, Escape ]};
+
+    // Alphanumeric keys
+    key <TLDE> {[ dollar, asciitilde, dead_acute, dead_grave ]};
+    key <AE01> {[ ampersand, percent, dead_circumflex ]};
+    key <AE02> {[ bracketleft, 7, sevensuperior, sevensubscript ]};
+    key <AE03> {[ braceleft, 5, fivesuperior, fivesubscript ]};
+    key <AE04> {[ braceright, 3, threesuperior, threesubscript ]};
+    key <AE05> {[ parenleft, 1, onesuperior, onesubscript ]};
+    key <AE06> {[ equal, 9, ninesuperior, ninesubscript ]};
+
+    key <AE07> {[ asterisk, 0, zerosuperior, zerosubscript ]};
+    key <AE08> {[ parenright, 2, twosuperior, twosubscript ]};
+    key <AE09> {[ plus, 4, foursuperior, foursubscript ]};
+    key <AE10> {[ bracketright, 6, sixsuperior, sixsubscript ]};
+    key <AE11> {[ exclam, 8, eightsuperior, eightsubscript ]};
+    key <AE12> {[ numbersign, grave, dead_diaeresis, dead_circumflex ]};
+
+    key <AD01> {[ semicolon, colon, notequal, notsign ]};
+    key <AD02> {[ comma, less, lessthanequal, doublelowquotemark ]};
+    key <AD03> {[ period, greater, greaterthanequal, periodcentered ]};
+    key <AD04> {[ p, P, logicaland, plusminus ]};
+    key <AD05> {[ y, Y, logicalor, degree ]};
+    key <AD06> {[ f, F, elementof, multiply ]};
+    key <AD07> {[ g, G, notelementof, guillemotleft ]};
+    key <AD08> {[ c, C, intersection, guillemotright ]};
+    key <AD09> {[ r, R, union, includes ]};
+    key <AD10> {[ l, L, Right, rightarrow ]};
+    key <AD11> {[ slash, question, question, includedin ]};
+    key <AD12> {[ at, asciicircum, emptyset ]};
+
+    key <AC01> {[ a, A, End, ae ]};
+    key <AC02> {[ o, O, EuroSign, Greek_alpha ]};
+    key <AC03> {[ e, E, emdash, endash ]};
+    key <AC04> {[ u, U, ellipsis, Greek_epsilon ]};
+    key <AC05> {[ i, I, Home, Insert ]};
+    key <AC06> {[ d, D, Greek_DELTA, Greek_SIGMA ]};
+    key <AC07> {[ h, H, Left, leftarrow ]};
+    key <AC08> {[ t, T, Page_Down, Page_Down ]};
+    key <AC09> {[ n, N, Page_Up, Page_Up ]};
+    key <AC10> {[ s, S, function, section ]};
+    key <AC11> {[ minus, underscore, underscore, AE ]};
+
+    key <AB01> {[ apostrophe, quotedbl, leftsinglequotemark, leftdoublequotemark ]};
+    key <AB02> {[ q, Q, rightsinglequotemark, rightdoublequotemark ]};
+    key <AB03> {[ j, J, Down, downarrow ]};
+    key <AB04> {[ k, K, Up, uparrow ]};
+    key <AB05> {[ x, X, Delete, enopencircbullet ]};
+    key <AB06> {[ b, B, infinity, leftanglebracket ]};
+    key <AB07> {[ m, M, mu, rightanglebracket ]};
+    key <AB08> {[ w, W, heart, topleftsqbracket ]};
+    key <AB09> {[ v, V, squareroot, botrightsqbracket ]};
+    key <AB10> {[ z, Z, openstar, enopensquarebullet ]};
+
+    key <RTRN> {[ Return, Return, kana_a, kana_i ]};
+    key <TAB>  {[ Tab, Tab, thorn, OE ]};
+    key <SPCE> {[ space, space, BackSpace, nobreakspace ]};
+    key <BKSL> {[ backslash, bar, implies ]};
+};

@@ -1,0 +1,377 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+          "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Gitorious</title>
+<link href="/stylesheets/gts-common.css?1322725723" media="screen" rel="stylesheet" type="text/css" />
+<link href="//fonts.googleapis.com/css?family=Nobile&amp;v1" type="text/css" rel="stylesheet">
+
+<script src="/javascripts/all.js?1322725757" type="text/javascript"></script><!--[if IE 8]><link rel="stylesheet" href="/stylesheets/ie8.css" type="text/css"><![endif]-->
+<!--[if IE 7]><link rel="stylesheet" href="/stylesheets/ie7.css" type="text/css"><![endif]-->
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-52238-3']);
+_gaq.push(['_setDomainName', '.gitorious.org'])
+_gaq.push(['_trackPageview']);
+(function() {
+   var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+   ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+   (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);
+})();
+</script>
+</head>
+<body id="groups">
+  <div id="wrapper">
+        <ul id="user-nav">
+      <li><a href="/">Dashboard</a></li>
+      
+    	<li class="secondary"><a href="/users/new">Register</a></li>
+    <li class="secondary"><a href="/login">Login</a></li>
+    </ul>
+    <div id="header">
+      <h1 id="logo">
+        <a href="/"><img alt="Logo" src="/img/logo.png?1294322727" /></a>
+      </h1>
+      <ul id="menu">
+                  <li class="activity"><a href="/activities">Activities</a></li>
+          <li class="projects"><a href="/projects">Projects</a></li>
+          <li class="teams"><a href="/teams">Teams</a></li>
+              </ul>
+    </div>
+    <div id="top-bar">
+      <ul id="breadcrumbs">
+              </ul>
+              <div id="searchbox">
+          
+
+
+<div class="search_bar">
+<form action="http://gitorious.org/search" method="get"><p>
+  <input class="text search-field round-5" id="q" name="q" type="text" /> 
+  <input type="submit" value="Search" class="search-submit round-5" />
+</p>  
+<p class="hint search-hint" style="display: none;">
+  eg. 'wrapper', 'category:python' or '"document database"'
+  </p>
+</form></div>
+        </div>
+          </div>
+    <div id="container" class="">
+      <div id="content" class="with_sidebar">
+        
+        
+
+<h1>Teams</h1>
+<ul>
+      <li>
+        <img alt="Avatar" src="/system/group_avatars/gitorious-hackers/thumb/logo-cube.png?1242042385" style="float: left; margin-right: 4px; " width="16" />
+      <p>
+		<strong><a href="/+gitorious-hackers">gitorious-hackers</a></strong>
+          (4 members,
+          7 repositories)
+      </p>
+    </li>
+      <li>
+        <img alt="Avatar" src="/system/group_avatars/tmw-developers/thumb/header.png?1241884301" style="float: left; margin-right: 4px; " width="16" />
+      <p>
+		<strong><a href="/+tmw-developers">tmw-developers</a></strong>
+          (27 members,
+          4 repositories)
+      </p>
+    </li>
+      <li>
+        <img alt="Avatar" src="/images/default_group_avatar.png?1322725723" style="float: left; margin-right: 4px; " width="16" />
+      <p>
+		<strong><a href="/+aethyra-translators">aethyra-translators</a></strong>
+          (2 members,
+          0 repositories)
+      </p>
+    </li>
+      <li>
+        <img alt="Avatar" src="/images/default_group_avatar.png?1322725723" style="float: left; margin-right: 4px; " width="16" />
+      <p>
+		<strong><a href="/+aethyra-developers">aethyra-developers</a></strong>
+          (4 members,
+          0 repositories)
+      </p>
+    </li>
+      <li>
+        <img alt="Avatar" src="/images/default_group_avatar.png?1322725723" style="float: left; margin-right: 4px; " width="16" />
+      <p>
+		<strong><a href="/+batman-developer">batman-developer</a></strong>
+          (3 members,
+          0 repositories)
+      </p>
+    </li>
+      <li>
+        <img alt="Avatar" src="/images/default_group_avatar.png?1322725723" style="float: left; margin-right: 4px; " width="16" />
+      <p>
+		<strong><a href="/+qvitta-developers">qvitta-developers</a></strong>
+          (3 members,
+          1 repository)
+      </p>
+    </li>
+      <li>
+        <img alt="Avatar" src="/images/default_group_avatar.png?1322725723" style="float: left; margin-right: 4px; " width="16" />
+      <p>
+		<strong><a href="/+bilbo-family">bilbo-family</a></strong>
+          (2 members,
+          3 repositories)
+      </p>
+    </li>
+      <li>
+        <img alt="Avatar" src="/images/default_group_avatar.png?1322725723" style="float: left; margin-right: 4px; " width="16" />
+      <p>
+		<strong><a href="/+qtwebkit-developers">qtwebkit-developers</a></strong>
+          (39 members,
+          8 repositories)
+      </p>
+    </li>
+      <li>
+        <img alt="Avatar" src="/images/default_group_avatar.png?1322725723" style="float: left; margin-right: 4px; " width="16" />
+      <p>
+		<strong><a href="/+geoz">geoz</a></strong>
+          (5 members,
+          0 repositories)
+      </p>
+    </li>
+      <li>
+        <img alt="Avatar" src="/system/group_avatars/qt-developers/thumb/qt-logo-small.png?1251380503" style="float: left; margin-right: 4px; " width="16" />
+      <p>
+		<strong><a href="/+qt-developers">qt-developers</a></strong>
+          (136 members,
+          140 repositories)
+      </p>
+    </li>
+      <li>
+        <img alt="Avatar" src="/images/default_group_avatar.png?1322725723" style="float: left; margin-right: 4px; " width="16" />
+      <p>
+		<strong><a href="/+jambi-developers">jambi-developers</a></strong>
+          (4 members,
+          1 repository)
+      </p>
+    </li>
+      <li>
+        <img alt="Avatar" src="/system/group_avatars/ics-developers/thumb/ics.gif?1242053355" style="float: left; margin-right: 4px; " width="16" />
+      <p>
+		<strong><a href="/+ics-developers">ics-developers</a></strong>
+          (26 members,
+          1 repository)
+      </p>
+    </li>
+      <li>
+        <img alt="Avatar" src="/system/group_avatars/kdab-developers/thumb/new.png?1288893008" style="float: left; margin-right: 4px; " width="16" />
+      <p>
+		<strong><a href="/+kdab-developers">kdab-developers</a></strong>
+          (34 members,
+          10 repositories)
+      </p>
+    </li>
+      <li>
+        <img alt="Avatar" src="/images/default_group_avatar.png?1322725723" style="float: left; margin-right: 4px; " width="16" />
+      <p>
+		<strong><a href="/+exquance-devs">exquance-devs</a></strong>
+          (1 member,
+          0 repositories)
+      </p>
+    </li>
+      <li>
+        <img alt="Avatar" src="/system/group_avatars/0xlab/thumb/alien.png?1252470372" style="float: left; margin-right: 4px; " width="16" />
+      <p>
+		<strong><a href="/+0xlab">0xlab</a></strong>
+          (13 members,
+          254 repositories)
+      </p>
+    </li>
+      <li>
+        <img alt="Avatar" src="/system/group_avatars/mdic-developers/thumb/mdic.png?1252792952" style="float: left; margin-right: 4px; " width="16" />
+      <p>
+		<strong><a href="/+mdic-developers">mdic-developers</a></strong>
+          (2 members,
+          1 repository)
+      </p>
+    </li>
+      <li>
+        <img alt="Avatar" src="/system/group_avatars/smewt-developers/thumb/smewt.png?1242124374" style="float: left; margin-right: 4px; " width="16" />
+      <p>
+		<strong><a href="/+smewt-developers">smewt-developers</a></strong>
+          (3 members,
+          2 repositories)
+      </p>
+    </li>
+      <li>
+        <img alt="Avatar" src="/system/group_avatars/qt-kinetic-developers/thumb/Kinetic-logo.png?1242128186" style="float: left; margin-right: 4px; " width="16" />
+      <p>
+		<strong><a href="/+qt-kinetic-developers">qt-kinetic-developers</a></strong>
+          (11 members,
+          1 repository)
+      </p>
+    </li>
+      <li>
+        <img alt="Avatar" src="/system/group_avatars/arcanauts/thumb/Avatar_for_Controller.jpg?1242135082" style="float: left; margin-right: 4px; " width="16" />
+      <p>
+		<strong><a href="/+arcanauts">arcanauts</a></strong>
+          (1 member,
+          2 repositories)
+      </p>
+    </li>
+      <li>
+        <img alt="Avatar" src="/system/group_avatars/openbossa-developers/thumb/small_logo.png?1242147778" style="float: left; margin-right: 4px; " width="16" />
+      <p>
+		<strong><a href="/+openbossa-developers">openbossa-developers</a></strong>
+          (24 members,
+          7 repositories)
+      </p>
+    </li>
+      <li>
+        <img alt="Avatar" src="/images/default_group_avatar.png?1322725723" style="float: left; margin-right: 4px; " width="16" />
+      <p>
+		<strong><a href="/+icontex">icontex</a></strong>
+          (1 member,
+          0 repositories)
+      </p>
+    </li>
+      <li>
+        <img alt="Avatar" src="/system/group_avatars/soap/thumb/soap_logo-42x38.png?1242239845" style="float: left; margin-right: 4px; " width="16" />
+      <p>
+		<strong><a href="/+soap">soap</a></strong>
+          (2 members,
+          2 repositories)
+      </p>
+    </li>
+      <li>
+        <img alt="Avatar" src="/images/default_group_avatar.png?1322725723" style="float: left; margin-right: 4px; " width="16" />
+      <p>
+		<strong><a href="/+plexydesk">plexydesk</a></strong>
+          (1 member,
+          0 repositories)
+      </p>
+    </li>
+      <li>
+        <img alt="Avatar" src="/images/default_group_avatar.png?1322725723" style="float: left; margin-right: 4px; " width="16" />
+      <p>
+		<strong><a href="/+qt-rtt">qt-rtt</a></strong>
+          (1 member,
+          0 repositories)
+      </p>
+    </li>
+      <li>
+        <img alt="Avatar" src="/system/group_avatars/wilma-survey-team/thumb/Logo_Wilma_Survey_sfumato.png?1242288155" style="float: left; margin-right: 4px; " width="16" />
+      <p>
+		<strong><a href="/+wilma-survey-team">wilma-survey-team</a></strong>
+          (3 members,
+          3 repositories)
+      </p>
+    </li>
+      <li>
+        <img alt="Avatar" src="/images/default_group_avatar.png?1322725723" style="float: left; margin-right: 4px; " width="16" />
+      <p>
+		<strong><a href="/+dspbridge">dspbridge</a></strong>
+          (1 member,
+          0 repositories)
+      </p>
+    </li>
+      <li>
+        <img alt="Avatar" src="/images/default_group_avatar.png?1322725723" style="float: left; margin-right: 4px; " width="16" />
+      <p>
+		<strong><a href="/+kde-developers">kde-developers</a></strong>
+          (258 members,
+          24 repositories)
+      </p>
+    </li>
+      <li>
+        <img alt="Avatar" src="/images/default_group_avatar.png?1322725723" style="float: left; margin-right: 4px; " width="16" />
+      <p>
+		<strong><a href="/+majug-developers">majug-developers</a></strong>
+          (1 member,
+          0 repositories)
+      </p>
+    </li>
+      <li>
+        <img alt="Avatar" src="/images/default_group_avatar.png?1322725723" style="float: left; margin-right: 4px; " width="16" />
+      <p>
+		<strong><a href="/+designdivine">designdivine</a></strong>
+          (2 members,
+          0 repositories)
+      </p>
+    </li>
+      <li>
+        <img alt="Avatar" src="/images/default_group_avatar.png?1322725723" style="float: left; margin-right: 4px; " width="16" />
+      <p>
+		<strong><a href="/+boa-developers">boa-developers</a></strong>
+          (2 members,
+          0 repositories)
+      </p>
+    </li>
+  </ul>
+
+<div class="pagination"><span class="disabled prev_page">&laquo; Previous</span> <span class="current">1</span> <a href="/teams?page=2" rel="next">2</a> <a href="/teams?page=3">3</a> <a href="/teams?page=4">4</a> <a href="/teams?page=5">5</a> <a href="/teams?page=6">6</a> <a href="/teams?page=7">7</a> <a href="/teams?page=8">8</a> <a href="/teams?page=9">9</a> <span class="gap">&hellip;</span> <a href="/teams?page=72">72</a> <a href="/teams?page=73">73</a> <a href="/teams?page=2" class="next_page" rel="next">Next &raquo;</a></div>
+      </div>
+              <div id="sidebar">
+            <ul class="links navigation">
+    <li class="team_new"><a href="/teams/new">Create a new team</a></li>
+  </ul>
+        </div>
+          </div>
+    <div id="footer">
+      
+<div class="powered-by">
+  <a href="http://gitorious.org"><img alt="Poweredby" src="/images/../img/poweredby.png?1294322727" title="Powered by Gitorious" /></a></div>
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-52238-3']);
+_gaq.push(['_setDomainName', '.gitorious.org'])
+_gaq.push(['_trackPageview']);
+(function() {
+   var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+   ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+   (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);
+})();
+</script><script src="/javascripts/onload.js?1322725723" type="text/javascript"></script>
+      
+<div id="footer-links">
+  <h3>Gitorious</h3>
+  <ul>
+    <li><a href="/">Home</a></li>
+    <li><a href="/about">About</a></li>
+    <li><a href="/about/faq">FAQ</a></li>
+    <li><a href="/contact">Contact</a></li>
+  </ul>
+  
+    <ul>
+      <li><a href="http://groups.google.com/group/gitorious">Discussion group</a></li>
+      <li><a href="http://blog.gitorious.org">Blog</a></li>
+    </ul>
+  
+      
+<ul>
+  <li><a href="http://en.gitorious.org/tos">Terms of Service</a></li>
+  <li><a href="http://en.gitorious.org/privacy_policy">Privacy Policy</a></li>
+</ul>
+
+  
+  
+    <ul>
+      
+        <li><a href="http://gitorious.com/">Professional Gitorious Services</a></li>
+      
+    </ul>
+  
+</div>
+      <p class="footer-blurb">
+  
+    <a href="http://gitorious.com">Professional Gitorious services</a> - Git
+    hosting at your company, custom features, support and more.
+    <a href="http://gitorious.com">gitorious.com</a>.
+  
+</p>
+
+      <div class="clear"></div>
+    </div>
+  </div>
+</body>
+</html>

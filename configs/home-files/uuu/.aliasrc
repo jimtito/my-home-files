@@ -1,0 +1,66 @@
+# Enhance default commands
+alias ls='ls --color=auto --group-directories-first'
+alias ll='ls -l'
+alias la='ls -a'
+alias lal='ls -al' # :D
+alias lc='ls --color=never'
+alias lock='vlock -n'
+alias bell='echo -en "\007"'
+alias grep='grep --color=auto'
+alias xm='setxkbmap se && xset r rate 330 45 && xmodmap ~/.Xmodmap'
+
+# Terminal settings
+alias sr='screen -r'
+alias sw='screen -wipe'
+
+# Revision handling
+if which svn &> /dev/null ; then
+	alias sp='svn up' # su is... yeah.
+	alias sc='svn ci -m ""'
+fi
+if which git &> /dev/null ; then
+	alias gc='git commit -a'
+	alias gb='git branch'
+	alias go='git checkout'
+	alias gp='git push'
+	alias gu='git pull' # git update...-ish.
+	alias gU='gu && git submodule update'
+	alias gs='git status'
+	alias gl='git log'
+	alias ga='git add'
+	alias gC='gc && gp'
+	alias gau='git update-index --assume-unchanged' # assume unchanged
+fi
+
+# Rlwrap stuff
+socat='rlwrap socat'
+
+
+# MPD
+if which mpd &> /dev/null ; then
+	export MPD_HOST=localhost
+	export MPD_PORT=6600
+	alias npc='mpc --format "%position%. %artist% #[%album%#] - %title%"' # Now playing
+	alias mps='npc toggle' # Stop
+	alias mpl='npc playlist'
+	alias mpg='mpcext -s'
+	alias mpag='mpcext -S' # grep all
+	alias mpa='mpc add'
+	alias mpx='mpc clear'
+	alias mpll='mpc load' # Playlist load
+	alias mpls='mpx && mpll' # Playlist switch
+	alias mpgs='mpcext -sw' # grep switch
+	alias mpp='npc play'
+	alias mpq='mpcext -q' # Queue
+	alias mpr='npc random'
+fi
+
+# Failsafe! :D
+alias fail='echo -e "\n\033[1;31m   YOURE DOING IT WRONG\033[0m\n"'
+alias sl='fail && ls'
+alias ös='fail && ls'
+alias lös='fail && ls'
+alias xs='fail && cd'
+alias vf='fail && cd'
+alias vom='fail && vim'
+alias shitdown='fail && shutdown' # :D

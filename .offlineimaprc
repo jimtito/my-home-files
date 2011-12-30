@@ -1,0 +1,23 @@
+[general]
+# NOTE: cronjob calls the quiet UI with -u
+ui= ttyui
+accounts= GMail
+
+[Account GMail]
+localrepository= gmail-local
+remoterepository= gmail-remote
+
+[Repository gmail-local]
+type= Maildir
+localfolders= ~/mail/gmail
+
+[Repository gmail-remote]
+type = Gmail 
+remoteuser = ###@gmail.com
+remotepass = ###
+realdelete = yes
+
+# "[gmail]/Some Folder" --> some_folder
+nametrans = lambda folder: re.sub('^inbox$', 'INBOX',
+                           re.sub(' +', '_',
+                           re.sub(r'.*/(.*)$', r'\1', folder).lower()))

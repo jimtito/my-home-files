@@ -1,0 +1,160 @@
+! ----------------------------------------------------------------------------
+! file:     ~/.Xdefaults
+! author:   Joel Hurtado
+! modified: December 2011
+! vim: set fenc=utf-8:nu:ai:si:et:ts=4:sw=4:ft=xdefaults:
+! ----------------------------------------------------------------------------
+
+!-- colors scheme --!
+
+!- color settings
+*background: #87D7FF
+*foreground: #D0D0D0
+*highlightColor: #87D7FF
+*highlightTextColor: #080808
+*fadeColor: Black
+!*tintColor: Black
+*underlineColor: #D7FF5F
+*colorBD: #080808
+*colorUL: #00AF87
+*cursorColor: #87D7FF
+
+!-black
+*color0: #080808
+*color8: #4E4E4E
+!-red
+*color1: #D70000
+*color9: #FF0000
+!-green
+*color2: #00AF87
+*color10: #87D7D7
+!-yellow
+*color3: #D7FF5F
+*color11: #FFFF00
+!-blue
+*color4: #005FAF
+*color12: #87D7FF
+!-magenta
+*color5: #AF0087
+*color13: #FF00AF
+!-cyan
+*color6: #3599C9
+*color14: #0087D7
+!-white
+*color7: #E7E3E7
+*color15: #D0D0D0
+
+!-- Wildcard Settings --!
+
+
+*utf8: true
+*faceSize: 12
+*jumpScroll: true
+*multiScroll: true
+*boldMode: true
+!*eightBitInput: true
+*cursorBlink: true
+*saveLines: 10000
+*font: -xos4-terminus-medium-r-normal--14-140-72-72-c-80-iso8859-1
+*boldFont: -xos4-terminus-bold-r-normal--14-140-72-72-c-80-iso8859-1
+*italicFont: xft:Bitstream Vera Sans Mono:italic:autohint=true
+*boldItalicFont: xft:Bitstream Vera Sans Mono:bold:italic:autohint=true
+
+
+!-- Testing Stuff --!
+
+
+IRC*title: IRC
+IRC*geometry: 87x12+535+542
+IRC*saveLines: 0
+IRC*mapAlert: true
+IRC*font: -xos4-terminus-medium-r-normal--14-140-72-72-c-80-iso8859-1
+IRC*boldFont: -xos4-terminus-bold-r-normal--14-140-72-72-c-80-iso8859-1
+IRC*colorBD: black
+
+
+!-- URxvt-unicode Settings --!
+
+
+URxvt*termName: rxvt-unicode-256color
+URxvt*title: rxvt-unicode-256color
+URxvt*scrollBar_right: false
+URxvt*scrollstyle: rxvt
+URxvt*geometry: 154x36
+URxvt*loginShell: false
+URxvt*meta: ignore
+URxvt*utmpInhibit: true
+URxvt*insecure: true
+URxvt*depth:32
+URxvt*buffered: true
+URxvt*borderless: true
+URxvt*override-redirect: false
+URxvt*externalBorder: 0
+URxvt*toolBar: false
+URxvt*scrollBar: false
+URxvt*scrollTtyKeypress: false 
+URxvt*scrollTtyOutput: true
+URxvt*perl-lib: /home/lucifer/scripts/urxvt/;
+URxvt*perl-ext-common: default,matcher,searchable-scrollback,clipboard,url-select
+!URxvt*iso14755: 
+!URxvt*iso14755_52: 
+!URxvt*keysym.sym: 
+URxvt*matcher.button: 1
+URxvt*cutchars: "()*,<>[]{}|'
+URxvt*urlLauncher: chromium
+URxvt*visualBell: true
+URxvt*urgentOnBell: true
+URxvt*transparent: true
+!URxvt*inheritPixmap: true
+URxvt*font: -xos4-terminus-medium-r-normal--14-140-72-72-c-80-iso8859-1
+URxvt*boldFont: -xos4-terminus-bold-r-normal--14-140-72-72-c-80-iso8859-1
+URxvt*italicFont: xft:Bitstream Vera Sans Mono:italic:autohint=true
+URxvt*boldItalicFont: xft:Bitstream Vera Sans Mono:bold:italic:autohint=true
+URxvt*reverseVideo: true
+!URxvt*thickness: number
+URxvt*scrollWithBuffer: true
+URxvt*mapAlert: true
+URxvt*mouseWheelScrollPage: false
+URxvt*intensityStypes: true
+!URxvt*imLocale: string
+!URxvt*imFont: fontname
+!URxvt*lineSpace: number
+!URxvt*letterSpace: number
+URxvt*skipBuiltinGlyphs: true
+!URxvt*answerbackString: string
+URxvt*shading: 110
+!URxvt*print-pipe: cat >/tmp/xxx
+
+
+!-- Xpdf --!
+
+
+xpdf*enableFreetype: yes
+xpdf*antialias: yes
+xpdf*foreground: white
+xpdf*background: black
+xpdf*urlCommand: /usr/bin/chromium %s
+
+
+!-- Xft Settings --!
+
+
+xft*dpi: 96
+xft*antialias: true
+xft*lcdfilter: lcddefault
+xft*rgba: rgb
+xft*hinting: true
+xft*hintstyle: full
+
+
+!-- Xmessage --!
+
+
+Xmessage*font: -xos4-terminus-medium-r-normal--14-140-72-72-c-80-iso8859-1
+Xmessage*background: #303030
+Xmessage*foreground: #909090
+Xmessage*form.*.shapeStyle: rectangle
+Xmessage*Scrollbar.width: 0
+Xmessage*Scrollbar.borderWidth: 0
+Xmessage*Buttons: Quit
+Xmessage*defaultButton: Quit

@@ -1,0 +1,28 @@
+!Theme Ten
+*background: rgb:1a/1a/1a
+*foreground: rgb:d6/d6/d6
+!black
+*color0: rgb:00/00/00
+*color8: rgb:73/73/73
+!red
+*color1: rgb:98/56/5e
+*color9: rgb:cf/a3/a9
+!green
+*color2: rgb:66/82/5d
+*color10: rgb:ca/f7/bb
+!brown/yellow
+*color3: rgb:96/91/76
+*color11: rgb:ff/f8/bc
+!blue
+*color4: rgb:4d/65/85
+*color12: rgb:83/a3/be
+!magenta
+*color5: rgb:96/73/95
+*color13: rgb:bb/a9/cf
+!cyan
+*color6: rgb:5f/7f/7b
+*color14: rgb:96/cc/cc
+!white
+*color7: rgb:b3/b3/b3
+*color15: rgb:ff/ff/ff
+

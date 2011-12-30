@@ -1,0 +1,63 @@
+[submodule ".vim/bundle/delimitMate"]
+	path = .vim/bundle/delimitMate
+	url = git://github.com/Raimondi/delimitMate.git
+[submodule ".vim/bundle/nerdCommenter"]
+	path = .vim/bundle/nerdCommenter
+	url = git://github.com/scrooloose/nerdcommenter
+[submodule ".vim/bundle/vim-enter-indent"]
+	path = .vim/bundle/vim-enter-indent
+	url = git://github.com/acustodioo/vim-enter-indent
+[submodule ".vim/bundle/easymotion"]
+	path = .vim/bundle/easymotion
+	url = git://github.com/Lokaltog/vim-easymotion
+[submodule ".vim/bundle/operator-user"]
+	path = .vim/bundle/operator-user
+	url = git://github.com/kana/vim-operator-user
+[submodule ".vim/bundle/operator-replace"]
+	path = .vim/bundle/operator-replace
+	url = git://github.com/kana/vim-operator-replace
+[submodule ".vim/bundle/nerdTree"]
+	path = .vim/bundle/nerdTree
+	url = git://github.com/scrooloose/nerdtree
+[submodule ".vim/bundle/command-t"]
+	path = .vim/bundle/command-t
+	url = git://git.wincent.com/command-t
+[submodule ".vim/bundle/fugitive"]
+	path = .vim/bundle/fugitive
+	url = git://github.com/tpope/vim-fugitive
+[submodule ".vim/bundle/gitv"]
+	path = .vim/bundle/gitv
+	url = git://github.com/gregsexton/gitv
+[submodule ".vim/bundle/vim-addon-mw-utils"]
+	path = .vim/bundle/vim-addon-mw-utils
+	url = git://github.com/MarcWeber/vim-addon-mw-utils
+[submodule ".vim/bundle/tlib_vim"]
+	path = .vim/bundle/tlib_vim
+	url = git://github.com/tomtom/tlib_vim
+[submodule ".vim/bundle/supertab"]
+	path = .vim/bundle/supertab
+	url = git://github.com/ervandew/supertab
+[submodule ".vim/bundle/bisect"]
+	path = .vim/bundle/bisect
+	url = git://github.com/mikezackles/Bisect
+[submodule ".vim/bundle/indent-object"]
+	path = .vim/bundle/indent-object
+	url = git://github.com/michaeljsmith/vim-indent-object
+[submodule ".vim/bundle/lusty"]
+	path = .vim/bundle/lusty
+	url = git://github.com/sjbach/lusty
+[submodule ".vim/bundle/argtextobj"]
+	path = .vim/bundle/argtextobj
+	url = git://github.com/vim-scripts/argtextobj.vim
+[submodule ".vim/bundle/surround"]
+	path = .vim/bundle/surround
+	url = git://github.com/tpope/vim-surround
+[submodule ".vim/bundle/repeat"]
+	path = .vim/bundle/repeat
+	url = git://github.com/tpope/vim-repeat
+[submodule ".vim/bundle/bclose"]
+	path = .vim/bundle/bclose
+	url = git://github.com/cespare/vim-bclose
+[submodule ".vim/bundle/a.vim"]
+	path = .vim/bundle/a.vim
+	url = git://github.com/vim-scripts/a.vim

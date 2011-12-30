@@ -1,0 +1,16 @@
+" Tab/split navigation
+map w gt
+map v gT
+map t <C-w><C-w>
+
+" Default zoom
+set zoom=fitwidth
+
+" No info file
+set noinfo=yes
+
+" Content view first
+set content=no
+
+" Default directory
+set defaultdir=/data/others/rpg/dnd

@@ -1,0 +1,11 @@
+# 
+# /etc/fstab: static file system information
+#
+# <file system>	<dir>	<type>	<options>	<dump>	<pass>
+tmpfs /tmp tmpfs defaults,noatime,nodev,nosuid,mode=1777,size=3G 0 0
+tmpfs /var/run tmpfs defaults,rw,nosuid,mode=0755,size=256M 0 0
+tmpfs /var/lock tmpfs defaults,rw,noexec,nosuid,nodev,mode=1777,size=256M 0 0
+/dev/sda1 /boot ext2 defaults 0 1
+/dev/sda2 swap swap defaults 0 0
+/dev/sda3 / ext3 defaults 0 1
+/dev/sda4 /home ext3 defaults 0 1

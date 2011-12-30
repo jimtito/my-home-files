@@ -1,0 +1,11 @@
+#!/bin/bash
+
+if [ -z "$1" ]; then
+        echo "No URL!"
+        exit
+fi
+
+url=$1
+shift
+
+echo \"http://www.youtube.com/get_video?video_id=`wget -q -O - $url | grep fullscreenUrl | awk -F'video_id=' '{ print $2 }' | sed -e 's/ /_/g' | tr -d \'\; `\" | xargs mplayer $*

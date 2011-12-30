@@ -1,0 +1,12 @@
+flags         Aaf
+interval      5
+#username      lucifer
+#procname
+maxlinecpu    4
+maxlinedisk   10
+maxlineintf   5
+cpucritperc   80
+almostcrit    90
+atopsarflags  CMH
+ownprocline   PID:50 VGROW:40 RGROW:45 COMMAND-LINE:50
+ownpagline    PAGSCAN:3 BLANKBOX:0 PAGSWIN:3 PAGSWOUT:7

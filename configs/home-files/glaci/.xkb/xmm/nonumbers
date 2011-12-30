@@ -1,0 +1,12 @@
+!Change to shift-number keys
+keycode 10 = ampersand percent dead_tilde
+keycode 11 = bracketleft 7 dead_circumflex
+keycode 12 = braceleft 5 dead_grave
+keycode 13 = braceright 3 dead_diaeresis
+keycode 14 = parenleft 1
+keycode 15 = equal 9
+keycode 16 = asterisk 0
+keycode 17 = parenright 2
+keycode 18 = plus 4
+keycode 19 = bracketright 6
+keycode 20 = exclam 8

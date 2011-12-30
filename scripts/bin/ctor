@@ -1,0 +1,3 @@
+#!/bin/bash
+# Move torrents to my auto-add dir, for firefox :P
+cp $1 ~/.torrents

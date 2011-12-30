@@ -1,0 +1,29 @@
+#!/bin/bash
+tm() { urxvtc -e "$@"; }
+se() { urxvtc -e tmux -2 attach -t $1; }
+
+# Start all applications on their appropriate screens
+export DISPLAY=:0.0
+      fx &                                 # firefox browser
+
+export DISPLAY=:0.1
+      urxvtc &                             # empty terminal
+  tm  bash --rcfile ~/bin/showtasks        # terminal with daily todo list
+  se  ranger
+
+sleep 0.5
+export DISPLAY=:0.2
+  se  mutt                                 # mutt email
+  se  ncmpcpp                              # ncmpcpp music player
+  tm  htop                                 # htop system monitor
+
+export DISPLAY=:0.3
+  se  rtorrent                             # rtorrent torrent client
+  se  cortex                               # cortex reddit browser
+      urxvtc &                             # empty terminal
+
+export DISPLAY=:0.4
+  se  weechat                              # irc channels
+
+export DISPLAY=:0.5
+  se  weechat                              # irc channels

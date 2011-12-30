@@ -1,0 +1,43 @@
+#!/bin/bash
+
+# Initiate variables
+
+MONTH=`date '+%m'`
+
+# Self explanatory function name
+
+	case $MONTH in
+		12)
+		christmas=true
+		;;
+		*)
+		christmas=false
+		;;
+	esac
+
+
+# Do we have X?
+function isitx {
+if  [ -n $DISPLAY ]; then
+	xsnowstart
+else
+	exit 0
+fi
+
+}
+
+function xsnowstart {
+	if pgrep -U $USER xsnow > /dev/null; then
+		exit 0
+	else
+		xsnow &> /dev/null&
+	fi
+}
+case $christmas
+	in
+	true)
+	isitx
+	;;
+	false)
+	;;
+esac

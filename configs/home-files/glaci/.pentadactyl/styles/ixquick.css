@@ -1,0 +1,64 @@
+* {
+    font-family: "Bitstream Vera Sans" !important;
+}
+
+body {
+    background: #141414 !important;
+    color: white !important;
+    padding-top: 2em !important;
+}
+
+table, #footer, .moreres, div > span.normaltext,
+table div > font > span
+{
+    display: none !important;
+}
+
+div > span.normaltext:first-child, div > font:first-child + br + span.normaltext {
+    display: block !important;
+}
+
+table[id="inlinetable"], table[id="inlinetable_ix"], table[id="inlinetable_st"] {
+    width: 100% !important;
+    display: block !important;
+    padding: 1em !important;
+    padding-top: 1em !important;
+    padding-bottom: .5em !important;
+    border-bottom: 1px solid #343434 !important;
+}
+
+tbody, tbody tr, tbody td:nth-child(2) {
+    width: 100% !important;
+}
+
+table br {
+    display: none !important;
+}
+
+a {
+    /*color: #608bbb !important;*/
+    color: #9fbc00 !important;
+    font-weight: normal !important;
+    text-decoration: none !important;
+    font-size: 1.2em !important;
+    display: block !important;
+    padding: 0px !important;
+    margin: 0px !important;
+
+    padding-bottom: 0.5em !important;
+}
+
+img[align="texttop"]:before {
+    content: "AAAAAAA";
+}
+
+.linkx {
+    color: #888 !important;
+    display: block !important;
+    margin-top: 0.5em !important;
+}
+
+b[style] {
+    color: white !important;
+    /*color: #50aa6b !important;*/
+}

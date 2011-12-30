@@ -1,0 +1,439 @@
+# (( ${+*} )) = if variable is set don't set it anymore
+(( ${+IRCNAME} )) || export IRCNAME="Joel 'jimtito' Hurtado"        # **EDIT**
+(( ${+IRCNICK} )) || export IRCNICK="jimtito"                       # **EDIT**
+#(( ${+IRCSERVER} )) || export IRCSERVER="irc.euirc.net"            # **EDIT**
+(( ${+VISUAL} )) || export VISUAL="vim"                             # **EDIT**
+(( ${+BROWSER} )) || export BROWSER="chromium"                      # **EDIT**
+(( ${+OS} )) || export OS="${OSTYPE%%[0-9.]*}"                      # **FIXME**
+(( ${+OSMAJOR} )) || export OSMAJOR="${OSVERSION%%.*}"              # **FIXME**
+(( ${+ORGANIZATION} )) || export ORGANIZATION="Hurt Inc."           # **EDIT**
+(( ${+SHITDIR} )) || export SHITDIR="$HOME/Trash"
+(( ${+LESSCHARSET} )) || export LESSCHARSET=utf-8
+
+# Warn on lack of 256 color support from termcap/info.
+(test -n "$(tput Co 2>/dev/null)" \
+	&& test "$(tput Co 2>/dev/null)" -eq 256) \
+	|| (test -n "$(tput colors 2>/dev/null)" \
+	&& test "$(tput colors 2>/dev/null)" -eq 256) \
+	|| echo "WARNING: 256 color terminal not set correctly!"
+
+#--------------------------------------------------
+# # Initialisation for new style completion.
+if [[ $ZSH_VERSION  > '4.2' ]]; then
+ 	autoload -U compinit
+	compinit
+else
+	print "Advanced completion system not found; ignoring zstyle settings."
+	function zstyle { }
+fi
+# 
+#-------------------------------------------------- 
+
+## Git <http://git.or.cz/>
+#if [[ -x `which git` ]]; then
+#	(( ${+GIT_AUTHOR_EMAIL} )) || export GIT_AUTHOR_EMAIL="lucifer@HELL.666"
+#	(( ${+GIT_AUTHOR_NAME} )) || export GIT_AUTHOR_NAME="Joel Hurtado"
+#	(( ${+GIT_COMMITTER_EMAIL} )) ||export GIT_COMMITTER_EMAIL=$GIT_AUTHOR_EMAIL
+#fi
+
+# Needed for Perl.. i think so!?
+# export PERL_UTF8_LOCALE=1 PERL_UNICODE=AS
+# To stop Perl interpreters not configured to expect a Unicode locale:
+export PERL_BADLANG=0
+
+# Fucking PERL5LIB *narf*
+if [[ -d "~/local" ]]; then
+	typeset -U perl5lib
+	export PERL5LIB
+	perl5lib=(
+		~/{local/,}lib/[p]erl5{,/site_perl}(N)
+		$perl5lib
+		)
+	PERL5LIB="${(j/:/)perl5lib}"
+fi
+
+# Available or not?
+if [[ -x `which lesspipe.sh` ]]; then
+	
+	export LESSOPEN='|lesspipe.sh %s'             # **EDIT**
+fi
+
+# use tor (<http://tor.eff.org>) to aonymizing overlay network for TCP
+# in combination with privoxy (<http://www.privoxy.org>) for a web proxy
+# with advanced filtering capabilities for protecting privacy against
+# internet junk.
+#if [ -x $(which tor 1&>/dev/null) ] && [ -e /usr/sbin/privoxy ]; then
+	# The most commandline-applications (w3m, ssh, ftp, ..) use the
+	# variable ``HTTP_PROXY'' to connect with a proxy
+#	(( ${+HTTP_PROXY} )) || export HTTP_PROXY="http://127.0.0.1:8118/" 
+	# The *most*(!) but not all .. lynx .. the default-browser on
+	# OpenBSD (Yes! I use lynx very often on my workstations)
+#	(( ${+http_proxy} )) || http_proxy="http://127.0.0.1:8118/"
+#fi
+
+# Set the values for some environment variables:
+# NOTE: The utiliti ``hostname'' is *not* included on all systems
+# because it's not part of IEEE Std 1003.1, 2004 Edition!
+  export HOSTNAME="`hostname`"
+# Some (useful) options for less
+  if [[ -x `which less` ]] ; then
+      export PAGER="less"
+      export PERLDOC_PAGER="less -+C -E"
+      export LESS="-R -C -i -j4 -M -e -PM?m(%i/%m) .?f%f:Standard input.\: ?bb%bb?B/%B. Bytes.?pb (%pb\%).?lb, Column\: %lb?e ?x(-> %x):(EOF).%t"
+      # export LESS='-rX~deMwPM?f%f ?e[EOF] ?lt[Line\: %lb].:?lt[Line\: %lt]. ?pt%pt\%...'
+      export LESSBINFMT='*u[%X]'
+      if [[ $terminfo[colors] -ge 8 ]] ; then
+          export LESS_TERMCAP_mb=$'\E[01;31m'
+	      export LESS_TERMCAP_md=$'\E[01;31m'
+	      export LESS_TERMCAP_me=$'\E[0m'
+          export LESS_TERMCAP_se=$'\E[0m'
+          export LESS_TERMCAP_so=$'\E[01;44;33m'
+          export LESS_TERMCAP_ue=$'\E[0m'
+          export LESS_TERMCAP_us=$'\E[01;32m'
+      fi
+  else
+      export PAGER="more"
+  fi
+# the default homepage for lynx
+  export WWW_HOME="http://www.google.com"
+  export HTTP_HOME="http://www.google.com"
+  
+# forgot what these were for                                                            ###FIXME###  
+  export INFOPATH="/usr/share/info/"
+  export SEARCH_DIRS="/bin/ /sbin/ /usr/bin/ /usr/sbin/ /lib/ /lib32/ /lib64/ /usr/lib/ /usr/lib32/ include/ /etc/ld.so.conf.d/diet.ld.conf/ /etc/ld.so.conf.d/fakeroot.conf/ /etc/ld.so.conf.d/lib32-glibc.conf/ /etc/ld.so.conf.d/llvm.conf/ /etc/ld.so.conf.d/nessus.conf/ /etc/ld.so.conf.d/perl.conf/ /etc/ld.so.conf.d/qt3.conf/"
+  export SEARCH_DIRS_MASK="/opt/openoffice"
+  export LD_LIBRARY_MASK="libodbcinst.so libodbc.so libjava.so libjvm.so"
+
+# default encrypted session via rsync
+# use ``CVSEDITOR=emacs'' if u want to use a complete OS :>
+  export CVSEDITOR=vim
+# Needed for some functions (bm, bmls, bmadd, ..)
+  if [ ! -e ${HOME}/.bmrc ]; then
+	  export BMRC=~/.bmrc
+	  touch $BMRC
+  fi
+
+# Some settings for the manpages
+  # set the width to 80. Its enough
+  export MANWIDTH=80
+  if [[ -x $(which most) ]]; then
+	  export MANPAGER="most"
+  else
+	  export MANPAGER="less -iMXF"
+	 # use colors when browsing man pages (if not using pinfo or PAGER=most)
+	 [[ -d ~/.terminfo/ ]] && alias man='TERMINFO=~/.terminfo/ LESS=C TERM=mostlike PAGER=less man'
+  fi
+
+# Locale Vairables
+export LANG="en_US.UTF-8"
+export LC_ALL=
+export LC_COLLATE="C"
+
+# Export VIM Variables 
+if [[ -x `which vim` ]]; then
+	export EDITOR=vim
+	export VISUAL="${EDITOR}"
+	export VIMRELEASE="`print ${${$(vim --version)[5]}:gs/.//}`"
+else
+	if [ -x $(which vim) ]; then
+		export EDITOR=vim
+	fi
+fi
+
+# VIMRUNTIME Variable
+if [ -d "/usr/share/vim/vim$VIMRELEASE" ] ; then
+        export VIMRUNTIME="/usr/share/vim/vim$VIMRELEASE"
+    else
+        export VIMRUNTIME="/usr/share/vim"
+fi
+
+# The format of login / logout reports if the watch parameter is set.
+# Default is `%n has %a %l from %m'.
+# Recognizes the following escape sequences:
+#   %n = name of the user that logged in/out.
+#   %a = observed action, i.e. "logged on" or "logged off".
+#   %l = line (tty) the user is logged in on.
+#   %M = full hostname of the remote host.
+#   %m = hostname up to the first `.'.
+#   %t or %@ = time, in 12-hour, am/pm format.
+#   %w = date in `day-dd' format.
+#   %W = date in `mm/dd/yy' format.
+#   %D = date in `yy-mm-dd' format.
+# WATCHFMT='%n %a %l from %m at %t.'
+# WATCHFMT='*knock* *knock* Follow the white rabbit => %n %a %l from %m at %t.'
+# WATCHFTM=print '\e[1;35m%B[%b\e[1;32m%B%n%b\e[1;35m%B]%b \e[1;34m%U%a%u \e[1;35mfrom terminal \e[1;31m%M \e[1;35mat \e[1;33m%U%T%u\e[0m''
+#WATCHFMT="[%B%t%b] %B%n%b has %a %B%l%b from %B%M%b"
+WATCHFMT="%B->%b %n has just %a %(l:tty%l:%U-Ghost-%u)%(m: from %m:)"
+
+# If this parameter is nonzero, the shell will receive an ALRM signal if a
+# command is not entered within the specified number of seconds after issuing a
+# prompt. If there is a trap on SIGALRM, it will be executed and a new alarm is
+# scheduled using the value of the TMOUT parameter after executing the trap. 
+#TMOUT=1800
+
+# format of process time reports with 'time'
+#  %%     A `%'.
+#  %U     CPU seconds spent in user mode.
+#  %S     CPU seconds spent in kernel mode.
+#  %E     Elapsed time in seconds.
+#  %P     The CPU percentage, computed as  (%U+%S)/%E.
+#  %J     The name of this job.
+# Default is: 
+#       %E real  %U user  %S system   %P  %J
+TIMEFMT="\
+    The name of this job.             : %J
+    CPU seconds spent in user mode.   : %U
+    CPU seconds spent in kernel mode. : %S
+    Elapsed time in seconds.          : %E
+    The  CPU percentage.              : %P"
+
+#--------------------------------------------------
+# TIMEFMT="Real: %E User: %U System: %S Percent: %P Cmd: %J"
+#-------------------------------------------------- 
+
+# The maximum number of events stored in the internal history list. If you use
+# the HIST_EXPIRE_DUPS_FIRST option, setting this value larger than the
+# SAVEHIST size will give you the difference as a cushion for saving
+# duplicated history events.
+HISTSIZE=100000
+
+# Stop annoying MailChecks. I'm not using AOL
+unset MAILCHECK
+
+# The name of the file used to store command history. When assigned to, history
+# is loaded from the specified file. Also, several invocations of the shell
+# running on the same machine will share history if their HISTFILE parameters
+# all point to the same file.
+# i have finally discovered the difference between `SAVEHIST' and `HISTSIZE'
+# thanks to the FAQ. `HISTSIZE' is the number of lines of history that is
+# kept within any given, running zsh. `SAVEHIST' is the number of lines of
+# history that is written out to a file at the magic, mysterious moment 
+# when that event occurs. so cat-ing `HISTFILE' into wc -l should enumerate
+# the number of history events 
+if (( ! EUID )); then
+  HISTFILE=~/.root_histfile
+else
+  HISTFILE=~/.zsh/hist/zsh.hist
+fi
+
+#HISTFILE=$HOME/.zsh_history
+SAVEHIST=65536
+DIRSTACKSIZE=50
+
+# If nonnegative, commands whose combined user and system execution
+# times (measured in seconds) are greater than this value have timing
+# statistics printed for them.
+REPORTTIME=60
+
+# Limit this fuckung "zsh: do you wish to see all NNN possibilities (NNN
+# lines)?" downward (default is 100). Only ask before displaying
+# completions if doing so would scroll.
+LISTMAX=0
+
+# Seconds for login / logout check
+LOGCHECK=20
+
+
+# Set the default system $PATH:
+# /Default/-PATH
+PATH="/bin:/sbin:/usr/bin:/usr/sbin"
+
+if [ ! $? = 0 ]; then
+  # If ~/.bin exist, add it to $PATH (~/bin contains some scripts, ..)
+  [ -d "${HOME}/.bin" ] && PATH="${PATH}:${HOME}/.bin"
+  # Same here, but script & build dirs
+  [ -d "${HOME}/scripts" ] && PATH="${PATH}:${HOME}/scripts/"
+  [ -d "${HOME}/scripts/bin" ] && PATH="${PATH}:${HOME}/scripts/bin/"
+fi 
+
+# Check some directories and add existing to $PATH
+for dir in \
+    /usr/local/bin \
+    /usr/local/sbin \
+    /usr/X11/bin \
+    /usr/lib/java/bin 
+do
+    [ -d "${dir}" ] && PATH="${PATH}:${dir}"
+done
+# For root users, ensure that /usr/local/sbin, /usr/sbin, and /sbin are in
+if (( EUID == 0 )); then
+    echo $PATH | grep /usr/local/sbin 1> /dev/null 2> /dev/null
+        if [ ! $? = 0 ]; then
+        PATH=/usr/local/sbin:/usr/sbin:/sbin:$PATH
+        fi
+fi
+
+# If your compdef Dir is ~/.zsh
+if [ -d "~/.zsh/" ]; then
+	fpath=( $fpath ~/.zsh/functions/ )
+    autoload -U ~/.zsh/functions/*(:t)
+fi
+
+
+# An array (colon-separated list) of  directories  specifying  the
+# search path for the cd command.
+# CDPATH="$PORTS_DIR"
+
+# See <http://sugi.nemui.org/doc/zsh/> for details.
+if autoload +X -U _accept_line_with_url > /dev/null 2>&1 ; then
+	zle -N accept-line-with-url _accept_line_with_url
+	bindkey '^M' accept-line-with-url
+	bindkey '^J' accept-line-with-url
+	export DOWNLOADER="wget -S -c"
+fi
+
+# Using a /X11-Browser/ when X11 is up
+if [ $DISPLAY ]; then
+	export WWW_BROWSER="/etc/urlview/url_handler.sh %s"
+fi
+
+if [ "$DISPLAY" = "screen" ]; then
+	stty erase '^?'
+fi
+
+# Clean the non-existing dirs from my $PATH before export $PATH
+path=($^path(N))
+export PATH
+
+# automatically remove duplicates from these arrays
+typeset -gU path cdpath manpath fpath
+
+# RTFM!!!11!
+MANPATH="/usr/share/man:/usr/local/man"
+for mdir in \
+        ${HOME}/documents/linux-docs/superman-pages \
+        /usr/man \
+        ${HOME}/documents/linux-docs/man \
+        /var/qmail/man \
+        /usr/X11/man \
+        /usr/share/man \
+        /usr/share/man/old
+do
+        [ -d "${mdir}" ] && MANPATH="${MANPATH}:${mdir}"
+done
+
+
+# PS{1,2,3}, RPOMPT, .. 
+# The "prompt" of the shell.
+#  See zshmisc(1) (/PROMPT EXPANSION) for details.
+# 
+# %n         $USERNAME.
+# @          literal '@'
+# %m         machine name.
+# %M         The full machine hostname.
+# %%         %
+# %/         Present working directory ($PWD) (i. e.: /home/$USERNAME)
+# %~         Present working directory ($PWD) (i. e.: ~)
+# %h         Current history event number.
+# %!         Current history event number.
+# %L         The current value of $SHLVL.
+# %S (%s)    Start (stop) standout mode.
+# %U (%u)    Start (stop) underline mode.
+# %B (%b)    Start (stop) boldface mode.
+# %t / %@    Current time of day, in 12-hour, am/pm format.
+# %T         Current time of day, in 24-hour format.
+# %*         Current time of day in 24-hour  format,  with  seconds
+# %N         The  name  of  the  script,  sourced file, or shell
+#            function that zsh is currently executing,
+# %i         The line number currently  being  executed  in  the script
+# %w         The date in day-dd format.
+# %W         The date in mm/dd/yy format.
+# %D         The date in yy-mm-dd format.
+# %D{string} string  is  formatted  using the strftime function (strftime(3))
+# %l         The line (tty) the user is logged in on
+# %?         The  return  code of the last command executed just before the prompt
+# %_         The status of the parser
+# %E         Clears to end of line
+# %#         A  `#'  if  the shell is running with privileges, a `%' if not
+# %v         The  value  of the first element of the psvar array parameter
+# %{...%}    Include a string as a literal escape sequence
+# :          literal ':'
+# %Nc        "relative path", ie last N components of $PWD.
+# >          literal '>'
+#
+# Some examples:
+#  PS1="PS1='%B%n%b@%m:%4c>'"
+#  PS1="%B(%b%n@%m%B)%b : %B(%b%3~%B)%b: "
+#  PS1=$'%{\e[1;31m%}[%n@%m:%~ ]%{\e[0m%} '
+#  PS1=$'%{\e[0;36m%}%n%{\e[0m%}:%{\e[0;31m%}%3~%{\e[0m%}%# ' ## user:~%
+#  PS1=$'%{\e[0;36m%}%n%{\e[0m%}:%{\e[0;31m%}%3~%{\e[0m%}%B>%b ' ## user:~>
+#  PS1='%n@%m:%4c%1v> ';RPS1=$'%{\e[0;36m%}%D{%A %T}%{\e[0m%}' ## user@host:~> ; Day time(hh:mm:ss)
+#  PS1='%B[%b%n%B:%b%~%B]%b$ ' ## [user:~]$
+#  PS1=$'%{\e[0;36m%}%n%{\e[0m%}:%20<..<%~%B>%b ' ## user:..c/vim-common-6.0>
+#  PS1=$'%{\e[0;36m%}%#%{\e[0m%} ';RPS1=$'%{\e[0;31m%}%~%{\e[0m%}' ## % ; ~
+#  PS1=$'%{\e[0;36m%}%n%{\e[0m%}%{\e[0;31m%}%#%{\e[0m%} ';RPS1=$'%{\e[0;31m%}%~%{\e[0m%}' ## user% ; ~
+#  PS1='%# ';RPS1='%B%~%b' ## % ; ~ : no colors
+#  PS1='%n@%m:%B%~%b> ' ## user@host:~> : no colors
+#  PS1=$'%{\e[1;31m%}%B(%b%{\e[0m%}%n@%m%{\e[1;31m%})%{\e[0m%} : %{\e[1;31m%}(%{\e[0m%}%~%{\e[1;31m%})%{\e[0m%}: '
+#  PS1=$'%{\e[0;33m%}[%{\e[0m%}%n%{\e[0;33m%}@%{\e[0m%}%m%{\e[0;33m%}:%{\e[0m%}%~%{\e[0;33m%}]%{\e[0m%}%# '
+#  PS1=$(echo '\033[1m\033[30m(%/)\033[0m\033[39m\n[%n@%m \033[0m\033[34m%~\033[0m\033[39m]%# ')
+#  PS1='%n@%U%m%u %B%30<..<%~%b %(!.#.>)' # user@host (underlined), pwd(bold; max 30 chars.) > or #
+#  PS1=$'%{\e[0;31m%}[%{\e[0;36m%}%n%{\e[0;32m%}@%{\e[0;35m%}%m%{\e[0;34m%}:%{\e[0;33m%}%.%{\e[0;31m%}]%{\e[0;0m%}%# '
+#  PROMPT=$'%n@%m %0(3c,%c,%~) %0(?,%{\e[0;32m%}=%),%{\e[0;31m%}=(%s)%b %# '
+# random colors? sure. no problem ;)
+#  $ setopt prompt_subst ; PROMPT=$'[%{\e[$((color=$((30+$RANDOM % 8))))m%}%n@%m %c%{\e[00m%}]%% '
+#
+# You can use ``promptinit'' for the zsh prompt themes extension. See
+# ``less ${^fpath}/promptinit(N)'' for details. btw. http://aperiodic.net/phil/prompt/
+# is a good prompt introduction for the Z shell
+#if [[ $SSH_CLIENT = *.* || $REMOTEHOST = *.* ]]; then
+#	RPROMPT=$SSH_CLIENT
+#	setopt TRANSIENT_RPROMPT
+#fi
+if (( EUID == 0 )); then
+autoload -U colors && colors
+PROMPT="%B[ %{$fg[cyan]%}%T %{$fg[white]%}] [ %{$fg[cyan]%}%n%{$fg[white]%}@%{$fg[cyan]%}%m %{$fg[white]%}] [ %{$fg[red]%}%3~ %{$fg[white]%}] 
+ > %b"
+RPROMPT="[%{$fg[black]%}%?%{$reset_color%}]"
+else
+autoload -U colors && colors
+PROMPT="%{$fg[white]%}%B[ %{$fg[cyan]%}%T %{$fg[white]%}] [ %{$fg[cyan]%}%n%{$fg[white]%}@%{$fg[cyan]%}%m %{$fg[white]%}] [ %{$fg[red]%}%3~ %{$fg[white]%}] 
+ > %b"
+RPROMPT="[%{$fg[black]%}%?%{$reset_color%}]"
+fi
+
+
+# Show/Set the active command as title in Xterm/GNU Screen
+# Needed for ssh-connections (i want ``user@hostname'' as title)
+#if [ -z "$SSH_CONNECTION" ]; then
+#	# Change the title in xterm
+#	function title()
+#	{
+#		# screen.linux, screen.unix, ..
+#		if [[ $TERM == screen* ]]; then
+#			print -nR $'\033k'$1$'\033'\\\
+#
+#			print -nR $'\033]0;'$2$'\a'
+#		elif if [[ $TERM == "xterm" || $TERM == "rxvt" ]]; then
+#			precmd () { print -Pn "\e]0;[ %n@%m: %~ ] \a" }
+#			print -nR $'\033]0;'$*$'\a'
+#		fi
+#	}
+#	# the "default" title
+#	function precmd() { title zsh "$IDENTITY:$(print -P %~)" }
+#	function preexec()
+#	{
+#		emulate -L zsh
+#		local -a cmd; cmd=(${(z)1})
+#		# show ``vim ~/.zshrc'' instead of ``vim'' in the title.
+#		if [[ $cmd[1] == "vim" || $cmd[1] == "man" || $cmd[1] == "cmus" ]] ; then
+#			title "${cmd}"
+#		else
+#			title $cmd[1]:t "$cmd[2,-1]"
+#		fi
+#	}
+#fi
+
+# Executed whenever a command has a non-zero exit status:
+##-------------------------------------------------- 
+#if fortune bofh-excuses > /dev/null 2>&1 ;then
+#	TRAPZERR() { fortune bofh-excuses | tail -n 1 }
+#else
+#	TRAPZERR() { echo 'Error!!!'; }
+#fi
+#
+#--------------------------------------------------
+# The prompt used for spelling correction. The sequence `%R' expands to
+# the string which presumably needs spelling correction, and `%r' expands
+# to the proposed correction. All other prompt escapes are also allowed.
+#SPROMPT=$'%BError!%b Correct %{\e[31m%}%R%{ \e[0m%}to%{ \e[36m%}%r%{ \e[0m%}? [No/Yes/Abort/Edit]: '

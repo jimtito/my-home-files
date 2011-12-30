@@ -1,0 +1,77 @@
+/*
+ * Tokyotosho userstyle
+*/
+
+body, #main
+{
+    background: #141414 !important;
+    color: #747474 !important;
+    font-family: sans-serif !important;
+    font-size: 13px !important;
+}
+
+tr
+{
+    background: #242424 !important;
+}
+
+.shade
+{
+    background: #343434 !important;
+}
+
+td.desc-top
+{
+    padding: 6px !important;
+}
+
+a
+{
+    font-weight: bold;
+    color: #608baa !important;
+}
+
+.desc-bot
+{
+    display: block !important;
+    padding-left: 12px !important;
+    font-size: 10px !important;
+    overflow: hidden !important;
+    padding-bottom: 6px!important;
+    height: 14px !important;
+
+    border-bottom: 1px solid black !important;
+}
+
+
+.desc-top a
+{
+    color:#9fbc00 !important;
+    font-size: 13px !important;
+}
+
+img.icon, .dcenter > img
+{
+    display: none !important;
+}
+
+ul.news, div.centertext, p.centertext, ul.menuwrapper, h3, h2
+{
+    display: none !important;
+}
+
+h1
+{
+    font-size: 13px !important;
+    padding-bottom: 5px !important;
+    font-weight: normal !important;
+}
+
+input,select,textarea
+{
+    -moz-appearance: none !important;
+    border: 1px solid black !important;
+    padding: 3px !important;
+    color: white !important;
+    background: #242424 !important;
+}

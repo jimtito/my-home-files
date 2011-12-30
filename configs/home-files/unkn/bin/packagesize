@@ -1,0 +1,8 @@
+#!/bin/bash
+(echo PACKAGE SIZE; \
+  for A in $(pacman -Q | cut -d' ' -f1); do
+    echo -n $A; LANG= pacman -Qi $A | grep ^Installed \
+    | sed 's/.*: *\([0-9]*\)\..*/ \1/'; \
+  done \
+  | sort -nrk2) \
+| column -t

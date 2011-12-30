@@ -1,0 +1,10 @@
+[retriever]
+type = SimplePOP3SSLRetriever
+server = pop.gmail.com
+username = joel.hurtado.3@gmail.com
+port = 995
+password = zechariah69
+
+[destination]
+type = Maildir
+path = ~/mail/

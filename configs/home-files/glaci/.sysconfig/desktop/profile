@@ -1,0 +1,18 @@
+#!/bin/sh
+
+# Default path
+PATH="/home/archlucas/bin:/bin:/usr/bin:/sbin:/usr/sbin:/data/winedrive/bin"
+export PATH
+
+# Profile entries
+. /etc/profile.d/xorg.sh
+#. /etc/profile.d/wine.sh
+
+# Make sure we have lib32 libs
+LD_LIBRARY_PATH="/usr/lib32:/opt/lib32/lib:/opt/lib32/usr/lib:$LD_LIBRARY_PATH"
+export LD_LIBRARY_PATH
+
+# Set Locale
+export LANG=en_GB.utf8
+if [ "$CONSOLE" = "" -a "$TERM" = "linux" -a -t 1 ]; then printf "\033%%G"; fi
+if [ "$CONSOLE" = "" -a "$TERM" = "linux" -a -t 1 ]; then printf "\033(K"; fi

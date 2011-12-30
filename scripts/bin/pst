@@ -1,0 +1,8 @@
+#!/bin/bash
+if [[ -z "$1" ]];  then
+    file="/dev/stdin"
+else
+    file="$1"
+fi
+
+cat $file | curl -F "content=<-" http://npaste.de | sed -e 's#/$##' | xclip

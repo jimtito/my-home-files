@@ -1,0 +1,38 @@
+#!/bin/bash 
+########################################
+# File: shotgen.sh                     #
+########################################
+# Constants
+tag=$(date '+%Y-%m-%d-%H%M')-$1
+FILE=$tag-scrot.png
+THUMB=$tag-scrot-thumb.png
+LINKFILE=$tag-links.txt
+WALLDIR=$HOME/gfx/bg1
+WEBPAGE=http://hax0r.se/files/img/screenshots
+SERVER=hax0r.se
+########################################
+# Perform the Screenshot and
+# modify the files as necissary.
+
+scrot -cd 5 $tag-scrot.png
+
+cp $FILE $THUMB
+mogrify -resize 10% $THUMB
+scp $FILE $THUMB $SERVER:/www/docs/hax0r.se/files/img/screenshots
+scp $FILE $SERVER:/www/docs/hax0r.se/files/img/screenshots
+########################################
+# Perform error checking and exit
+# gracefully.
+
+if [ $? -eq 0 ] ; then
+    notify-send -i /usr/share/awesome/icons/awesome48.png "::shotgen::" "Files uploaded to server."
+    SHOTLINK="[url=$WEBPAGE/$FILE][img]$WEBPAGE/$THUMB[/img][/url]"
+    echo "$SHOTLINK" > $LINKFILE
+    notify-send -i /usr/share/awesome/icons/awesome48.png "::shotgen::" "Links Created!"
+    xclip $LINKFILE
+    rm $LINKFILE
+else
+    echo "File upload Failed!"
+fi
+rm $FILE $THUMB
+exit 0

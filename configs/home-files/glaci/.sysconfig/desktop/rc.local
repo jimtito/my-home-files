@@ -1,0 +1,18 @@
+#!/bin/bash
+#
+# /etc/rc.local: Local multi-user startup script.
+#
+
+# Mount encrypted partitions
+encMount mount home
+encMount prompt data
+    
+# Remove useless modules
+#modprobe -r saa7134_alsa &
+modprobe -r pcspkr &
+
+# Map caps to escape
+(echo `dumpkeys |grep -i keymaps`; echo keycode 58 = Escape) | loadkeys
+
+# Start mediatomb in the background
+nice mediatomb -u nobody -g nobody -i 192.168.1.200 -m /home/archlucas &> /var/log/mediatomb.log &

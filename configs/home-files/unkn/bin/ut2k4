@@ -1,0 +1,4 @@
+#! /bin/bash
+cd /home/dunz0r/warez/games/Unreal\ Tournament\ 2004/System/
+./ut2004-bin-linux-amd64
+cd -

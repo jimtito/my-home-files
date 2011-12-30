@@ -1,0 +1,7 @@
+#!/bin/bash
+if [[ $(mpc current) =~ "AnimeNfo" ]];
+then
+    echo "$(mpc current | sed -e 's/^.*\!: //' -e 's/\"//g' -e 's/&/&amp;/g')"
+else
+    echo "$(mpc | head -n 2 | sed -e 's/\"//g' -e 's/&/&amp;/g')"
+fi

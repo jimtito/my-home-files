@@ -1,0 +1,715 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html >
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <link REL="SHORTCUT ICON" HREF="/groups/img/3/favicon.ico">
+  <title>
+  Gitorious |
+  Google Groups
+  </title>
+  <meta name="save" content="history">
+<noscript><style type="text/css"><!--
+  .noscripthide { display:none; } .noscriptinline { display:inline; } .noscriptblock { display:block; }
+--></style></noscript>
+<script language="javascript"><!--
+  document.write('<style type="text/css">.scripthide { display: none; } .scriptinline { display: inline; } .scriptblock { display: block; }</style>');
+//--></script>
+<script language="javascript1.2"><!--
+  if (document.getElementById)
+    document.write('<style type="text/css">.script12hide { display: none; } .script12inline { display: inline; } .script12block { display: block; } .lnav { position: absolute; } .lnavch { margin-left:23.0ex;}</style>');
+//--></script>
+<script language="javascript1.3"><!--
+  if (document.getElementById)
+    document.write('<style type="text/css">.script13hide { display: none; } .script13inline { display: inline; } .script13block { display: block; }</style>');
+//--></script>
+<style type="text/css"><!--
+  @import "/groups/style.css?ig=1&stock=7&av=3&hl=en&v=1-7f4116eb_8f3d3c01_ad5d4289_5eb1a875_dbff3344";
+  
+--></style>
+  <script language="javascript1.3" src="/groups/static/release/g2_common-74551a3118a9b440c77b27c916c61bea.js"></script>
+<script language="javascript"><!--
+
+// ----------------------------------
+// used for dynamic function generation on event handlers
+
+var loaddef = "";
+var resizedef = "";
+
+//-----------------------------------
+// Browser detection and support
+
+var agt = navigator.userAgent.toLowerCase();
+var is_opera = (agt.indexOf("opera") != -1);
+var is_ie = (agt.indexOf("msie") != -1) && document.all && !is_opera;
+var is_ie5 = (agt.indexOf("msie 5") != -1) && document.all;
+window.agt = agt;
+window.is_opera = is_opera;
+window.is_ie = is_ie;
+window.is_ie5 = is_ie5;
+
+// ----------------------------------
+// cross-browser functions
+
+var IE_all_cache = new Object();
+function IE_getElementById(id) {
+  if (IE_all_cache[id] == null) {
+    IE_all_cache[id] = document.all[id];
+  }
+  return IE_all_cache[id];
+}
+
+if (document.all) {
+  if (!document.getElementById) {
+    document.getElementById = IE_getElementById;
+  }
+}
+
+
+
+  //----------------------------------
+  // Timezone detection (sets cookie)
+
+  try {
+    document.cookie = 'GTZ=' + (new Date()).getTimezoneOffset() + ';path=/;expires=Mon, 01-Jan-2024 00:00:01 GMT';
+  } catch(e) {}
+
+
+// ---------------------------------
+// shelled functions for old javascript
+function tog() {}
+
+//--></script>
+<script language="javascript1.3"><!--
+
+// ----------------------------------
+// visibility functions
+
+function tog() {
+  // tog: toggle the visibility of html elements (arguments[1..]) from none to
+  // arguments[0].  Return what should be returned in a javascript onevent().
+  display = arguments[0];
+  for( var i=1; i<arguments.length; i++ ) {    
+    var x = document.getElementById(arguments[i]);
+    if (!x) continue;
+    if (x.style.display == "none" || x.style.display == "") {
+      x.style.display = display;
+    } else {
+      x.style.display = "none";
+    }
+  }
+
+  var e = is_ie ? window.event : this;
+  if (e) {
+    if (is_ie) {
+      e.cancelBubble = true;
+      e.returnValue = false;
+      return false;
+    } else {
+      return false;
+    }
+  }
+}
+
+
+_G2_initCurrentDomain('googlegroups.com',
+            false,
+            true);
+
+_G2_initCurrentGroup('gitorious',
+            'a');
+
+
+
+
+//--></script>
+  <script language="javascript"><!--
+    (function(){try{var e=true;var i=window.gbar=window.gbar||{};function _tvn(a,b){var c=parseInt(a,10);return isNaN(c)?b:c}function _tvf(a,b){var c=parseFloat(a);return isNaN(c)?b:c}function _tvv(a){return!!a}function m(a,b,c){(c||i)[a]=b}i.bv={n:_tvn("2",0),r:"",f:".41.",m:_tvn("1",1)};var n=function(a){return function(){return i.bv.m==a}},aa=n(1),ba=n(2);m("sb",aa);m("kn",ba);var o=function(){},p=function(){},t=function(a){var b=new Image,c=q;b.onerror=b.onload=b.onabort=function(){try{delete s[c]}catch(d){}};s[c]=b;b.src=a;q=c+1},s=[],q=0;m("logger",{il:p,ml:o});var u=window.gbar.logger;var v={},ea={},w=[],ha=function(a,b){w.push([a,b])},ia=function(a,b){v[a]=b},ja=function(a){return a in v},x={},y=function(a,b){x[a]||(x[a]=[]);x[a].push(b)},z=function(a){y("m",a)},A=function(a){var b=document.createElement("script");b.src=a;(document.getElementById("xjsc")||document.body).appendChild(b)},C=function(a){for(var b=0,c;c=w[b];++b)if(c[0]==a)break;if(c&&!c[1].l&&!c[1].s){c[1].s=e;B(2,a);A(c[1].url)}},D=function(a){y("gc",a)},E=null,ka=function(a){E=a},B=function(a,b,c){if(E){a={t:a,
+b:b};if(c)for(var d in c)a[d]=c[d];try{E(a)}catch(g){}}};m("mdc",v);m("mdi",ea);m("bnc",w);m("qGC",D);m("qm",z);m("qd",x);m("lb",C);m("mcf",ia);m("bcf",ha);m("aq",y);m("mdd","");m("has",ja);m("trh",ka);m("tev",B);var F=_tvf("0.01",1.0E-4),G=0;
+function _mlToken(a,b){try{if(G<1){G++;var c,d=a,g=b||{},f=encodeURIComponent,h=["//www.google.com/gen_204?atyp=i&zx=",(new Date).getTime(),"&jexpid=",f("30315"),"&srcpg=",f("prop=3"),"&jsr=",Math.round(1/F),"&ogf=",i.bv.f,"&ogv=",f("1324001618.1324332217"),"&ogd=",f("com"),"&ogl=",f("en")];if(g._sn)g._sn="og."+g._sn;for(var l in g){h.push("&");h.push(f(l));h.push("=");h.push(f(g[l]))}h.push("&emsg=");h.push(f(d.name+
+":"+d.message));var j=h.join("");if(H(j))j=j.substr(0,2E3);c=j;var k=window.gbar.logger._aem(a,c);t(k)}}catch(r){}}var H=function(a){return a.length>=2E3},la=function(a,b){return b};function I(a){o=a;m("_itl",H,u);m("_aem",la,u);m("ml",o,u);a={};v.er=a}if(_tvv(""))I(function(a){throw a;});else _tvv("1")&&Math.random()<F&&I(_mlToken);var _E="left",M=function(a,b){var c=a.className;L(a,b)||(a.className+=(c!=""?" ":"")+b)},N=function(a,b){var c=a.className,d=RegExp("\\s?\\b"+b+"\\b");if(c&&c.match(d))a.className=c.replace(d,"")},L=function(a,b){var c=RegExp("\\b"+b+"\\b"),d=a.className;return!!(d&&d.match(c))};m("ca",M);m("cr",N);m("cc",L);var ma=["gb_71","gb_155"],O;function na(a){O=a}function oa(a){var b=O&&!a.href.match(/.*\/accounts\/ClearSID[?]/)&&encodeURIComponent(O());if(b)a.href=a.href.replace(/([?&]continue=)[^&]*/,"$1"+b)}function pa(a){try{var b=(document.forms[0].q||"").value;if(b)a.href=a.href.replace(/([?&])q=[^&]*|$/,function(d,g){return(g||"&")+"q="+encodeURIComponent(b)})}catch(c){o(c)}}
+var P=function(){for(var a=[],b=0,c;c=ma[b];++b)(c=document.getElementById(c))&&a.push(c);return a},qa=function(){var a=P();return a.length>0?a[0]:null},ra=function(){return document.getElementById("gb_70")},Q={},R={},S={},T=undefined,va=function(a,b){try{var c=document.getElementById("gb");M(c,"gbpdjs");U();V(document.body)&&M(c,"gbrtl");if(b&&b.getAttribute){var d=b.getAttribute("aria-owns");if(d.length){var g=document.getElementById(d);if(g){var f=b.parentNode;if(T==d){T=undefined;N(f,"gbto")}else{if(T){var h=
+document.getElementById(T);if(h&&h.getAttribute){var l=h.getAttribute("aria-owner");if(l.length){var j=document.getElementById(l);j&&j.parentNode&&N(j.parentNode,"gbto")}}}sa(g)&&ta(g);T=d;M(f,"gbto")}}}}z(function(){i.tg(a,b,e)});ua(a)}catch(k){o(k)}},wa=function(a){z(function(){i.close(a)})},V=function(a){var b,c="direction",d=document.defaultView;if(d&&d.getComputedStyle){if(a=d.getComputedStyle(a,""))b=a[c]}else b=a.currentStyle?a.currentStyle[c]:a.style[c];return b=="rtl"},ya=function(a,b,c){if(a)try{var d=
+document.getElementById("gbd5");if(d){var g=d.firstChild,f=g.firstChild,h=document.createElement("li");h.className=b+" gbmtc";h.id=c;a.className="gbmt";h.appendChild(a);if(f.hasChildNodes()){c=[["gbkc"],["gbf","gbe","gbn"],["gbkp"],["gbnd"]];d=0;var l=f.childNodes.length;g=false;for(var j=-1,k=0,r;r=c[k];k++){for(var ca=0,J;J=r[ca];ca++){for(;d<l&&L(f.childNodes[d],J);)d++;if(J==b){f.insertBefore(h,f.childNodes[d]||null);g=e;break}}if(g){if(d+1<f.childNodes.length){var da=f.childNodes[d+1];if(!L(da.firstChild,
+"gbmh")&&!xa(da,r))j=d+1}else if(d-1>=0){var fa=f.childNodes[d-1];if(!L(fa.firstChild,"gbmh")&&!xa(fa,r))j=d}break}d>0&&d+1<l&&d++}if(j>=0){var K=document.createElement("li"),ga=document.createElement("div");K.className="gbmtc";ga.className="gbmt gbmh";K.appendChild(ga);f.insertBefore(K,f.childNodes[j])}i.addHover&&i.addHover(a)}else f.appendChild(h)}}catch(Ea){o(Ea)}},xa=function(a,b){for(var c=b.length,d=0;d<c;d++)if(L(a,b[d]))return e;return false},za=function(a,b,c){ya(a,b,c)},Aa=function(a,b){ya(a,
+"gbe",b)},Ba=function(){z(function(){i.pcm&&i.pcm()})},Ca=function(a,b,c,d,g,f,h,l){z(function(){i.paa&&i.paa(a,b,c,d,g,f,h,l)})},Da=function(a,b){Q[a]||(Q[a]=[]);Q[a].push(b)},Fa=function(a,b){R[a]||(R[a]=[]);R[a].push(b)},Ga=function(a,b){S[a]||(S[a]=[]);S[a].push(b)},ua=function(a){a.preventDefault&&a.preventDefault();a.returnValue=false;a.cancelBubble=e},W=null,ta=function(a,b){U();if(a){X(a,"Opening&hellip;");Y(a,e);var c=typeof b!="undefined"?b:1E4,d=function(){Ha(a)};W=window.setTimeout(d,
+c)}},Ia=function(a){U();if(a){Y(a,false);X(a,"")}},Ha=function(a){try{U();var b=a||document.getElementById(T);if(b){X(b,"This service is currently unavailable.%1$sPlease try again later.","%1$s");Y(b,e)}}catch(c){o(c)}},X=function(a,b,c){if(a&&b){var d=sa(a);if(d){if(c){d.innerHTML="";b=b.split(c);c=0;for(var g;g=b[c];c++){var f=document.createElement("div");f.innerHTML=g;d.appendChild(f)}}else d.innerHTML=b;Y(a,e)}}},Y=function(a,b){var c=b!==undefined?b:e;c?M(a,"gbmsgo"):N(a,"gbmsgo")},sa=function(a){for(var b=0,c;c=a.childNodes[b];b++)if(L(c,
+"gbmsg"))return c},U=function(){W&&window.clearTimeout(W)};m("so",qa);m("sos",P);m("si",ra);m("tg",va);m("close",wa);m("addLink",za);m("addExtraLink",Aa);m("pcm",Ba);m("paa",Ca);m("ddld",ta);m("ddrd",Ia);m("dderr",Ha);m("rtl",V);m("bh",Q);m("abh",Da);m("dh",R);m("adh",Fa);m("ch",S);m("ach",Ga);m("qs",pa);m("setContinueCb",na);m("pc",oa);var Ja={};v.base=Ja;w.push(["m",{url:"//ssl.gstatic.com/gb/js/sem_728e1cab3e01f4b707f65ca7ca9abe9a.js"}]);if(_tvv("1")){var Ka=_tvv("");w.push(["gc",{auto:Ka,url:"https://ssl.gstatic.com/gb/js/abc/gcm_e9b1c8ddbdbba9ea5c035548a0320af1.js"}]);var La={version:"gcm_e9b1c8ddbdbba9ea5c035548a0320af1.js",index:"",lang:"en"};v.gc=La;var Z=function(a){if(window.googleapis)a&&a();else{a&&D(a);C("gc")}};m("lGC",Z);_tvv("1")&&m("lPWF",Z)};window.__PVT="";if(_tvv("1")&&_tvv("1")){var $=function(a){Z(function(){y("pw",a);C("pw")})};m("lPW",$);w.push(["pw",{url:"https://ssl.gstatic.com/gb/js/abc/pwm_4e7edac1f189ab82bc4091ff7bfe6f4b.js"}]);var Ma=[],Na=function(a){Ma[0]=a},Oa=function(a,b){var c=b||{};c._sn="pw";o(a,c)},Pa={signed:Ma,elog:Oa,base:"https://plusone.google.com/u/0",loadTime:(new Date).getTime()};v.pw=Pa;var Qa=function(a,b){for(var c=b.split("."),d=function(){var l=arguments;a(function(){for(var j=i,k=0,r=c.length-1;k<r;++k)j=j[c[k]];j[c[k]].apply(j,l)})},g=i,f=0,h=c.length-
+1;f<h;++f)g=g[c[f]]=g[c[f]]||{};return g[c[f]]=d};Qa($,"pw.clk");Qa($,"pw.hvr");m("su",Na,i.pw)};var Ra=_tvf("0.01",1.0E-4);
+function Sa(a,b){var c=encodeURIComponent,d=["//www.google.com/gen_204?atyp=i&zx=",(new Date).getTime(),"&oge=",a,"&ogex=",c("30315"),"&ogf=",i.bv.f,"&ogp=",c("3"),"&ogsr=",Math.round(1/Ra),"&ogv=",c("1324001618.1324332217"),"&ogd=",c("com"),"&ogl=",c("en")];if(b){if("ogw"in b){d.push("&ogw="+b.ogw);delete b.ogw}var g;g=b;var f=[],h;for(h in g){f.length!=0&&f.push(",");f.push(h);f.push(".");f.push(g[h])}g=f.join("");
+if(g!=""){d.push("&ogad=");d.push(c(g))}}t(d.join(""))}if(_tvv("1")&&Math.random()<Ra){p=Sa;m("il",p,u);var Ta={};v.il=Ta};var Ua=function(){i.prm&&i.prm()},Va=function(a){y("m",function(){i.spn(a)})},Wa=function(a){y("m",function(){i.spp(a)})},Xa=function(){y("m",function(){i.spd()})};m("spn",Va);m("spp",Wa);m("spd",Xa);Da("gbd4",Ua);if(_tvv("")){var Ya={g:_tvv(""),d:_tvv(""),e:"",m:"",p:"//ssl.gstatic.com/gb/images/avatar_b96.png",xp:_tvv("1"),mg:"%1$s (delegated)",md:"%1$s (default)"};v.prf=Ya};function Za(){function a(){for(var k;k=f[h++];)if(k[0]=="m"||k[1].auto)break;if(k){B(2,k[0]);A(k[1].url)}h<f.length&&setTimeout(a,0)}function b(){g-- >0?setTimeout(b,0):a()}var c=_tvv("1"),d=_tvv(""),g=3,f=w,h=0,l=window.gbarOnReady;if(l)try{l()}catch(j){o(j)}if(d)m("ldb",a);else if(c)window.addEventListener?window.addEventListener("load",b,false):window.attachEvent("onload",b);else b()}m("rdl",Za);}catch(e){window.gbar&&gbar.logger&&gbar.logger.ml(e);}})();
+(function(){try{window.gbar.rdl();}catch(e){window.gbar&&gbar.logger&&gbar.logger.ml(e);}})();
+  //--></script>
+  <style type="text/css"><!--
+    #gb{font:13px/27px Arial,sans-serif;height:30px}#gbz,#gbg{position:absolute;white-space:nowrap;top:0;height:30px;z-index:1000}#gbz{left:0;padding-left:4px}#gbg{right:0;padding-right:5px}#gbs{background:transparent;position:absolute;top:-999px;visibility:hidden;z-index:998}.gbto #gbs{background #fff}#gbx3,#gbx4{background-color:#2d2d2d;background-image:none;_background-image:none;background-position:0 -138px;background-repeat:repeat-x;border-bottom:1px solid #000;font-size:24px;height:29px;_height:30px;opacity:1;filter:alpha(opacity=100);position:absolute;top:0;width:100%;z-index:990}#gbx3{left:0}#gbx4{right:0}.gbtcb{position:absolute;visibility:hidden}#gbz .gbtcb{right:0}#gbg .gbtcb{left:0}.gbxx{display:none !important}.gbm{position:absolute;z-index:999;top:-999px;visibility:hidden;text-align:left;border:1px solid #bebebe;background:#fff;-moz-box-shadow:-1px 1px 1px rgba(0,0,0,.2);-webkit-box-shadow:0 2px 4px rgba(0,0,0,.2);box-shadow:0 2px 4px rgba(0,0,0,.2)}.gbrtl .gbm{-moz-box-shadow:1px 1px 1px rgba(0,0,0,.2)}.gbto .gbm,.gbto #gbs{top:29px;visibility:visible}#gbz .gbm,#gbz #gbs{left:0}#gbg .gbm,#gbg #gbs{right:0}.gbxms{background-color:#ccc;display:block;position:absolute;z-index:1;top:-1px;left:-2px;right:-2px;bottom:-2px;opacity:.4;-moz-border-radius:3px;filter:progid:DXImageTransform.Microsoft.Blur(pixelradius=5);*opacity:1;*top:-2px;*left:-5px;*right:5px;*bottom:4px;-ms-filter:"progid:DXImageTransform.Microsoft.Blur(pixelradius=5)";opacity:1\0/;top:-4px\0/;left:-6px\0/;right:5px\0/;bottom:4px\0/}.gbma{position:relative;top:-1px;border-style:solid dashed dashed;border-color:transparent;border-top-color:#c0c0c0;display:-moz-inline-box;display:inline-block;font-size:0;height:0;line-height:0;width:0;border-width:3px 3px 0;padding-top:1px;left:4px}#gbztms1,#gbi4m1,#gbi4s,#gbi4t{zoom:1}.gbtc,.gbmc,.gbmcc{display:block;list-style:none;margin:0;padding:0}.gbmc{background:#fff;padding:10px 0;position:relative;z-index:2;zoom:1}.gbt{position:relative;display:-moz-inline-box;display:inline-block;line-height:27px;padding:0;vertical-align:top}.gbt{*display:inline}.gbto{box-shadow:0 2px 4px rgba(0,0,0,.2);-moz-box-shadow:0 2px 4px rgba(0,0,0,.2);-webkit-box-shadow:0 2px 4px rgba(0,0,0,.2)}.gbzt,.gbgt{cursor:pointer;display:block;text-decoration:none !important}.gbts{border-left:1px solid transparent;border-right:1px solid transparent;display:block;*display:inline-block;padding:0 5px;position:relative;z-index:1000}.gbts{*display:inline}.gbto .gbts{background:#fff;border-color:#bebebe;color:#36c;padding-bottom:1px;padding-top:2px}.gbz0l .gbts{color:#fff;font-weight:bold}.gbtsa{padding-right:9px}#gbz .gbzt,#gbz .gbgt,#gbg .gbgt{color:#ccc!important}.gbtb2{display:block;border-top:2px solid transparent}.gbto .gbzt .gbtb2,.gbto .gbgt .gbtb2{border-top-width:0}.gbtb .gbts{background:url(//ssl.gstatic.com/gb/images/b_8d5afc09.png);_background:url(//ssl.gstatic.com/gb/images/b8_3615d64d.png);background-position:-27px -22px;border:0;font-size:0;padding:29px 0 0;*padding:27px 0 0;width:1px}.gbzt-hvr,.gbzt:focus,.gbgt-hvr,.gbgt:focus{background-color:#4c4c4c;background-image:none;_background-image:none;background-position:0 -102px;background-repeat:repeat-x;outline:none;text-decoration:none !important}.gbpdjs .gbto .gbm{min-width:99%}.gbz0l .gbtb2{border-top-color:#dd4b39!important}#gbi4s,#gbi4s1{font-weight:bold}#gbg6.gbgt-hvr,#gbg6.gbgt:focus{background-color:transparent;background-image:none}.gbg4a{font-size:0;line-height:0}.gbg4a .gbts{padding:27px 5px 0;*padding:25px 5px 0}.gbto .gbg4a .gbts{padding:29px 5px 1px;*padding:27px 5px 1px}#gbi4i,#gbi4id{left:5px;border:0;height:24px;position:absolute;top:1px;width:24px}.gbto #gbi4i,.gbto #gbi4id{top:3px}.gbi4p{display:block;width:24px}#gbi4id,#gbmpid{background:url(//ssl.gstatic.com/gb/images/b_8d5afc09.png);_background:url(//ssl.gstatic.com/gb/images/b8_3615d64d.png)}#gbi4id{background-position:-29px -54px}#gbmpid{background-position:-58px 0px}#gbmpi,#gbmpid{border:none;display:inline-block;margin:10px 20px;height:48px;width:48px}#gbmpi,#gbmpid{*display:inline}#gbg5{font-size:0}#gbgs5{padding:5px !important}.gbto #gbgs5{padding:7px 5px 6px !important}#gbi5{background:url(//ssl.gstatic.com/gb/images/b_8d5afc09.png);_background:url(//ssl.gstatic.com/gb/images/b8_3615d64d.png);background-position:0 0;display:block;font-size:0;height:17px;width:16px}.gbto #gbi5{background-position:-6px -22px}#gbgf .gbmt,.gbn .gbmt,.gbn .gbmt:visited,.gbnd .gbmt,.gbnd .gbmt:visited{color:#dd8e27 !important}.gbf .gbmt,.gbf .gbmt:visited{color:#900 !important}.gbmt,.gbml1,.gbmt:visited,.gbml1:visited{color:#36c !important;text-decoration:none !important}.gbmt,.gbmt:visited{display:block}.gbml1,.gbml1:visited{display:inline-block;margin:0 10px;padding:0 10px}.gbml1{*display:inline}.gbml1-hvr,.gbml1:focus{background:#eff3fb;outline:none}#gbpm .gbml1{display:inline;margin:0;padding:0;white-space:nowrap}#gbpm .gbml1-hvr,#gbpm .gbml1:focus{background:none;text-decoration:underline !important}.gbmt{padding:0 20px}.gbmt-hvr,.gbmt:focus{background:#eff3fb;cursor:pointer;outline:0 solid black;text-decoration:none !important}.gbm0l,.gbm0l:visited{color:#000 !important;font-weight:bold}.gbmh{border-top:1px solid #e5e5e5;font-size:0;margin:10px 0}#gbd4 .gbmh{margin:0}.gbmtc{padding:0;margin:0;line-height:27px}.GBMCC:last-child:after,#GBMPAL:last-child:after{content:'\0A\0A';white-space:pre;position:absolute}#gbd4 .gbpc,#gbmpas .gbmt{line-height:17px}#gbd4 .gbpgs .gbmtc{line-height:27px}#gbmpas .gbmt{padding-bottom:10px;padding-top:10px}#gbmple .gbmt,#gbmpas .gbmt{font-size:15px}#gbd4 .gbpc{display:inline-block;margin:6px 0 10px;margin-right:50px;vertical-align:top}#gbd4 .gbpc{*display:inline}.gbpc .gbps,.gbpc .gbps2{display:block;margin:0 20px}#gbmplp.gbps{margin:0 10px}.gbpc .gbps{color:#000;font-weight:bold}.gbpc .gbps2{font-size:13px}.gbpc .gbpd{margin-bottom:5px}.gbpd .gbmt,.gbmpmtd .gbmt{color:#666 !important}.gbmpme,.gbps2{color:#666;display:block;font-size:11px}.gbp0 .gbps2,.gbmpmta .gbmpme{font-weight:bold}#gbmpp{display:none}#gbd4 .gbmcc{margin-top:5px}.gbpmc{background:#edfeea}.gbpmc .gbmt{padding:10px 20px}#gbpm{*border-collapse:collapse;border-spacing:0;margin:0;white-space:normal}#gbpm .gbmt{border-top:none;color:#666 !important;font:11px Arial,sans-serif}#gbpms{*white-space:nowrap}.gbpms2{font-weight:bold;white-space:nowrap}#gbmpal{*border-collapse:collapse;border-spacing:0;margin:0;white-space:nowrap}.gbmpala,.gbmpalb{font:13px Arial,sans-serif;line-height:27px;padding:10px 20px 0;white-space:nowrap}.gbmpala{padding-left:0;text-align:left}.gbmpalb{padding-right:0;text-align:right}.gbp0 .gbps,.gbmpmta .gbmpmn{color:#000;display:inline-block;font-weight:bold;padding-right:34px;position:relative}.gbp0 .gbps,.gbmpmta .gbmpmn{*display:inline}.gbmpmtc,.gbp0i{background:url(//ssl.gstatic.com/gb/images/b_8d5afc09.png);_background:url(//ssl.gstatic.com/gb/images/b8_3615d64d.png);background-position:0 -54px;position:absolute;height:21px;width:24px;right:0;top:-3px}
+  --></style>
+<script language="javascript"><!--
+function ad_resize() {}
+function if_resize() {}
+function fin_resize() {}
+function qs() {}
+//--></script>
+<script language="javascript1.2"><!--
+function if_resize(name, w, h) {
+  if (document.getElementById && document.getElementById(name)){
+    document.getElementById(name).style.height = h + "px";
+    document.getElementById(name).style.width = w + "px";
+  }
+}
+function ad_resize(w, h) {
+  if_resize("google_ads_frame",w,h);
+}
+function fin_resize(w, h) {
+  if_resize("google_finance_frame",w,h);
+}
+
+function qs(el) {
+  if (window.RegExp && window.encodeURIComponent) {
+    var qe=encodeURIComponent(document.gs.q.value);
+
+    if (qe == '') {
+      return 1;
+    }
+
+    if (el.href.indexOf("q=")!=-1) {
+      el.href=el.href.replace(new RegExp("q=[^&$]*"),"q="+qe);
+    } else {
+      el.href+="&q="+qe;
+    }
+  }
+  return 1;
+}
+
+//--></script>
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="http://groups.google.com/group/gitorious/feed/rss_v2_0_msgs.xml">
+  <link rel="alternate" type="application/atom+xml" title="Atom" href="http://groups.google.com/group/gitorious/feed/atom_v1_0_msgs.xml">
+</head>
+<body onresize=""
+      onload=""
+      
+        topmargin=0
+        leftmargin=0
+        marginheight=0
+        marginwidth=0
+      
+      bgcolor=white
+      
+      
+  >
+  <div id=gb><script>window.gbar&&gbar.eli&&gbar.eli()</script><div id=gbw><div id=gbz><span class=gbtcb></span><ol class=gbtc><li class=gbt><a onclick=gbar.logger.il(1,{t:23}); class=gbzt id=gb_23 href="https://mail.google.com/mail/?tab=gm"><span class=gbtb2></span><span class=gbts>Gmail</span></a></li><li class=gbt><a onclick=gbar.logger.il(1,{t:24}); class=gbzt id=gb_24 href="https://www.google.com/calendar?tab=gc"><span class=gbtb2></span><span class=gbts>Calendar</span></a></li><li class=gbt><a onclick=gbar.logger.il(1,{t:25}); class=gbzt id=gb_25 href="https://docs.google.com/?tab=go"><span class=gbtb2></span><span class=gbts>Documents</span></a></li><li class=gbt><a onclick=gbar.qs(this);gbar.logger.il(1,{t:31}); class=gbzt id=gb_31 href="http://picasaweb.google.com/home?hl=en&tab=gq"><span class=gbtb2></span><span class=gbts>Photos</span></a></li><li class=gbt><a onclick=gbar.logger.il(1,{t:38}); class=gbzt id=gb_38 href="https://sites.google.com/?tab=g3"><span class=gbtb2></span><span class=gbts>Sites</span></a></li><li class=gbt><a onclick=gbar.logger.il(1,{t:3}); class="gbzt gbz0l gbp1" id=gb_3 href="http://groups.google.com/grphp?hl=en&tab=gg"><span class=gbtb2></span><span class=gbts>Groups</span></a></li><li class=gbt><a onclick=gbar.qs(this);gbar.logger.il(1,{t:1}); class=gbzt id=gb_1 href="http://www.google.com/webhp?hl=en&tab=gw"><span class=gbtb2></span><span class=gbts>Web</span></a></li><li class=gbt><a class=gbgt id=gbztm href="http://www.google.com/intl/en/options/" onclick="gbar.tg(event,this)" aria-haspopup=true aria-owns=gbd><span class=gbtb2></span><span id=gbztms class="gbts gbtsa"><span id=gbztms1>More</span><span class=gbma></span></span></a><div class=gbm id=gbd aria-owner=gbztm><div class=gbmc><ol class=gbmcc><li class=gbmtc><a onclick=gbar.logger.il(1,{t:32}); class=gbmt id=gb_32 href="http://www.google.com/reader/?hl=en&tab=gy">Reader</a></li><li class=gbmtc><a onclick=gbar.qs(this);gbar.logger.il(1,{t:36}); class=gbmt id=gb_36 href="http://www.youtube.com/?tab=g1">YouTube</a></li><li class=gbmtc><div class="gbmt gbmh"></div></li><li class=gbmtc><a onclick=gbar.qs(this);gbar.logger.il(1,{t:2}); class=gbmt id=gb_2 href="http://www.google.com/imghp?hl=en&tab=gi">Images</a></li><li class=gbmtc><a onclick=gbar.qs(this);gbar.logger.il(1,{t:12}); class=gbmt id=gb_12 href="http://video.google.com/?hl=en&tab=gv">Videos</a></li><li class=gbmtc><a onclick=gbar.qs(this);gbar.logger.il(1,{t:8}); class=gbmt id=gb_8 href="http://maps.google.com/maps?hl=en&tab=gl">Maps</a></li><li class=gbmtc><a onclick=gbar.logger.il(1,{t:5}); class=gbmt id=gb_5 href="http://news.google.com/nwshp?hl=en&tab=gn">News</a></li><li class=gbmtc><a onclick=gbar.qs(this);gbar.logger.il(1,{t:6}); class=gbmt id=gb_6 href="http://www.google.com/prdhp?hl=en&tab=gf">Shopping</a></li><li class=gbmtc><a onclick=gbar.qs(this);gbar.logger.il(1,{t:51}); class=gbmt id=gb_51 href="http://translate.google.com/?hl=en&tab=gT">Translate</a></li><li class=gbmtc><a onclick=gbar.qs(this);gbar.logger.il(1,{t:10}); class=gbmt id=gb_10 href="http://books.google.com/bkshp?hl=en&tab=gp">Books</a></li><li class=gbmtc><a onclick=gbar.qs(this);gbar.logger.il(1,{t:9}); class=gbmt id=gb_9 href="http://scholar.google.com/schhp?hl=en&tab=gs">Scholar</a></li><li class=gbmtc><a onclick=gbar.qs(this);gbar.logger.il(1,{t:27}); class=gbmt id=gb_27 href="http://www.google.com/finance?tab=ge">Finance</a></li><li class=gbmtc><a onclick=gbar.qs(this);gbar.logger.il(1,{t:13}); class=gbmt id=gb_13 href="http://www.google.com/blogsearch?hl=en&tab=gb">Blogs</a></li><li class=gbmtc><div class="gbmt gbmh"></div></li><li class=gbmtc><a onclick=gbar.logger.il(1,{t:66}); href="http://www.google.com/intl/en/options/" class=gbmt>Even more &raquo;</a></li></ol></div></div></li></ol></div><div id=gbg><h2 class=gbxx>Account Options</h2><span class=gbtcb></span><ol class=gbtc><li class=gbt><a href="https://www.google.com/accounts/ServiceLogin?service=groups2&passive=1209600&continue=http://groups.google.com/group/gitorious&followup=http://groups.google.com/group/gitorious" onclick="gbar.logger.il(9,{l:'i'})" id=gb_70 class=gbgt><span class=gbtb2></span><span id=gbgs4 class=gbts><span id=gbi4s1>Sign in</span></span></a></li><li class="gbt gbtb"><span class=gbts></span></li><li class=gbt><a class=gbgt id=gbg5 href="http://www.google.com/preferences?hl=en" title="Options" onclick="gbar.tg(event,this)" aria-haspopup=true aria-owns=gbd5><span class=gbtb2></span><span id=gbgs5 class=gbts><span id=gbi5></span></span></a><div class=gbm id=gbd5 aria-owner=gbg5><div class=gbmc><ol id=gbom class=gbmcc><li class="gbkc gbmtc"><a  class=gbmt href="/support?hl=en">Groups help</a></li></ol></div></div></li></ol></div></div><div id=gbx3></div><div id=gbx4></div><script>window.gbar&&gbar.elp&&gbar.elp()</script></div>
+  <div class="clear" / >
+  <div class="gtopbar">
+  <table cellpadding=0 cellspacing=0 width=100% border=0>
+  <tr valign="top">
+  <td class="maincell">
+  <table cellpadding=0 cellspacing=0 border=0>
+  <tr valign="top">
+  <td width="140" style="overflow: hidden;">
+  <a href="/"><img src="/intl/en/images/logos/groups_logo_sm.gif" width="140" height="30" alt="Google Groups Home" border=0 style="position: relative; top: 2px; margin-right: 10px;"></a>
+  </td>
+  </tr>
+  </table>
+  </td>
+  </tr>
+  </table>
+  <div style="font-size: 91%;"><a href="/">« Groups Home</a></div>
+  </div>
+<script language="javascript"><!--
+// Make functions exist for older browsers
+function toggle_watch() {}
+function toggleStar() {}
+//--></script>
+  <script language="javascript1.3" src="/groups/static/release/g2_message_elements-0dab2c0312b2fb07dc6d1c8cc69120ea.js"></script>
+  <script language="javascript"><!--
+
+      
+      function google_ad_request_done(google_ads) {
+        /*
+         * Verify that there are actually ads to display.
+         */
+        var google_num_ads = google_ads.length;
+        if (google_num_ads <= 0) {
+          return;
+        }
+
+        var narrowAds = "<div class=\"box\">";
+  narrowAds += "<div class=\"sponsor-note\">Sponsored links</div>";
+  for(var i = 0; i < google_num_ads; i++){
+          narrowAds += '<div class="ad-item">' +
+  '<a href="' + google_ads[i].url + '" ' +
+            'onmouseout="window.status=\'\';return true" ' +
+            'onmouseover="window.status=\'go to ' +
+            google_ads[i].visible_url + '\';return true" ' +
+            'style="text-decoration:none">' +
+  '<span style="text-decoration:underline;" class="ad-subject">' +
+  google_ads[i].line1 + '<br></span>' +
+  '<span style="color:#000000">' + google_ads[i].line2 + '<br></span>' +
+  '<span style="color:#000000">' + google_ads[i].line3 + '<br></span>' +
+  '<span style="color:#008000">' + google_ads[i].visible_url +
+  '</span></a></div>';
+  }
+  var fill_ad_div = function() {
+  var ad_div = document.getElementById("google_ads_site");
+  if (ad_div) {
+  ad_div.innerHTML = narrowAds;
+  } else {
+  setTimeout(fill_ad_div, 10);
+  }
+  }
+  fill_ad_div();
+  }
+  function adsIframeHtml() {
+  if (window.location) {
+  if ("https:" === location.protocol)
+  return "<!DOCTYPE html><html/>";
+  }
+  return "<!DOCTYPE html><html><body><script type='text/javascript'>google_ad_request_done = parent.google_ad_request_done;google_ad_client = 'ca-google_groups'; google_max_num_ads = 3; google_ad_output = 'js'; google_ad_type = 'text'; google_language = 'en'; google_page_url = 'http://groups.google.com\x5Cx2Fgroup\x5Cx2Fgitorious'; google_encoding = 'utf8'; google_safe = 'high'; google_adtest = 'off';"
+  + "<\/script> <script language='JavaScript' src='http://pagead2.googlesyndication.com/pagead/show_ads.js'><\/script><\/body><\/html>";
+  }
+  //--></script>
+  <iframe width="0" height="0" frameborder="0" scrolling="no" src="javascript:parent.adsIframeHtml()"></iframe>
+<style type="text/css"><!--
+.sshdr {
+  padding: 0px 10px 0px 10px;
+}
+.sshdr table.sshdrt {
+  margin-top: -1px;
+  margin-bottom: -3px;
+}
+.sshdrtxt {
+  font-size : 114%;
+}
+.sshdrtxtsm {
+  font-size : 106%;
+}
+.ssabln,
+.ssabln:active,
+.ssabln:link,
+.ssabln:visited {
+  text-decoration: none;
+  color: #000
+}
+.ssabln:hover {
+  text-decoration: underline;
+}
+.ssabhln,
+.ssabhln:active,
+.ssabhln:link,
+.ssabhln:visited {
+  text-decoration: none;
+  color: #00c
+}
+.ssabhln:hover {
+  text-decoration: underline;
+}
+.ssibln,
+.ssibln:active,
+.ssibln:link,
+.ssibln:visited {
+  text-decoration: none;
+  color: #00c;
+}
+.ssibln:hover {
+  text-decoration: underline;
+}
+--></style>
+<style type="text/css"><!--
+.modtxtidt {
+  padding: 0px 10px 0px 40px;
+}
+.modtxtidt-20 {
+  padding: 0px 10px 0px 24px;
+}
+--></style>
+  <div style="border-top: 1px solid #74777f; z-index: 1; position: relative;"></div>
+  <div style="background-color: #d2d4c2; padding: 4px 10px 4px 10px; ">
+  <table class="grhdr " cellpadding="0" cellspacing="0" width="100%"><tbody>
+  <tr valign="middle">
+  <td class="padr10" width="42" height="42">
+  <div style="width:42px; height:42px; overflow: hidden;">
+  <div style="width:42px; height:42px; background:url(/group/gitorious/icon?v=1&hl=en)"></div>
+  </div>
+  <td>
+  <div class="ghgrn">
+  <a class="ln" href="/group/gitorious">Gitorious</a>
+  </div>
+  <td style="padding-left: 35px" align="right">
+  <script><!--
+                function sg() {
+                  document.gs3.q.value = document.gs2.q.value;
+                  document.gs3.submit();
+                }
+              //--></script>
+  <form name=gs2 method=GET action="/group/gitorious/search">
+  <table cellpadding=0 cellspacing=0><tr><td>
+  <input type=hidden name="group" value="gitorious"><input type=text name=q size=20 maxlength=2048 value="" style="width: 25ex">
+  </td>
+  <td class="padl5">
+  <input type=submit class="bt" style="width:100%" name="qt_g" value="Search this group">
+  </td>
+  <td class="padl5">
+  <input type=button class="bt" style="width:100%" name="qt_s" onclick="sg();" value="Search Groups">
+  </td>
+  </table>
+  </form>
+  <form class="hide" name=gs3 method=GET action="/groups/search">
+  <input type=hidden name="qt_s" value="1">
+  <input type=hidden name=q size=20 maxlength=2048 value="">
+  </form>
+  </td>
+  </tr>
+  </tbody></table>
+  </div>
+  <div style="border-top: 1px solid #74777f"></div>
+  <div class="rf" style="width: 32ex;">
+  <div class="overflow-hide" style="position: absolute; margin-top: -1px; margin-left: -1px;z-index: 1;">
+  <div class="mrgl1 " style="width: 32ex; background-color: #d2d4c2;">
+  <div class="padb10 padr10">
+  <div class="rnsecs">
+  <table></table>
+  <div class="sec" >
+  <div style="">
+  <a class="seclnact" href="/group/gitorious/topics">Discussions</a>
+  </div>
+  </div>
+  <table></table>
+  <div class="selsec">
+  <a class="secln" href="/group/gitorious">Home</a>
+  </div>
+  <table></table>
+  <table></table>
+  <table></table>
+  <table></table>
+  <div class="mrgt5 mrgl10" style="border-bottom: 1px solid #74777f"></div>
+  <div class="padt10"></div>
+  <div class="sec">
+  <a class="seclnlt" href="/group/gitorious/about">About this group</a>
+  </div>
+  <div class="sec">
+  <a class="seclnlt" href="/group/gitorious/subscribe">
+  Join this group
+  </a>
+  </div>
+  </div>
+  <table><tr><td><img src="/groups/img/discussions-48.gif" alt=""></td>
+  <td>View this group in the <a href="https://groups.google.com/d/forum/gitorious?fromgroups">new Google Groups</a>
+  </td></tr></table>
+  <div id="google_ads_site" class="g3rtn-ad-site"></div>
+  <div class="padt5"></div>
+  <div class="rnimc">
+  <div><table cellpadding=0 cellspacing=0 width="100%"><tr><td><div style="background: url(/groups/roundedcorners?c=54554d&bc=d2d4c2&w=2&h=2&a=af) 0px 0px; width: 2px; height: 2px"></div><td bgcolor="#54554d" width="100%" height="2"><img alt="" width=1 height=1><td><div style="background: url(/groups/roundedcorners?c=54554d&bc=d2d4c2&w=2&h=2&a=af) 2px 0px; width: 2px; height: 2px"></div></table></div>
+  <div class="padl10 padb2" style="background-color: #54554d; color: #ffffff;">
+  <b>Group info</b>
+  </div>
+  <div class="padt4 padb4 padl10 padr10" style="background-color: #ffffff;">
+  <style type="text/css"><!--
+        #moduleGroupInfo td {
+          font-size: 91%;
+        }
+        --></style>
+<style type="text/css"><!--
+
+#moduleGroupInfo .moduleSMALL cat {
+  font-size: 0%;
+  padding-right:7px;
+}
+
+--></style>
+<div class="module" id="moduleGroupInfo">
+  <div class="moduleSMALL">
+<table class="modtab" cellpadding=0 cellspacing=0 border=0 width="100%" style="table-layout: fixed">
+  <tr>
+  <td class="overflow-hide" nowrap>
+  <b>Members:</b> 741
+  </td>
+  </tr>
+  <tr>
+  <td class="overflow-hide" nowrap>
+  <b>Language:</b> English
+  </td>
+  </tr>
+  <tr>
+  <td class="overflow-hide">
+  <b>Group categories:</b>
+  <i>Not categorized</i>
+  </td>
+  </tr>
+  <tr>
+  <td class="overflow-hide" nowrap>
+  <b><a class="on" href="/group/gitorious/about">More group info &raquo;</a></b>
+  </td>
+  </tr>
+</table>
+  </div>
+</div>
+<script language="javascript1.3"><!--
+
+(function () {
+  var module = document.getElementById('moduleGroupInfo');
+
+  module.getChildElement = function(child_id) {
+    return document.getElementById(this.id + '_' + child_id);
+  }
+
+  module.load = function() {
+  }
+
+  module.load();
+})();
+
+//--></script>
+  </div>
+  </div>
+  </div>
+</div>
+</div>
+</div>
+  <table class="wdth100  overflow-hide" cellpadding=0 cellspacing=0 style="table-layout: fixed;">
+  <col width="*" height="100%"><col style="width:32ex;"><tr valign="top"><td class=" overflow-hide" style="border-bottom: 1px solid #74777f;; border-right: 1px solid #74777f;">
+  <form id="create_new_page_form" method="POST" action="/group/gitorious/create?Action.Create" style="display: inline;">
+  <input type="hidden" name="POST_TOKEN" value="2025310BBB465A4C052B66D0E0C8279A">
+  <input type="hidden" name="name" value="">
+  <input type="hidden" name="type" value="editable_page">
+  </form>
+<div class="maincontheaderbox">
+  <div class="secttlbarwrap">
+  <div><table cellpadding=0 cellspacing=0 width="100%"><tr><td><div style="background: url(/groups/roundedcorners?c=54554d&bc=white&w=4&h=4&a=af) 0px 0px; width: 4px; height: 4px"></div><td bgcolor="#54554d" width="100%" height="4"><img alt="" width=1 height=1><td><div style="background: url(/groups/roundedcorners?c=54554d&bc=white&w=4&h=4&a=af) 4px 0px; width: 4px; height: 4px"></div></table></div>
+  <div class="secttlbar">
+  <div class="lf secttl">
+  Home
+  </div>
+  <div class="rf secmsg frtxt">
+  <b>New since last time</b>:
+  <a href="/group/gitorious/topics"><b>9</b> messages</a>
+  </div>
+  <div class="clear"></div>
+  </div>
+  <div><table cellpadding=0 cellspacing=0 width="100%"><tr><td><div style="background: url(/groups/roundedcorners?c=54554d&bc=white&w=4&h=4&a=af) 0px 4px; width: 4px; height: 4px"></div><td bgcolor="#54554d" width="100%" height="4"><img alt="" width=1 height=1><td><div style="background: url(/groups/roundedcorners?c=54554d&bc=white&w=4&h=4&a=af) 4px 4px; width: 4px; height: 4px"></div></table></div>
+  </div>
+</div>
+<div class="maincontheaderboxatt">
+  <div class="vspace"></div>
+  <div><table cellpadding=0 cellspacing=0 width="100%"><tr><td><div style="background: url(/groups/roundedcorners?c=d2d4c2&bc=white&w=4&h=4&a=af) 0px 0px; width: 4px; height: 4px"></div><td bgcolor="#d2d4c2" width="100%" height="4"><img alt="" width=1 height=1><td><div style="background: url(/groups/roundedcorners?c=d2d4c2&bc=white&w=4&h=4&a=af) 4px 0px; width: 4px; height: 4px"></div></table></div>
+  <div class="sshdr" style="background-color:#d2d4c2;">
+  <table class="sshdrt" cellpadding=0 cellspacing=0 width="100%"><tr><td>
+  <div class="lf sshdrtxt">
+  <img src="/groups/img/gsecs/discussions_24.gif" width="24" height="24" alt="" class="vamdl icon24" style="">
+  <a class="ssabln" href="/group/gitorious/topics"><b>Discussions</b></a><img width="10" height="1" alt="" src="/groups/img/dot_clear.gif"><span style="color: #333">9 of 3622 messages</span>
+  <img width="10" height="1" alt="" src="/groups/img/dot_clear.gif"><a class="ssabhln" href="/group/gitorious/topics">view all &raquo;</a>
+  </div>
+  <div class="rf ">
+  <form method="POST" action="/group/gitorious/post">
+  <input type="submit" class="bt" style="margin-bottom:3px;"   value="+ new post">
+  </form>
+  </div>
+  <div class="clear"></div>
+  </td></tr></table>
+  </div>
+  <div><table cellpadding=0 cellspacing=0 width="100%"><tr><td><div style="background: url(/groups/roundedcorners?c=d2d4c2&bc=white&w=4&h=4&a=af) 0px 4px; width: 4px; height: 4px"></div><td bgcolor="#d2d4c2" width="100%" height="4"><img alt="" width=1 height=1><td><div style="background: url(/groups/roundedcorners?c=d2d4c2&bc=white&w=4&h=4&a=af) 4px 4px; width: 4px; height: 4px"></div></table></div>
+  <div class="vspace"></div>
+<div class="module" id="moduleRecentDiscussionsModule1">
+  <div class="moduleFULL">
+  <div class="modtxtidt-20 ">
+  <table cellpadding=0 cellspacing=0><tr valign="top">
+  <td width=18>
+  <td>
+  <span class="fontsize4">
+  <a href="/group/gitorious/t/81ca99e1a59a9c9" class="on">[gitorious] sendmail: fatal: git(1003): No recipient addresses found in message header</a>
+  </span><br>
+  <span style="color: #777">
+  By Christian Johansen -
+1:29am - 2 authors -
+  1 reply
+  </span>
+  </tr>
+  </table>
+  </div>
+  <div class="modtxtidt-20 padt5">
+  <table cellpadding=0 cellspacing=0><tr valign="top">
+  <td width=18>
+  <td>
+  <span class="fontsize4">
+  <a href="/group/gitorious/t/838da04ce8590d39" class="on">[gitorious] private gitorious server with ssh only help please</a>
+  </span><br>
+  <span style="color: #777">
+  By Christian Johansen -
+1:28am - 2 authors -
+  1 reply
+  </span>
+  </tr>
+  </table>
+  </div>
+  <div class="modtxtidt-20 padt5">
+  <table cellpadding=0 cellspacing=0><tr valign="top">
+  <td width=18>
+  <td>
+  <span class="fontsize4">
+  <a href="/group/gitorious/t/a8fddf6de7140eb5" class="on">[gitorious] accept merge request via web ui</a>
+  </span><br>
+  <span style="color: #777">
+  By Christian Johansen -
+1:26am - 2 authors -
+  1 reply
+  </span>
+  </tr>
+  </table>
+  </div>
+  <div class="modtxtidt-20 padt5">
+  <table cellpadding=0 cellspacing=0><tr valign="top">
+  <td width=18>
+  <td>
+  <span class="fontsize4">
+  <a href="/group/gitorious/t/cc0951767829d0a" class="on">[gitorious] Re: How do you delete a gitorious account?</a>
+  </span><br>
+  <span style="color: #777">
+  By Christian Johansen -
+Dec 21 - 4 authors -
+  4 replies
+  </span>
+  </tr>
+  </table>
+  </div>
+  <div class="modtxtidt-20 padt5">
+  <table cellpadding=0 cellspacing=0><tr valign="top">
+  <td width=18>
+  <td>
+  <span class="fontsize4">
+  <a href="/group/gitorious/t/1f32ec497c1fc76" class="on">No login/register</a>
+  </span><br>
+  <span style="color: #777">
+  By acoroian -
+Dec 19 - 2 authors -
+  1 reply
+  </span>
+  </tr>
+  </table>
+  </div>
+  <div class="modtxtidt-20 padt5">
+  <table cellpadding=0 cellspacing=0><tr valign="top">
+  <td width=18>
+  <td>
+  <span class="fontsize4">
+  <a href="/group/gitorious/t/70881081b8d62080" class="on">install your own hooks?</a>
+  </span><br>
+  <span style="color: #777">
+  By Mike Murray -
+Dec 12 - 3 authors -
+  5 replies
+  </span>
+  </tr>
+  </table>
+  </div>
+  <div class="modtxtidt-20 padt5">
+  <table cellpadding=0 cellspacing=0><tr valign="top">
+  <td width=18>
+  <td>
+  <span class="fontsize4">
+  <a href="/group/gitorious/t/d57e6a23a130fd9c" class="on">Private repositories</a>
+  </span><br>
+  <span style="color: #777">
+  By Gabriel Mazetto -
+Dec 12 - 4 authors -
+  6 replies
+  </span>
+  </tr>
+  </table>
+  </div>
+  <div class="modtxtidt-20 padt5">
+  <table cellpadding=0 cellspacing=0><tr valign="top">
+  <td width=18>
+  <td>
+  <span class="fontsize4">
+  <a href="/group/gitorious/t/a8f78dc8b745bbfb" class="on">Unable to clone repository</a>
+  </span><br>
+  <span style="color: #777">
+  By Jan Pohanka -
+Dec 12 - 1 author -
+  0 replies
+  </span>
+  </tr>
+  </table>
+  </div>
+  <div class="modtxtidt-20 padt5">
+  <table cellpadding=0 cellspacing=0><tr valign="top">
+  <td width=18>
+  <td>
+  <span class="fontsize4">
+  <a href="/group/gitorious/t/8faa2ec6024de3b0" class="on">[gitorious] Compile speedpwn MacOSX</a>
+  </span><br>
+  <span style="color: #777">
+  By Benjamin Podszun -
+Dec 8 - 2 authors -
+  1 reply
+  </span>
+  </tr>
+  </table>
+  </div>
+  </div>
+</div>
+<script language="javascript1.3"><!--
+
+(function () {
+  var module = document.getElementById('moduleRecentDiscussionsModule1');
+
+  module.getChildElement = function(child_id) {
+    return document.getElementById(this.id + '_' + child_id);
+  }
+
+  module.load = function() {
+  }
+
+  module.load();
+})();
+
+//--></script>
+  <div class="vspace"></div>
+  <div class="vspace"></div>
+</div>
+<div class="maincontboxfoot"></div>
+<br>
+<div style="text-align: center; ">
+  <a href="/groups/abuse?group=gitorious&type=group&url=http%3A%2F%2Fgroups.google.com%2Fgroup%2Fgitorious">Report this group</a> &nbsp;
+  <a style="text-decoration:none" title="XML" href="/group/gitorious/feeds"><span class="mrgall0" style="border:1px solid;border-color:#FC9 #630 #330 #F96;padding:0 3px;font:bold 10px verdana,sans-serif;color:#FFF;background:#F60;">XML</span></a>
+  &nbsp;&nbsp; &nbsp;&nbsp;
+  Send email to this group: <a href="mailto:gitorious@googlegroups.com" class="on">gitorious@googlegroups.com</a>
+</div>
+  <div class="padt10 clear"></div>
+  </td><td style="background-color: #d2d4c2; ">
+  <div style="width: 32ex; height: 500px;">
+  <img width=1 height=500 alt="">
+  </div>
+  </table>
+  <div style="background-color: #d2d4c2">
+<div class="padt10 padb10">
+  <table width="100%" border="0" cellpadding="0" cellspacing="0">
+  <tr valign=center>
+  <td align="center" style="padding-right:1em;" class="fontsize2">
+  <b><a style="color: #00c" target=_top href="/groups/create?lnk=gcf">Create a group</a></b><font color="#333"> - </font>
+  <a style="color: #00c" target=_top href="/">Google Groups</a><font color="#333"> - </font>
+  <a style="color: #00c" target=_top href="http://www.google.com/webhp?hl=en">Google Home</a><font color="#333"> - </font>
+  <a style="color: #00c" target=_top href="http://groups.google.com/intl/en/googlegroups/terms_of_service3.html">Terms of Service</a><font color="#333"> - </font>
+  <a style="color: #00c" target=_top href="http://groups.google.com/intl/en/googlegroups/privacy3.html">Privacy Policy</a>
+  </td>
+  </tr>
+  <tr>
+  <td align="center" style="color: #333" class="fontsize1 padt5" >&copy;2011 Google</td>
+  </tr>
+  </table>
+</div>
+  </div>
+<script language="javascript"><!--
+if( loaddef != "" ) {
+  window.onload=new Function( loaddef );
+}
+if( resizedef != "" ) {
+  window.onresize = new Function( resizedef );
+}
+//--></script>
+  <script src="http://www.google-analytics.com/urchin.js" type="text/javascript"> </script>
+  <script type="text/javascript"><!--
+      
+        _uacct = "UA-1044941-1";
+      
+      urchinTracker("\x2Fgroup\x2Fgitorious?als_gt=group\x26als_greg=US\x26als_gact=\x26als_gsubs=741\x26als_gview=ANYONE\x26als_gpjoin=y\x26");
+    //--></script>
+</body>
+</html>

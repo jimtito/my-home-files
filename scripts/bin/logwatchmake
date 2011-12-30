@@ -1,0 +1,24 @@
+#!/bin/sh
+## Make etc all the logwatch files
+
+if [ ! -d /etc/logwatch ]; then
+    mkdir /etc/logwatch
+#    mkdir /etc/logwatch/scripts
+#    mkdir /etc/logwatch/conf
+#    mkdir /etc/logwatch/conf/logfiles
+#    mkdir /etc/logwatch/conf/services
+    touch /etc/logwatch/logwatch.conf
+    touch /etc/logwatch/ignore.conf
+    touch /etc/logwatch/override.conf
+    cp -Rv /usr/share/logwatch/default.conf /etc/logwatch
+    cp -Rv /usr/share/logwatch/scripts /etc/logwatch
+    cp -Rv /usr/share/logwatch/lib /etc/logwatch
+    mkdir /var/cache/logwatch 
+    ln -s /usr/share/logwatch/scripts/logwatch.pl /etc/cron.daily/0logwatch
+    ln -s /usr/share/logwatch/scripts/logwatch.pl /usr/sbin/logwatch
+exit 0
+fi
+
+
+echo " :: ::  Error  :: :: "
+exit 1

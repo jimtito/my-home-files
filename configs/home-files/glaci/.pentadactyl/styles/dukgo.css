@@ -1,0 +1,88 @@
+body,html
+{
+    background: #141414 !important;
+    color: #e0e0e0 !important;
+}
+
+.cmf
+{
+    background: #242424 !important;
+}
+
+font[color="#dd5555"]
+{
+    color: #8BCC60 !important;
+}
+
+a
+{
+    color: #608BCC !important;
+}
+
+#rpr
+{
+    border: 2px solid #444444 !important;
+}
+
+#rprw2
+{
+    width: 100% !important;
+}
+
+#sxw
+{
+    width: 383px !important;
+    border: none !important;
+}
+
+#sd, .ch4, #riv, map[name="searchv"], #sb,
+#rprz, #b2, #ri,
+.k_bottom.k_right.k_float
+{
+    display: none !important;
+}
+
+hr
+{
+    border: 1px solid #242424 !important;
+}
+
+a.le q
+{
+    background: none !important;
+}
+
+.cld div
+{
+    font-size: 85% !important;
+}
+
+.cid img
+{
+    opacity: 0.5 !important;
+}
+
+input, textarea, select
+{
+    background-color: #242424 !important;
+    border: 1px solid #343434 !important;
+    color: #e0e0e0 !important;
+    -moz-appearance: none !important;
+}
+
+.clud {
+    color: #666 !important;
+}
+
+.clud a {
+    color: #444 !important;
+}
+
+.carbonad {
+    background-color: #141414 !important;
+    border: none !important;
+}
+
+.cr1d, .cr2c, .cr4b {
+    border: none !important;
+}

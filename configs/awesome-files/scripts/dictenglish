@@ -1,0 +1,18 @@
+#!/bin/bash 
+ 
+## Funciones:
+ 
+function buscar_palabra {
+    links2 -dump "http://www.wordthrill.com/define/$palabra/" | grep -A 1000 Definition
+}
+ 
+function adaptar_palabra {
+    #Pasar a minúsculas
+    palabra=$(echo $palabra | awk '{print tolower($0)}')
+}
+ 
+	clear
+        palabra=$1
+	adaptar_palabra
+	buscar_palabra
+

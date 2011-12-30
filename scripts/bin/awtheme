@@ -1,0 +1,37 @@
+#!/bin/bash
+
+AWESOMETHEMES=$HOME/.themes/awesome
+THEMEFILE=$HOME/.awesome_theme
+CURTHEME=`file -b $THEMEFILE | sed 's/^symbolic link to //'`
+THEMENAME=$2
+function awthm {
+	if [ -z $2 ]; then
+		rm -rf $THEMEFILE
+		ln -s $AWESOMETHEMES/$THEMENAME $THEMEFILE
+		printf "New theme for Awesome is $AWESOMETHEMES/$THEMENAME\n"
+	else
+		printf "You must specify which theme you want to switch to\n"
+		exit 1
+	fi
+	}
+function lsthemes {
+	printf "\033[1;31mavailable themes\033[0m:\n"
+	printf "\033[0;32m"
+	ls $AWESOMETHEMES
+	printf "\033[0:m"
+}
+
+function curtheme {		
+	echo "Current theme for Awesome is $CURTHEME"
+}
+case $1 in
+	-l)
+	lsthemes
+	;;
+	-c)
+	awthm
+	;;
+	*)
+	curtheme
+esac
+

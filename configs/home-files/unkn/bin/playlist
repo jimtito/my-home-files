@@ -1,0 +1,2 @@
+#!/bin/bash
+mpc playlist | egrep -A 4 -B 4 '>[0-9]{1,5}\).*'

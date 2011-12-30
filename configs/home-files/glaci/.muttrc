@@ -1,0 +1,143 @@
+# Send info
+set from = "lucas@glacicle.org"
+set realname = "Lucas de Vries"
+
+# Settings for IMAP
+set imap_user = "lucas@glacicle.org"
+
+set folder = "imaps://glacicle.org"
+set spoolfile = "+INBOX"
+set record="+Sent"
+set postponed="+Postponed"
+mailboxes =INBOX
+
+# Settings for SMTP
+set smtp_url = "smtp://lucas@glacicle.org@glacicle.org:587/"
+
+# Statusline
+set status_format="mutt-notify '%u' '%f' '-%r- %f [Msgs:%?M?%M/?%m%?n? New:%n?%?o? Old:%o?%?d? Del:%d?%?F? Flag:%F?%?t? Tag:%t?%?p? Post:%p?%?b? Inc:%b?%?l? %l?]   %>  (%P)'|"
+
+# Don't display help
+set help="no"
+
+# Use tildes on empty lines
+set tilde="yes"
+
+# Index format
+set index_format="%{%b %d}  %Z  %-25.25F  (%?l?%4l&%4c?)  %s%?E?%> %e/%E ?"
+
+# Update imap more often
+set imap_idle = yes
+set imap_keepalive = 300
+
+# Immediately go to message edit when replying
+set fast_reply = yes
+
+# Mail check interval
+set mail_check = 30
+set timeout = 30
+
+# Cache Files
+set header_cache=~/.mutt/cache/headers
+set message_cachedir=~/.mutt/cache/bodies
+set certificate_file=~/.mutt/certificates
+
+# Alias file
+set alias_file=~/.mutt/aliases
+source ~/.mutt/aliases
+
+# Mailing lists
+source ~/.mutt/lists
+
+# Vi binds
+bind index y imap-fetch-mail
+bind index l display-message
+bind index G bottom-page
+bind pager h exit
+
+# Easy create alias
+bind index A create-alias
+bind pager A create-alias
+
+# Line movement binds
+bind pager < previous-line
+bind pager > next-line
+
+# Reload inbox
+macro index I "c!\n" "Reload/Goto Inbox"
+macro pager I "c!\n" "Reload/Goto Inbox"
+
+# Call urlview
+macro pager \Cb ":set pipe_decode\n|urlview\n:unset pipe_decode\n"\
+                "call urlview to extract URLs out of a message"
+
+# Mark all as read
+macro index \Cr "<tag-pattern>~N\n<tag-prefix><clear-flag>N" \
+                "Mark all new messages as read"
+
+# Mark message as spam
+macro index S "<copy-message>=Spam\ny<delete-message><sync-mailbox>y" \
+              "Mark a message as spam"
+
+# Split Window
+set pager_index_lines=15
+
+# Show only plain text
+alternative_order text/plain text/html text
+
+# Convert html to text
+set implicit_autoview
+auto_view text/html application/x-pgp-message
+
+# Set default sort
+set sort = 'threads'
+set sort_aux = 'last-date-received'
+
+# Batch headers
+my_hdr From: lucas@glacicle.org (Lucas de Vries)
+set edit_headers
+
+# Editor
+set editor="vim"
+
+# Signature
+set sig_dashes = no
+set signature=~/.signature
+
+# Show only interesting headers
+ignore *
+unignore From To Cc Subject Date Reply-To Organization X-Mailer User-Agent
+unignore X-Spam-Flag X-Spam-Score
+
+# Don't ask to move
+set move = no
+
+# Don't beep
+set beep = no
+
+# Colours
+color normal white black
+color quoted green black
+color indicator brightyellow magenta
+
+color attachment brightmagenta black
+color error brightwhite red
+color hdrdefault red black
+color markers brightcyan black
+color message brightcyan black
+color search brightgreen black
+color signature red black
+color status brightyellow blue
+color tilde brightwhite black
+color tree red black
+color signature brightred black
+color underline yellow black
+color header cyan black ^(From|Subject):
+color body magenta black "(ftp|http)://[^ ]+"
+color body magenta black [-a-z_0-9.]+@[-a-z_0-9.]+ 
+
+color index brightyellow black ~N
+color index yellow black ~O
+color index magenta black ~F
+color index blue black ~T
+color index red black ~D

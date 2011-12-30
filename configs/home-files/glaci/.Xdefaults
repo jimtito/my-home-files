@@ -1,0 +1,52 @@
+! rxvt-unicode settings
+!! rxvt-unicode behaviour
+URxvt*termName: rxvt
+URxvt*scrollBar: false
+URxvt*scrollTtyOutput: false
+URxvt*scrollWithBuffer: true
+URxvt*scrollTtyKeypress: true
+URxvt*secondaryScroll: true
+URxvt*jumpScroll: true
+URxvt*skipScroll: true
+URxvt*keysym.M-u: perl:mark-yank-urls:activate_mark_mode
+URxvt*perl-ext: default,matcher,mark-yank-urls
+URxvt*perl-lib: /home/archlucas/bin/
+URxvt*saveLines: 500
+URxvt*visualBell: false
+URxvt*highlightSelection:  true
+URxvt*borderWidth: 0 
+URxvt*urlLauncher: fxs
+URxvt*pointerBlank: true
+URxvt*internalBorder: 3 
+
+!! rxvt-unicode appearance
+URxvt*background: #000000
+URxvt*foreground: #ffffff
+URxvt*cursorColor: #ffffff
+URxvt*cursorBlink: false
+
+!!rxvt-unicode fonts
+URxvt.font: -*-terminus-medium-*-*-*-*-120-*-*-*-*-*-*
+URxvt.boldFont: -*-terminus-bold-*-*-*-*-120-*-*-*-*-*-*
+
+! xterm settings
+xterm*background: black
+xterm*foreground: white
+
+! Terminal color settings
+*color0:  rgb:2E/34/36
+*color1:  rgb:CC/00/00
+*color2:  rgb:4E/9A/06
+*color3:  rgb:C4/A0/00
+*color4:  rgb:00/00/FF
+*color5:  rgb:74/4E/7A
+*color6:  rgb:06/98/9A
+*color7:  rgb:FF/FF/FF
+*color8:  rgb:55/57/53
+*color9:  rgb:EF/29/29
+*color10: rgb:8A/E2/34
+*color11: rgb:FC/E9/4F
+*color12: rgb:72/9F/CF
+*color13: rgb:AD/7F/A8
+*color14: rgb:59/BC/D9
+*color15: rgb:FF/FF/FF

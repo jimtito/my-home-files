@@ -1,0 +1,10 @@
+[user]
+	email = lucas@glacicle.org
+	name = Lucas de Vries
+[color]
+	branch = auto
+	status = auto
+	diff = 0
+	ui = auto
+[pack]
+	threads = 0

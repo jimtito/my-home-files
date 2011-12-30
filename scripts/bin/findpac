@@ -1,0 +1,50 @@
+#!/bin/bash
+echo -- Finding *.pac{new,save,orig} files --
+for i in $(sudo find /etc -name "*.pac*"); 
+do 
+    p=$(echo $i | sed "s/.pacnew//;s/.pacsave//;s/.pacorig//")
+    echo ""
+    echo $i $p
+    echo -n "[v]imdiff, [r]eplace, [k]eep, [d]elete: "
+    read -n 1 action
+    echo ""
+
+    if [[ "$action" == "v" ]]
+    then
+        sudo vimdiff $i $p
+
+        echo -n "Remove .pac ? [y/N] "
+        read -n 1 rmv
+        echo ""
+
+        if [[ "$rmv" == "y" ]]
+        then
+            sudo rm "$i"
+        fi;
+    fi;
+
+    if [[ "$action" == "r" ]]
+    then
+        sudo mv $i $p;
+
+        echo -n "Edit new config ? [y/N] "
+        read -n 1 rmv
+        echo ""
+
+        if [[ "$rmv" == "y" ]]
+        then
+            sudo vim "$p"
+        fi;
+    fi;
+
+    if [[ "$action" == "k" ]]
+    then
+        sudo rm "$i";
+    fi;
+
+    if [[ "$action" == "d" ]]
+    then
+        sudo rm "$i";
+        sudo rm "$p";
+    fi;
+done;

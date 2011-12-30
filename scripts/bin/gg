@@ -1,0 +1,2 @@
+#!/bin/bash
+exec urxvtc -e "bash" -c "exec sudo vim $@" >> /dev/null &

@@ -1,0 +1,15 @@
+#!/bin/bash
+tmp=$(mktemp -d)
+cd "$tmp"
+
+cp -R ~/.weechat/* .
+
+rm -f *fifo*
+rm weechat.log
+
+touch weechat.log
+
+weechat-curses --dir "$tmp"
+
+cd ~
+rm -Rf "$tmp"

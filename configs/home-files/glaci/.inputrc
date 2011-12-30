@@ -1,0 +1,16 @@
+## Settings
+# Vi keymaps
+set editing-mode vi
+set keymap vi
+
+# Show stats
+set visible-stats on
+
+# By default, don't match dotfiles
+set match-hidden-files off
+
+# Show list without pressing tab twice
+set show-all-if-ambiguous on
+
+# Symlinked directories behave like directories
+set mark-symlinked-directories on

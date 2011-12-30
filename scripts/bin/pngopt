@@ -1,0 +1,5 @@
+#!/bin/bash
+## optimize png images
+optipng -o3 $@
+advpng -z -4 $@
+advdef -z -4 $@

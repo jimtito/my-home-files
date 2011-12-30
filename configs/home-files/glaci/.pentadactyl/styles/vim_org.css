@@ -1,0 +1,47 @@
+body
+{
+    background: #141414 !important;
+    color: #e0e0e0 !important;
+    margin: 0.5em 2em !important;
+}
+
+a:link
+{
+    color: #608BCC !important;
+    text-decoration: none !important;
+}
+
+.sidebar, .darkbg, body > table:first-child, body > table:nth-child(3)
+{
+    display: none !important;
+}
+
+body > table > td
+{
+    width: 100% !important;
+}
+
+.lightbg
+{
+    background: #242424 !important;
+}
+
+.txth1, .txth2, h1, h2
+{
+    color: white !important;
+}
+
+tr.tableheader th
+{
+    background: #343434 !important;
+}
+
+.rowodd
+{
+    background: #202022 !important;
+}
+
+.roweven
+{
+    background: #202220 !important;
+}

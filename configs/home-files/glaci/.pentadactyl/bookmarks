@@ -1,0 +1,88 @@
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"""" Search Engines
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+""" General Purpose
+"" Google
+silent bma -k=g http://google.com/search?q=%s&num=100
+"" Google: Feeling Lucky
+silent bma -k=gg http://google.com/search?btnI=1&q=%s
+"" Duck Duck Go
+silent bma -k=k https://duckduckgo.com/?q=%s&v=r&kd=-1&kh=1&kw=s
+"" YubNub
+silent bma -k=y http://yubnub.org/parser/parse?command=%s
+"" Anime Music
+silent bma -k=gd http://gendou.com/amusic/?filter=%s
+"" Lojban dictionary
+silent bma -k=loj http://vlasisku.lojban.org/chair
+
+""" Websites
+"" Youtube
+silent bma -k=yt http://www.youtube.com/results?search_query=%s
+"" BoardGameGeek
+silent bma -k=bgg http://www.boardgamegeek.com/geeksearch.php?action=search&objecttype=boardgame&q=%s
+"" ArchLinux AUR
+silent bma -k=aur http://aur.archlinux.org/packages.php?O=0&L=0&C=0&K=%s&SeB=nd&PP=25
+"" Wine Appdb
+silent bma -k=appdb http://www.winehq.org/search?cx=partner-pub-0971840239976722%3Aw9sqbcsxtyf&cof=FORID%3A10&ie=UTF-8&q=%s
+"" The Pirate Bay
+silent bma -k=tpb http://thepiratebay.org/search/%s
+"" BakaBT
+silent bma -k=baka http://www.bakabt.com/browse.php?q=%s
+"" BaconBits
+silent bma -k=bb http://baconbits.org/torrents.php?searchstr=%s
+"" AnimeBytes
+silent bma -k=ab http://animebyt.es/torrents.php?searchstr=%s
+"" BtJunkie
+silent bma -k=btj http://btjunkie.org/search?q=%s
+"" Danbooru
+silent bma -k=db http://danbooru.donmai.us/post?tags=%s
+"" MyAnimeList
+silent bma -k=mal http://myanimelist.net/anime.php?q=%s
+"" AniDB
+silent bma -k=ad http://anidb.net/perl-bin/animedb.pl?show=animelist&adb.search=%s&do.search=search
+"" Reddit
+silent bma -k=r http://reddit.com/r/%s/
+
+""" Wikis
+"" Wikipedia
+silent bma -k=wk http://en.wikipedia.org/w/index.php?search=%s
+"" Dutch Wikipedia
+silent bma -k=nlwk http://nl.wikipedia.org/w/index.php?search=%s
+"" TVTropes
+silent bma -k=trope http://www.google.com/cse?cx=partner-pub-6610802604051523%3A2szln92pqym&ie=ISO-8859-1&q=%s
+"" ArchLinux Wiki
+silent bma -k=aw http://wiki.archlinux.org/index.php?search=%s
+
+""" Other
+"" Dictionary
+silent bma -k=dict http://dictionary.reference.com/browse/%s
+"" Japanese Dictionary
+silent bma -k=jp http://www.nihongodict.com/?s=%s
+"" WWWJDIC
+silent bma -k=jdic http://www.csse.monash.edu.au/~jwb/cgi-bin/wwwjdic.cgi?1C
+"" Urban Dictionary
+silent bma -k=udict http://www.urbandictionary.com/define.php?term=%s
+"" Thesaurus
+silent bma -k=thes http://thesaurus.reference.com/the?q=%s
+"" Validator
+silent bma -k=valid http://validator.w3.org/check?uri=%s
+
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"""" Websites
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+silent bma -k=bboard http://blackboard.tudelft.nl/webapps/portal/frameset.jsp
+silent bma -k=sched http://blackboard.tudelft.nl/webapps/mmmt-rooster-bb_bb60/Scheduleviewer.html
+silent bma -k=vimp http://code.google.com/p/vimperator-labs/
+silent bma -k=router http://192.168.1.1
+silent bma -k=nipponsei https://nipponsei.minglong.org
+silent bma -k=pallete http://www.cssdrive.com/imagepalette/index.php
+silent bma -k=ali http://www.zombiepodcast.com/The_Zombie_Podcast/WereAliveEpisodes.html
+
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"""" Storage
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+silent bma http://www.darthsanddroids.net/episodes/0162.html
+
+" vim: ft=vimperator :

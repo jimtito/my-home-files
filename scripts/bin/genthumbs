@@ -1,0 +1,10 @@
+#!/bin/bash
+if [[ -n "$@" ]]; then
+    for i in $@; do
+        convert $i -thumbnail 50% $(basename $i .png).thumb.png
+    done
+else
+    for i in *.png; do
+        convert $i -thumbnail 50% $(basename $i .png).thumb.png
+    done
+fi

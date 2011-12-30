@@ -1,0 +1,7 @@
+#!/bin/bash
+if [[ -n "$2" ]]; then
+    disp=$1; shift
+    DISPLAY=$disp fx "$@" &> /dev/null
+else
+    DISPLAY=:0.0 fx "$@" &> /dev/null
+fi

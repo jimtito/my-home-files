@@ -1,0 +1,210 @@
+###############################
+# The zsh Prompt From Hell (tm)
+
+# This doesn't use the fancy new prompt theme system.  Something for
+# later, perhaps.
+
+# A few escape codes to print in each prompt
+if [[ "$TERM" = con<->x<-> ]]
+then
+  # This is a linux console; make sure mode is stable when we get
+  # a prompt by putting this text at the front of it.
+  # These codes do:
+  #   ^[^O        - ensure we're in graphics mode 0, fixes up
+  #                 meta-bit problem after catting a binary file.
+  #   ^[[m        - ANSI escape sequence to turn off attributes.
+  #   ^[[?25h     - DEC vt100 private escape sequence to turn cursor on.
+  #   ^[[?1l      - DEC vt100 private escape sequence to turn application
+  #                 cursor keys off.
+  TERMRESET='[m[?25h[?1l'
+  # Escape sequence to set the half-bright attribute.  Part of the vt100
+  # specification but not honoured by many interpreters.  Linux consoles
+  # do use it, though you have to use setterm to tell linux to use a
+  # different colour (I do this down below).
+  # I'd use DIM=`echotc mh` but in their infinite wisdom no one declared
+  # a half-bright-off termcap entry to match it.  That's probably
+  # because there isn't a sequence to turn off dim only.  The one here
+  # is the closest, turning off dim and bold together.  Furrfu.
+  DIM='[2m'
+  UNDIM='[22m'
+fi
+
+# This prompt included in PS1 only in non-xterms.  For xterms, a
+# slightly different version is included in the title bar.
+# In slow motion:
+#   %(2L.s[$SHLVL] .)
+#     Print nothing unless this is a subshell, in which case print the
+#     shell depth in the prompt.
+#   %5v
+#     Print the current effective Unix group name if it differs from
+#     the one in the original (ancestor) shell.  Set below.
+#   %{$DIM} and %{$UNDIM}
+#     vt100 half-bright escape codes (see definitions above).
+#   %4v
+#     Suspended jobs (set by precmd function).
+#   %3v
+#     Unread mail folders (set by precmd function).
+#   %6v
+#     Current goofey status (set by goofey-prompt-check function).
+#     (See .zshenv for the meaning of goofey.)
+#   %7v
+#     Current message status (set by precmd function).
+if [[ "$TERM" = xterm ]]
+then
+  SUBPS1=''
+else
+  SUBPS1='%(2L.s[$SHLVL] .)%5v%{'"$DIM"'%}%4v%{'"$UNDIM"'%}%3v%6v%7v'
+fi
+
+# The prompt itself.
+# Here's the annotated version:
+#   $TERMRESET
+#     A reset-terminal string (see above).
+#   %B%m%b
+#     Machine name in boldface.
+#   %30<...<%~%<<
+#     Present working directory, truncated to last 30 charcters.
+#   %8v
+#     Current ZFTP status (set in precmd)
+#   %(?..%Ue[%?%v]%u )
+#     Exit status, if it is not zero, plus the signal name that
+#     killed the last command (if there was one).  If the exit
+#     status was zero (i.e., no error), display nothing (in true Unix
+#     tradition).
+#   $SUBPS1
+#     Blank in xterms, otherwise more prompt information (defined
+#     above).
+#   %B%#%b
+#     A boldface percent symbol, which mutates to a hash symbol
+#     if I'm running root (not that I do; it's safer to run root
+#     with a different shell so I don't get comfortable using it
+#     for things I should be doing as a mere user).
+#   %E
+#     Clear to end of line.
+PS1='%{'"$TERMRESET"'%}%B%m%b %30<...<%~%<< %8v%(?..%Ue[%?%v]%u )'"$SUBPS1"'%B%#%b %E'
+
+# Secondary prompt - print the three last shell constructs, preceded
+# with "..." if there are four or more.
+PS2='%(4_:... :)%3_ %B>%b'
+
+# This is printed in an xterm's title bar.  Uses the PROMPT escape codes.
+if [[ "$TERM" = xterm ]]
+then
+  # This is the extra text (spaces) that go between
+  # items in an xterm's title bar.
+  XTTITLEBETWEEN=' '
+
+  # Some implementations of strftime(3) don't have the %Y or the %H
+  # directives.  Let's try them and use some substitutes if they are
+  # not available.
+  # Test for years with centuries:
+  if [[ "`print -P '%D{%Y}'`" = '%Y' ]]
+  then
+    # I can't believe that some software still doesn't handle
+    # four-digit years.  But then,
+    # I can't believe COBOL is still being used either.
+    STRFTIMEYEAR='%y'
+  else
+    STRFTIMEYEAR='%Y'
+  fi
+  # Test for 24-hour clock:
+  if [[ "`print -P '%D{%H}'`" = '%H' ]]
+  then
+    # Colon betwen hour and minute = 12-hour clock.
+    STRFTIMEHOUR='%k:'
+  else
+    # Dot betwen hour and minute = 24-hour clock.
+    STRFTIMEHOUR='%H.'
+  fi
+
+  # xterm title-bar status line: the stuff that isn't displayed on the
+  # prompt line on xterms goes here instead.  Most of this is the same
+  # as for $SUBPS1, excepting:
+  #   $TERM$XTTITLECONS
+  #     "xterm" if this is a normal xterm.  If this is the foreground
+  #     command from my .xsession, XTTITLECONS contains additional text
+  #     to remind me that if I log out of this console, I HUP my whole X
+  #     session.
+  #   $LOGNAME%5v@%m:%~
+  #     username, group, machine name, current directory.
+  #   tty%l
+  #     The TTY this shell is attached to.
+  #   %D{...}
+  #     The current date and time, in a format we've established
+  #     above to display correctly on this machine.
+  #   h[%h]
+  #     The current history number.
+  XTTITLEPS1='$TERM$XTTITLECONS '"$XTTITLEBETWEEN"\
+"$LOGNAME"'%5v@%m:%~ '"$XTTITLEBETWEEN"\
+'%(2L.s[$SHLVL] '"$XTTITLEBETWEEN"'.)%4v%3v%6v%7vtty%l '"$XTTITLEBETWEEN"\
+'%D{'"$STRFTIMEYEAR"'-%m-%d '"$STRFTIMEHOUR"'%M} '"$XTTITLEBETWEEN"\
+'h[%h]'
+fi
+
+# Remember our initial message status.  I used to care about this when I
+# was using the talk program a lot, but now I leave it off pretty much
+# all the time.  In any case, the code's here in case I care about it
+# again in the future.  There's related stuff in the precmd function.
+if [[ ${+ORIGMESG} -eq 0 ]]
+then
+  # First shell - remember the original status.
+  if zsh-version 3.1.6
+  then
+    # Use the stat module to read the tty's group-write status.
+    # the stat module was loaded above.  18 is the group-write
+    # and other-write bits of the device's mode.  (Different
+    # Unices do it different ways.)
+    stat -A ttymode "$TTY"
+    if [[ $(( $ttymode[3] & 18 )) -ne 0 ]]
+    then
+      export ORIGMESG=y
+    else
+      export ORIGMESG=n
+    fi
+    unset ttymode
+  else
+    # Use an external program to do it.
+    export ORIGMESG=`mesg-status "$TTY"`.
+  fi
+fi
+
+# See if our (effective) group has changed at all.  (For instance, we're
+# in a subshell that is setgid.)  This kind of thing happens with the
+# "gogroup" command available on one system I use (yoyo).
+# I haven't put this in the precmd function because I don't expect
+# my effective group to change over the life of the shell.  It can if
+# I'm running with root privileges, but I deliberately don't use zsh for
+# root in any case, because that encourages me to not use root for
+# anything I don't have to use it for. 
+if [[ "$ORIGGID" != "$EGID" ]]
+then
+  # Set for either normal prompt and xterm title bars.
+  GNAME="`groupname $EGID`"
+  if [[ "$TERM" = "xterm" ]]
+  then
+    psvar[5]=":$GNAME"
+  else
+    psvar[5]="g[$GNAME] "
+  fi
+else
+  psvar[5]=
+fi
+
+# Set the period between calls to periodic functions (in seconds).
+# Only set it if it isn't already set by me.  This construct also
+# allows me to unset PERIOD completely without having a subshell
+# set it back to the default again.  I find this important because the
+# periodic function does some potentially slow stuff (which is even
+# slower on a slow network).
+if [[ ${+PERIODSET} -eq 0 ]]
+then
+  export PERIODSET=
+  # We used to do some prompt checking stuff in the periodic function,
+  # but it turned out to be easier to do this in precmd, manually
+  # checking the time elapsed since the last time we ran periodic
+  # stuff.  So PERIOD is unset, and we use another variable,
+  # PROMPTPERIOD, to count the time between periodic stuff in the
+  # prompt.
+  unset PERIOD
+  export PROMPTPERIOD=30
+fi

@@ -1,0 +1,21 @@
+!Theme Four
+ *background: rgb:3e/3e/3e
+ *foreground: rgb:c8/c8/c8
+ *color0:     rgb:00/00/00
+ *color1:     rgb:d3/62/65
+ *color2:     rgb:ae/ce/91
+ *color3:     rgb:e7/e1/8c
+ *color4:     rgb:7a/7a/b0
+ *color5:     rgb:96/3c/59
+ *color6:     rgb:55/aa/bf
+ *color7:     rgb:be/be/be
+ *color8:     rgb:66/66/66
+ *color9:     rgb:ef/81/71
+ *color10:    rgb:e5/f7/79
+ *color11:    rgb:ff/f7/96
+ *color12:    rgb:41/86/be
+ *color13:    rgb:ef/9e/be
+ *color14:    rgb:55/aa/bf
+ *color15:    rgb:c8/c8/c8
+
+

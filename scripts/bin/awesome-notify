@@ -1,0 +1,4 @@
+#!/bin/sh
+TEXT=$1
+
+echo "naughty.notify{ text = \"$TEXT\" }" | awesome-client

@@ -1,0 +1,6 @@
+#!/bin/bash
+fxs "http://forums.somethingawful.com/showthread.php?threadid=3301744&userid=0&perpage=40&pagenumber=58"
+fxs "http://forums.penny-arcade.com/showthread.php?t=125522&page=35"
+fxs "http://www.facepunch.com/showthread.php?t=933349&page=61"
+fxs "http://forums.steampowered.com/forums/forumdisplay.php?f=979"
+fxs "http://www.moddb.com/games/star-ruler"

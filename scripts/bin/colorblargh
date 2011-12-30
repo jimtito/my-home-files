@@ -1,0 +1,8 @@
+if [ "$TERM" = "linux" ]; then
+    colors=(0f0f0f 803232 5b762f cdc673 324c80 706c9a 92b19e cccccc
+            333333 982b2b 89b83f efe58b 2b4f98 826ab1 a1cdcd dedede)
+    for n in $(seq 0 15); do
+        printf '\e]P%x%s' $n ${colors[$n]}
+    done
+    clear; unset colors
+fi

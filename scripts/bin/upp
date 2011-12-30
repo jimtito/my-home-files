@@ -1,0 +1,15 @@
+#!/bin/bash
+if [[ "$1" == "" || "$1" == "repo" ]]; then
+    echo " -- Updating Repositories -- "
+    pp -Syu
+fi
+
+if [[ "$1" == "" || "$1" == "aur" ]]; then
+    echo " -- Updating AUR -- "
+    slurpy -c -u
+fi
+
+if [[ "$1" == "" || "$1" == "scm" ]]; then
+    echo " -- SCM Packages -- "
+    pp -Qe | ack --color-match=cyan -- "-svn|-git|-hg|-cvs"
+fi

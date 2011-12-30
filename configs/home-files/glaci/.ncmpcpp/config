@@ -1,0 +1,22 @@
+## Use column mode for listing songs
+playlist_display_mode = "columns"
+browser_display_mode = "columns"
+search_engine_display_mode = "columns"
+
+## Colums to use
+song_columns_list_format = "(7f)[green]{l} (44)[]{t} (25)[cyan]{a} (25)[red]{b}"
+
+## Use alternative user interface
+user_interface = "alternative"
+
+## Don't display header line
+header_visibility = "no"
+
+## Use autocenter
+autocenter_mode = "yes"
+
+## Progressbar look
+progressbar_look = "━┫"
+
+## Set music dir for tag editor
+mpd_music_dir = "/data/music"

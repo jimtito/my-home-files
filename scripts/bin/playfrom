@@ -1,0 +1,43 @@
+#!/usr/bin/env python2.6
+import os
+import sys
+
+MPLAYER_COMMAND = 'mplayer'
+TEMP_PLAYLIST = '/tmp/mplayer-playlist-'+str(os.getpid())
+
+## Get full filename
+fname = sys.argv[-1]
+
+if not fname.startswith("/"):
+    fname = os.getcwd()+"/"+fname
+
+## Get file directory
+fdir = "/"+"/".join(fname.split("/")[1:-1])
+
+## Get options to mplayer
+opts = " ".join(sys.argv[1:-1])
+
+## Channels shortcut
+if opts == "ch2":
+    opts = "-channels 2"
+
+## Create playlist
+playlist = []
+foundfile = False
+for fl in sorted(os.listdir(fdir)):
+    fl = fdir+"/"+fl
+
+    if fl == fname:
+        foundfile = True
+    
+    if foundfile:
+        playlist.append(fl+"\n")
+
+
+## Create playlist
+open(TEMP_PLAYLIST, 'w+').writelines(playlist)
+
+# Run mplayer
+print("--- Running: "+MPLAYER_COMMAND+" "+opts+" -playlist "+TEMP_PLAYLIST)
+os.system(MPLAYER_COMMAND+" "+opts+" -playlist "+TEMP_PLAYLIST)
+os.remove(TEMP_PLAYLIST)

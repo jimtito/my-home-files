@@ -1,0 +1,3 @@
+#!/bin/bash
+mplayer "$1"
+anigrate watch: %e "$2"

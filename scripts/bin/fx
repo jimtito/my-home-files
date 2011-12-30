@@ -1,0 +1,5 @@
+#!/bin/bash
+# Disable pango
+#export MOZ_DISABLE_PANGO=1
+# Run firefox
+exec /usr/bin/firefox "$@"

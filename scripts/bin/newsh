@@ -1,0 +1,8 @@
+#!/bin/bash
+# Create a new shell script ready for editing
+if [[ ! -a "$1" ]]; then
+    echo '#!/bin/bash' > "$1"
+    chmod +x "$1"
+fi
+
+vim "$1"

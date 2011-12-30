@@ -1,0 +1,83 @@
+# vim: ft=muttrc
+######################################################
+######################################################
+#-- dirs etc
+set certificate_file= ~/.mutt/certificates           # where to store certs
+set header_cache= ~/.mutt/cache/headers              # where to store headers
+set message_cachedir= ~/.mutt/cache/bodies           # where to store bodies
+set mailcap_path= ~/.mutt/mailcap                    # entrys for filetypes
+set signature= ~/.mutt/sig                           # my signature file
+set tmpdir= ~/.mutt/temp                             # where to keep temp files
+set editor= "vim +:silent+?^$"                       # use vim and skip to last blank line
+set ispell= "aspell -e -c"                           # use aspell as ispell
+set query_command= "mail-query '%s' ~/mail/gmail/INBOX"  # query existing mails
+set print_command= "enscript -p - | psselect -r | lp"    # print email in reverse page order
+
+
+
+#-- options
+set mbox_type= Maildir                               # mailbox type
+set folder= /home/lucifer/mail/gmail                 # root folder
+set spoolfile= "+INBOX"                              # inbox
+set mbox= "+archive"                                 # [Gmail]/All Mail
+set postponed= "+drafts"                             # [Gmail]/Drafts
+unset record                                         # required to prevent duplicates in Sent
+set sendmail= /usr/bin/msmtp                         # use msmtp 'default' account
+
+#-- mailboxes
+mailboxes +INBOX +archive +sent +drafts +spam +trash
+
+#-- bindings
+macro index D "<save-message>+trash<enter>"   "move message to the trash"
+macro index S "<save-message>+spam<enter>"    "mark message as spam"
+
+#-- main options
+set realname= "### ###"                              # who am i?
+set from= "###@gmail.com"                            # who am i?
+set envelope_from                                    # which from?
+set mail_check= 0                                    # check for mail always
+set beep_new
+unset move                                           # gmail does that
+set delete                                           # don't ask, just do
+unset confirmappend                                  # don't ask, just do!
+set quit                                             # don't ask, just do!!
+unset mark_old                                       # read/new is good enough for me
+auto_view text/html
+
+#-- index options
+set sort= threads                                    # like gmail 
+set sort_aux= reverse-last-date-received             # like gmail
+set sort_re                                          # thread based on reply_regexp
+
+#-- pager
+set pager_index_lines= 8                             # show 8 messages when in pager
+set pager_context= 5                                 # show five lines when skipping in pager
+set pager_stop                                       # don't go to next message automatically
+set menu_scroll                                      # scroll in menus 
+set smart_wrap                                       # don't split words
+set tilde                                            # show tildes like in vim
+unset markers                                        # no ugly plus signs
+
+#-- composing mail
+set fcc_attach                                       # save attachments with the body
+unset mime_forward                                   # forward attachments as part of body
+set forward_format= "Fwd: %s"                        # format for subject when forwarding
+set include                                          # include message in replies
+set forward_quote                                    # include message in forwards
+
+#-- headers to show
+ignore *                                             # ignore all headers
+unignore from: to: cc: date: subject:                # show only these
+hdr_order from: to: cc: date: subject:               # and in this order
+
+#-- formats and regexps
+set alias_format= "%4n %t %-20a %r"
+set date_format= "%m/%d/%y at %I:%M%P"
+set index_format= "%3C %Z %[!%m/%d] %-17.17F %s"
+set quote_regexp= "^( {0,4}[>|:#%]| {0,4}[a-z0-9]+[>|]+)+"
+set reply_regexp= "^(([Rr][Ee]?(\[[0-9]+\])?: *)?(\[[^]]+\] *)?)*"
+set status_format= "-%r- %v %f %m%?n? [+%n]?%?d? [-%d]?%?t? [*%t]? /%?p?  %p waiting to send /? %> (%P)"
+
+#-- Color Sources --#
+# uncomment to conditionally source 256colors
+source `FILE=$HOME/.mutt/colors; [[ $TERM =~ 256 ]] && FILE=$HOME/.mutt/256colors; echo $FILE`

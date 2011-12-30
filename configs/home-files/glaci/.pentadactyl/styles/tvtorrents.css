@@ -1,0 +1,155 @@
+/**
+ * TVTorrents.com style
+ * based on http://userstyles.org/styles/17101
+ */
+
+div.container > table 
+{
+    display: none !important;
+}
+
+body
+{
+    background: #141414 !important;
+    padding-top: 10px;
+    color:#747474!important;
+}
+
+input,select,textarea
+{
+    -moz-appearance: none !important;
+    border: 1px solid black !important;
+    padding: 3px !important;
+    color: white !important;
+    background: #242424 !important;
+}
+
+a
+{
+    color: #608baa !important;
+}
+
+.list1 td > a, .list2 td > a
+{
+    color:#9fbc00 !important;
+}
+
+tr.rub td
+{
+    background: #242424 !important;
+    padding: 1px !important;
+}
+
+td[align="right"][valign="top"] a img
+{
+    display: none !important;
+}
+
+td[align="right"][valign="top"] a:before
+{
+    content: "DL" !important;
+}
+
+td[colspan="3"] a
+{
+    display: none !important;
+}
+
+*
+{
+   font-size: 13px !important;
+}
+
+#chatInput.tinput 
+{
+   width:495px!important;
+}
+
+.container 
+{
+   margin-left:110px!important;
+}
+
+.sidebox, .topbar
+{
+   background:none!important;
+   background-color:#343434!important;
+   margin:1px!important;
+}
+
+.subbox 
+{
+   background:none!important;
+   background-color:#343434!important;
+}
+
+.subbox>img 
+{
+   display:none!important;
+}
+
+.boxhead 
+{
+   background:none!important;
+   background-color:transparent!important;
+}
+
+.container>a>img[align*="middle"] 
+{
+   margin-left:170px !important;
+}
+
+.middle 
+{
+   margin-left:120px!important
+}
+
+.boxhead h2 
+{
+   background:none!important;
+   background-color:#242424 !important;
+   padding: 4px!important;
+   font-size: 15px!important;
+   color: #9fbc00!important;
+}
+
+.boxbody 
+{
+   background:none!important;
+   font-size:11px!important;
+   padding:5px!important;
+   margin-bottom:2px!important;
+}
+
+.boxbody>div[style*="height: 90px"] 
+{
+   height: 100% !important;
+}
+
+#boxhead_chatbox.boxhead>h2>a>img[border*="0"] 
+{
+   top:-45px !important;
+   left:0px !important;
+}
+
+#boxhead_chatbox.boxhead>h2>font[id*="chat_header_message"] font[size*="3"] 
+{
+   font-size: 9px !important;
+   color: #eceeff!important;
+}
+
+#boxhead_chatbox.boxhead>h2>font[id*="chat_header_message"] a 
+{
+   font-size: 9px !important;
+}
+
+#boxhead_chatbox.boxhead>h2>font[id*="chat_header_message"] 
+{
+   font-size: 9px !important;
+   color: #eceeff!important;
+}
+
+.right 
+{
+   display:none!important;
+}

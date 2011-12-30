@@ -1,0 +1,184 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+          "http://www.w3.org/TR/html4/strict.dtd">
+<head>
+  <title>Gitorious</title>
+  
+  <link href="/stylesheets/gts-external.css?1322725723" media="screen" rel="stylesheet" type="text/css" />
+  <script src="/javascripts/all.js?1322725757" type="text/javascript"></script>  <script type="text/javascript">
+$(function() {
+    var self = this;
+    this.status = 'collapsed';
+
+    $('a.view-features').click(function() {
+        if(!$('#features-wrapper').is(':animated')) {
+            $('#features-wrapper').animate({
+                'height': (self.status == 'collapsed') ? '260px' : '148px'
+            }, {
+                duraton: 'normal',
+                complete: function() {
+                    self.status = (self.status == 'collapsed') ? 'expanded' : 'collapsed';
+                }
+            });
+
+            $('.expanded-feature-list').css('border-top', (self.status == 'collapsed') ? '1px solid #DDD' : '1px solid #ededed');
+        }
+    });
+});
+
+$(document).ready(function() {
+    $("p.openid-switch a").click(function() {
+        $("#regular_login_fields").addClass("login_hidden");
+        $("#openid_login_fields").removeClass("login_hidden");
+        $("p.openid-switch").toggle();
+        $("p.regular-switch").toggle();
+    });
+
+    $("p.regular-switch a").click(function() {
+        $("p.regular-switch").toggle();
+        $("p.openid-switch").toggle();
+        $("#openid_login_fields").addClass("login_hidden");
+        $("#regular_login_fields").removeClass("login_hidden");
+    });
+});
+
+$('#screenshots-container').cycle({
+    fx: 'scrollLeft',
+    speed: '700',
+    timeout: 5500,
+    pager: '#screenshotsnavigation'
+});
+  </script>
+  <!--[if IE 7]><link href="/stylesheets/all.css?1322725723" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
+  <!--[if gt IE 7]><link href="/stylesheets/all.css?1322725723" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
+</head>
+<body id="users">
+  <div id="wrapper">
+    
+    <div id="top-wrapper">
+      <div id="top">
+	<div id="logo">
+	  <h1><a href="/">Gitorious</a></h1>
+	</div>
+	<ul id="menu">
+	  <li class="home"><a href="/">Home</a></li>
+	  <li class="about"><a href="/about">About</a></li>
+	  <li class="contact"><a href="/contact">Contact</a> </li>
+	  
+            <li class="register"><a href="/users/new">Register</a></li>
+          
+	  <li class="login"><a href="/login">Login</a></li>
+	</ul>
+      </div> <!-- end of #top -->
+      <div class="clear"></div>
+    </div>
+    <div class="content-container">
+      
+
+<div id="content">
+	
+	
+<form action="/users" method="post"><div style="margin:0;padding:0;display:inline"><input name="authenticity_token" type="hidden" value="vKoy0gPg4mHq2rBV5rgZ7yjAMwjpjjzKXtAAyi8Sq4A=" /></div>  
+<div class="form-wrapper" id="signup">
+	<div id="sign-up">
+	<h1>Create a new user</h1>
+	<p class="alt-login">Or log in directly with your <a href="/login">OpenID</a></p>
+	<p>Creating a user account allows you to create your own project or participate in the development of any project.</p>
+		<div class="horisontal-shadow"></div>
+			<ul>
+				<li>
+					<label for="user_login">Login</label>    				<input id="user_login" name="user[login]" size="30" type="text" />				</li>
+
+				<li>
+				    <label for="user_email">Email</label>				    <input id="user_email" name="user[email]" size="30" type="text" />				</li>
+				<li>
+				    <label for="user_password">Password</label>				    <input id="user_password" name="user[password]" size="30" type="password" />
+				</li>
+				<li>
+				    <label for="user_password_confirmation">Password Confirmation</label>				    <input id="user_password_confirmation" name="user[password_confirmation]" size="30" type="password" />
+				</li>
+				<li>
+					<div class="tos">
+						<input name="user[terms_of_use]" type="hidden" value="0" /><input id="user_terms_of_use" name="user[terms_of_use]" type="checkbox" value="1" />						<label for="user_terms_of_use">I accept the <a href="http://en.gitorious.org/tos" target="_blank">Terms of Service</a>
+</label>
+					</div>
+					<div class="submit"> 
+						<input id="user_submit" name="commit" type="submit" value="Sign up" />
+					</div>
+				
+				</li>
+			</ul>
+
+	</div>
+	
+</div>
+	<p class="alt_links">
+  <small>
+      <a href="/login">Log in</a>
+    &mdash;
+   
+  <a href="/users/forgot_password">Forgotten your password?</a>  </small>
+</p>
+</form>
+</div>
+      <div class="clear"></div>
+    </div> <!-- end of content-container -->
+  </div>
+  <div id="footer">
+    <div id="footer-container">
+      
+<div class="powered-by">
+  <a href="http://gitorious.org"><img alt="Poweredby" src="/images/../img/poweredby.png?1294322727" title="Powered by Gitorious" /></a></div>
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-52238-3']);
+_gaq.push(['_setDomainName', '.gitorious.org'])
+_gaq.push(['_trackPageview']);
+(function() {
+   var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+   ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+   (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);
+})();
+</script><script src="/javascripts/onload.js?1322725723" type="text/javascript"></script>
+      
+<div id="footer-links">
+  <h3>Gitorious</h3>
+  <ul>
+    <li><a href="/">Home</a></li>
+    <li><a href="/about">About</a></li>
+    <li><a href="/about/faq">FAQ</a></li>
+    <li><a href="/contact">Contact</a></li>
+  </ul>
+  
+    <ul>
+      <li><a href="http://groups.google.com/group/gitorious">Discussion group</a></li>
+      <li><a href="http://blog.gitorious.org">Blog</a></li>
+    </ul>
+  
+      
+<ul>
+  <li><a href="http://en.gitorious.org/tos">Terms of Service</a></li>
+  <li><a href="http://en.gitorious.org/privacy_policy">Privacy Policy</a></li>
+</ul>
+
+  
+  
+    <ul>
+      
+        <li><a href="http://gitorious.com/">Professional Gitorious Services</a></li>
+      
+    </ul>
+  
+</div>
+      <p class="footer-blurb">
+  
+    <a href="http://gitorious.com">Professional Gitorious services</a> - Git
+    hosting at your company, custom features, support and more.
+    <a href="http://gitorious.com">gitorious.com</a>.
+  
+</p>
+
+    </div>
+    <div class="clear"></div>
+  </div>
+</body>
+</html>

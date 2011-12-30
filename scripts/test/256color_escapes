@@ -1,0 +1,27 @@
+#!/bin/sh
+
+if [[ $1 == "1" ]]; then
+    
+    (x=`tput op` y=`printf %80s`;for i in {0..256};do o=00$i;echo -e ${o:${#o}-3:3} `tput setaf $i;tput setab $i`${y// /=}$x;done)
+
+fi
+
+if  [[ $1 == "2" ]]; then
+
+    ( strace -s5000 -e write tput op 2>&2 2>&1 ) | tee -a /dev/stderr | grep -o '"[^"]*"'
+
+fi
+
+if [[ $1 == "3" ]]; then
+
+    for T in `find /usr/share/terminfo -type f -printf '%f '`;do echo "$T `tput -T $T colors`";done|sort -nk2
+
+fi
+
+if [[ $1 == "4" ]]; then
+
+    infocmp -1 | sed -nu 's/^[ \000\t]*//;s/[ \000\t]*$//;/[^ \t\000]\{1,\}/!d;/acsc/d;s/=.*,//p'|column -c80
+
+fi
+
+exit 0

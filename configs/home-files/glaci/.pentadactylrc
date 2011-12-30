@@ -1,0 +1,211 @@
+" Load plugins
+loadplugins
+
+" Load userstyles
+source ~/.pentadactyl/styles/styles.js
+styledisable -name global
+
+" {{{ Configuration
+" Default search
+set ds=google
+
+" Default GUI options
+set go=sC
+
+" Don't automatically expand completion
+set autocomplete=
+
+" Hide tabline
+set showtabline=never
+
+" Use console vim as editor
+set editor=g
+
+" Homerow hints
+set hintkeys="aoeuhtns"
+
+" Leader
+set mapleader=","
+
+" }}}
+" {{{ Mappings
+" Show/hide toolbars
+nmap <silent> <C-+> :set go+=Bm<CR>
+nmap <silent> <C-=> :set go-=Bm<CR>
+
+" Passthrough mode shortcut
+nmap c <C-z>
+
+" Random link :P
+nmap <Leader>e frandom<CR>
+
+" Next/Prev Tab
+nmap w <C-Tab>
+nmap v <C-S-Tab>
+
+nmap <silent> V :tabmove -1<CR>
+nmap <silent> W :tabmove +1<CR>
+
+" Toggle userstyles/userscripts
+nmap <silent> <Leader>s :styletoggle!<CR>:styledisable -name global<CR>
+nmap <silent> <Leader>h :styletoggle -name global<CR>
+nmap <silent> <Leader>S :loaduserstyles<CR>:styledisable -name global<CR>
+nmap <silent> <Leader>g :gmset!<CR>
+
+" Show/hide the buftabbar
+nmap <silent> <A-u> :set invbuftabs<CR>
+
+" Quick buffer switch with the same mapping as in vim
+nmap <A-g> :buffer!<Space>
+nmap <Leader>t :buffer!<Space>
+
+" Detach tab
+nmap <Leader>w :tabdetach<CR>
+
+" Faster scrolling
+noremap <C-e> 3<C-e>
+noremap <C-y> 3<C-y>
+
+noremap h 5h
+noremap j 5j
+noremap k 5k
+noremap l 5l
+
+noremap J 2j
+noremap K 2k
+
+noremap s f
+noremap S F
+noremap e d
+noremap ;s g;b
+noremap ;t ;y
+noremap ;n ;i
+noremap ;N ;I
+
+" Remove tabs
+nmap <silent> <leader>D :removetabsright<CR>
+nmap <silent> <leader>d :removetabsleft<CR>
+
+" Background tab
+noremap t :to<Space>
+noremap o :o<Space>
+nmap <A-t> :tabopen!<Space>
+nmap <A-w> :winopen<Space>
+
+" Video control keys
+nmap <silent> <leader>p :stplay<CR>
+nmap <silent> <leader>P :stpause<CR>
+nmap <silent> <leader>l :stlarge<CR>
+nmap <silent> <leader>m :stmute<CR>
+
+" Hide CmdLine right after a command
+cnoremap <S-CR> <CR>
+cnoremap <CR> <CR>:<Esc>
+
+" C-l/F7: Search highlight toggle
+map <silent> <F7> :noh<CR>
+map <silent> <C-l> :noh<CR>
+
+" Go to numbered page
+js <<EOF
+mappings.add(config.browserModes, ["gr"],
+    "Go to numbered link",
+    function (count) { if (count) events.feedkeys(
+        "f,"+String(count)+","
+    ); },
+    { count: true });
+
+mappings.add(config.browserModes, ["gR"],
+    "Go to numbered link",
+    function (count) { if (count) events.feedkeys(
+        "F,"+String(count)+","
+    ); },
+    { count: true });
+EOF
+
+" Quickmark in background tab
+js <<EOF
+mappings.add(config.browserModes,
+    ["gN"], "Jump to a QuickMark in a new tab, inverting the 'activate' option",
+    function (arg) {
+        quickmarks.jumpTo(arg,
+            /\bquickmark\b/.test(options["activate"]) ?
+            liberator.NEW_BACKGROUND_TAB : liberator.NEW_TAB);
+    },
+    { arg: true });
+EOF
+
+" }}}
+" {{{ Youtube settings on load
+au -js PageLoad http://(www\.)?youtube\.com/watch.* loadYoutube(args.tab)
+js <<EOF
+loadYoutube = function (tab)
+{
+    let doc = tabs.getTab(tab-1).linkedBrowser.contentDocument;
+    let player = doc.getElementById("movie_player");
+    let base = doc.getElementById("watch-video");
+
+    if (base)
+        // Wide mode by default
+        base.className = (base.className || "")+" wide"
+
+    if (player)
+    {
+        player = player.wrappedJSObject;
+
+        // Try the highest quality
+        player.setPlaybackQuality("hd720");
+
+        // Don't start playing
+        player.pauseVideo();
+    }
+}
+EOF
+" }}}
+" {{{ Quickmarks / Bookmarks
+" Quickmarks
+silent delqm!
+source ~/.pentadactyl/qmarks
+
+" Bookmarks
+source ~/.pentadactyl/bookmarks
+" }}}
+" {{{ Styling
+hi Normal background: #141414; color: white;
+hi Question background: #141414; color: white;
+hi CmdLine padding: 0px; font-family: terminus; font-size: 12px; font-weight: normal; color: white; background: #141414;
+
+"" Buftab styling
+hi BufTab padding-left: 5px; padding-right: 5px; color: #9fbc00;
+hi BufTabSelected background: #343434; padding-left: 5px; padding-right: 5px; color: #9fbc00;
+
+"" Hint font size
+hi Hint font-family: monospace; font-size: 13px; font-weight: bold; color: white; padding: 1px 3px; background: #744E7A !important;
+hi HintElem none: none;
+hi HintActive none: none;
+
+"" Statusbar and commandline styling
+hi StatusLine background: #141414; color: #9FBC00; font-family: terminus; font-size: 12px; font-weight: normal;
+hi StatusLineBroken background: #1a1414; color: #9FBC00; font-family: terminus; font-size: 12px; font-weight: normal;
+hi StatusLineExtended background: #141a14; color: #9FBC00; font-family: terminus; font-size: 12px; font-weight: normal;
+hi StatusLineSecure background: #14141a; color: #9FBC00; font-family: terminus; font-size: 12px; font-weight: normal;
+hi ModeMsg display: none;
+
+" Completion colors from zenburn
+hi CompDesc             color: #d0d0d0; width: 50%;font-size: 12px;
+hi CompGroup:not(:first-of-type)    margin-top: .5em;
+hi CompIcon             width: 16px; min-width: 16px; display: inline-block; margin-right: .5ex;
+hi CompIcon>img         max-width: 16px; max-height: 16px; vertical-align: middle;
+hi CompItem             font-size: 11px;
+hi CompItem>*           padding: 0 .5ex;
+hi CompItem[selected]   color: #ffffd7; background: #444444;
+hi CompLess             text-align: center; height: 0; line-height: .5ex; padding-top: 1ex;
+hi CompLess::after      content: "\2303" /* Unicode up arrowhead */
+hi CompMore             text-align: center; height: .5ex; line-height: .5ex; margin-bottom: -.5ex;
+hi CompMore::after      content: "\2304" /* Unicode down arrowhead */
+hi CompMsg              font-style: italic; margin-left: 16px;
+hi CompResult           width: 45%; overflow: hidden;font-size: 12px; font-family: monospace; font-weight: normal;
+hi CompTitle            color: #87af87; background: #242421; font-weight: bold;
+hi CompTitle>*          padding: 0 .5ex;
+" }}}
+" vim: ft=vimperator:

@@ -1,0 +1,388 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+          "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Commits in bashets/bashets:master - Gitorious</title>
+<link href="/stylesheets/gts-common.css?1322725723" media="screen" rel="stylesheet" type="text/css" />
+<link href="//fonts.googleapis.com/css?family=Nobile&amp;v1" type="text/css" rel="stylesheet">
+
+<script src="/javascripts/all.js?1322725757" type="text/javascript"></script>  <link href="/bashets/bashets/commits/master/feed.atom" rel="alternate" title="ATOM" type="application/atom+xml" /><!--[if IE 8]><link rel="stylesheet" href="/stylesheets/ie8.css" type="text/css"><![endif]-->
+<!--[if IE 7]><link rel="stylesheet" href="/stylesheets/ie7.css" type="text/css"><![endif]-->
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-52238-3']);
+_gaq.push(['_setDomainName', '.gitorious.org'])
+_gaq.push(['_trackPageview']);
+(function() {
+   var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+   ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+   (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);
+})();
+</script>
+</head>
+<body id="commits">
+  <div id="wrapper">
+        <ul id="user-nav">
+      <li><a href="/">Dashboard</a></li>
+      
+    	<li class="secondary"><a href="/users/new">Register</a></li>
+    <li class="secondary"><a href="/login">Login</a></li>
+    </ul>
+    <div id="header">
+      <h1 id="logo">
+        <a href="/"><img alt="Logo" src="/img/logo.png?1294322727" /></a>
+      </h1>
+      <ul id="menu">
+                  <li class="activity"><a href="/activities">Activities</a></li>
+          <li class="projects"><a href="/projects">Projects</a></li>
+          <li class="teams"><a href="/teams">Teams</a></li>
+              </ul>
+    </div>
+    <div id="top-bar">
+      <ul id="breadcrumbs">
+        <li class="project"><a href="/bashets">bashets</a></li><li class="repository"><a href="/bashets/bashets">bashets</a></li><li class="branch"><a href="/bashets/bashets/commits/master">master</a></li>      </ul>
+              <div id="searchbox">
+          
+
+
+<div class="search_bar">
+<form action="http://gitorious.org/search" method="get"><p>
+  <input class="text search-field round-5" id="q" name="q" type="text" /> 
+  <input type="submit" value="Search" class="search-submit round-5" />
+</p>  
+<p class="hint search-hint" style="display: none;">
+  eg. 'wrapper', 'category:python' or '"document database"'
+  </p>
+</form></div>
+        </div>
+          </div>
+    <div id="container" class="">
+      <div id="content" class="with_sidebar">
+        
+        
+
+
+<ul class="horizontal meta" style="float:right">
+  <li>
+    <a href="/bashets/bashets/graph/master">Log graph</a>
+  </li>
+</ul>
+<h1>
+  Commits in bashets/bashets:master</h1>
+
+  
+
+
+<ul class="events w-750">
+  <li>
+    <p class="date">Sunday July 03 2011</p>
+    <ul class="event_instances">
+              
+        <li class="event_instance commit">
+          <p class="event_date">20:22</p>
+          <img alt="avatar" height="16" src="http://www.gravatar.com/avatar.php?gravatar_id=9cbb4682819616e6ee48ead91f12f10b&amp;default=http%3A%2F%2Fgitorious.org%2Fimages%2Fdefault_face.gif&amp;size=16" width="16" />
+          <div class="event_meta">
+            <p>
+              Anton Lobov              <strong>committed</strong> <a href="/bashets/bashets/commit/b8dd569f9ebf86af94405a4b3bb030e9a2dd7ebf">b8dd569</a>            </p>
+            <p>
+              <div class="commit_message">
+                <a href="/bashets/bashets/commit/b8dd569f9ebf86af94405a4b3bb030e9a2dd7ebf"><p>Added backwards compatibility fixes</p></a>              </div>
+            </p>
+          </div>
+        </li>
+          </ul>
+  </li>
+  <li>
+    <p class="date">Monday May 02 2011</p>
+    <ul class="event_instances">
+              
+        <li class="event_instance commit">
+          <p class="event_date">17:58</p>
+          <img alt="avatar" height="16" src="http://www.gravatar.com/avatar.php?gravatar_id=9cbb4682819616e6ee48ead91f12f10b&amp;default=http%3A%2F%2Fgitorious.org%2Fimages%2Fdefault_face.gif&amp;size=16" width="16" />
+          <div class="event_meta">
+            <p>
+              Anton Lobov              <strong>committed</strong> <a href="/bashets/bashets/commit/dbbf7d6ed7bc41e3aff544724fe7ebadcb88e08c">dbbf7d6</a>            </p>
+            <p>
+              <div class="commit_message">
+                <a href="/bashets/bashets/commit/dbbf7d6ed7bc41e3aff544724fe7ebadcb88e08c"><p>Fixed autokill of runner script, added initial dbus support</p></a>              </div>
+            </p>
+          </div>
+        </li>
+          </ul>
+  </li>
+  <li>
+    <p class="date">Sunday November 21 2010</p>
+    <ul class="event_instances">
+              
+        <li class="event_instance commit">
+          <p class="event_date">14:44</p>
+          <img alt="avatar" height="16" src="http://www.gravatar.com/avatar.php?gravatar_id=9cbb4682819616e6ee48ead91f12f10b&amp;default=http%3A%2F%2Fgitorious.org%2Fimages%2Fdefault_face.gif&amp;size=16" width="16" />
+          <div class="event_meta">
+            <p>
+              Anton Lobov              <strong>committed</strong> <a href="/bashets/bashets/commit/b0123d865021ddccbd7ef0ec65c8677d62f9c9f7">b0123d8</a>            </p>
+            <p>
+              <div class="commit_message">
+                <a href="/bashets/bashets/commit/b0123d865021ddccbd7ef0ec65c8677d62f9c9f7"><p>Runner script</p></a>              </div>
+            </p>
+          </div>
+        </li>
+              
+        <li class="event_instance commit">
+          <p class="event_date">14:42</p>
+          <img alt="avatar" height="16" src="http://www.gravatar.com/avatar.php?gravatar_id=9cbb4682819616e6ee48ead91f12f10b&amp;default=http%3A%2F%2Fgitorious.org%2Fimages%2Fdefault_face.gif&amp;size=16" width="16" />
+          <div class="event_meta">
+            <p>
+              Anton Lobov              <strong>committed</strong> <a href="/bashets/bashets/commit/9755e5075307eab91f79ba1e288cd5e5e262f96a">9755e50</a>            </p>
+            <p>
+              <div class="commit_message">
+                <a href="/bashets/bashets/commit/9755e5075307eab91f79ba1e288cd5e5e262f96a"><p>Version 0.5: scheduler bug fix and dbus support</p></a>              </div>
+            </p>
+          </div>
+        </li>
+          </ul>
+  </li>
+  <li>
+    <p class="date">Thursday November 04 2010</p>
+    <ul class="event_instances">
+              
+        <li class="event_instance commit">
+          <p class="event_date">11:00</p>
+          <img alt="avatar" height="16" src="http://www.gravatar.com/avatar.php?gravatar_id=9cbb4682819616e6ee48ead91f12f10b&amp;default=http%3A%2F%2Fgitorious.org%2Fimages%2Fdefault_face.gif&amp;size=16" width="16" />
+          <div class="event_meta">
+            <p>
+              Anton Lobov              <strong>committed</strong> <a href="/bashets/bashets/commit/d8767b03867747bb17de931146439cc3bc501a60">d8767b0</a>            </p>
+            <p>
+              <div class="commit_message">
+                <a href="/bashets/bashets/commit/d8767b03867747bb17de931146439cc3bc501a60"><p>fixed version</p></a>              </div>
+            </p>
+          </div>
+        </li>
+              
+        <li class="event_instance commit">
+          <p class="event_date">10:59</p>
+          <img alt="avatar" height="16" src="http://www.gravatar.com/avatar.php?gravatar_id=9cbb4682819616e6ee48ead91f12f10b&amp;default=http%3A%2F%2Fgitorious.org%2Fimages%2Fdefault_face.gif&amp;size=16" width="16" />
+          <div class="event_meta">
+            <p>
+              Anton Lobov              <strong>committed</strong> <a href="/bashets/bashets/commit/406aa35e21367d4518a7a71b4cc540e5e640f549">406aa35</a>            </p>
+            <p>
+              <div class="commit_message">
+                <a href="/bashets/bashets/commit/406aa35e21367d4518a7a71b4cc540e5e640f549"><p>updated for new widgets logic</p></a>              </div>
+            </p>
+          </div>
+        </li>
+          </ul>
+  </li>
+  <li>
+    <p class="date">Saturday September 04 2010</p>
+    <ul class="event_instances">
+              
+        <li class="event_instance commit">
+          <p class="event_date">10:44</p>
+          <img alt="avatar" height="16" src="http://www.gravatar.com/avatar.php?gravatar_id=9cbb4682819616e6ee48ead91f12f10b&amp;default=http%3A%2F%2Fgitorious.org%2Fimages%2Fdefault_face.gif&amp;size=16" width="16" />
+          <div class="event_meta">
+            <p>
+              Anton Lobov              <strong>committed</strong> <a href="/bashets/bashets/commit/2dc7e3b994406d8f8c7d7b2455a33a28848f0a74">2dc7e3b</a>            </p>
+            <p>
+              <div class="commit_message">
+                <a href="/bashets/bashets/commit/2dc7e3b994406d8f8c7d7b2455a33a28848f0a74"><p>Updated for connect_signal instead of add_signal</p></a>              </div>
+            </p>
+          </div>
+        </li>
+          </ul>
+  </li>
+  <li>
+    <p class="date">Friday July 02 2010</p>
+    <ul class="event_instances">
+              
+        <li class="event_instance commit">
+          <p class="event_date">16:53</p>
+          <img alt="avatar" height="16" src="http://www.gravatar.com/avatar.php?gravatar_id=9cbb4682819616e6ee48ead91f12f10b&amp;default=http%3A%2F%2Fgitorious.org%2Fimages%2Fdefault_face.gif&amp;size=16" width="16" />
+          <div class="event_meta">
+            <p>
+              Anton              <strong>committed</strong> <a href="/bashets/bashets/commit/75f1e11bb8333c64fe1a40b335ab8981cf2f5154">75f1e11</a>            </p>
+            <p>
+              <div class="commit_message">
+                <a href="/bashets/bashets/commit/75f1e11bb8333c64fe1a40b335ab8981cf2f5154"><p>Fixed for nil separator</p></a>              </div>
+            </p>
+          </div>
+        </li>
+              
+        <li class="event_instance commit">
+          <p class="event_date">16:03</p>
+          <img alt="avatar" height="16" src="http://www.gravatar.com/avatar.php?gravatar_id=9cbb4682819616e6ee48ead91f12f10b&amp;default=http%3A%2F%2Fgitorious.org%2Fimages%2Fdefault_face.gif&amp;size=16" width="16" />
+          <div class="event_meta">
+            <p>
+              Anton              <strong>committed</strong> <a href="/bashets/bashets/commit/1812ad8376ba07730840d8cffa2b000a5fd1f80d">1812ad8</a>            </p>
+            <p>
+              <div class="commit_message">
+                <a href="/bashets/bashets/commit/1812ad8376ba07730840d8cffa2b000a5fd1f80d"><p>0.3.1 for those who are not lucky to use latest awesome-git</p></a>              </div>
+            </p>
+          </div>
+        </li>
+              
+        <li class="event_instance commit">
+          <p class="event_date">15:52</p>
+          <img alt="avatar" height="16" src="http://www.gravatar.com/avatar.php?gravatar_id=9cbb4682819616e6ee48ead91f12f10b&amp;default=http%3A%2F%2Fgitorious.org%2Fimages%2Fdefault_face.gif&amp;size=16" width="16" />
+          <div class="event_meta">
+            <p>
+              Anton              <strong>committed</strong> <a href="/bashets/bashets/commit/8ad54f2529fda926decef975e9daaca29efb1226">8ad54f2</a>            </p>
+            <p>
+              <div class="commit_message">
+                <a href="/bashets/bashets/commit/8ad54f2529fda926decef975e9daaca29efb1226"><p>Version 0.4</p></a>              </div>
+            </p>
+          </div>
+        </li>
+          </ul>
+  </li>
+  <li>
+    <p class="date">Wednesday June 16 2010</p>
+    <ul class="event_instances">
+              
+        <li class="event_instance commit">
+          <p class="event_date">17:39</p>
+          <img alt="avatar" height="16" src="http://www.gravatar.com/avatar.php?gravatar_id=9cbb4682819616e6ee48ead91f12f10b&amp;default=http%3A%2F%2Fgitorious.org%2Fimages%2Fdefault_face.gif&amp;size=16" width="16" />
+          <div class="event_meta">
+            <p>
+              Anton Lobov              <strong>committed</strong> <a href="/bashets/bashets/commit/79a63ab656119882b50d1e3e172dce33f070c444">79a63ab</a>            </p>
+            <p>
+              <div class="commit_message">
+                <a href="/bashets/bashets/commit/79a63ab656119882b50d1e3e172dce33f070c444"><p>Previous version for Awesome 3.3- added</p></a>              </div>
+            </p>
+          </div>
+        </li>
+              
+        <li class="event_instance commit">
+          <p class="event_date">16:50</p>
+          <img alt="avatar" height="16" src="http://www.gravatar.com/avatar.php?gravatar_id=9cbb4682819616e6ee48ead91f12f10b&amp;default=http%3A%2F%2Fgitorious.org%2Fimages%2Fdefault_face.gif&amp;size=16" width="16" />
+          <div class="event_meta">
+            <p>
+              Anton Lobov              <strong>committed</strong> <a href="/bashets/bashets/commit/faa126987cd8ff4ec586647b9311792cf2c280d3">faa1269</a>            </p>
+            <p>
+              <div class="commit_message">
+                <a href="/bashets/bashets/commit/faa126987cd8ff4ec586647b9311792cf2c280d3"><p>deleted temporary files</p></a>              </div>
+            </p>
+          </div>
+        </li>
+              
+        <li class="event_instance commit">
+          <p class="event_date">16:46</p>
+          <img alt="avatar" height="16" src="http://www.gravatar.com/avatar.php?gravatar_id=9cbb4682819616e6ee48ead91f12f10b&amp;default=http%3A%2F%2Fgitorious.org%2Fimages%2Fdefault_face.gif&amp;size=16" width="16" />
+          <div class="event_meta">
+            <p>
+              Anton Lobov              <strong>committed</strong> <a href="/bashets/bashets/commit/6c602e62ac9999d50ca61f6c69abc84971b6bf13">6c602e6</a>            </p>
+            <p>
+              <div class="commit_message">
+                <a href="/bashets/bashets/commit/6c602e62ac9999d50ca61f6c69abc84971b6bf13"><p>userscripts added</p></a>              </div>
+            </p>
+          </div>
+        </li>
+          </ul>
+  </li>
+  <li>
+    <p class="date">Tuesday June 15 2010</p>
+    <ul class="event_instances">
+              
+        <li class="event_instance commit">
+          <p class="event_date">19:40</p>
+          <img alt="avatar" height="16" src="http://www.gravatar.com/avatar.php?gravatar_id=9cbb4682819616e6ee48ead91f12f10b&amp;default=http%3A%2F%2Fgitorious.org%2Fimages%2Fdefault_face.gif&amp;size=16" width="16" />
+          <div class="event_meta">
+            <p>
+              Anton Lobov              <strong>committed</strong> <a href="/bashets/bashets/commit/20f35eb3524596cd4746fef6020b047512a5b20e">20f35eb</a>            </p>
+            <p>
+              <div class="commit_message">
+                <a href="/bashets/bashets/commit/20f35eb3524596cd4746fef6020b047512a5b20e"><p>Version 0.3.2 - first ever in git</p></a>              </div>
+            </p>
+          </div>
+        </li>
+          </ul>
+  </li>
+</ul>
+
+      </div>
+              <div id="sidebar">
+            <ul class="sidebar-meta">
+    <li>
+      <strong>Project:</strong>
+      <a href="/bashets">bashets</a>    </li>
+    <li>
+      <strong>Owner:</strong>
+      <a href="/~zhuravlik">~zhuravlik</a>    </li>
+        <li>
+      <strong>HEAD tree:</strong>
+      <a href="/bashets/bashets/trees/b8dd569f9ebf86af94405a4b3bb030e9a2dd7ebf">4753599</a>    </li>
+      </ul>
+
+  <ul class="links navigation">
+    <li class="tree"><a href="/bashets/bashets/trees/master">Source tree</a></li>
+<li class="gz"><a href="/bashets/bashets/archive-tarball/master" class="download-link" onclick="Gitorious.DownloadChecker.checkURL('/bashets/bashets/archive-tarball/master?format=js', 'archive-box-master');return false" title="Download master as tar.gz">Download master as tar.gz</a><div class="archive-download-box round-5 shadow-2" id="archive-box-master" style="display:none;"></div></li>
+  </ul>
+
+
+  <ul class="icon_list links navigation">
+	 <h5 id="branches">Branches:</h5>
+    <li class="branch head"><a href="/bashets/bashets/commits/master" title="master (HEAD)">master</a></li>  </ul>
+
+          </div>
+          </div>
+    <div id="footer">
+      
+<div class="powered-by">
+  <a href="http://gitorious.org"><img alt="Poweredby" src="/images/../img/poweredby.png?1294322727" title="Powered by Gitorious" /></a></div>
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-52238-3']);
+_gaq.push(['_setDomainName', '.gitorious.org'])
+_gaq.push(['_trackPageview']);
+(function() {
+   var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+   ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+   (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);
+})();
+</script><script src="/javascripts/onload.js?1322725723" type="text/javascript"></script>
+      
+<div id="footer-links">
+  <h3>Gitorious</h3>
+  <ul>
+    <li><a href="/">Home</a></li>
+    <li><a href="/about">About</a></li>
+    <li><a href="/about/faq">FAQ</a></li>
+    <li><a href="/contact">Contact</a></li>
+  </ul>
+  
+    <ul>
+      <li><a href="http://groups.google.com/group/gitorious">Discussion group</a></li>
+      <li><a href="http://blog.gitorious.org">Blog</a></li>
+    </ul>
+  
+      
+<ul>
+  <li><a href="http://en.gitorious.org/tos">Terms of Service</a></li>
+  <li><a href="http://en.gitorious.org/privacy_policy">Privacy Policy</a></li>
+</ul>
+
+  
+  
+    <ul>
+      
+        <li><a href="http://gitorious.com/">Professional Gitorious Services</a></li>
+      
+    </ul>
+  
+</div>
+      <p class="footer-blurb">
+  
+    <a href="http://gitorious.com">Professional Gitorious services</a> - Git
+    hosting at your company, custom features, support and more.
+    <a href="http://gitorious.com">gitorious.com</a>.
+  
+</p>
+
+      <div class="clear"></div>
+    </div>
+  </div>
+</body>
+</html>

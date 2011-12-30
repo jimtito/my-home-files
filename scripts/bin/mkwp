@@ -1,0 +1,4 @@
+#!/bin/bash
+printf "new bg is $1\n"
+rm -f $HOME/.wallpaper
+ln -s "$1" $HOME/.wallpaper

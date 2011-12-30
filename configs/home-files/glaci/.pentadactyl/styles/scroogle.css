@@ -1,0 +1,40 @@
+/* Scroogle minimal style */
+
+body
+{
+    background: #141414 !important;
+    color: white;
+}
+
+a
+{
+ color: #608bbb !important;
+ font-weight: bold;
+ text-decoration: none !important;
+}
+
+textarea, input
+{
+ -moz-appearance: none !important;
+ background: #242424 !important;
+ color: white !important;
+ border: 2px solid black !important;
+ padding: 4px;
+ font-size: 18px;
+}
+
+font[color="#008000"]
+{
+ color: #888 !important;
+}
+
+b
+{
+ background: none !important;
+}
+
+ul
+{
+ padding-bottom: 5px;
+ border-bottom: 1px solid #343434;
+}

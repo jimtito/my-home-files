@@ -1,0 +1,25 @@
+#!/bin/bash
+
+if [[ "$1" != "2" ]]; then
+    # Music off
+    ([[ $(mpc current) =~ "AnimeNfo" ]] && mpc stop || mpc pause)&>/dev/null&
+fi
+
+
+if [[ "$1" = "1" ]]; then
+    # Weechat away
+    echo "*/away -all away" > ~/.weechat/*fifo*
+
+    # Display empty tags
+    echo "for s=1, screen.count() do\
+      t = tag { name="lock" };\
+      t.screen = s;\
+      awful.tag.viewonly(t) end"\
+    > /tmp/awesome-remote
+
+    # lock screens
+    (sleep 0.2 && slock)&
+fi
+
+# Turn off screens
+(sleep 0.2 && xset dpms force off)&

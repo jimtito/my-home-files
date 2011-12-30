@@ -1,0 +1,363 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+          "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Projects - Gitorious</title>
+<link href="/stylesheets/gts-common.css?1322725723" media="screen" rel="stylesheet" type="text/css" />
+<link href="//fonts.googleapis.com/css?family=Nobile&amp;v1" type="text/css" rel="stylesheet">
+
+<script src="/javascripts/all.js?1322725757" type="text/javascript"></script>  <link href="/projects.atom" rel="alternate" title="ATOM" type="application/atom+xml" /><!--[if IE 8]><link rel="stylesheet" href="/stylesheets/ie8.css" type="text/css"><![endif]-->
+<!--[if IE 7]><link rel="stylesheet" href="/stylesheets/ie7.css" type="text/css"><![endif]-->
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-52238-3']);
+_gaq.push(['_setDomainName', '.gitorious.org'])
+_gaq.push(['_trackPageview']);
+(function() {
+   var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+   ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+   (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);
+})();
+</script>
+</head>
+<body id="projects">
+  <div id="wrapper">
+        <ul id="user-nav">
+      <li><a href="/">Dashboard</a></li>
+      
+    	<li class="secondary"><a href="/users/new">Register</a></li>
+    <li class="secondary"><a href="/login">Login</a></li>
+    </ul>
+    <div id="header">
+      <h1 id="logo">
+        <a href="/"><img alt="Logo" src="/img/logo.png?1294322727" /></a>
+      </h1>
+      <ul id="menu">
+                  <li class="activity"><a href="/activities">Activities</a></li>
+          <li class="projects"><a href="/projects">Projects</a></li>
+          <li class="teams"><a href="/teams">Teams</a></li>
+              </ul>
+    </div>
+    <div id="top-bar">
+      <ul id="breadcrumbs">
+              </ul>
+              <div id="searchbox">
+          
+
+
+<div class="search_bar">
+<form action="http://gitorious.org/search" method="get"><p>
+  <input class="text search-field round-5" id="q" name="q" type="text" /> 
+  <input type="submit" value="Search" class="search-submit round-5" />
+</p>  
+<p class="hint search-hint" style="display: none;">
+  eg. 'wrapper', 'category:python' or '"document database"'
+  </p>
+</form></div>
+        </div>
+          </div>
+    <div id="container" class="">
+      <div id="content" class="with_sidebar">
+        
+        
+
+
+<h2 class="content-header">Projects</h2>
+
+<ul class="project_list">
+  <li class="project_list_item">
+    
+
+<h3><a href="/socialsimulationbasic">SocialSimulation</a></h3>
+<p>Intel parallel project</p>
+<p class="hint">
+  <strong>Labels:</strong> 
+  none</p>
+  </li>
+  <li class="project_list_item">
+    
+
+<h3><a href="/test-kernel">test-kernel</a></h3>
+<p>test</p>
+<p class="hint">
+  <strong>Labels:</strong> 
+  <a href="/search?q=category%3Av1">v1</a></p>
+  </li>
+  <li class="project_list_item">
+    
+
+<h3><a href="/epublib">epublib</a></h3>
+<p>EPub lib is a library for epub file make, edit, and modify, in java language.</p>
+<p class="hint">
+  <strong>Labels:</strong> 
+  <a href="/search?q=category%3Aeditor">editor</a>, <a href="/search?q=category%3Aepub">epub</a>, <a href="/search?q=category%3Alibrary">library</a>, and <a href="/search?q=category%3Amaker">maker</a></p>
+  </li>
+  <li class="project_list_item">
+    
+
+<h3><a href="/gimp-artwork">GIMP-ARTWORK</a></h3>
+<p>GIMP ARTWORK DEVELOPED USING GIMP</p>
+<p class="hint">
+  <strong>Labels:</strong> 
+  none</p>
+  </li>
+  <li class="project_list_item">
+    
+
+<h3><a href="/vexillum">Vexillum</a></h3>
+<p>Puzzling rhythm game.</p>
+<p class="hint">
+  <strong>Labels:</strong> 
+  none</p>
+  </li>
+  <li class="project_list_item">
+    
+
+<h3><a href="/chlue-minetest-mods">chlue-minetest-mods</a></h3>
+<p>This is a collection for all of chlue's minetest mods.</p>
+<p class="hint">
+  <strong>Labels:</strong> 
+  <a href="/search?q=category%3Aminetest">minetest</a></p>
+  </li>
+  <li class="project_list_item">
+    
+
+<h3><a href="/razborki">Razborki</a></h3>
+<p>Razborki</p>
+<p class="hint">
+  <strong>Labels:</strong> 
+  none</p>
+  </li>
+  <li class="project_list_item">
+    
+
+<h3><a href="/webkit2-efl">webkit2-efl</a></h3>
+<p>webkit2-efl</p>
+<p class="hint">
+  <strong>Labels:</strong> 
+  <a href="/search?q=category%3Awebkit2-efl">webkit2-efl</a></p>
+  </li>
+  <li class="project_list_item">
+    
+
+<h3><a href="/test-project-locomotivecms">Test project locomotivecms</a></h3>
+<p>Just a test project</p>
+<p class="hint">
+  <strong>Labels:</strong> 
+  <a href="/search?q=category%3Aruby">ruby</a> and <a href="/search?q=category%3Atest">test</a></p>
+  </li>
+  <li class="project_list_item">
+    
+
+<h3><a href="/xivo-doc">xivo-doc</a></h3>
+<p>try to produce documentation using sphinx and reStructuredText</p>
+<p class="hint">
+  <strong>Labels:</strong> 
+  none</p>
+  </li>
+  <li class="project_list_item">
+    
+
+<h3><a href="/kg">kg</a></h3>
+<p>Some Definability Results in Abstract Kummer Theory: 
+
+Let $S$ be a semiabelian variety over an algebraically closed field, and let
+$X$ be an irreducible subvariety not contained in a coset of a proper
+algebraic subgroup of $S$. We show that t...</p>
+<p class="hint">
+  <strong>Labels:</strong> 
+  none</p>
+  </li>
+  <li class="project_list_item">
+    
+
+<h3><a href="/proxyme">proxyme</a></h3>
+<p>proxyme enable and disables proxy settings for several applications such as git, svn, wget, apt, etc.</p>
+<p class="hint">
+  <strong>Labels:</strong> 
+  <a href="/search?q=category%3Aproxy">proxy</a></p>
+  </li>
+  <li class="project_list_item">
+    
+
+<h3><a href="/statusnet-activityspam">statusnet-activityspam</a></h3>
+<p>StatusNet plugin to check ActivitySpam server for spam probability of an activity.</p>
+<p class="hint">
+  <strong>Labels:</strong> 
+  <a href="/search?q=category%3Aspam">spam</a>, <a href="/search?q=category%3AstatusNet">statusNet</a>, and <a href="/search?q=category%3Aactivityspam">activityspam</a></p>
+  </li>
+  <li class="project_list_item">
+    
+
+<h3><a href="/optimus-gentoo">optimus-gentoo</a></h3>
+<p>Gentoo Support for the nVidia Optimus technology</p>
+<p class="hint">
+  <strong>Labels:</strong> 
+  <a href="/search?q=category%3Agentoo">gentoo</a>, <a href="/search?q=category%3Alinux">linux</a>, <a href="/search?q=category%3Anvidia">nvidia</a>, and <a href="/search?q=category%3Aoptmus">optmus</a></p>
+  </li>
+  <li class="project_list_item">
+    
+
+<h3><a href="/duane">Duane’s configuration files</a></h3>
+<p>A home (or more of an off-site backup) for the configuration files of my Arch Linux desktop – in case something should go wrong and I ever needed to reinstall, those backups should speed up the process of getting my system back just the way I like...</p>
+<p class="hint">
+  <strong>Labels:</strong> 
+  none</p>
+  </li>
+  <li class="project_list_item">
+    
+
+<h3><a href="/peerbox">PeerBox</a></h3>
+<p>Peer-to-peer shared folders</p>
+<p class="hint">
+  <strong>Labels:</strong> 
+  none</p>
+  </li>
+  <li class="project_list_item">
+    
+
+<h3><a href="/put-overlay">PuT Overlay</a></h3>
+<p>Gentoo overlay by Peter and Thomas</p>
+<p class="hint">
+  <strong>Labels:</strong> 
+  <a href="/search?q=category%3Agentoo">gentoo</a> and <a href="/search?q=category%3Aoverlay">overlay</a></p>
+  </li>
+  <li class="project_list_item">
+    
+
+<h3><a href="/stratego">Stratego</a></h3>
+<p>For our bachelor's thesis, we're writing a learning Stratego player.</p>
+<p class="hint">
+  <strong>Labels:</strong> 
+  <a href="/search?q=category%3Abachelor">bachelor</a>, <a href="/search?q=category%3Agame">game</a>, <a href="/search?q=category%3Athesis">thesis</a>, and <a href="/search?q=category%3Astatego">statego</a></p>
+  </li>
+  <li class="project_list_item">
+    
+
+<h3><a href="/quickget">QuickGet</a></h3>
+<p>QuickGet is an advanced file download manager.
+
+It allows HTTP and FTP downloads and provides support for downloading files from file- and video-hosting services.</p>
+<p class="hint">
+  <strong>Labels:</strong> 
+  none</p>
+  </li>
+  <li class="project_list_item">
+    
+
+<h3><a href="/dlink_chaser">dlink_chaser</a></h3>
+<p>dlink network refresh</p>
+<p class="hint">
+  <strong>Labels:</strong> 
+  none</p>
+  </li>
+</ul>
+
+<div class="pagination"><span class="disabled prev_page">&laquo; Previous</span> <span class="current">1</span> <a href="/projects?page=2" rel="next">2</a> <a href="/projects?page=3">3</a> <a href="/projects?page=4">4</a> <a href="/projects?page=5">5</a> <a href="/projects?page=6">6</a> <a href="/projects?page=7">7</a> <a href="/projects?page=8">8</a> <a href="/projects?page=9">9</a> <span class="gap">&hellip;</span> <a href="/projects?page=1170">1170</a> <a href="/projects?page=1171">1171</a> <a href="/projects?page=2" class="next_page" rel="next">Next &raquo;</a></div>
+      </div>
+              <div id="sidebar">
+            <h2>Popular Labels</h2>
+  <ul class="tag_list">
+    
+      <li class="tag_size_3"><a href="/search?q=category%3Apython">python</a> </li>
+    
+      <li class="tag_size_3"><a href="/search?q=category%3Aqt">qt</a> </li>
+    
+      <li class="tag_size_3"><a href="/search?q=category%3AC%2B%2B">C++</a> </li>
+    
+      <li class="tag_size_3"><a href="/search?q=category%3Alinux">linux</a> </li>
+    
+      <li class="tag_size_3"><a href="/search?q=category%3Aphp">php</a> </li>
+    
+      <li class="tag_size_3"><a href="/search?q=category%3Aruby">ruby</a> </li>
+    
+      <li class="tag_size_3"><a href="/search?q=category%3Ajava">java</a> </li>
+    
+      <li class="tag_size_3"><a href="/search?q=category%3Agame">game</a> </li>
+    
+      <li class="tag_size_3"><a href="/search?q=category%3Ac">c</a> </li>
+    
+      <li class="tag_size_3"><a href="/search?q=category%3Atest">test</a> </li>
+    
+  </ul>
+<ul class="links navigation">
+	<li class="new_project">
+      <a href="/projects/new">Create a new project</a>    </li>
+</ul>
+  <div class="pull-box-container pull-box-sidebar"><div class="pull-box-header"><h3>Most active recently</h3></div><div class="pull-box-content"> 
+    <ul class="with_icons">
+              <li class="project"><a href="/mediawiki">MediaWiki</a></li>
+              <li class="project"><a href="/qt">Qt</a></li>
+              <li class="project"><a href="/webkit">WebKit</a></li>
+              <li class="project"><a href="/freebsd">FreeBSD</a></li>
+              <li class="project"><a href="/blenderprojects">Blender Projects</a></li>
+              <li class="project"><a href="/meegotouch">MeeGo Touch Framework</a></li>
+              <li class="project"><a href="/opensuse">openSUSE</a></li>
+              <li class="project"><a href="/qt-creator">Qt Creator</a></li>
+              <li class="project"><a href="/beagleboard-org">BeagleBoard.org</a></li>
+              <li class="project"><a href="/maliit">Maliit</a></li>
+          </ul>
+  </div></div>        </div>
+          </div>
+    <div id="footer">
+      
+<div class="powered-by">
+  <a href="http://gitorious.org"><img alt="Poweredby" src="/images/../img/poweredby.png?1294322727" title="Powered by Gitorious" /></a></div>
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-52238-3']);
+_gaq.push(['_setDomainName', '.gitorious.org'])
+_gaq.push(['_trackPageview']);
+(function() {
+   var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+   ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+   (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);
+})();
+</script><script src="/javascripts/onload.js?1322725723" type="text/javascript"></script>
+      
+<div id="footer-links">
+  <h3>Gitorious</h3>
+  <ul>
+    <li><a href="/">Home</a></li>
+    <li><a href="/about">About</a></li>
+    <li><a href="/about/faq">FAQ</a></li>
+    <li><a href="/contact">Contact</a></li>
+  </ul>
+  
+    <ul>
+      <li><a href="http://groups.google.com/group/gitorious">Discussion group</a></li>
+      <li><a href="http://blog.gitorious.org">Blog</a></li>
+    </ul>
+  
+      
+<ul>
+  <li><a href="http://en.gitorious.org/tos">Terms of Service</a></li>
+  <li><a href="http://en.gitorious.org/privacy_policy">Privacy Policy</a></li>
+</ul>
+
+  
+  
+    <ul>
+      
+        <li><a href="http://gitorious.com/">Professional Gitorious Services</a></li>
+      
+    </ul>
+  
+</div>
+      <p class="footer-blurb">
+  
+    <a href="http://gitorious.com">Professional Gitorious services</a> - Git
+    hosting at your company, custom features, support and more.
+    <a href="http://gitorious.com">gitorious.com</a>.
+  
+</p>
+
+      <div class="clear"></div>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,52 @@
+# The following function generates a two-line PS1 prompt.  It uses two new
+# array variables, abovePS1 and aboveRPS1, either of which may be empty or
+# unset.  Each of these is a series of prompt segments that should appear,
+# obviously, above the regular PS1 and RPS1 prompts.  (I generally prefer to
+# put the extra info in the xterm title bar, but when not using an xterm
+# this can be handy.)
+#
+# To use the two-line prompt:
+
+function precmd() {
+    two_line_prompt
+}
+abovePS1=(%m %n %~)
+aboveRPS1=(%W %@ tty%l)	# Remember, display is reversed to tty%l %@ %W.
+
+realPS1=$PS1		# Save the original PS1 for later use
+
+two_line_prompt() {
+    local fakePS1="" fakeRPS1="" p P
+
+    for p in $abovePS1
+    do
+	# Compute the width of each abovePS1 segment.  If the total
+	# width so far is wider than the screen, omit the segment.
+	P=$(print -nP $p)
+	if [[ $[$#fakePS1+$#P] -lt $[$COLUMNS-1] ]]
+	then fakePS1="${fakePS1:+$fakePS1 }$P"
+	fi
+    done
+
+    for p in $aboveRPS1
+    do
+	# Add in the width of each aboveRPS1 segment.  If the total
+	# width so far is wider than the screen, omit the segment.
+	P=$(print -nP $p)
+	if [[ $[$#fakePS1+$#fakeRPS1+$#P] -lt $COLUMNS-1 ]]
+	then fakeRPS1="$P${fakeRPS1:+ $fakeRPS1}"
+	fi
+    done
+
+    if [[ $[$#fakePS1+$#fakeRPS1] -gt 0 ]]
+    then
+        # Reset fakeRPS1 to use right-justified display (typeset -R) at
+        # the correct width to push it to the right edge of the screen.
+        local -R $[$COLUMNS-$#fakePS1-1] fakeRPS1="$fakeRPS1"
+
+        # Prefix PS1 with the first line of the two-line prompt.
+        PS1="$fakePS1$fakeRPS1
+$realPS1"
+    else PS1=$realPS1
+    fi
+}

@@ -1,0 +1,23 @@
+#
+# /etc/inittab
+#
+
+## Only one of the following two lines can be uncommented!
+# Boot to console
+id:3:initdefault:
+
+rc::sysinit:/etc/rc.sysinit
+rs:S1:wait:/etc/rc.single
+
+# -8 options fixes umlauts problem on login
+c1:2345:respawn:/sbin/fgetty tty1 linux
+c2:2345:respawn:/sbin/fgetty tty2 linux
+
+rm:2345:once:/etc/rc.multi
+rh:06:once:/etc/rc.shutdown
+su:S:once:/sbin/sulogin -p
+
+# Example lines for starting a login manager
+x:5:respawn:/usr/bin/xdm -nodaemon
+
+# End of file

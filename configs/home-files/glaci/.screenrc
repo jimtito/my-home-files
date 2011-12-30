@@ -1,0 +1,43 @@
+# Bindings
+# Remove silly bindings
+bind ^k
+bind L
+bind ^\
+
+# Add toggle bindings for the statusbar
+bind ^f eval "hardstatus ignore"
+bind f eval "hardstatus alwayslastline"
+
+# Escape sequence
+escape \034\034
+
+# Settings
+vbell off
+defbce "on"
+attrcolor b ".I"
+
+startup_message off
+defscrollback 1000
+
+altscreen on 
+
+# Show statusline
+hardstatus on
+
+# Enable 256 colors
+term screen-256color
+
+# Don't show annoying bell messages
+bell_msg ""
+
+# Statusline
+hardstatus ignore '%{= G}[%{B} %M %d %{g}]%{g}[%= %{= w}%?%-Lw%?%{r}(%{W}%n*%f %t%?(%u)%?%{r})%{w}%?%+Lw%?%?%= %{g}][%{W} %c%{g} ]'
+activity '-'
+
+# Termcap, fix 256 colors
+termcapinfo rxvt 'Co#256:AB=\E[48;5;%dm:AF=\E[38;5;%dm' 
+termcapinfo rxvt-unicode 'Co#256:AB=\E[48;5;%dm:AF=\E[38;5;%dm' 
+termcapinfo rxvt-256color 'Co#256:AB=\E[48;5;%dm:AF=\E[38;5;%dm' 
+
+# Easy X-clipboard copy
+bindkey -m > eval "stuff ' '" writebuf "exec bash -c 'xsel < /tmp/screen-exchange'"

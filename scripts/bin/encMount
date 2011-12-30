@@ -1,0 +1,64 @@
+#!/bin/bash
+# Mount all dm-crypt partitions with 1 passphrase
+# Arguments
+cmd="$1"
+group="$2"
+
+## Prompt for mount
+if [[ "$cmd" == "prompt" ]]; then
+    read -n 1 -p "Mount group \"${group}\"? [Y/n] " mnt
+    if [[ "$mnt" == "n" ]]; then
+        exit 0
+    fi
+    echo
+fi
+
+# Prompt for passphrase
+[[ "$cmd" != "umount" ]] && read -s -p "Enter LUKS passphrase: " pass && echo
+
+# Open function
+open(){
+    if [[ "$cmd" = "umount" ]]; then
+        if test -e /dev/mapper/$1; then
+            echo ".. Locking $1"
+            sudo umount -l /dev/mapper/$1
+            sudo cryptsetup luksClose $1
+        else
+            echo ">> $1 is not mounted"
+        fi
+    else
+        if ! test -e /dev/mapper/$1; then
+            echo ".. Unlocking $1"
+            echo $pass | sudo cryptsetup luksOpen $2 $1 && sudo mount /dev/mapper/$1
+        else
+            echo ">> $1 is already mounted"
+        fi
+    fi
+}
+
+# Check the group of partitions to open
+if [[ "$group" == "dw" ]]; then
+    # Open specially encrypted loopback folder
+    if [[ "$cmd" == "umount" ]]; then
+        sudo umount -l /dev/mapper/dw
+        sudo cryptsetup luksClose dw
+        sudo losetup -d /dev/loop6
+    else
+        sudo losetup /dev/loop6 /mnt/data-4/others/virtual/crypt.img
+        echo $pass | sudo cryptsetup luksOpen /dev/loop6 dw
+        sudo mount -o noatime,nodiratime /dev/mapper/dw /data/others/dw
+    fi
+elif [[ "$group" == "home" ]]; then
+    # Open home directory
+    open "home" "/dev/disk/by-uuid/4901c9da-a010-4022-aff5-0640388134cd"
+elif [[ "$group" == "data" ]]; then
+    # Open all encrypted data partitions
+    open "data-5" "/dev/disk/by-uuid/58487ea5-ac11-4497-aba7-d0ce47822cc8"
+    open "data-4" "/dev/disk/by-uuid/9269f4fc-2ca1-4961-be8b-d1fa1bc86468"
+    open "data-3" "/dev/disk/by-uuid/9030861f-7167-4d7e-85d7-27f4e135984d"
+
+    #sudo mount /data
+fi
+
+# Reset vars
+pass="" ; cmd=""

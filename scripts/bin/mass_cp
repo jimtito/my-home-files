@@ -1,0 +1,142 @@
+#!/bin/sh
+
+# Variables #
+docs="/home/lucifer/documents"
+scrip="/home/lucifer/scripts"
+endvar_pass=" :: Copy Complete :: "
+endvar_fail=' :: Copy Failed!! :: '
+endvar_test=" :: Test Complete :: "
+cp="sudo cp"
+the_dirs=" $scrip/py $scrip/sh $docs/xml $docs/html $docs/txt $docs/pdf $docs/info"
+chown="sudo chown lucifer:adm $the_dirs"
+chmod="sudo chmod u+rwx $the_dirs"
+
+
+# The Copy procedure #
+if [[ $1 == "" ]]; then
+    # Copy all PDF docs
+    if [ -d $docs/pdf  ]; then
+        cp -v $(sudo find / pdf |grep .pdf|grep -v "find:") --target-directory=$docs/pdf
+        echo $endvar_pass
+    else
+        mkdir $docs/pdf
+        cp -v $(sudo find / pdf |grep .pdf|grep -v "find:") --target-directory=$docs/pdf
+        echo $endvar_pass
+    fi
+
+    # Copy all html docs #
+    if [ -d $docs/html  ]; then
+        cp -v $(sudo find / html |grep .html|grep -v "find:") --target-directory=$docs/html
+        echo $endvar_pass
+    else
+        mkdir $docs/html
+        cp -v $(sudo find / html |grep .html|grep -v "find:") --target-directory=$docs/html
+        echo $endvar_pass
+    fi
+
+
+    # Copy all xml docs #
+    if [ -d $docs/xml  ]; then
+        cp -v $(sudo find / xml |grep .xml|grep -v "find:") --target-directory=$docs/xml
+        echo $endvar_pass
+    else
+        mkdir $docs/xml
+        cp -v $(sudo find / xml |grep .xml|grep -v "find:") --target-directory=$docs/xml
+        echo $endvar_pass
+    fi
+
+
+    # Copy all txt files
+    if [ -d $docs/txt  ]; then
+        cp -v $(sudo find / txt |grep .txt|grep -v "find:") --target-directory=$docs/txt
+        echo $endvar_pass
+    else
+        mkdir $docs/txt
+        cp -v $(sudo find / txt |grep .txt|grep -v "find:") --target-directory=$docs/txt
+        echo $endvar_pass
+    fi
+
+
+    # Copy all doc files
+    if [ -d $docs/doc  ]; then
+        cp -v $(sudo find / doc |grep .doc|grep -v "find:") --target-directory=$docs/doc
+        echo $endvar_pass
+    else
+        mkdir $docs/doc
+        cp -v $(sudo find / doc |grep .doc|grep -v "find:") --target-directory=$docs/doc
+        echo $endvar_pass
+    fi
+
+
+    # Copy all info files
+    if [ -d $docs/info  ]; then
+        cp -v $(sudo find / info |grep .info|grep -v "find:") --target-directory=$docs/info
+        echo $endvar_pass
+    else
+        mkdir $docs/info
+        cp -v $(sudo find / info |grep .info|grep -v "find:") --target-directory=$docs/info
+        echo $endvar_pass
+    fi
+
+
+    # Copy all sh files
+    if [ -d $scrip/sh  ]; then
+        cp -v $(sudo find / sh |grep .sh|grep -v "find:") --target-directory=$scrip/sh
+        echo $endvar_pass
+    else
+        mkdir $scrip/sh
+        cp -v $(sudo find / sh |grep .sh|grep -v "find:") --target-directory=$scrip/sh
+        echo $endvar_pass
+    fi
+
+
+    # Copy all .py files
+    if [ -d $scrip/py  ]; then
+        cp -v $(sudo find / py |grep .py|grep -v "find:") --target-directory=$scrip/py
+        echo $endvar_pass
+    else
+        mkdir $scrip/py 
+        cp -v $(sudo find / py |grep .py|grep -v "find:") --target-directory=$scrip/py
+        echo $endvar_pass
+    $chown $the_dirs
+    $chmod $the_dirs
+    exit 0
+    fi
+
+echo "    " && echo $endvar_fail && echo "... "
+echo ""
+echo ""
+echo "    " && echo " ::: Removing Copied Files" && echo " ... "
+sudo rm -vR $the_dirs
+echo ""
+echo ""
+echo ""
+exit 1
+fi
+
+
+
+# The test function #
+if [[ $1 == "test" ]]; then
+    if [ -d /home/lucifer/.test  ]; then
+        touch /home/lucifer/.test/dummy
+        cp -v /home/lucifer/.test/dummy --target-directory=/home/lucifer/documents
+        echo $endvar_test
+        exit 0 
+    else
+        mkdir /home/lucifer/.test
+        touch /home/lucifer/.test/dummy
+        cp -v /home/lucifer/.test/dummy --target-directory=/home/lucifer/documents
+        echo $endvar_test
+        exit 0
+    fi
+echo "    " && echo $endvar_fail && echo "... "
+echo ""
+echo ""
+echo "    " && echo " ::: Removing Copied Files" && echo " ... "
+mv -v /home/lucifer/documents/dummy /home/lucifer/.test/dummy
+echo ""
+echo ""
+echo ""
+exit 1
+fi

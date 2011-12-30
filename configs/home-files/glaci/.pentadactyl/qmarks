@@ -1,0 +1,55 @@
+""" Websites
+"" Reddit
+silent qma r http://www.reddit.com/
+silent qma R http://www.reddit.com/message/inbox/
+"" Tokyo Toshokan
+silent qma t http://www.tokyotosho.info/?cat=1
+"" TvTorrents
+silent qma n http://tvtorrents.com/loggedin/my/new_fav_tag_torrents.do
+silent qma N http://tvtorrents.com/loggedin/shared.do
+"" Github
+silent qma h http://github.com/GGLucas
+silent qma H https://github.com
+"" Glacicle git
+silent qma g http://git.glacicle.org/
+silent qma G http://stats.glacicle.org/
+"" Vim.org
+silent qma e http://www.vim.org/scripts/index.php
+silent qma E http://www.vim.org/
+"" hurl
+silent qma p http://hurl.hereticlinux.org/
+silent qma P http://hurl.hereticlinux.org/branch/GGLucas
+" 4chan
+silent qma j http://4chan.org/a/
+
+""" Forums
+"" Arch Linux
+silent qma a http://bbs.archlinux.org/search.php?action=show_new
+silent qma A http://bbs.archlinux.org/
+"" Glacier Gaming
+silent qma i http://glaciergaming.co.uk/index.php?action=unread
+"" Achron
+silent qma I http://achrongame.com/forums/search.php?search_id=newposts
+" Star Ruler
+silent qma l http://forums.blind-mind.com/index.php?action=unread
+silent qma b http://gglucas.tadalist.com/lists/1752277
+" SW
+silent qma B http://www.plaidhatgames.com/sum_forums/search.php?searchid=17654
+" SoaSE
+silent qma L http://forums.sinsofasolarempire.com/recent
+"" Wesnoth
+silent qma c http://forum.wesnoth.org/search.php?search_id=active_topics
+silent qma C http://ladder.subversiva.org/
+"" Elemental
+silent qma f http://forums.elementalgame.com/recent
+silent qma F http://elementalgame.com
+
+""" Watch lists
+silent qma v http://lucas.glacicle.org/watch-list/hist/%3Danime
+silent qma w http://lucas.glacicle.org/watch-list/hist
+silent qma W http://lucas.glacicle.org/watch-list/
+silent qma V http://lucas.glacicle.org/watch-list/%3Danime/@title
+silent qma Z http://lucas.glacicle.org/watch-list/%3Dtv/@title
+silent qma z http://lucas.glacicle.org/watch-list/hist/%3Dtv/%40title
+
+" vim: ft=vimperator :

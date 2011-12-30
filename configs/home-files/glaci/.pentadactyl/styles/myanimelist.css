@@ -1,0 +1,95 @@
+body,html,#content, .bgColor2, .bgColor1, .forum_boardrow1, .forum_boardrow2
+{
+    background: #141414 !important;
+    color: #e0e0e0 !important;
+}
+
+#content, .forum_boardrow1, .forum_boardrow2
+{
+    border: 0 !important;
+}
+
+#myanimelist
+{
+    width: 80% !important;
+}
+
+.bgColor2
+{
+    background: #242424 !important;
+}
+
+#headerSmall, #menu,
+#contentWrapper h1, #rightcontentunder,
+#horiznav_nav, .button_add, #profileRows, .button_form
+{
+    display: none !important;
+}
+
+input, textarea, select
+{
+    background-color: #242424 !important;
+    border: 1px solid #343434 !important;
+    color: #e0e0e0 !important;
+    -moz-appearance: none !important;
+}
+
+a
+{
+    color: #608BCC !important;
+}
+
+.borderClass
+{
+    border: 0 !important;
+    padding-top: 1.5em !important;
+}
+
+.dark_text,
+{
+    color: #55aa55 !important;
+}
+
+h2, .normal_header
+{
+    color: #5555aa !important;
+}
+
+h2, .borderDark, .borderLight, .normal_header
+{
+    border-color: #222 !important;
+    border-bottom-width: 2px !important;
+}
+
+.quotetext
+{
+    background: #242424 !important;
+    border: 1px solid black !important;
+}
+
+.forum_locheader
+{
+    color: white !important;
+}
+
+.forum_boardrowspacer, #roadblock
+{
+    display: none !important;
+}
+
+.forum_category
+{
+    background: #341414 !important;
+    border: 1px solid #343434 !important;
+}
+
+.forum_border_around .forum_category
+{
+    border: none !important;
+    border-bottom: 1px solid #343434 !important;
+}
+
+.forum_border_around table
+{
+    border: 1px solid #343434 !important;
+}

@@ -1,0 +1,2 @@
+#!/bin/bash
+alias mpddel='mpc playlist | grep -i "$1" | awk { print $1 } | cut -d"\)" -f1'

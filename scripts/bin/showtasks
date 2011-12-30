@@ -1,0 +1,25 @@
+#!/bin/bash
+. ~/.bashrc
+
+echo -e "\e[1;32m"
+date
+
+week=$(date +%-V)
+flags="";
+[[ $((week%2)) -eq 0 ]] && flags="$flags\e[1;32m2" || flags="$flags\e[1;31m-";
+[[ $((week%3)) -eq 0 ]] && flags="$flags\e[1;32m3" || flags="$flags\e[1;31m-";
+[[ $((week%4)) -eq 0 ]] && flags="$flags\e[1;32m4" || flags="$flags\e[1;31m-";
+
+echo -e "\n\e[0;36m#############"
+echo -e "#  \e[1;35mWeek \e[1;34m$week\e[0;36m  #"
+echo -e "#    $flags\e[0;36m    #"
+echo -e "#############\e[0;37m"
+
+[[ "$1" == "" ]] && day=$(date +%u) || day=$1;
+echo -e "\e[0;37m"
+todo --database ~/.todo.daily $day
+echo
+todo --database ~/.todo +high
+echo
+todo --database ~/.todo.schedule
+echo

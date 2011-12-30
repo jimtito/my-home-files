@@ -1,0 +1,40 @@
+if [[ ! -o norcs ]]; then
+    print "No RCS"
+fi
+
+# if [[ ! -o login ]]; then
+# #         print "Warning: It is *not* a login-Shell\!"
+# # fi
+# #-------------------------------------------------- 
+#
+# # -f true if file exists and is a regular file. See
+# #  | man zshmisc | less -p "^CONDITIONAL EXPRESSIONS"
+# # for details.
+# #
+# # Test and then source exported variables.
+# if [ -f ~/.zsh/zshexports ]; then
+#   source ~/.zsh/zshexports
+# else
+#   print "Note: ~/.zsh/zshexports is unavailable."
+# fi
+#
+## Test and then source some options
+#if [ -f ~/.zsh/zshoptions ]; then
+#   source ~/.zsh/zshoptions
+#else
+#   print "Note: ~/.zsh/zshoptions is unavailable."
+#fi
+#
+## Test and then source alias definitions.
+#if [ -f ~/.zsh/zshaliases ]; then
+#   source ~/.zsh/zshaliases
+#else
+#   print "Note: ~/.zsh/zshaliases is unavailable."
+#fi
+#
+## Test and then source the functions.
+#if [ -f ~/.zsh/zshfunctions ]; then
+#   source ~/.zsh/zshfunctions
+#else
+#   print "Note: ~/.zsh/zshfunctions is unavailable."
+#fi                                                                   

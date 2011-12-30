@@ -1,0 +1,175 @@
+#!/bin/bash
+#
+# pbrisbin 2009
+#
+# check http://pbrisbin.com:8080/bin/goodsong for updates
+#
+# recent updates:
+#
+#   why was i so dumb as to convert the songs into Artist
+#   Album for storage in ~/.goodsongs? it just overly
+#   complicates things... 
+#
+#   i've rewritten goodsong to use simply the file path now. 
+#   i've also added a convert_list() function that should
+#   be called to convert your existing list into filenames;
+#   everyone should run this if your upgrading, ok? OK?
+#
+#   had to rewrite some things because mpc decided to change
+#   playlist output and remove position numbers from the
+#   listing... stupid mpc, everyone should update
+#
+#   dynamically get crossfade secs and adjust LAG accordingly
+#   for the -S option
+#
+#   added a switch ('[' for '\[') so grep -qx will treat
+#   songs with '[something]' in the title correctly
+#
+#   simplifed use of functions to standard I/O with $1 -> echo
+#
+#   general code cleanup
+#
+###
+
+message() {
+  echo "usage: goodsong [option]"
+  echo
+  echo "  options:"
+  echo "        -p, --play       play random song from list, now"
+  echo "        -b, --build      build playlist from your list, play it"
+  echo "        -s, --show       display a random song from list" 
+  echo "        -f, --find regex find a song in your list using grep 'regex'"
+  echo "        -S, --smart      select a song from your list"
+  echo "                         find it in your current playlist"
+  echo "                         or add it; when the current song ends,"
+  echo "                         play it"
+  echo "        -P, --print      print your list with music dir prepended"
+  echo "        -h, --help       display this"
+  echo
+  echo "        none             append playing song to list"
+  echo
+  echo "  NOTE: anyone upgraded from an older version of goodsong"
+  echo "        please run goodsong -c to convert your old list"
+  echo "        into the new format."
+  echo
+  exit 1
+}
+
+# conversion function {{{
+# converts a goodsongs list made up of "Artist Album" into
+# one of "filename" -- this function will be going away
+# soon...
+convert_list() {
+  # some safety measures
+  [ -z "$list" ] && return 1
+  [ -f "$list.new" ] && rm "$list.new"
+
+  local n_old=$(wc -l < $list)
+
+  echo converting $list into $list.new...
+  while read entry; do
+    local artist="$(echo $entry | sed 's/\ \-\ /+/g' | cut -d "+" -f 1)"
+    local title="$(echo $entry | sed 's/\ \-\ /+/g' | cut -d "+" -f 2)"
+    
+    mpc search artist "$artist" title "$title" | head -1 >> "$list.new"
+  done < "$list"
+
+  [ -s "$list.new" ] || return 1
+
+  echo copying $list to $list.bak...
+  cp "$list" "$list.bak" || return 1
+
+  echo moving $list.new to $list...
+  mv "$list.new" "$list" || return 1
+
+  local n_new=$(wc -l < $list)
+
+  if [ $n_new -ne $n_old ]; then
+    echo note: difference in number of good songs 
+    echo after the conversion.
+  else
+    echo -n "all set. "
+  fi
+
+  echo please verify that $list is ok.
+  return 0
+}
+
+# }}}
+
+# just prints your list with the music dir prepended (for easy piping, etc)
+printlist() {
+  local mdir="$(awk '/^music_directory/ {print $2}' /etc/mpd.conf)"
+
+  # strip quotes
+  mdir="${mdir//\"/}"
+
+  # fix ~
+  mdir="${mdir/\~/$HOME}"
+
+  # print it
+  while read file; do
+    echo "$mdir/$file"
+  done < "$list"
+}
+
+# _ -> playlist position
+get_pos() {
+  track="$(cat $list | sort -R | head -1)"
+  
+  # why tf would mpc stop putting playlist position in its output?
+  POS=$(mpc playlist --format %file% | grep -nx "$track" | head -1)
+  POS=${POS/:*/}
+
+  if [ -z "$POS" ]; then
+    mpc add "$track"
+    POS=$(mpc playlist | wc -l)
+  fi 
+
+  echo $POS
+}
+
+# _ -> seconds remaining
+get_lag() {
+  local time="$(mpc | awk '/playing/ {print $3}')"
+  if [ -z "$time" ]; then
+    LAG=0 
+  else
+    time=${time//:/ } # 1:20/3:40 -> 1 20/3 40
+    time=${time//// } # 1 20/3 40 -> 1 20 3 40
+    
+    while read curm curs totm tots; do
+      cur=$((curm*60+curs))
+      tot=$((totm*60+tots))
+
+      LAG=$((tot-cur))
+    done <<< $time
+  fi
+
+  # adjust lag based on crossfade
+  local N=$(mpc crossfade | awk '{print $2}')
+  [ -n "$N" ] && LAG=$((LAG-N))
+
+  echo $LAG
+}
+
+list="$HOME/.goodsongs"
+touch "$list"
+
+case $1 in
+  -h|--help)  message                                                      ;;
+  -c|--conv)  convert_list || echo "something broke?"                      ;;
+  -s|--show)  sort -R "$list" | head -1                                    ;;
+  -f|--find)  shift; grep -i "$*" "$list"                                  ;;
+  -p|--play)  mpc play $(get_pos)                                          ;;
+  -b|--build) mpc clear >/dev/null
+              sort -R "$list" | while read track; do
+                mpc add "$track"
+              done
+              mpc play                                                     ;;
+  -S|--smart) (sleep $(get_lag) && mpc play $(get_pos)) &                  ;;
+  -P|--print) printlist                                                    ;;
+  *)          mpc | grep -q playing || exit 1
+              song="$(mpc --format %file% | head -1)"
+              grep -qx "${song//[/\\[}" "$list" || echo "$song" >> "$list" ;;
+esac

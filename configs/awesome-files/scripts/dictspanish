@@ -1,0 +1,44 @@
+#!/bin/bash 
+ 
+## Funciones:
+ 
+function buscar_palabra {
+#    echo "Se está buscando la palabra \"$aux\" en la RAE, esto"
+#    echo "puede tardar dependiendo de la velocidad de su conexión"
+#    echo ''
+    #Aquí puedes utilizar lynx o links2 en lugar de links, y si quieres
+    #quitarle el "-dump" para visualizar directamente el navegador
+    links2 -dump "http://buscon.rae.es/draeI/SrvltGUIBusUsual?LEMA=$palabra&origen=RAE"
+#    echo ''
+}
+ 
+function adaptar_palabra {
+    #Pasar a minúsculas
+    palabra=$(echo $palabra | awk '{print tolower($0)}')
+    #Para poner la palabra por pantalla
+    aux=$palabra
+    #Cambiar caracteres especiales
+    palabra=$(echo $palabra | sed 's/á/%C3%A1/')
+    palabra=$(echo $palabra | sed 's/é/%C3%A9/')
+    palabra=$(echo $palabra | sed 's/í/%C3%AD/')
+    palabra=$(echo $palabra | sed 's/ó/%C3%B3/')
+    palabra=$(echo $palabra | sed 's/ú/%C3%BA/')
+    palabra=$(echo $palabra | sed 's/ñ/%C3%B1/')
+}
+ 
+## Parte principal:
+ 
+#if test -z $1
+#then
+#	clear
+#	echo "Diccionario de la RAE"
+#       echo "Introduce la palabra a buscar:"
+#	read palabra
+#	adaptar_palabra
+#	buscar_palabra
+#else
+	clear
+        palabra=$1
+	adaptar_palabra
+	buscar_palabra
+#fi

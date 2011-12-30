@@ -1,0 +1,3 @@
+filter +children
+global-database $HOME/.todo
+format display=%i%[info]%f%2n.%[priority] %T\n

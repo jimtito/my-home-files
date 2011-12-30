@@ -1,0 +1,13 @@
+#!/bin/bash
+xkbdir=$HOME/.xkb
+
+# Check if folder exists
+if [[ -d "$xkbdir" ]]; then
+    # Set keymap
+    setxkbmap -v 0 -I$xkbdir -layout hdv -print \
+        -option "terminate:ctrl_alt_bksp" | \
+        xkbcomp -I$xkbdir - $DISPLAY &> /dev/null
+
+    # Correct mod4 bind
+    xmodmap -e "remove mod4 = Alt_L" &
+fi

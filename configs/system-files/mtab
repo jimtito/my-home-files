@@ -1,0 +1,14 @@
+rootfs / rootfs rw 0 0
+proc /proc proc rw,nosuid,nodev,noexec,relatime 0 0
+/sys /sys sysfs rw,nosuid,nodev,noexec,relatime 0 0
+udev /dev devtmpfs rw,nosuid,relatime,size=10240k,nr_inodes=505319,mode=755 0 0
+/run /run tmpfs rw,nosuid,nodev,relatime,size=10240k,mode=755 0 0
+/dev/sda3 / ext3 rw,relatime,errors=continue,commit=5,barrier=1,data=ordered 0 0
+devpts /dev/pts devpts rw,nosuid,noexec,relatime,gid=5,mode=620,ptmxmode=000 0 0
+shm /dev/shm tmpfs rw,nosuid,nodev,relatime 0 0
+tmpfs /tmp tmpfs rw,nosuid,nodev,noatime,size=3145728k 0 0
+tmpfs /var/run tmpfs rw,nosuid,relatime,size=262144k,mode=755 0 0
+tmpfs /var/lock tmpfs rw,nosuid,nodev,noexec,relatime,size=262144k 0 0
+/dev/sda1 /boot ext2 rw,relatime,errors=continue 0 0
+/dev/sda4 /home ext3 rw,relatime,errors=continue,commit=5,barrier=1,data=ordered 0 0
+/dev/loop0 /var/lib/pacman ext2 rw,relatime,errors=continue 0 0

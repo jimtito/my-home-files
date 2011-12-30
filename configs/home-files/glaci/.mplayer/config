@@ -1,0 +1,27 @@
+# Default options for mplayer
+[default]
+fs=yes # Start in fullscreen
+ontop=yes # Put mplayer on top of everything
+mouseinput=no # Disable the mouse
+volume=100 # Start at full volume
+cache=9999 # Use a large cache
+channels=2 # Use 2 channels by default
+lavdopts=threads=6 # Use 6 threads for x264
+
+sub-fuzziness=1 # Load subs containing the filename
+ass=yes # Turn on ass subs
+subfont-autoscale=1 # Don't autoscale subs
+subfont-osd-scale=2 # Use 2% for osd
+subfont-text-scale=6 # Use 6% for subs
+osdlevel=0 # Start without the osd
+
+# Use vdpau
+vc=ffh264vdpau,ffmpeg12vdpau,ffwmv3vdpau,ffvc1vdpau,
+
+# Language defaults
+slang=jp,jpn,eng,en,
+alang=jp,jpn,eng,en,
+
+# Outputs
+vo=vdpau
+ao=alsa

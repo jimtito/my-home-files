@@ -1,0 +1,63 @@
+! URxvt
+URxvt.font:xft:Montecarlo:pixelsize=11:antialias=true
+URxvt.boldFont:xft:Montecarlo:bold:pixelsize=11:antialias=true
+URxvt.loginShell: true
+
+URxvt*loginShell:       true
+URxvt*saveLines:        5500
+URxvt*cutchars:         `"()'*<>[]{|}
+/* places a hardcopy in home dir when print is pressed */
+URxvt.print-pipe: cat > $(TMPDIR=$HOME mktemp urxvt.XXXXX)
+
+URxvt.keysym.M-u: perl:mark-yank-urls:activate_mark_mode
+URxvt.underlineURLs: true
+URxvt.keysym.C-M-u: perl:matcher
+URxvt.perl-ext: default,matcher
+URxvt.urlLauncher: luakit
+URxvt.colorUL: #909000
+
+URxvt*transparent:        true
+URxvt.cursorBlink:        true
+URxvt.cursorOnTime:       300
+URxvt.cursorOffTime:      140
+URxvt*shading:            40
+URxvt*fading:             20
+URxvt*scrollBar:          False
+
+URxvt*colorBD:            lightyellow
+URxvt*colorUL:            yellow
+URxvt.cursorColor: #999
+
+Xft.dpi:        96
+Xft.antialias:  true
+Xft.rgba:       rgb
+Xft.hinting:    true
+Xft.hintstyle:  hintslight
+
+! this line makes so that only the SSH-sessions become "Urgent" on bell
+SSH*urgentOnBell: true
+
+! XTerm
+XTerm*Background: black
+XTerm*Foreground: grey90
+XTerm*LoginShell: true
+XTerm*CursorColor: rgb:99/99/00
+XTerm*faceName: xft:Monaco:medium:pixelsize=9:antialias=false
+XTerm*boldFont: xft:Monaco:bold:pixelsize=9:antialias=false
+XTerm*faceSize: 7
+XTerm*printerAutoClose: true
+
+! XLock
+XLock.invalidCapsLock: Invalid login.
+XLock.mode: matrix
+XLock.info:  
+XLock.program: fortune -ao
+XLock.username:
+XLock.password:
+XLock.erasetime: 3
+XLock.mono: true
+XLock.font: -*-monaco-r-*-*-12-*-*-*-*-*-*-*
+
+! Which theme to use
+# include "/home/dunz0r/.xdefaults-color/four"
+! EOF

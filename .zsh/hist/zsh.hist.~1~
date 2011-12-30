@@ -1,0 +1,5197 @@
+vim .zsh
+vim .zsh/config/zshmisc
+cp .zsh/config/.xinitrc $HOME
+rm .xinitrc.\~1\~
+rm .zsh/config/.zshstyle.swp
+vim .zsh/config/zshbindings
+vim .zsh/config/zshcompctl
+tput
+tput Co 2>/dev/null
+{Tput Co 2>/devearnull\
+clear\
+end
+test "$(tput colors 2>/dev/null)" -eq 256) 
+test "$(tput colors 2>/dev/null)" -eq 256
+test "$(tput colors 2>/dev/null)" -eq 256 clear
+(test -n "$(tput Co 2>/dev/null)" && test "$(tput Co 2>/dev/null)" -eq 256) || (test -n "$(tput colors 2>/dev/null)" && test "$(tput colors 2>/dev/null)" -eq 256) || echo "WARNING: 256 color terminal not set correctly!"
+vim .zsh/config/zshstatusbar
+vim .zsh/config/zshstyle
+vim .zsh/config/zshzle
+vim .zcompdump
+cat .terminfo/s/screen
+cat .terminfo/s/screen-bce
+vim .zprofileclear
+man zshcontrib
+. ~/zsh-4.3.13/Util/reporter > zsh.report
+. /usr/share/zsh/zsh-4.3.13/Util/reporter > zsh.report
+$module_pathclear
+wvSummary
+littlelamb
+sudo pacman -Syu beep |less
+sudo pacman -Syu beep
+man zshcompsys
+sudo packer -Ss lpr
+sudo packer -Ss lprof-cvs psutils
+sudo packer -S lprof-cvs psutils
+sudo packer -S lprof psutils
+lupdate
+lprof
+lprsetup.sh
+man zshcompwid
+vim config/zshstatusbar
+vim config/zshbindings
+vim config/zshcompctl
+vim config/zshdevel
+vim config/zshexports
+$OS
+/usr/share/vim/vim$VIMRELEASE
+_quilt
+touch zshprompt
+sudo packer -Ss apm
+sudo packer -Ss ibam
+sudo packer -S ibam
+vim .zsh/config/zshoptions
+if this then;\
+do echo "f u" then;
+if this then;\
+ echo "f u" then;\
+clear
+vim /.zsh/config/zshprompt
+$terminfo
+$terminfo=yes
+export terminfo=yes
+cat .terminfo/s/screen-256color
+cat .terminfo/s/screen-s
+time packer -Ss zsh
+time packer -S usagi oh-my-zsh-extra-git
+time sudo packer -S usagi oh-my-zsh-extra-git
+$PORTS_DIR
+echo $PORTS_DIR
+cat .zsh/old-zsh-config/exports.zsh
+reloaclear
+echo colors
+echo $color
+echo $colour
+echo $ZLS_COLOURS
+echo $ZLS_COLORS
+vim .zsh/old-zsh-config/.zshenv
+vim .zsh/old-zsh-config/.zshrc
+strings =zsh | grep zshrc
+hea
+if i ! == 0 then\
+end all 
+all end
+echo $(print -P %${i}~)
+.zsh
+sudo vim .zlogout
+sudo vim .zprofile
+sudo vim .zshenv
+cd .archassistant
+oe\\
+end
+ln
+die!
+die
+tar -xvf shellrc-latest.tar.bz2
+rm shellrc-latest.tar.bz2
+mv -r shellrc-20110731/ shell-rc
+mv shellrc-20110731/ shell-rc
+cd shell-rc
+vim shellrc.readme.html
+vim shellrc
+vim etc/profile
+cat 10-evdev.conf |less
+cat 20-nouveau.conf |less
+cat hostname |less
+vim .zsh3
+vim .zshp3
+vim zshp3
+vim etc/zsh/zprofile
+vim etc/zsh/zshenv
+vim root
+vim root/scripts/rootmyzcompile
+vim root/scripts/rootzshcopy
+mv shell-rc/ ex1
+cd ex3
+cd Index\ of\ _computing_zsh_files_shortcuts_files
+rm Index\ of\ _computing_zsh_files_shortcuts Index\ of\ _computing_zsh_files_shortcuts_files/
+rm -r Index\ of\ _computing_zsh_files_shortcuts_files/ Index\ of\ _computing_zsh_files_shortcuts.htm
+mkdir net
+mv *.asc net
+mv *.htm net
+tar -xvf X_fonts.tar.gz
+rm X_fonts.tar.gz
+mv X_fonts.README net
+cat README|less
+cat CVS
+cd CVS
+cat fonts.alias |less
+urxvt -imfont tixius.bdf
+urxvt -imfont nexus.pcf
+mv X_fonts.README $HOME/.zsh/ex3/X_fonts/
+cd X_fonts
+cat X_fonts.README|less
+urxvt -fn nexus.pcf
+urxvt -fn nexus
+urxvt -fn noxis.pcf
+urxvt -fn *bdf
+urxvt -fn *.bdf
+font2c nexus.pcf
+setfont nexus.pcf
+cat fonts.dir |less
+man urxvtd
+man urxvtc
+man urxvtperl
+sudo packer -Ss rxvt
+ls net
+sudo packer -Ss dietlibc-cvs socklog-dietlibc
+sudo packer -S dietlibc-cvs socklog-dietlibc
+cd .zsh/ex3/
+mkdir net2
+mv *.asc net2
+mv dot-zsh.htm net2
+mv f* net2
+mv ConfigHooks.org net2
+ss -a
+sudo packer -Ss glib
+sudo packer -Ss pacman-glib2-git
+sudo packer -Ss pacman
+sudo packer -S pacman-glib2-git pactools paccheck pkgupdate-git packer-color
+sudo packer -S pacman-glib-git pactools paccheck pkgupdate-git packer-color
+sudo packer -Ss pacman-glib
+sudo packer -S pacman-glib
+sudo packer-color -Ss pacman-glib
+sudo packer-color -S pacman-glib
+sudo vim /etc/pacman.d
+sudo vim /etc/pkgupdate.conf
+sudo vim /etc/pkgtools/newpkg.conf
+sudo vim /etc/pkgtools/pkgfile.conf
+sudo vim /etc/pkgtools/spec2arch.conf
+sudo python pkgupdate_gtk.py
+python sudo pkgupdate_gtk.py
+python pkgupdate_gtk.py
+pkgupdate_gtk3.py
+cat zsh.report
+rm zsh.report
+pacget -h
+sudo pacman-db-upgrade -h
+/usr/bin/pacman-db-upgrade pacman_db_root
+sudo /usr/bin/pacman-db-upgrade pacman_db_root
+pt-pacman-cage
+pt-pacman-cage --help
+pt-pacman-cage pacman_db_size 50
+/usr/bin/pt-pacman-cage 40
+sudo /usr/bin/pt-pacman-cage 40
+pacman-db-upgrade /var/lib/pacman.db
+sudo pacman-db-upgrade /var/lib/pacman.db
+sudo pacman-db-upgrade /var/lib/
+sudo pacman-db-upgrade /var/lib/pacman
+sudo pacman-db-upgrade --help /var/lib/pacman
+pacman-optimize --help
+sudo pacman-optimize /var/lib/pacman.db
+sudo pacman-optimize /var/lib/pacman
+pth-config
+pth-config --help
+pt-pacfix -h
+pt-pacfix -a
+pt-pacfix --all
+man pt-pacfix
+man packer-color
+infocmp
+infokey
+sudo intltool-update
+man intltoolize
+mkdir intl
+cd intl
+sudo intltool-prepare --help
+intltool-prepare -v
+sudo intltool-prepare -v
+man intltool-prepare
+man intltool-prepare -x
+man intltool-prepare -x /
+man intltool-prepare --verbose /
+intltool-prepare --verbose /
+ls intl
+ls -a intl
+intltool-update
+intltool-update --help
+cvs -a
+cvs --help-options
+cvs --help-synonyms
+cvs --help
+cvs --help-commands
+cvs -d init
+cvs -- d init
+-d cvs init
+cvs -- d
+cvs init -d
+cvs admin
+cvs update
+cvs init --d
+cvs init d
+sudo cvs init -d
+sudo cvs init
+cvs --help-init
+cvs --help-commands init
+cvs -H init
+cvs --help global init
+cvs add .local/share/applications/wine-extension-wri.desktop.in .local/share/applications/wine-extension-ini.desktop.in .local/share/applications/wine-extension-png.desktop.in .local/share/applications/wine-extension-txt.desktop.in .local/share/applications/chrome-http___www.google.com_ig.desktop.in .local/share/applications/wine-extension-gif.desktop.in .local/share/applications/wine-extension-rtf.desktop.in .local/share/applications/chromium-devel.desktop.in .local/share/applications/wine-extension-hlp.desktop.in .local/share/applications/wine-extension-jfif.desktop.in .local/share/applications/wine-extension-htm.desktop.in .local/share/applications/wine-extension-vbk.desktop.in .local/share/applications/wine-extension-chm.desktop.in .local/share/applications/wine-extension-jpe.desktop.in .local/share/applications/wine-extension-xml.desktop.in .local/share/applications/wine/Programs/CourseSmart Bookshelf.desktop.in .local/share/desktop-directories/wine-Programs.directory.in .local/share/desktop-directories/wine-wine.directory.in .config/autostart/sync-chromium.desktop.in build/home/chrome-svn/tarball/chromium/src/third_party/xdg-utils/tests/xdg-desktop-icon/data/desktop_icon_install.desktop.in build/home/chrome-svn/tarball/chromium/src/third_party/xdg-utils/tests/xdg-utils-usecases/data/menu_item_dummy.desktop.in build/home/chrome-svn/tarball/chromium/src/third_party/xdg-utils/tests/xdg-utils-usecases/data/icon_test.desktop.in build/home/chrome-svn/tarball/chromium/src/third_party/xdg-utils/tests/xdg-utils-usecases/data/menu_install.directory.in build/home/chrome-svn/tarball/chromium/src/third_party/xdg-utils/tests/xdg-utils-usecases/data/mime_launch.desktop.in build/home/chrome-svn/tarball/chromium/src/third_party/xdg-utils/tests/xdg-desktop-menu/data/menu_item_dummy.desktop.in build/home/chrome-svn/tarball/chromium/src/third_party/xdg-utils/tests/xdg-desktop-menu/data/menu_install.directory.in build/home/chrome-svn/tarball/chromium/src/third_party/xdg-utils/tests/xdg-desktop-menu/data/menu_item_test.desktop.in build/home/chrome-svn/tarball/chromium/src/third_party/xdg-utils/tests/xdg-desktop-menu/data/menu_item_dummy2.desktop.in build/home/chrome-svn/tarball/chromium/src/third_party/xdg-utils/tests/xdg-desktop-menu/data/menu_item_category.desktop.in build/home/chrome-svn/tarball/chromium/src/third_party/xdg-utils/tests/xdg-desktop-menu/data/shinythings_example/webmirror.directory.in build/home/chrome-svn/tarball/chromium/src/third_party/xdg-utils/tests/xdg-desktop-menu/data/shinythings_example/webmirror-admin.desktop.in build/home/chrome-svn/tarball/chromium/src/third_party/xdg-utils/tests/xdg-desktop-menu/data/shinythings_example/webmirror.desktop.in
+intltool-extract
+mv intl/ cvs
+intltool-prepare --verbose Name
+intltool-prepare --verbose awesome
+intltool-prepare --verbose
+cvs add etc/sound/events/gnome-2.soundlist.in etc/sound/events/gtk-events-2.soundlist.in etc/xdg/autostart/wicd-tray.desktop.in etc/xdg/autostart/appset-qt.desktop.in etc/xdg/autostart/gsettings-data-convert.desktop.in usr/share/doc/ipython2/examples/core/ipython-sh.desktop.in usr/share/doc/ipython2/examples/core/ipython-qtconsole.desktop.in usr/share/doc/ipython2/examples/core/ipython.desktop.in usr/share/doc/ipython/examples/core/ipython-sh.desktop.in usr/share/doc/ipython/examples/core/ipython-qtconsole.desktop.in usr/share/doc/ipython/examples/core/ipython.desktop.in usr/share/applications/rxvt-unicode.desktop.in usr/share/applications/policytool.desktop.in usr/share/applications/assistant.desktop.in usr/share/applications/gwget.desktop.in usr/share/applications/wicd.desktop.in usr/share/applications/bvnc.desktop.in usr/share/applications/qtconfig.desktop.in usr/share/applications/vlc.desktop.in usr/share/applications/jdownloader.desktop.in usr/share/applications/archassistant.desktop.in usr/share/applications/abiword.desktop.in usr/share/applications/mediabox-mc.desktop.in usr/share/applications/links.desktop.in usr/share/applications/speedcrunch.desktop.in usr/share/applications/bssh.desktop.in usr/share/applications/gnumeric.desktop.in usr/share/applications/gvim.desktop.in usr/share/applications/hardinfo.desktop.in usr/share/applications/jconsole.desktop.in usr/share/applications/epdfview.desktop.in usr/share/applications/epiphany.desktop.in usr/share/applications/avahi-discover.desktop.in usr/share/applications/appset-qt.desktop.in usr/share/applications/gpg-crypter.desktop.in usr/share/applications/qv4l2.desktop.in usr/share/applications/flashget.desktop.in usr/share/applications/flash-player-properties.desktop.in usr/share/applications/firefox.desktop.in usr/share/applications/zenmap.desktop.in usr/share/applications/javaws.desktop.in usr/share/applications/bme.desktop.in usr/share/applications/leafpad.desktop.in usr/share/applications/linguist.desktop.in usr/share/applications/designer.desktop.in usr/share/applications/zenmap-root.desktop.in usr/share/applications/CMake.desktop.in usr/share/applications/gnome-mplayer.desktop.in usr/share/applications/gimp.desktop.in usr/share/applications/dconf-editor.desktop.in usr/share/applications/lprof.desktop.in usr/share/applications/itweb-settings.desktop.in usr/share/applications/mplayer.desktop.in usr/share/applications/skype.desktop.in usr/share/abiword-2.8/mime-info/abiword.keys.in usr/share/apps/solid/actions/vlc-openvcd.desktop.in usr/share/apps/solid/actions/vlc-opendvd.desktop.in usr/share/apps/solid/actions/vlc-opencda.desktop.in usr/share/thumbnailers/ffmpegthumbnailer.desktop.in usr/share/mime-info/gnome-vfs.keys.in usr/share/gnome/autostart/libcanberra-login-sound.desktop.in usr/share/xsessions/awesome.desktop.in usr/share/kde4/services/kcm_adobe_flash_player.desktop.in usr/share/kde4/services/phononbackends/gstreamer.desktop.in usr/share/gdm/autostart/LoginWindow/libcanberra-ready-sound.desktop.in usr/lib/gnome-settings-daemon-3.0/gtk-modules/canberra-gtk-module.desktop.in home/lucifer/.local/share/applications/wine-extension-wri.desktop.in home/lucifer/.local/share/applications/wine-extension-ini.desktop.in home/lucifer/.local/share/applications/wine-extension-png.desktop.in home/lucifer/.local/share/applications/wine-extension-txt.desktop.in home/lucifer/.local/share/applications/chrome-http___www.google.com_ig.desktop.in home/lucifer/.local/share/applications/wine-extension-gif.desktop.in home/lucifer/.local/share/applications/wine-extension-rtf.desktop.in home/lucifer/.local/share/applications/chromium-devel.desktop.in home/lucifer/.local/share/applications/wine-extension-hlp.desktop.in home/lucifer/.local/share/applications/wine-extension-jfif.desktop.in home/lucifer/.local/share/applications/wine-extension-htm.desktop.in home/lucifer/.local/share/applications/wine-extension-vbk.desktop.in home/lucifer/.local/share/applications/wine-extension-chm.desktop.in home/lucifer/.local/share/applications/wine-extension-jpe.desktop.in home/lucifer/.local/share/applications/wine-extension-xml.desktop.in home/lucifer/.local/share/applications/wine/Programs/CourseSmart Bookshelf.desktop.in home/lucifer/.local/share/desktop-directories/wine-Programs.directory.in home/lucifer/.local/share/desktop-directories/wine-wine.directory.in home/lucifer/.config/autostart/sync-chromium.desktop.in home/lucifer/build/home/chrome-svn/tarball/chromium/src/third_party/xdg-utils/tests/xdg-desktop-icon/data/desktop_icon_install.desktop.in home/lucifer/build/home/chrome-svn/tarball/chromium/src/third_party/xdg-utils/tests/xdg-utils-usecases/data/menu_item_dummy.desktop.in home/lucifer/build/home/chrome-svn/tarball/chromium/src/third_party/xdg-utils/tests/xdg-utils-usecases/data/icon_test.desktop.in home/lucifer/build/home/chrome-svn/tarball/chromium/src/third_party/xdg-utils/tests/xdg-utils-usecases/data/menu_install.directory.in home/lucifer/build/home/chrome-svn/tarball/chromium/src/third_party/xdg-utils/tests/xdg-utils-usecases/data/mime_launch.desktop.in home/lucifer/build/home/chrome-svn/tarball/chromium/src/third_party/xdg-utils/tests/xdg-desktop-menu/data/menu_item_dummy.desktop.in home/lucifer/build/home/chrome-svn/tarball/chromium/src/third_party/xdg-utils/tests/xdg-desktop-menu/data/menu_install.directory.in home/lucifer/build/home/chrome-svn/tarball/chromium/src/third_party/xdg-utils/tests/xdg-desktop-menu/data/menu_item_test.desktop.in home/lucifer/build/home/chrome-svn/tarball/chromium/src/third_party/xdg-utils/tests/xdg-desktop-menu/data/menu_item_dummy2.desktop.in home/lucifer/build/home/chrome-svn/tarball/chromium/src/third_party/xdg-utils/tests/xdg-desktop-menu/data/menu_item_category.desktop.in home/lucifer/build/home/chrome-svn/tarball/chromium/src/third_party/xdg-utils/tests/xdg-desktop-menu/data/shinythings_example/webmirror.directory.in home/lucifer/build/home/chrome-svn/tarball/chromium/src/third_party/xdg-utils/tests/xdg-desktop-menu/data/shinythings_example/webmirror-admin.desktop.in home/lucifer/build/home/chrome-svn/tarball/chromium/src/third_party/xdg-utils/tests/xdg-desktop-menu/data/shinythings_example/webmirror.desktop.in
+cvs add etc/sound/events/gnome-2.soundlist.in etc/sound/events/gtk-events-2.soundlist.in etc/xdg/autostart/wicd-tray.desktop.in etc/xdg/autostart/appset-qt.desktop.in etc/xdg/autostart/gsettings-data-convert.desktop.in usr/share/doc/ipython2/examples/core/ipython-sh.desktop.in usr/share/doc/ipython2/examples/core/ipython-qtconsole.desktop.in usr/share/doc/ipython2/examples/core/ipython.desktop.in usr/share/doc/ipython/examples/core/ipython-sh.desktop.in usr/share/doc/ipython/examples/core/ipython-qtconsole.desktop.in usr/share/doc/ipython/examples/core/ipython.desktop.in usr/share/applications/rxvt-unicode.desktop.in usr/share/applications/policytool.desktop.in usr/share/applications/assistant.desktop.in usr/share/applications/gwget.desktop.in usr/share/applications/wicd.desktop.in usr/share/applications/bvnc.desktop.in usr/share/applications/qtconfig.desktop.in usr/share/applications/vlc.desktop.in usr/share/applications/jdownloader.desktop.in usr/share/applications/archassistant.desktop.in usr/share/applications/abiword.desktop.in usr/share/applications/mediabox-mc.desktop.in usr/share/applications/links.desktop.in usr/share/applications/speedcrunch.desktop.in usr/share/applications/bssh.desktop.in usr/share/applications/gnumeric.desktop.in usr/share/applications/gvim.desktop.in usr/share/applications/hardinfo.desktop.in usr/share/applications/jconsole.desktop.in usr/share/applications/epdfview.desktop.in usr/share/applications/epiphany.desktop.in usr/share/applications/avahi-discover.desktop.in usr/share/applications/appset-qt.desktop.in usr/share/applications/gpg-crypter.desktop.in usr/share/applications/qv4l2.desktop.in usr/share/applications/flashget.desktop.in usr/share/applications/flash-player-properties.desktop.in usr/share/applications/firefox.desktop.in usr/share/applications/zenmap.desktop.in usr/share/applications/javaws.desktop.in usr/share/applications/bme.desktop.in usr/share/applications/leafpad.desktop.in usr/share/applications/linguist.desktop.in usr/share/applications/designer.desktop.in usr/share/applications/zenmap-root.desktop.in usr/share/applications/CMake.desktop.in usr/share/applications/gnome-mplayer.desktop.in usr/share/applications/gimp.desktop.in usr/share/applications/dconf-editor.desktop.in usr/share/applications/lprof.desktop.in usr/share/applications/itweb-settings.desktop.in usr/share/applications/mplayer.desktop.in usr/share/applications/skype.desktop.in usr/share/abiword-2.8/mime-info/abiword.keys.in usr/share/apps/solid/actions/vlc-openvcd.desktop.in usr/share/apps/solid/actions/vlc-opendvd.desktop.in usr/share/apps/solid/actions/vlc-opencda.desktop.in usr/share/thumbnailers/ffmpegthumbnailer.desktop.in usr/share/mime-info/gnome-vfs.keys.in usr/share/gnome/autostart/libcanberra-login-sound.desktop.in usr/share/xsessions/awesome.desktop.in usr/share/kde4/services/kcm_adobe_flash_player.desktop.in usr/share/kde4/services/phononbackends/gstreamer.desktop.in usr/share/gdm/autostart/LoginWindow/libcanberra-ready-sound.desktop.in usr/lib/gnome-settings-daemon-3.0/gtk-modules/canberra-gtk-module.desktop.in home/lucifer/.local/share/applications/wine-extension-wri.desktop.in home/lucifer/.local/share/applications/wine-extension-ini.desktop.in home/lucifer/.local/share/applications/wine-extension-png.desktop.in home/lucifer/.local/share/applications/wine-extension-txt.desktop.in home/lucifer/.local/share/applications/chrome-http___www.google.com_ig.desktop.in home/lucifer/.local/share/applications/wine-extension-gif.desktop.in home/lucifer/.local/share/applications/wine-extension-rtf.desktop.in home/lucifer/.local/share/applications/chromium-devel.desktop.in home/lucifer/.local/share/applications/wine-extension-hlp.desktop.in home/lucifer/.local/share/applications/wine-extension-jfif.desktop.in home/lucifer/.local/share/applications/wine-extension-htm.desktop.in home/lucifer/.local/share/applications/wine-extension-vbk.desktop.in home/lucifer/.local/share/applications/wine-extension-chm.desktop.in home/lucifer/.local/share/applications/wine-extension-jpe.desktop.in home/lucifer/.local/share/applications/wine-extension-xml.desktop.in home/lucifer/.local/share/applications/wine/Programs/CourseSmart Bookshelf.desktop.in home/lucifer/.local/share/desktop-directories/wine-Programs.directory.in home/lucifer/.local/share/desktop-directories/wine-wine.directory.in home/lucifer/.config/autostart/sync-chromium.desktop.in home/lucifer/build/home/chrome-svn/tarball/chromium/src/third_party/xdg-utils/tests/xdg-desktop-icon/data/desktop_icon_install.desktop.in home/lucifer/build/home/chrome-svn/tarball/chromium/src/third_party/xdg-utils/tests/xdg-utils-usecases/data/menu_item_dummy.desktop.in home/lucifer/build/home/chrome-svn/tarball/chromium/src/third_party/xdg-utils/tests/xdg-utils-usecases/data/icon_test.desktop.in home/lucifer/build/home/chrome-svn/tarball/chromium/src/third_party/xdg-utils/tests/xdg-utils-usecases/data/menu_install.directory.in home/lucifer/build/home/chrome-svn/tarball/chromium/src/third_party/xdg-utils/tests/xdg-utils-usecases/data/mime_launch.desktop.in home/lucifer/build/home/chrome-svn/tarball/chromium/src/third_party/xdg-utils/tests/xdg-desktop-menu/data/menu_item_dummy.desktop.in home/lucifer/build/home/chrome-svn/tarball/chromium/src/third_party/xdg-utils/tests/xdg-desktop-menu/data/menu_install.directory.in home/lucifer/build/home/chrome-svn/tarball/chromium/src/third_party/xdg-utils/tests/xdg-desktop-menu/data/menu_item_test.desktop.in home/lucifer/build/home/chrome-svn/tarball/chromium/src/third_party/xdg-utils/tests/xdg-desktop-menu/data/menu_item_dummy2.desktop.in home/lucifer/build/home/chrome-svn/tarball/chromium/src/third_party/xdg-utils/tests/xdg-desktop-menu/data/menu_item_category.desktop.in home/lucifer/build/home/chrome-svn/tarball/chromium/src/third_party/xdg-utils/tests/xdg-desktop-menu/data/shinythings_example/webmirror.directory.in home/lucifer/build/home/chrome-svn/tarball/chromium/src/third_party/xdg-utils/tests/xdg-desktop-menu/data/shinythings_example/webmirror-admin.desktop.in home/lucifer/build/home/chrome-svn/tarball/chromium/src/third_party/xdg-utils/tests/xdg-desktop-menu/data/shinythings_example/webmirror.desktop.in -d
+intltool-prepare --verbosecvs
+mv linux\ docs/ linux-docs
+mv linux-howtos/ linux-docs
+mv -r linux-howtos/ linux-docs
+mv linux-howtos/ linux-docs/
+sudo mv linux-howtos/ linux-docs/
+sudo packer -S chromium-browser-svn chromium-tmpfs
+chromium-tmpfs
+locate tmpfs
+vim /etc/rc.d/chromium-tmpfs
+rm -r chrome-linux
+packer -G chromium-browser-svn
+pt-pacfix --help
+pt-pacfix boostlibs
+pt-pacfix - boostlibs
+pt-pacfix -boostlibs
+pt-pacfix -boostlibsls
+rm chromium-browser-svn.tar.gz X_fonts.tar.gz
+pt-pacman-info -all --full
+pt-pacman-info --all --full
+pt-pacman-info -a -f
+pt-pacman-info -a
+pt-pacman-info -v
+pt-pacman-info -i
+pt-pacman-info -i\br
+pt-pacman-info -br
+pt-pacman-info -cr
+pt-pacsize --help
+man pt-pacsize
+info pacsize
+pacman-optimize -
+sudo pactools
+paccheck
+pack200 --help
+pacman2aria2
+pacman2aria2 -c United States,
+pacman2aria2 -c United States
+pacman2aria2 --country "United States"
+pacman2aria2 --country <United States>
+pacman2aria2 --country United_States
+pacman2aria2 --country United States
+pacman2aria2 --list-countries
+pacman2aria2 -c United States -l 10
+pacman2aria2 -c United -l 10
+pacman2aria2 -l 10
+pacman2aria2 -l
+pacman2aria2 -l 5
+pacman2aria2 -f
+pacman2aria2 -f 5
+pacget cvs
+pacget
+pkcheck
+pkgclean
+pkgclean -c -v
+mv pacman.installed /home/lucifer/
+pkg-config --libs --cflags --errors-to-stdout --usage
+pkg-config --libs --cflags --errors-to-stdout
+pkg-config --libs --cflags --errors-to-stdout chromium-browser-svn
+pkg-config --libs --cflags --errors-to-stdout PKG_CONFIG_PATH=$PKG_CONFIG_PATH:$HOME/build/ chromium-browser-svn
+pkg-config --libs --cflags --errors-to-stdout PKG_CONFIG_PATH=$PKG_CONFIG_PATH:$HOME/build/chromium-browser-svn chromium-browser-svn
+pkg-config --libs --cflags --errors-to-stdout PKG_CONFIG_PATH=$PKG_CONFIG_PATH:$HOME/build/chromium-browser-svn/chromium-browser-svn
+pkg-config --libs --cflags --errors-to-stdout PKG_CONFIG_PATH=$PKG_CONFIG_PATH:$HOME/build/chromium-browser-svn/chromium-browser-svnclear
+pkg-config --libs --cflags --errors-to-stdout PKG_CONFIG_PATH="$PKG_CONFIG_PATH:/home/lucifer/build/chromium-browser-svn" chromium-browser-svn
+pkaction --help
+pkcheck help
+pkcheck --help
+pkgclean --help
+pkgclean -c -v --purge
+pkgconflict --help
+pkgconflict -h
+pkgconflict
+pkgconflict PKGBUILD
+sudo packer-color -G chromium-browser-svn
+pkgconflict chromium-browser-svn.tar.gz
+cd chromium-browser-svn
+man pkgconflict
+info pkgconflict
+help pkgconflict
+sudo pkgconflict chromium-browser-svn.tar.gz
+pkgdelta --help
+pkgfile --help
+pkgfile -u
+sudo pkgfile -u
+sudo pkgupdate_gtk.py
+sudols pkgupdate_gtk.py
+rm chromium-browser-svn.tar.gz
+rm PKGBUILD chromium-browser.sh chromium.desktop chromium.install
+rm .gclient
+mv chromium-browser-svn/ $PWD
+mv chromium-browser-svn/ $HOME/build/chromium-browser-svn
+mv chromium-browser-svn/* $HOME/build/chromium-browser-svn
+rmdir chromium-browser-svn
+pkgdata -I
+pkgdata -I chromium.install
+pkgdata -I chromium.install -p chromium-browser-svn
+pkgdata -I -s /home/lucifer/build/chromium-browser-svn -p chromium-browser-svn
+pkgdata -s /home/lucifer/build/chromium-browser-svn -p chromium-browser-svn -I
+pkgdata --help
+pkgdata -s /home/lucifer/build/chromium-browser-svn -p chromium-browser-svn -I chromium.install
+pkgdata -p chromium-browser-svn -I chromium.install
+pkgdata -p chromium-browser-svn -I $HOME/build/chromium-browser-svn/chromium.install
+pkgdata -p chromium-browser-svn -I $HOME/build/chromium-browser-svn/
+Xorg
+mv X_fonts.README depot_tools/
+cd $HOME/documents/linux\ docs
+tar -xvf cederqvist-1.12.13.html.bz2
+bzip2 -d cederqvist-1.12.13.html.bz2
+cd linux\ docs
+mv cederqvist-1.12.13.html $HOME/documents/linux-docs
+firefox -browser cederqvist-1.12.13.html
+firefox cederqvist-1.12.13.html
+rmdir chromium-browser-svn depot_tools/ home
+rmdir -r chromium-browser-svn depot_tools/ home
+rmdir --help chromium-browser-svn/ depot_tools/ home
+rm -r chromium-browser-svn/ depot_tools/ home
+sudo rm -r chromium-browser-svn/ depot_tools/ home
+cvs -d /home/lucifer/build
+cvs -d
+cvs -d $PWD
+cvs -d home/lucifer/build/ add
+cvs add ../build/
+cvs -d /home/lucifer/build/
+cvs checkout amesome
+intltoolize --help
+intltool-prepare --help
+intltool-merge
+cvs -d /usr/local/cvsroot checkout yoyodyne/tc
+rm -r CVSROOT/
+mkdir cvsroot
+cvs -d /home/lucifer/build/cvsroot init
+ls cvsroot
+ls cvsroot/CVSROOT/ls
+cd cvsroot/CVSROOT/
+cvs checkout /cvsroot/CVSROOT
+cvs checkout /home/lucifer/build/cvsroot/CVSROOT
+cvs checkout /home/lucifer/build/cvsroot/CVSROOT/ch
+cd $CVSEDITOR
+cd cvsroot
+cd CVSROOT
+cd-create-profile
+edit config
+cvs checkout $CVSEDITOR
+cd ...
+rm -r cvsroot
+sudo rm -r cvsroot
+setenv CVSROOT /home/lucifer/build
+cvs -d /home/lucifer/build CVSROOT
+mkdir cvs
+setenv CVSROOT /home/lucifer/build/cvs/ init
+setenv CVSROOT /home/lucifer/build/cvs/
+cd $cvs
+cd wdirr
+wim ex1/root
+vim .terminfo/s/screen-256color
+cat xinitrc
+sudo packer-color -Ss xmodmap
+x
+sudo packer-color -Ss x11
+if test -n "$BASH" ; then\
+	set +o posix\
+	no_exit_on_failed_exec=1\
+	type shopt > /dev/null 2>&1 && shopt -s execfail\
+	set +e > /dev/null 2>&1\
+fi
+if test -n "$BASH" ; then\
+	set +o posix\
+	no_exit_on_failed_exec=1\
+	type shopt > /dev/null 2>&1 && shopt -s execfail\
+	set +e > /dev/null 2>&1\
+\
+\
+clear\
+exit\
+exit
+if bash -n "$BASH" ; then\
+set +o posix\
+no_exit_on_failed_exec=1\
+type shopt > /dev/null 2>&1 && shopt -s execfail\
+set +e > /dev/null 2>&1\
+fi
+... .adobe apps .archassistant .aria2 .asoundrc .bash_history .bash_logout .bash_profile .bashrc .bmrc books build .cache .config configs cvs .dbus documents downloads-browser downloads-complete downloads-incomplete .fehbg .findbrokenpkgs .fontconfig .fonts .fonts.conf.d .foxrc .gconf .gconfd .getmail git .gitconfig .gnome2 .gnome2_private .gntrc .gstreamer-0.10 .gtk-bookmarks .hardinfo .hcache .histfile .ibam .icedtea .irssi iso .java .jd .lesshst .links .local .lprof .lyrics .macromedia mail .maildir mnt .mozilla .mpd .mpdscribble .mplayer music .mutt .muttrc .ncmpcpp .nmap pacman.installed .pastebinit.xml .pciids-cache pictures .pki pms .procmailrc .pulse .pulse-cookie .purple .qt .rtorrent.rc .screenrc scripts .shell-fm .ssh .subversion .terminfo .themes .thumbnails .urlview videos .vim .viminfo .vimrc .wicd .Xauthority .Xdefaults .xinitrc .Xresources .xsel.log .zcompdump .zlogout .zprofile .zsh .zshenv .zshrc ../CLEAR
+... .adobe apps .archassistant .aria2 .asoundrc .bash_history .bash_logout .bash_profile .bashrc .bmrc books build .cache .config configs cvs .dbus documents downloads-browser downloads-complete downloads-incomplete .fehbg .findbrokenpkgs .fontconfig .fonts .fonts.conf.d .foxrc .gconf .gconfd .getmail git .gitconfig .gnome2 .gnome2_private .gntrc .gstreamer-0.10 .gtk-bookmarks .hardinfo .hcache .histfile .ibam .icedtea .irssi iso .java .jd .lesshst .links .local .lprof .lyrics .macromedia mail .maildir mnt .mozilla .mpd .mpdscribble .mplayer music .mutt .muttrc .ncmpcpp .nmap pacman.installed .pastebinit.xml .pciids-cache pictures .pki pms .procmailrc .pulse .pulse-cookie .purple .qt .rtorrent.rc .screenrc scripts .shell-fm .ssh .subversion .terminfo .themes .thumbnails .urlview videos .vim .viminfo .vimrc .wicd .Xauthority .Xdefaults .xinitrc .Xresources .xsel.log .zcompdump .zlogout .zprofile .zsh .zshenv .zshrc ../clear
+mv git/ build
+cat mail/inbox/cur/ls -a
+cat .zshprompt.swo
+rm .zshprompt.swo
+cd .zsh/
+vim zshp2
+pkgdata -p chromium-browser-svn -I $HOME/build/chromium-browser-svn/PKGBUILD
+vim zshprompt
+$sudo packer-color -Ss diet
+$sudo packer-color -S socklog-dietlibc dietlibc-cvs
+$sudo packer-color -S dietlibc-cvs
+.zsh/old-zsh-config
+sudo vim .zsh/config/zshprompt
+source /home/lucifer/build/cvs/
+source /home/lucifer/.zsh/config/
+sudo .vim .zsh/config/zshprompt
+sudo vim /etc/conf.d/chromium-tmpfscleararar
+source /home/lucifer/.zshrc
+rm .zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.plugin.zsh
+ls .aria2/cat .hcache
+rm .cache
+ls -acat i .findbrokenpkgs/findbrokenpkgs.
+source .zsh/config/zshfunctions
+rm .zsh/config/.zshfunctions.swp
+refunc
+vim .zsh/config/.xinitrc
+sudo vim /zshprompt
+vim etc/zsh/zshrc
+mv dot.zlogin ex3
+vim .zshrcls -a
+cat pacman.installed
+udo pacman -Scc
+pacman2aria2 --list-countries --save $HOME
+vim pacman.installed
+cd core
+cat .vimrc
+cd .local
+cd share
+ls data
+cat Trash
+ls -a Trash
+la
+cat .xinitrc
+vim .xsel.log
+sudo status
+/home/dope/bin/url_handler.sh
+rm .zshfunctions.swp
+vim old-zsh-config/.zshenv
+vim $HOME/.zshenv
+vim old-zsh-config/functions.zsh
+locate prompt
+cd /usr/share/zsh/4.3.13/functions/Prompts
+vim prompt_elite2_setup
+vim prompt_fire_setup
+vim prompt_elite_setup
+vim prompt_pws_setup
+vim prompt_zefram_setup
+locate oh-my
+mkdir prompts
+/usr/share/oh-my-zsh/themes/* $HOME/.zsh/prompts
+sudo /usr/share/oh-my-zsh/themes/*.theme $HOME/.zsh/prompts
+cp /usr/share/oh-my-zsh/themes/*.theme $HOME/.zsh/prompts
+cp /usr/share/oh-my-zsh/themes/*.themes
+cp /usr/share/oh-my-zsh/themes/*.themes echo $PWD
+cp /usr/share/oh-my-zsh/themes/*.themes $PWD
+cp /usr/share/oh-my-zsh/themes/*.theme $PWD
+sudo cp /usr/share/oh-my-zsh/themes/*.theme $PWD
+sudo cp /usr/share/oh-my-zsh/themes/*.theme $PWD ../
+sudo cp /usr/share/oh-my-zsh/themes/*.theme ../
+sudo cp /usr/share/oh-my-zsh/themes/*.theme ../ --archive
+sudo cp /usr/share/oh-my-zsh/themes/*.theme ../*
+sudo cp /usr/share/oh-my-zsh/themes/*.theme --archive $PWD
+sudo cp /usr/share/oh-my-zsh/themes/*.theme --archive $PWD/
+copy
+ex robbyrussell-oh-my-zsh-757fa33.zip
+vim config/zshfunctions
+cd cvs/
+mkdir CVSROOT
+cvsa
+cvs --help global
+cvsa -k rcs-kflag
+cvsa -kkv
+cvsa -k -kkv
+cvsa -k
+cvsa -m
+cvsa -- k
+cvs checkout $CVSROOT
+cvs checkout CVSROOT
+disp
+sudo packer-color -Ss lesspipe
+sudo packer-color -S lesspipe
+sudo packer-color -Ss pkill
+sudo packer-color -S pkill
+sudo packer-color -Ss kill
+findsuid
+makerev
+ovv
+ev
+eva
+cd .zsh/config/\\
+
+echo xinitrc
+echo $PAGER
+zless
+dstack
+sudo packer-color -Ss tree
+hu
+du tmpfs
+sudo pacman -S tree
+sudo packer -S tree
+du -all
+du --all
+cd .zsh/config/
+cat ex1
+ls ex1
+cd ex1
+root/..
+cd root
+cd .zsh/ex1
+cat zprofile
+cat zshenv
+ls ..
+cd home
+vim juhtolv
+cd juhtolv
+vim dot.zlogout
+vim dot.zprofile
+vim dot.zshenv
+cd ....
+gd ..
+cd ex2
+vim dot.zlogin
+vman SHELL
+hulp
+sudo packer-color -S espeak
+espeak --voices=en "fuck the police"
+espeak --voices=(en 3) "fuck the police"
+espeak
+vim zshfunctions
+locate rkj
+/usr/share/oh-my-zsh/themes/rkj-repos.zsh-theme
+cake
+hey computer, do as i say or i will kill you... pull the trigger *BLEEP*
+sudo packer-color glibc
+sudo packer-color -Ssdietc
+sudo packer-color -Ss diet
+sudo packer-color -Ss socklog-dietlibc dietlibc-cvs
+sudo packer-color -S socklog-dietlibc dietlibc-cvs
+cd /usr/bin/ld
+lp
+man ld
+sudo packer-color -S dietlibc-cvs
+dh
+vman
+ls\\
+clear
+s pacman -Sc && pacman-optimize
+comm -23 <(pacman -Qeq|sort) <(pacman -Qgq base base-devel|sort)
+locate packer
+locate zsh-packer
+cd /var/lib/pacman/local/zsh-packer-2-2
+ls desc
+ls desc desc
+vim files
+cd documents/linux\ docs
+ex linux\ docs/cederqvist-1.11.23.html.bz2
+mv linux\ docs/cederqvist-1.11.23.html linux-docs
+cederqvist-1.11.23.html
+rm -r CVSROOT
+vim .cvsrc
+cvs checkout tc
+CVSROOT=
+echo CVSROOT=
+vim $CVSROOT
+export CVSROOT=""
+dirs -v
+cd build/cvs
+cvs-options
+cvs init
+cd build/cvs/CVSROOT
+echo $CVSROOT
+vim config
+intltoolize
+sudo intltool-prepare
+intltool-prepare
+cvs add .local/share/applications/wine-extension-wri.desktop.in .local/share/applications/wine-extension-ini.desktop.in .local/share/applications/wine-extension-png.desktop.in .local/share/applications/wine-extension-txt.desktop.in .local/share/applications/chrome-http___www.google.com_ig.desktop.in .local/share/applications/wine-extension-gif.desktop.in .local/share/applications/wine-extension-rtf.desktop.in .local/share/applications/chromium-devel.desktop.in .local/share/applications/wine-extension-hlp.desktop.in .local/share/applications/wine-extension-jfif.desktop.in .local/share/applications/wine-extension-htm.desktop.in .local/share/applications/wine-extension-vbk.desktop.in .local/share/applications/wine-extension-chm.desktop.in .local/share/applications/wine-extension-jpe.desktop.in .local/share/applications/wine-extension-xml.desktop.in .local/share/applications/wine/Programs/CourseSmart Bookshelf.desktop.in .local/share/desktop-directories/wine-Programs.directory.in .local/share/desktop-directories/wine-wine.directory.in .config/autostart/sync-chromium.desktop.in
+cvs cvs-options
+cvs checkout
+cvs checkout vim
+ls cvs
+ls -a cvs
+cvs checkout vim CVSROOT
+cvs checkout vim CVSROOT/
+cvsa vim
+sudo pacman -Sc && pacman-optimize
+sudo packer-color -S tree
+gitize
+vim .git/config
+git
+tree -a --dirsfirst -C -
+tree -a --dirsfirst -C
+vim .zsh/config/zshprompt
+sudo vim /usr/share/oh-my-zsh/themes/rkj-repos.zsh-theme
+vim .zsh/config/zshp2
+vim .zsh/config/zshp3
+wcvsclear
+echo '%(2L.s[$SHLVL] .)%5v%{'"$DIM"'%}%4v%{'"$UNDIM"'%}%3v%6v%7v'
+echo "%(2L.s[$SHLVL] .)%5v%{'"$DIM"'%}%4v%{'"$UNDIM"'%}%3v%6v%7v"
+echo "%(2L.s[$SHLVL] .)%5v%{'"[2m''%}%4v%{'"$UNDIM"'%}%3v%6v%7v"\
+echo "%(2L.s[$SHLVL] .)%5v%{'"$DIM"'%}%4v%{'"$UNDIM"'%}%3v%6v%7v"\
+echo "%(2L.s[$SHLVL] .)%5v%{[2m%}%4v%{'"$UNDIM"'%}%3v%6v%7v"\
+cd\
+cd\
+ci\
+cd ..\
+exit\
+\
+\
+\
+\
+o\
+ls\
+ls -a\
+aoeu
+vim .zsh/config/zsh-prompt-work
+sudo vim /usr/share/oh-my-zsh/themes/darkblood.zsh-theme
+sudo vim /usr/share/oh-my-zsh/themes/linuxonly
+sudo vim /usr/share/oh-my-zsh/themes/terminalparty.zsh-theme
+sudo vim /usr/share/oh-my-zsh/themes/minimal.zsh-theme
+sudo vim /usr/share/oh-my-zsh/themes/gentoo.zsh-theme
+sudo vim /usr/share/oh-my-zsh/themes/blinks.zsh-theme
+sudo vim /usr/share/oh-my-zsh/themes/arch-blue.zsh-theme
+vimlocate paclist
+locate paclist
+cat /etc/fstab
+pacman manpage
+pacman --deptest
+vim /etc/paccheck/mirrorlist
+vim /etc/pacget.stats
+vim /etc/pacman.d/color.conf
+sudo !!
+sudo vim /etc/pkcs11/pkcs11.conf.example
+locate pkcs
+man pkcs
+man pkcs12
+man pkcs7
+man pkcs8
+pacman -Sg
+pacman -Qgg
+pacman -Sgg
+pacman -Qg
+gdb --help
+_gdb --help
+glib
+getdietlibc
+dietlibc
+cvs
+lesspipe
+lesspipe.sh
+vim lesspipe.sh
+locate less
+man lesspipe
+less v
+cat zshaliases
+lessecho zshaliases
+less zshaliases
+sudo pacman-color --help
+sudo pacman-color -S grcat
+sudo pacman-color -S grc
+sudo packer-color -Ss grc
+sudo packer-color -S grc
+grc
+grc -s
+gobject-introspection
+sudo pacman -Syu gobject-introspection
+less -R README
+sudo packer -Syu gobject-introspection
+pacman -Q x
+pacman -Ss x
+pacman-color -Ss x
+man grc
+sudo vim /etc/grc.conf
+dietlibc-cvs-111203/dietlibc/
+cd..
+cd dietlibc/x86_64
+less --help
+packer-color -Ss x
+packer-color -Ss x |less
+cd x86_64
+cp diet $HOME/scripts
+vim pacget
+packer-color -Ss x11
+packer-color -Ss x11r6
+dietlibc-cvs-111203
+lesspipe.sh README
+sudo packer-color -Ss gobject
+-version
+Xorg -version
+gtk-query-immodules-3.0
+zsh-confmake
+gtk-query-immodules-2.0-32
+pacman2aria2 --help
+pacman-color --help
+pacman-color -Sgg
+pacman-color -Sgg i3
+pacman-color -Sgg gambas
+pacman-color -Sgg gambas3
+pacman-color -Ss gambas
+pacman -Ss bmp
+packer-color -Ss bmp
+packer-color -Ss tools
+pacman-color -Ss hxtools
+pacman-color -S hxtools
+sudo packer-color -Ss hxtools
+sudo packer-color -S hxtools
+sudo packer-color -S hxtools pactools
+sudo packer-color -Ss svn
+sudo packer-color -Ss svn |les
+sudo packer-color -Ss svn |less
+svnlook --help
+svn
+cd cvs
+ls CVSROOT
+getdietlibc --help
+rm dietlibc-cvs-111204
+rm -r dietlibc-cvs-111204
+sudo cp diet.1 /usr/local/man
+man diet.1
+man | less
+man -w
+man -wa
+man -w -a
+man -u
+man -u-update
+man -update
+man -update die
+sudo man -update
+sudo man -update -a
+sudo man -update -a diet
+sudo man --update -a diet
+sudo man --update -a di
+sudo man --update di
+sudo man -update dee
+man cvs
+vim diet
+cd dietlibc-cvs-111203
+cd dietlibc
+cd bin-x86_64
+test
+time
+FAQ
+less FAQ
+sudo mv scripts/diet /bin/
+diet
+less README
+ls /usr/local/man/
+locate man
+locate man |less
+cp diet.1 /usr/share/man/man1/
+sudo cp diet.1 /usr/share/man/man1/
+reloau
+glib-config
+glib-config glib
+glib-config --cflags glib
+cat cvs/
+ls cvs/
+ls -a cvs/
+rm pacman.installed
+rm -r dietlibc-cvs-111203
+ls core
+autofuck
+aclocal-1.11
+ls system-files
+glib.htm
+System-administration.htm
+Version-control.htm
+manpath
+man.html
+manual_001.htm
+manual_002.html
+manual_040.htm
+indent.htm
+index.php.html
+index_005.html
+cd build/git
+git clone git://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux-2.6.git
+cd .git
+git gc
+git gui
+grcat --help
+grc --help
+grc ls .AbiSuite
+grc ls /etc
+grc --colour=on ls /etc
+vim /etc/diet.ld.conf
+vim /etc/colord.conf
+vim /etc/crypttab
+vim /etc/conf.d
+vim /etc/conf.d/chromium-tmpfs
+vim .gtk-bookmarks
+rm -r .archassistant
+sudo rm -r .archassistant
+ls --size
+ls .foxrc
+rm .foxrc
+rm -r .foxrc
+ls .gconf/apps/%gconf.xml
+cat .gconf/apps/%gconf.xml
+ls .bmrc
+cat .bmrc
+vim .zsh/prompts/
+ls prompts
+rm robbyrussell-oh-my-zsh-757fa33.zip
+ls ex1/docutils.conf
+vim ex1/docutils.conf
+cd ex3/
+cd net
+ck-history
+ck-list-sessions
+cxxtools-config
+cxxtools-config --lib-
+cxxtools-config --libs
+less service-commands.asc
+less abs.asc
+less crypt.asc
+less 1700.asc 1710.asc 1711.asc 1750.asc 1751.asc 1755.asc 1770.asc 1771.asc 1775.asc 1777.asc 2700.asc 2710.asc 2711.asc 2750.asc 2751.asc 2755.asc 2770.asc 2771.asc 2775.asc 2777.asc 400.asc 440.asc 444.asc 4700.asc 4710.asc 4711.asc 4750.asc 4751.asc 4755.asc 4770.asc 4771.asc 4775.asc 4777.asc 500.asc 550.asc 555.asc 600.asc 640.asc 644.asc 660.asc 664.asc 666.asc 700.asc 710.asc 711.asc 750.asc 751.asc 755.asc 770.asc 771.asc 775.asc 777.asc abs.asc add-inc.asc addr.asc ba.asc beep.asc cb.asc cf.asc cg.asc cm.asc colour-cvs-output.asc colour-diff-output.asc cpan.asc crypt.asc cvsd.asc cvsl.asc cvsll.asc cvsn.asc cvsq.asc cvsr.asc cvsrc.asc cvsrep.asc cvsroot.asc cvss.asc cvssv.asc cvst2.asc cvst.asc cvsu.asc cvsuhq.asc cvsuq.asc cvsv.asc dch.asc ddt.asc dfh.asc dfl.asc dfll.asc diff-less.asc dl.asc dwn.asc emk.asc epix.asc eshade.asc etr.asc fbig.asc fbigrpms.asc fe.asc file-datestamp.asc files.htm fswap.asc ftrace.asc gq.asc harden-ln.asc ldap.asc lh.asc makeweb.asc md5.asc mnx.asc mp.asc mw.asc mx.asc newrpms.asc ntrace.asc ord.asc ox.asc pb.asc pd.asc pi.asc plb.asc pli.asc pst.asc pstt.asc px.asc ra.asc ran.asc rcq.asc rcslocks.asc rct.asc rcup.asc RedHat-setup-dirs.asc rj.asc rjd.asc rot13.asc rpath.asc rq.asc ru.asc se.asc service-commands.asc shortcuts_001.htm shortcuts_002.htm shortcuts_003.htm shortcuts.htm sk.asc so.asc th.asc tty-colour-cvs.asc tty-colour-diff.asc un.asc whenup.asc wl.asc wlg.asc xauth-user.asc yo.asc
+.
+less v1.asc
+less
+cd net2
+less *
+less functions_001.htm
+functions.htm
+cd prompts
+\:qa
+\:w!
+vim new
+export PROMPT=$'%(?..%{\e[41;38m%}%B-%?-%b%{\e[0m%} )%(1j.%{\e[01;33m%}[%j] .)%{\e[01;36m%}%n@%m%{\e[0m%} %{\e[01;32m%}%2~%{\e[0m%} %B%#%b '
+reloada
+PROMPT=$'%(?..%{\e[41;38m%}%B-%?-%b%{\e[0m%} )%(1j.%{\e[01;33m%}[%j] .)%{\e[01;36m%}%n@%m%{\e[0m%} %{\e[01;32m%}%2~%{\e[0m%} %B%#%b '
+RPROMPT=$'%{\e[01;31m%}[%!]%{\e[0m%}'
+PROMPT=$'%{\e[01;32m%}%n@%m%{\e[0m%}[%{\e[01;34m%}%3~%{\e[0;m%}]$(pc_scm_f)%% '
+new
+st
+ping -c 3 google.com
+PS1="\n\[\e[30;1m\]\[\016\]l\[\017\](\[\e[34;1m\]\u@\h\[\e[30;1m\])-(\[\e[34;1m\]\j\[\e[30;1m\])-(\[\e[34;1m\]\@ \d\[\e[30;1m\])->\[\e[30;1m\]\n\[\016\]m\[\017\]-(\[\[\e[32;1m\]\w\[\e[30;1m\])-(\[\e[32;1m\]\$(/bin/ls -1 | /usr/bin/wc -l | /bin/sed 's: ::g') files, \$(/bin/ls -lah | /bin/grep -m 1 total | /bin/sed 's/total //')b\[\e[30;1m\])--> \[\e[0m\]"
+vim .zsh/prompts/bashex
+man term_variables
+echo "\u2500"
+vim .zsh/config/zshdevel
+echo $PATH
+locate compdef
+locate Zsh
+print "$bg[cyan]$fg[blue]Welcome to man zsh-lovers" >> $TTY
+print "${SHLVL}${terminfo[sgr0]}"
+print "${terminfo[sgr0]}"
+.terminfo
+locate url
+cat s/screen-256color
+cd s
+cd ../s
+cat screen
+cat screen-256color
+ls screen-bce
+vim screen
+vim screen-256color
+vim screen-bce
+zshguide.html
+cat new
+cat bashex
+echo "\u"
+echo "\u123"
+echo "\u016"
+echo "\016"
+echoti
+echoti enacs
+echoti rmacs
+echo '\016'
+echo "\017"
+print "\017"
+print '\016'
+print "\016"
+print '\017'
+man ctype.h
+gls
+packer-color -Ss gls
+packer-color -Ss ls
+packer-color -Ss posix
+packer-color -Ss gnu2posix2001-coreutils
+time look posix
+echo "US-e"
+echo "$US-e"
+US-e
+packer-color -Ss ed
+packer-color -Ss ed | less
+pacman-color -Sg
+pacman-color -Sg base
+packer-color -S ed
+packer-color -S gnu2posix2001-coreutils
+sudo packer-color -S core
+sudo packer-color -Ss core
+sudo packer-color -Ss base
+sudo packer-color -S base
+sudo pacman-color -S base
+sudo pacman-color -Ss base
+sudo pacman-color -Ss gdbm
+sudo pacman-color -Ss utils
+sudo packer-color -Ss man
+sudo packer-color -Ss man | grc less
+sudo pacman-color -Ss core
+sudo pacman-color -Ss core/
+sudo pacman-color -Sg core
+sudo pacman-color -Sg
+sudo pacman-color -Sgg
+sudo pacman-color -S pacman-glib pkgbrowser
+sudo pacman-color -S pacman-glib-git pkgbrowser
+sudo packer-color -S pacman-glib-git pkgbrowser
+pacman -v
+sudo packer-color -S linux-docs linux-manpages bash-docs freedesktop-docs gcc-docs
+sudo mandb --help
+man --help
+man |less
+man * |less
+pkgbrowser
+sudo packer-color -Ss latin
+sudo packer-color -Ss latin-words
+sudo packer-color -S binutils-multilib gcc-multilib libtool-multilib
+sudo packer-color -S gcc-multilib libtool-multilib
+sudo packer-color -S libtool-multilib
+sudo packer-color -S info2man
+sudo packer-color -S CPAN
+sudo packer-color -Ss CPAN
+sudo packer-color -Ss corelib
+sudo packer-color -S perl4-corelibs
+info2man /usr/share/man/
+info --version
+info --index-search=*
+info --show-options
+/usr/local/info/:/usr/share/info/:/usr/local/emul/redhat/:/usr/share/info/:/usr/sha\\
+/usr/local/info/:/usr/share/info/:/usr/local/emul/redhat/:/usr/share/info/:/usr/sha\\
+info2man /usr/share/info/*
+less /usr/heirloom/lib/help/default
+less /usr/heirloom/lib/help/cmds
+man hier
+less -a /usr/
+less -a /
+less -a /lost+found
+sudo less -a /lost+found
+sudo ls -a /lost+found
+less /usr/share/dict
+less /usr/share/doc
+less /usr/share/terminfo/r/rxvt-unicode-256color
+cd /var/log/
+cat dmesg.log
+sudo packer-color -S gcc-objc
+gcc
+gcc --help
+objcopy
+cat faillog
+cat errors.log
+ls mail
+ls mail/inbox/cur
+sudo packer -Ss sendmail
+sudo packer -S sendmail
+less crond.log
+cat crond.log
+sudo less crond.log
+mutt
+sudo packer -Ss proc
+sudo packer -Ss /procinfo-ng
+sudo packer -S procinfo-ng
+procinfo
+procinfo -v
+procinfo -DSHrs
+procinfo -DSHrsd
+procinfo --help
+sudo packer -S abs
+sudo abs --help
+cd /var/abs
+ls staging
+sudo less README
+sudo cat staging/
+sudo ls staging/
+sudo packer -S time
+sudo packer-color -Ss rxvt
+sudo packer-color -Ss rxvt-unicode-256xresources
+sudo packer-color -S rxvt-unicode-256xresources
+cd .zsh/prompts/
+urxvt-tabbed
+sudo packer-color -Ss gtk2
+sudo packer-color -Ss gtk2-perl
+sudo packer-color -S gtk2-perl
+urxvt-tabbed\
+b\
+b\
+b\
+b\
+b\
+b\
+a\
+a\
+b\
+a\
+c\
+d\
+
+urxvtd
+urxvtc
+bbm
+t-
+gnutls-cli
+gnutls-cli --help
+man makepkg.conf
+vim /etc/makepkg.conf
+sudo vim /etc/man_db.conf
+man gcc
+man libc
+info libc
+sudo vim /etc/bash_completion.d/pacman
+sudo vim /etc/bash_completion.d/rc.d
+sudo vim /etc/environment
+sudo cd/etc/
+sudo cd /etc/
+cd /etc/
+vim group
+sudo vim group-
+sudo vim diet.ld.conf
+sudo vim profile
+sudo vim profile.d/glib2.sh
+sudo vim profile.d/locale.sh
+locate locale
+locate locale |less
+locale -v
+locale --usage
+locale --charmaps
+locale --charmaps UTF-8
+locale --all-locales
+locale --category-name
+locale --category-name -v
+locale --all-locales -v
+locale --charmaps -v
+locales -h
+locale -h
+sudo locale -a
+sudo locale -c
+sudo locale -kc
+sudo locale
+sudo locale -m
+sudo locale -k
+sudo localedef
+sudo localedef --help
+sudo localedef --posix -v
+man locale
+cat locale.conf
+cat hostname
+cat sysctl.conf
+cat syslinux.cfg
+cat vconsole.conf
+cat wpa_supplicant.conf
+ls rc.local
+sudo ls rc.d/functions.d/
+sudo ls -a rc.d/functions.d/
+sudo vim rc.d/functions
+cp rc.conf $HOME/configs
+rm rc.conf.\~1\~
+cp environment host.conf localtime pacman.conf profile protocols sysctl.conf $HOME/configs
+rm sysctl.conf.\~1\~
+sudo cp locale.conf os-release /etc
+sudo vim *
+sudo vim -T rxvt-unicode-256color
+sudo vim axelrc
+sudo vim crypttab
+sudo vim colord.conf
+sudo vim host.conf
+sudo vim hosts
+howtocomplete
+howtocomplete --hulp
+howtocomplete --help
+hardinfo --help
+hardinfo -c
+hardinfo -a -l -r
+hardinfo -a -r
+$TERMINFO
+zsh/terminfo
+urxvt --help
+man urxvt
+urxvt -tn
+urxvt -xrm
+we
+terminal
+urxvt -fontlist
+urxvt -font
+urxvt -fn
+urxvt -fn x:
+urxvt -fn xft
+urxvt -fn x
+locate rxvt
+urxvt -fn "xft:"
+cat .fonts
+vim .fontconfig/d62e99ef547d1d24cdb1bd22ec1a2976-le64.cache-3
+vim .fonts.conf.d/70-yes-bitmaps.conf
+man FcFontList
+man fc-query
+man FcPatternFormat
+fc-query --format=filter-out
+fc-query --format=count
+fc-query --format=
+fc-cat --help
+fc-list --format=filter-out
+fc-list --format=fclist
+fc-list --format=xmlescape
+fc-list -v
+fc-list --help
+fc-list xft
+fc-list "xft:"
+fc-list -
+fc-list +
+*font
+man fonts-conf
+vim /etc/fonts/fonts.conf
+vim /etc/fonts/conf.d/README
+vim /etc/fonts/fonts.dtd
+*font*
+man font2c
+man autoconf
+info fonts
+info .fonts
+font2c
+man infotocap
+font*
+montage
+glist
+-c
+update-patterndb
+update-patterndb --help
+fonts
+cd /usr/share
+vim TTF/fonts.dir
+vim TTF/fonts.scale
+sudo packer-color -S xlsfonts
+sudo packer-color -Ss xlsfonts
+sudo packer-color -Ss xorg-xlsfonts
+sudo packer-color -S xorg-xlsfonts
+xlsfonts | grep fontname
+cloar
+sudo packer-color -S terminus-font
+xlsfonts | grep *terminus
+xlsfonts | grep terminus
+xlsfonts --hulp
+xlsfonts -l |less
+xlsfonts -l --help
+xlsfonts -l -o
+xlsfonts -l -C
+xlsfonts -l -C | less
+setfont --help
+setfont terminus
+vim /usr/share/fonts/local/fonts.dir
+urxvt -fn "Terminus-12"
+urxvt -fn "Terminus"
+urxvt -fn Terminus
+urxvt -fn terminus
+urxvt -fn "terminus"
+urxvt -fn "xft:terminus"
+sudo packer -Ss droid
+xset +fp /usr/share/fonts/local
+urxvt -fn "droid"
+urxvt -fn "xft:droid"
+urxvt -fn "droid sans"
+sudo packer-color -S ttf-droid-sans
+locate ttf
+sudo packer-color -S ttf-droid
+setfont /usr/share/fonts/TTF/DroidSans.ttf
+setfont --help /usr/share/fonts/TTF/DroidSans.ttf
+sudo packer-color -S ttf-
+sudo packer-color -Ss incons
+sudo packer-color -S ttf-inconsolata
+xlsfonts -l | less
+grep /fonts /var/log/Xorg.0.log
+xset q
+774/2
+echo (774/2)
+echo "774/2"
+sudo vim .fonts
+cd /etc/fonts/conf.d/
+sudo vim fonts.conf
+locate /fonts
+locate /fonts | grep ttf | less
+locate /fonts | less
+ls /usr/share/fonts/local/
+ls -a /usr/share/fonts/local/
+locate droid
+autoupdate --help
+gtk-update-icon-cache
+gtk-update-icon-cache --help
+sudo gtk-update-icon-cache -f
+gtk-update-icon-cache -f
+update-desktop-database
+sudo update-ca-certificates
+sudo lupdate
+update-pciids
+sudo update-pciids
+sudo update-usbids.sh
+sudo locate droid
+ls /usr/local/lib
+fc-cat
+sudo vim fonts.dtd
+sudo vim conf.avail
+sudo vim conf.avail/50-user.conf
+fc-cache
+fc-scan -vf
+xrandr --verbose -q
+vim /etc/X11/xorg.conf.d/10-monitor.conf
+xrandr -q
+mtools
+hcitool
+hcitool -i dev
+hcitool --help
+hcitool dev
+hcitool info
+hcitool scan
+hxtool
+dfutool
+dfutool modify
+dfutool -h
+*divice
+get_device --help
+get_device --all
+hardinfo
+hdparm
+hdparm -a
+hciconfig
+hciconfig --help
+hciconfig features
+hciconfig iscon
+hciconfig iscann
+hltest --help
+hltest
+hwdetect --show-other
+hwdetect --advanced
+hwdetect --modules
+hwdetect --modules-not-loaded
+hwd --help
+su hwd
+sudo hwd -e \less
+sudo hwd -e |less
+sudo hwd -e -s
+sudo hwd -y
+sudo hwd -e -x
+sudo hwd -ex
+sudo hwd -x
+vim xorg.conf.vesa
+sudo hwd -u
+sudo hwd --help
+sudo hwd -s |less
+cd xorg.conf.d
+hwd -s
+sudo hwd -s *
+man hwd
+info hwd
+sudo vim /etc/X11/xorg.conf.d/10-monitor.conf
+xdg-settings --help --list
+sudo vim /etc/X11/xorg.conf.d/10-quirks.conf
+sudo vim /etc/X11/xorg.conf.d/10-evdev.conf
+vim /etc/X11/xorg.conf.pimpin
+vainfo
+xinput
+Xorg -showopts
+sudo Xorg -showopts
+man chown
+sudo chmod -Rrx locale.conf
+sudo chmod --reference=pacman.conf locale.conf
+sudo chmod --reference=pacman.conf os-release
+ls -l |less
+sudo vim /etc/X11/xorg.conf.pimpin
+cd /etc/X11/xorg.conf.d/
+vim 10-synaptics.conf
+vim 10-evdev.conf
+sudo packer-color -Ss dri
+sudo packer-color -Q nouveau
+sudo packer-color -S xf86-video-nouveau-git nouveau-dri-git
+vim 10-quirks.conf
+ls /usr/share/fonts
+sudo packer-color -S nouveau-dri-git
+locate X
+sudo locate Xorg
+find -help
+hlocate Xorg
+slocate Xorg
+slocate -o $HOME
+slocate --output /home/lucifer
+slocate --help /home/lucifer
+locate --help
+updatedb -o $HOME/.locatedb -v
+sudo packer-color -Ss nouveau-dri
+sudo vim /etc/updatedb.conf
+sudo updatedb --help
+sudo updatedb --verbose
+locate Xorg
+locate X11
+locate xorg
+man xorg.conf
+vim 10-keyboard-layout.conf
+vim 10-monitor.conf
+vim 20-nouveau.conf
+pacman -S --asdeps libgl
+sudo pacman -S --asdeps libgl
+sudo packer-color -S mesa-git
+sudo packer-color -S libgl-git mesa-git
+lspci | grep VGA
+xwininfo
+lspci
+setxkbmap -print -verbose 10
+sudo pacman -S --asdeps libgl-git
+sudo packer-color -S --asdeps libgl-git
+pcregrep --help
+man scr_set
+init scr_dump .test
+sudo init scr_dump .test
+man getenv
+getenv
+get_driver --help
+getent --usage
+getent --help
+getent --help aliases
+getanames
+getopt
+getopt --help
+getkeycodes --help
+getkeycodes
+getfattr
+getpcaps
+gettext
+getkernel
+netcat
+_netcat
+listfdb
+sudo pacman -Rns ati-dri intel-dri mach64-dri r128-dri savage-dri sis-dri tdf-dri
+sudo pacman -Rns ati-dri intel-dri mach64-dri r128-dri savage-dri sis-dri tdfx-dri
+sudo pacman -Rns ati-dri intel-dri mach64-dri r128-dri savage-dri sis-dri tdfx-dri xf86-video-ati xf86-video-r128 xf86-video-intel xf86-video-mach64 xf86-video-savage xf86-video-sis xf86-video-tdfx
+pacman -Rns appset-qt archassistant chromium heirloom-cvs mediabox-svn
+sudo pacman -Rns appset-qt archassistant chromium heirloom-cvs mediabox-svn
+sudo pacman -Rns appset-qt archassistant chromium heirloom-cvs mediabox-svn chromium-tmpfs
+fc
+inconsolata
+fc-cache --help inconsolata
+fc-list inconsolata
+fc-list --help inconsolata
+fc-match --all | less
+fc-list -q
+xlsfonts -o dr
+xlsfonts -o dr*
+xlsfonts -o *dr*
+xlsfonts -l
+xlsfonts -l1
+xlsfonts -l1uC
+xlsfonts -l1uC |less
+sudo rm /etc/X11/xorg.conf.pimpin\~ /etc/X11/xorg.conf.vesa
+sudo vim /etc/X11/xdm/Xresources
+sudo vim /etc/X11/xdm/Xservers
+sudo vim /etc/X11/xdm/Xsession
+sudo vim /etc/X11/xdm/Xsetup_0
+sudo vim /etc/X11/xdm/Xstartup
+sudo vim /etc/X11/xdm/Xwilling
+sudo vim /etc/X11/xdm/xdm-config
+sudo vim /etc/X11/xdm/GiveConsole
+sudo vim /etc/X11/xdm/TakeConsole
+sudo vim /etc/X11/xdm/archlinux/Xsetup
+sudo vim /etc/X11/xdm/archlinux/xdm-config
+sudo vim /etc/X11/xdm/archlinux/Xresources
+sudo vim xdm/Xresources
+fc-list -l inconsolata
+fc-match --all | grep inconsolata
+sudo pacman -Rns mga-dri xf86-video-mga
+sudo packer-color -S libgl-git
+sudo packer-color -S ttf-inconsolata-g
+locate inconsolata
+fc-match --all
+fc-match --help
+fc-match -sav Inconsolata
+fc-query --help
+fc-query -i Inco
+fc-query inco
+fc-match -sav | grep -B 4 -A 4 In
+fc-match -sav | grep -B 4 -A 8 In
+fc-match -sav | grep -B 4 -A 12 In
+fc-match -sav | grep -B 4 -A 26 In
+fc-match -sav | grep -B 4 -A 40 In
+cp configs/local.conf /etc/fonts/
+sudo cp configs/local.conf /etc/fonts/
+sudo vim /etc/fonts/conf.avail/51-local.conf
+sudo packer-color -S xorg-xfs xorg-fonts-type1 xorg-fonts-cyrillic xorg-fonts-xft libotf
+sudo packer-color -S xorg-xfs xorg-fonts-type1 xorg-fonts-cyrillic xorg-fonts-xfd libotf
+sudo packer-color -S xorg-xfs xorg-fonts-type1 xorg-fonts-cyrillic xorg-xfd libotf
+xlsfonts | less
+xlsfonts | grep -B 2 -A 4 inco
+xlsfonts | grep -B 2 -A 4 Inco
+xlsfonts | grep -B 2 -A 4 nco
+xlsfonts -l | grep -B 2 -A 4 inc
+xlsfonts | grep -B 2 -A 4 misc
+xlsfonts -fn
+xlsfonts -o -fn
+man xlsclients
+xlsfonts -lll -m | grep -B2 -A2 inc
+xlsfonts | grep -B 2 -A 4 inc
+xfd -font -misc-inconsolata-medium-r-normal--
+.fontconfig
+fontconfig
+sudo packer-color -S fonttools
+man aa_fonts
+man fcntl
+man fslsfonts
+xfs
+xfsinfo
+info ..
+info font
+font2c 17090aa38d5c6f09fb8c5c354938f1d7-le32d4.cache-3
+font2c 2d31a572ce6667f6a0da9c8dc611898b-le32d4.cache-3
+font2c a1c95d6dfc9a7b34f44445cf81166004-le64.cache-3
+font2c *
+font2c * * *
+font2c * 2d31a572ce6667f6a0da9c8dc611898b-le32d4.cache-3 17090aa38d5c6f09fb8c5c354938f1d7-le32d4.cache-3
+font2c * 2d31a572ce6667f6a0da9c8dc611898b-le32d4.cache-3 17090aa38d5c6f09fb8c5c354938f1d7-le32d4.cache-3 df311e82a1a24c41a75c2c930223552e-le32d4.cache-3
+font2c a98d8961fa319a64d3cfd8640c79e62d-le64.cache-3
+man ttx
+sudo man ttx
+\
+b\
+b\
+a\
+xlsfonts | grep -B 2 -A 4 inc
+sudo packer-color -S pcf2bdf otf2bdf psftools ttf2pt1 fnlib
+wget -O .zshrcgrml http://git.grml.org/f/grml-etc-core/etc/zsh/zshrc
+mv .zshrcgrml .zsh/Examples
+cd .zsh/Examples
+wget -O $HOME/.zsh/Examples/.zshrcgrml http://git.grml.org/f/grml-etc-core/etc/zsh/zshrc
+# wget -O $HOME/.zsh/Examples/.zshrc.local  http://git.grml.org/f/grml-etc-core/etc/skel/.zshrc
+wget -O $HOME/.zsh/Examples/.zshrc.local http://git.grml.org/f/grml-etc-core/etc/skel/.zshrc
+cd .zsh/Examples/strcat
+mv kwtools_0.8.3.tar.bz2 ..
+ex kwtools_0.8.3.tar.bz2
+vim functions/kwtermin/termin_delete
+cd utils/
+find zsh
+find --help zsh
+find --maxdepth 20 zsh $PWD
+find --maxdepth -12 zsh $PWD
+find -D search zsh
+locate -e zsh
+locate -e zsh | less
+otfdump
+ls TTF
+ls Type1
+ls encodings
+ls util
+ls 100dpi
+tree
+locate *otf
+locate *.otf
+otfdump ttf-inconsolata.otf
+otfview ttf-inconsolata.otf
+otflist ttf-inconsolata.otf
+otflist
+otftobdf ttf-inconsolata.otf
+man otf
+info otf
+ls -t /bin
+locate otf
+fnts2fon
+fnts2fon --help
+fnts2fon ttf-inconsolata.otf inconsolata.fon
+sudo fnts2fon ttf-inconsolata.otf inconsolata.fon
+sudo fnts2fon ttf-inconsolata.otf inconsolata.tff
+fnt2psf --help
+fon2fnts --help
+man fon2fnts
+sudo packer-color -S otf2bdf
+sudo packer-color -S libotf-cvs
+libotf-config
+otftobdf --help
+otftobdf
+otftobdf ttf-inconsolata-g.otf
+otftobdf ttf-inconsolata-g.otf inconsolata
+otftobdf ttf ttf-inconsolata-g.otf
+otftobdf -l ttf-inconsolata-g.otf
+ls .fonts
+rm .fonts\~
+sudo rm .fonts\~
+ls .fontconfig
+ls .fonts.conf.d
+cd .fonts.conf.d
+ex Inconsolata.zip
+cat OFL.txt
+rm OFL.txt
+ttf2pt1 --help
+ttf2pt1 -p
+ttf2pt1 -p?
+ttf2pt1 Inconsolata.ttf
+afmtodit --help
+cat Inconsolata.afm
+man afmtodit
+afmtodit Inconsolata.afm
+tiffinfo Inconsolata.ttf
+tiffinfo Inconsolata.t1a
+ttx Inconsolata.ttf
+cat Inconsolata.ttx
+mkdir $HOME/fonts
+mv Inconsolata.* $HOME/fonts
+ls Desktop
+rm Desktop
+rm -r Desktop
+sudo update-desktop-database
+sudo update-mime-database --help
+sudo update-mime-database
+sudo update-mime-database -h
+sudo update-mime-database -v
+sudo update-mime-database -V
+sudo update-mime-database -V /
+sudo update-mime-database -V $HOME
+locate packages
+sudo update-patterndb
+sudo update-patterndb --help
+fc-match -sav | grep -B 4 -A 34 In
+mv fonts/ .fonts
+rm -r .fonts.\~1\~
+cd .fonts/
+fc-query
+fc-query -i
+fc-query -i Inconsolata.afm
+fc-query -i Inconsolata.t1a
+fc-query Inconsolata.t1a
+fc-query Inconsolata.afm
+fc-query Inconsolata.ttx
+fc-query ttf-inconsolata-g.otf
+fc-query DejaVuLGCSansMono.ttf
+ttyctl
+fc-query Inconsolata.ttf
+sudo rm Inconsolata.ttf
+cp Inconsolata.ttf Inconsolata.afm Inconsolata.t1a /usr/share/fonts/TTF
+sudo cp Inconsolata.ttf /usr/share/fonts/TTF
+sudo cp Inconsolata.t1a /usr/share/fonts/Type1/
+sudo cp Inconsolata.afm /usr/share/fonts/Type1/
+fc-match -sav | grep In
+fc-scan
+fc-query -i Inco*
+fc-match -sav | grep -B 4 -A 20 In
+xlsfonts -lll -m | grep -B2 -A2 incon
+xlsfonts -lll -m
+xlsfonts -ll -m
+xlsfonts -o *
+xlsfonts -o OpenFont Inconsolata.ttf
+xlsfonts Inconsolata.afm
+xlsfonts Inconsolata.t1a
+xlsfonts Inconsolata.ttf
+xlsfonts Inconsolata.ttx
+xlsfonts Incons
+man xlsfonts
+Ev
+Em
+Es
+Esc
+Ez
+rm Inconsolata.zip
+rm Inconsolata.afm Inconsolata.t1a
+xfd
+xfd -font
+xfd -fn font
+xfd -fn -misc-droid\ sans-medium-r-normal--
+xfd -fn -misc-droid\ sans-bold-r-normal--
+updatedb
+locate font
+locate font | less
+for dir in /font/dir1/ /font/dir2/; do xset +fp $dir; done && xset fp rehash
+xset +fp /usr/share/fonts/misc
+font
+for T in `find /usr/share/terminfo -type f -printf '%f '`;do echo "$T `tput -T $T colors`";done|sort -nk2
+infocmp -1 | sed -nu 's/^[ \000\t]*//;s/[ \000\t]*$//;/[^ \t\000]\{1,\}/!d;/acsc/d;s/=.*,//p'|column -c80
+sudo packer-color -S libxft
+sudo packer-color -S libxft libxft2
+sudo packer-color -Ss libxft
+sudo packer-color -Ss libxft-git
+sudo packer-color -S libxft-git
+sudo packer-color -S libxft-newpr
+sudo packer-color -S libxft-newspr
+hey
+(x=`tput op` y=`printf %80s`;for i in {0..256};do o=00$i;echo -e ${o:${#o}-3:3} `tput setaf $i;tput setab $i`${y// /=}$x;done)
+xfd -fn -misc-inconsolata-medium-r-normal--
+xlsfonts -ll -m | grep -B4 -A4 inc
+cd fonts
+/etc/fonts/conf.avail
+cd conf.d
+help me get to the chopp.p
+help me get to the chopper
+help me get to my house
+nttetetsnutCreload
+logout
+xdpyinfo | grep "dots per inch"
+xdpyinfo | grep dimensions
+sudo mv /etc/X11/xorg.conf.pimpin /etc/X11/xorg.comf
+xrdb
+xrdb -edit
+xrdb -query
+man xrdb
+sudo mv /etc/X11/xorg.conf.d/* configs
+ls configs
+vim /etc/X11/fs/config
+vim configs/10-keyboard-layout.conf
+cat configs/10-quirks.conf
+nouveau
+locate nouveau
+sudo modprobe
+sudo modprobe nouveau
+man nouveau
+sudo .vim /etc/X11/xorg.comf
+cat configs/10-monitor.conf
+cat configs/20-nouveau.conf
+sudo packer-color -S
+sudo packer-color -Ss nouveau
+sudo packer-color -Ss xf86-video-nouveau-git
+sudo packer-color -S xf86-video-nouveau-git
+pacman -Q | grep nou
+sudo vim /etc/X11/xorg.comf
+ls -a /etc/X11
+ls -a /etc/X11/xorg.comf/
+ls -a /etc/X11/xorg.conf.d
+sudo vim /etc/X11/xorg.comfclearar
+Xorg --help
+mv /etc/X11/xorg.comf /etc/X11/xorgcomf
+sudo mv /etc/X11/xorg.comf /etc/X11/xorgcomf
+Xorg -configure
+sudo packer-color -Ss xgi
+sudo packer-color -Ss xgixp
+sudo packer-color -S xgixp
+sudo packer-color -S xf86-video-xgixp
+sudo Xorg -configure
+man startx
+vim .Xresources
+man Xorg
+sudo mv /etc/X11/xorgcomf /etc/X11/xorg.conf
+sudo mv /etc/X11/xorgcomf /etc/xorg.conf
+cat configs/10-keyboard-layout.conf
+sudo mv /etc/X11/xorg.conf /etc/xorg.conf
+sudo mv /etc/xorg.conf /etc/X11
+cat configs/10-evdev.conf
+cat configs/10-synaptics.conf
+vim configs/50-joystick.conf
+vim configs/50-vmmouse.conf
+vim configs/10-evdev.conf
+xwd
+cp /etc/X11/xorg.conf configs
+sudo rm /etc/X11/.xorg.conf.swp
+xrandr --properties -v
+xrandr -v
+xrandr --properties -verbose
+xrandr --properties
+xrandr --query
+xrandr -display HELL:0 --verbose
+xrandr -display localhost:0 --verbose
+xrandr -display localhost.localdomain:0 --verbose
+sudo packer-color -S strace
+( strace -s5000 -e write tput op 2>&2 2>&1 ) | tee -a /dev/stderr | grep -o '"[^"]*"'
+xrdb -merge ~/.Xdefaults
+cat /etc/X11/xorg.conf
+sudo vim /etc/security/limits.conf
+xmodmap -display
+xmodmap -pp
+xmodmap -pke
+xmodmap -pk
+xmodmap
+xmodmap --help
+xmodmap -
+cd .zsh
+mv Examples/ $HOME/configs
+mv ex1/ $HOME/configs
+mv ex2/ $HOME/configs
+mv ex3/ $HOME/configs
+mv old-zsh-config $HOME/configs
+mv prompts $HOME/configs
+rm -r zsh-syntax-highlighting
+sudo rm -r zsh-syntax-highlighting
+cat cache/svn-cmds
+ls hist
+cat hist/zsh.hist
+ls config
+cd config
+vim xinitrc
+rm xinitrc
+rm .xinitrc
+vim .zshexports.swo
+vim .zshexports.swp
+rm .zshexports.swo .zshexports.swp
+rm .zshrc
+rm zshprompt\~
+mkdir system-files
+mv 10-evdev.conf 10-keyboard-layout.conf 10-monitor.conf 10-quirks.conf 10-quirks.conf 10-synaptics.conf vconsole.conf sysctl.conf syslinux.cfg 20-nouveau.conf 50-joystick.conf 50-vmmouse.conf environment host.conf hostname local.conf locale.conf localtime pacman.conf profile protocols rc.conf xorg.conf system-files
+rm 10-monitor.conf\~
+sudo rm 10-monitor.conf\~
+mv os-release system-files
+mv wpa_supplicant.conf system-files
+mkdir zsh-files
+mv Examples/ zsh-files
+mv ex1/ zsh-files
+mv ex2/ zsh-files
+mv ex3/ zsh-files
+mv old-zsh-config/ zsh-files
+mv prompts/ zsh-files
+updatedb --help
+source .zsh/config/zshaliases
+hlocate zsh
+cd Examples
+rm kwtools_0.8.3.tar.bz2
+mv kwtools-0.8.3/ ../
+mv strcat/ ..
+mv .zshrc.local .zshrc.local ..
+mv .zshrcgrml ..
+rm Examples
+rmdir Examples
+vim .zshrcgrml
+vim zshoptions
+vim zshcompctl
+vim zshdevel
+vim zshexports
+vim .zshrc.local
+env
+hlocate handler
+vim /home/lucifer/.xinitrc
+vim zshmisc
+vim zshrc
+vim zshstatusbar
+cd .zsh/config
+cd configs/zsh-files
+vim zshstyle
+vim zshzle
+vim zshaliases
+ls -t /usr/bin
+sudo pacman -Rns ttf2pt1 heirloom-mailx heirloom-sh-cvs epiphany epiphany-extensions pacman2aria2 pcf2bdf schroedinger skype ttf-inconsolata-g vlc xf86-input-joystick xf86-input-aiptek xf86-input-acecad xf86-input-vmmouse
+sudo pacman -Rns ttf2pt1 heirloom-mailx heirloom-sh-cvs epiphany epiphany-extensions pacman2aria2 pcf2bdf skype ttf-inconsolata-g vlc xf86-input-joystick xf86-input-aiptek xf86-input-acecad xf86-input-vmmouse
+rm .rxvt-unicode-HELL
+ls --color=always
+ls -a --color=always
+source $HOME/.zsh/config/zshaliases
+helpme
+vim zshbindings
+od -c
+ex
+sx
+klist
+BOLD
+i need help
+xlsfonts | grep mono
+xlsfonts | grep medium
+xlsfonts | grep termin
+rm Inconsolata.ttf Inconsolata.ttx
+fc-cache -vf
+sudo xset +fp /home/lucifer/.fonts/
+sudo xset fp rehash
+fc-cache --help
+sudo fc-cache -vfr
+sudo fc-cache -rv
+fc-list
+fc-list | sed 's,:.*,,' | sort -u
+cd /usr/share/fonts/
+cd TTF
+rm ttf-inconsolata.otf DroidSans-Bold.ttf DroidSans.ttf
+sudo rm ttf-inconsolata.otf DroidSans-Bold.ttf DroidSans.ttf
+sudo fc-cache -vf
+sudo fc-cache -vr
+cd .fonts
+ex inconsolata.zip
+rm GNUmakefile ChangeLog NEWS README
+sudo fc-cache -rv $HOME/.fonts
+sudo fc-cache -vf $HOME/.fonts
+xlsfonts --help
+xlsfonts -o
+xlsfonts -o $HOME/.fonts
+xlsfonts -o $HOME/.fonts/inconsolata
+xlsfonts -fn ec-inconsolata.tfm
+xlsfonts -fn Inconsolata.otf Inconsolata.pfb Inconsolata.sfd ec-inconsolata.tfm ei1-inconsolata.tfm ei1fi4.fd fi4-ec.enc fi4-ei1.enc fi4-ot1tt.enc fi4-qxtt.enc fi4-texnansi.enc fi4-ts1.enc fi4.map fonttable.pdf inconsolata.pdf inconsolata.sty inconsolata.tex ly1fi4.fd ot1fi4.fd qx-inconsolata.tfm qxfi4.fd rm-inconsolata.tfm t1fi4.fd test-spacing.tex test-textless.tex test.pdf test.tex testmin.tex texnansi-inconsolata.tfm ts1-inconsolata.tfm ts1fi4.fd
+rm inconsolata.zip Inconsolata.otf
+ls $HOME/.local/share/Trash/files/
+ls $HOME/.local/share/Trash/files/ -a
+ls $HOME/
+ls -a $HOME/
+cat /home/lucifer/.startx-errors
+cat /home/lucifer/.terminfo/s/screen-256color
+xlsfonts | grep driod
+xlsfonts |less
+xset +fp $HOME/.fonts/
+xset rehash
+fc-cache -vfs
+sudo fc-cache -vfs
+xset +fp /home/lucifer/.fonts/
+rm fonts.dir fonts.scale
+mkfontscale
+mkfontdir
+xset +fp
+xset +fp /home/lucifer/.fonts,/home/lucifer/.fonts/inconsolata
+xset +fp /home/lucifer/.fonts[,/home/lucifer/.fonts/inconsolata]
+xset +fp /home/lucifer/.fonts /home/lucifer/.fonts/inconsolata
+xset +fp /home/lucifer/.fonts
+xset fp rehash
+xlsfonts | grep droid
+xlsfonts | grep inso
+xlsfonts | grep in
+xlsfonts | grep 10646
+sudo packer-color -Ss ttf
+sudo packer-color -Ss ttf-goog
+sudo packer-color -S ttf-google-webfonts
+sudo packer-color -S mercurial ttf-google-webfonts
+vim bash.bashrc
+vim bash_completion.d/gdbus-bash-completion.sh
+vim bash_completion.d/git
+vim bash_completion.d/rc.d
+vim bash_completion.d/pacman
+vim bash_completion.d/subversion
+vim bash_completion.d/gsettings-bash-completion.sh
+vim bash.bash_logout
+vim cron.weekly/chkrootkit
+vim cron.d/0hourly
+vim environment
+vim gconf/gconf.xml.system
+vim fuse.conf
+vim gai.conf
+vim .pwd.lock
+vim abs.conf
+vim axelrc
+vim colord.conf
+vim hardinfo.distro
+vim host.conf
+vim hosts
+vim hwd/pci-mpl.hw
+vim hwd/pci.hw
+vim hwd/version
+cp hwd/pci-mpl.hw hwd/pci.hw hwd/version /home/lucifer/configs
+vim hxloginpref.conf
+vim idnalias.conf
+vim iftab
+vim imrc
+sudo vim /bin/login
+sudo vim /bin/login1
+sudo vim /bin/login2
+vim /var/run/utmp
+vim /etc/issue
+vim inputrc
+vim irman.conf
+vim libao.conf
+vim ld.so.conf
+vim ld.so.conf.d/lib32-glibc.conf
+vim krb5.conf
+sudo rm krb5.conf
+vim locale.conf
+vim locale.gen
+vim localtime
+vim login.defs
+vim modules.conf
+vim modprobe.d/modprobe.conf
+vim mtab
+vim mtools.conf
+vim netconfig
+vim pacman.d/color.conf
+vim passwd
+vim inittab
+sudo vim /etc/profile
+vim /etc/rc.multi
+zim /etc/rc.sysinit
+vim /etc/rc.sysinit
+vim configs/system-files/vconsole.conf
+sudo cp configs/system-files/vconsole.conf /etc
+locate console
+man console
+man chvt
+man openvt
+man mingetty
+man console_ioctl
+man agetty
+man tty
+man setfont
+man vtimes setterm
+man tput
+man stty
+man termios
+man termname
+man termattrs
+man termcap
+man termio
+man term
+man setupterm
+setupterm
+man terminfo
+terminfo
+showconsolefont --help
+showconsolefont
+showconsolefont -C tty1
+showconsolefont -C tty2
+showconsolefont -C tty3
+showconsolefont -v
+man showconsolefont
+setfont
+setfont /usr/share/kbd/consolefonts/matrix.fnt
+setfont /usr/share/kbd/consolefonts/LatArCyrHeb-16.psfu.gz -m 8859-5
+setfont /usr/share/kbd/consolefonts/ter-d16n.psf.gz
+setfont /usr/share/kbd/consolefonts/ter-d16b.psf.gz
+setfont /usr/share/kbd/consolefonts/ter-d16i.psf.gz
+setfont /usr/share/kbd/consolefonts/ter-m16b.psf.gz
+setfont /usr/share/kbd/consolefonts/ter-m16v.psf.gz
+setfont /usr/share/kbd/consolefonts/ter-m16n.psf.gz
+setfont /usr/share/kbd/consolefonts/Agafari-16.psfu.gz
+setfont /usr/share/kbd/consolefonts/Lat2-Terminus16.psfu.gz
+vim /usr/share/kbd/unimaps/README
+sudo vim /etc/mkinitcpio.d/linux-ck.preset
+sudo mkinitcpio -p linux-ck
+clearclear
+sudo mkinitcpio -p linux
+sudo mkinitcpio -p linux-mainline
+vim /usr/share/kbd/unimaps/cybercafe.uni clear
+locate urxvtd
+man inittab
+ps
+qui
+ps -aer
+ps -aerx
+ps -arx
+ps -Aerx
+ps -aurx
+ps -urx
+ps -axC
+ps -axu
+pscan
+man fgetty
+zsh_stats
+dick
+setfont /usr/share/kbd/consolefonts/Lat2-Terminus16.psfu.gz -m 8859-1
+vim /etc/profile
+vim /etc/shells
+vim /etc/rc_keymaps/nebula
+vim /etc/skel/.bash_logout
+vim /etc/skel/.bashrc
+vim /etc/skel/.bash_profile
+vim /etc/skel/.xsession
+vim /etc/vconsole.conf
+sudo vim /etc/vconsole.conf
+sudo vim /etc/locale.conf
+sudo vim /etc/os-release
+vim /etc/skel/.xinitrc
+vim .Xmodmap
+xlsfonts
+vim .config/awesome/theme.lua
+ps -aux
+sudo vim /etc/pam.d/login.pacnew
+sudo vim /etc/pam.d/login
+sudo rm /etc/pam.d/login.pacnew
+hlocate
+sudo cat /etc/ntp.conf.pacnew /etc/ntp.conf
+sudo cat /etc/ntp.conf.pacnew > /etc/ntp.conf
+sudo vim /etc/ntp.conf.pacnew
+rm /etc/ntp.conf.pacnew
+sudo rm /etc/ntp.conf.pacnew
+sudo vim /etc/acpi/handler.sh
+vim /etc/acpi/handler.sh.pacnew
+sudo vim /etc/acpi/handler.sh.pacnew
+sudo rm /etc/acpi/.handler.sh.swp /etc/acpi/handler.sh.pacnew
+hlocate pacnew
+sudo vim /etc/pacman.d/mirrorlist.pacnew
+sudo rm /etc/pacman.d/mirrorlist.pacnew
+sudo vim /etc/ntp.conf
+sudo rm /etc/pam.d/login
+sudo pacman -Rns linux-mainline
+sudo packer-color -Syu
+sudo packer-color -S pam shadow
+ls /etc/pam.d/
+sudo vim /etc/cron.daily/updatedb
+hlocate pacman
+rm :makeisc-droid\ sans-medium-r-normal--16-\*-\*-\*-r-\*-iso10646-1
+ls configs/system-files/
+sudo vim /etc/cron.daily/logrotate
+sudo vim /etc/cron.daily/pkgfile
+sudo vim /etc/cron.daily/man-db
+chmod +x /etc/cron.daily/backup
+sudo chmod +x /etc/cron.daily/backup
+/etc/cron.daily./backup
+cd /etc/cron.daily
+pacman -Que | grep -vx "$(pacman -Qqm)" > /home/lucifer/configs/system-files/pkg.list
+pacman -Qqm
+pacman -Q -m -e
+pacman -Q -e
+pacman -Q -ii
+pacman -Q -ii > /home/lucifer/configs/system-files/pkg.list
+cat /home/lucifer/configs/system-files/pkg.list | grep Name
+cat /home/lucifer/configs/system-files/pkg.list
+cat /home/lucifer/configs/system-files/pkg.list | grep -vx
+cat /home/lucifer/configs/system-files/pkg.list | grep -vl Name
+cat /home/lucifer/configs/system-files/pkg.list | grep -l Name
+cat /home/lucifer/configs/system-files/pkg.list | grep -v
+cat /home/lucifer/configs/system-files/pkg.list | grep -v Name
+cat /home/lucifer/configs/system-files/pkg.list | grep -B Name :
+cat /home/lucifer/configs/system-files/pkg.list | grep -B Name
+cat /home/lucifer/configs/system-files/pkg.list | grep -B 1 Name
+cat /home/lucifer/configs/system-files/pkg.list | grep -B 1 "Name  :"
+cat /home/lucifer/configs/system-files/pkg.list | grep -B 1 "Name" | grep -v ":"
+cat /home/lucifer/configs/system-files/pkg.list | grep -B 1 "Name" | grep -v "Name"
+cat /home/lucifer/configs/system-files/pkg.list | grep -B 1 "Name" | grep -L
+cat /home/lucifer/configs/system-files/pkg.list | grep -B 1 "Name" | grep -L ":"
+cat /home/lucifer/configs/system-files/pkg.list | grep -B 1 "Name" | grep -L "Name"
+cat /home/lucifer/configs/system-files/pkg.list | grep -B 1 "Name" | grep -l "Name"
+cat /home/lucifer/configs/system-files/pkg.list | grep -B 1 "Name" | grep -l
+cat /home/lucifer/configs/system-files/pkg.list | grep -B 1 ":" | grep -v "Name"
+cat /home/lucifer/configs/system-files/pkg.list | grep -B 1 ":"
+cat /home/lucifer/configs/system-files/pkg.list | grep -Bo 1 ":"
+cat /home/lucifer/configs/system-files/pkg.list | grep -o "Name"
+cat /home/lucifer/configs/system-files/pkg.list | grep -B 1 "Name"
+cat /home/lucifer/configs/system-files/pkg.list | grep -B 1 "Name" | grep -B 1 ":"
+cat /home/lucifer/configs/system-files/pkg.list | grep -B 1 "Name" | grep -vx
+cat /home/lucifer/configs/system-files/pkg.list | grep -B 1 "Name" | grep -vx "$(pacman -Qqm)"
+pacman --help
+pacman -Que
+pacman -Qe
+pacman -Qe | grep -vx "$(pacman -Qq)" > /home/lucifer/configs/system-files/pkg.list"\
+
+pacman -Qe | grep -vx "$(pacman -Qq)" > /home/lucifer/configs/system-files/pkg.list
+pacman -Qt
+pacman -Qqe
+./backup
+cat $HOME/configs/system-files/pkg.list
+ls $HOME/configs
+ls $HOME/configs/system-files
+cd $HOME/configs/system-files
+cat fstab
+cat host.conf
+cat issue
+sudo cat issue
+cat local.conf
+sudo vim backup
+sudo cp /home/lucifer/configs/system-files/locale.conf /etc
+sudo cp /home/lucifer/configs/system-files/hostname /etc
+sudo cp /home/lucifer/configs/system-files/local.conf /etc
+sudo ./backup
+sudo cp .vimrc /root/
+sudo rm *~
+vim /etc/cron.daily/backup
+cd configs/system-files
+cp /etc/cron.daily/backup $HOME/scripts
+sudo cp /etc/cron.daily/backup $HOME/scripts
+cat pkg.list
+pacget --help
+hlocate pacget
+sudo vim /etc/pacget.conf
+sudo vim /etc/pacget.stats
+pacman -S reflector
+sudo pacman -S reflector
+reflector -l 5 --sort rate --save /etc/pacman.d/mirrorlist
+sudo reflector -l 5 --sort rate --save /etc/pacman.d/mirrorlist
+vim /etc/pacman.d/mirrorlist
+sudo reflector -l 10 --sort rate --save /etc/pacman.d/mirrorlist
+sudo vim /etc/pacman.d/mirrorlist
+pacman-optimize
+sudo pacman-optimize
+sudo pacman -Sc
+sudo packer-color -S pacman2aria2
+powerpill-light --help
+sudo vim /etc/pacman.d/color.conf
+sudo packer
+sudo vim /etc/mkinitcpio.conf
+vim /var/log/kernel.log
+sudo hwd
+sudo hwd -s
+sudo hwd -e
+xvinfo
+xvinfo --help
+xdpr
+xdm
+sudo xdm --help
+sudo xdm
+xev
+xrandr --help
+sudo vim /boot/syslinux/syslinux.cfg
+xrandr --verbose
+xrandr
+vim skel/.xinitrc
+vim wdiag.conf
+vim sysctl.conf
+vim rc.multi
+vim rc.sysinit
+vim /sys/module/vt/parameters/default_red
+vim /sys/module/vt/parameters/default_utf8
+sudo vim /sys/module/vt/parameters/default_utf8
+sudo vim /etc/rc.d/krb5-kadmind
+sudo vim /etc/rc.d/krb5-kdc
+sudo vim /etc/rc.d/krb5-kpropd
+sudo vim /etc/rc.d/functions
+vim arch-release
+sudo vim arch-release
+sudo vim conf.d/sysstat
+locate cons
+k_bits
+/sys/devices/pci0000:00/0000:00:1d.7/consistent_dma_mask_bits
+/sys/devices/pci0000:00/0000:00:1e.0/consistent_dma_mask_bits
+/sys/devices/pci0000:00/0000:00:1f.0/consistent_dma_mask_bits
+/sys/devices/pci0000:00/0000:00:1f.2/consistent_dma_mask_bits
+/sys/devices/pci0000:00/0000:00:1f.3/consistent_dma_mask_bits
+/sys/devices/virtual/vtconsole
+/sys/devices/virtual/tty/console
+/sys/devices/virtual/tty/console/active
+/sys/devices/virtual/tty/console/dev
+/sys/devices/virtual/tty/console/power
+/sys/devices/virtual/tty/console/subsystem
+/sys/devices/virtual/tty/console/uevent
+/sys/devices/virtual/tty/console/power/async
+lsmod |grep fb
+lsmod | grep fb
+lsmod
+sudo vim /var/log/kernel.log
+locate vt
+sudo vim /usr/src/linux-3.1.4-1-ck/include/config/vt
+sudo vim /usr/src/linux-3.1.4-1-ck/include/config/vt.h
+sudo vim /usr/src/linux-3.1.4-1-ck/virt/kvm/Kconfig
+FBTERM=1
+term
+sudo packer -Ss term
+sudo packer -Ss tty
+sudo packer -Ss fb
+sudo packer -Ss fbterm
+sudo packer -S fbterm
+sudo gpasswd -a lucifer video
+sudo chmod u+s /usr/bin/fbterm
+vim cd
+vim .xinitrc
+vim .bashrc
+vim .zsh/config/zshrc
+colors
+export TERM=fbterm
+tput colors 2>/dev/null
+-n
+test --help
+man test
+vim .zshenv
+$TERM
+vim .rxvt-unicode-HELL
+vim .zprofile
+exit
+vim .zshrc
+xdriinfo
+xdpyinfo
+stat
+sudo vim /etc/X11/xorg.conf
+cat /var/log/Xorg.0.log
+sudo packer -S chromium
+sudo packer -Ss chromium-browser-svn
+sudo packer -Q chromium
+pacman -Q chro
+pacman -Q chro*
+sudo packer -S chromium-browser-svn
+duv
+cd books
+cat hardinfo_report.html
+hardinfo_report.html
+ls linux\ docs
+mv linux\ docs/ moms
+mv moms.doc moms
+ls -a moms/
+mv moms/dot.zshrc linux-docs
+ls linux-docs
+cd configs
+mkdir hardinfo
+mv *.hw hardinfo
+mv version hardinfo
+man diet
+sudo man diet
+sudo du --human-readable --separate-dirs --max-depth=3
+sudo du --human-readable --separate-dirs --max-depth=2
+sudo duh
+ch sync
+sudo packer -Ss chromium-browser
+sudo packer -S chromium-update
+vim chromium-update
+du --help
+fdisk
+fdisk sda
+fdisk /dev/sda
+sudo fdisk /dev/sda
+sudo rm -r chromium-nightly/ packertmp-0/ packerbuild-0
+ls orbit-lucifer
+ls -a orbit-lucifer
+sudo ls -a orbit-lucifer
+sudo rm -r orbit-lucifer/ serverauth.ZoljOB0rrb
+ls chromium-nightly
+sudo ls chromium-nightly
+sudo ls -a chromium-nightly
+sudo vim /usr/lib/chromium
+./chromium
+ls chromium_ref
+ls chromium_ref/First\ Run
+vim chromium_ref/First\ Run
+rm -r chromi
+rm -r chromiu*
+sudo rm -r chromium_ref
+vim sync-chromium
+info ex
+sudo packer -Ss chromium-browser-bin
+pactools
+pt-pacman-uncage
+sudo pt-deptree
+sudo pt-pacfix --help
+sudo pt-repolist
+cd /etc/rc.d/
+sudo packer -Ss chromium
+....
+cd packertmp-0
+sudo vim chromium-browser-bin.PKGBUILD
+sudo packer -Ss msg
+tar -xvf chromium-browser-bin.tar.gz
+rm chromium-browser-bin.tar.gz
+ex embutils-0.19.tar.bz2
+rm -r embutils-0.19/ embutils-0.19.tar.bz2
+vim chromium-browser.install
+vim chromium-browser.desktop
+vim chrome-wrapper.patch
+sudo chromium-update
+sudo pacman -U chromium-browser-bin-113529-1-x86_64.pkg.tar.xz
+man chromium-browser
+man chromium
+vim chromium-browser.sh
+./LICENSE.txt chromium-browser.sh
+chmod +x chromium-browser.sh
+./chromium-browser.sh
+chromium-update
+sudo chromium
+locale chrom
+pacman -Q chrom
+pacman -Q chrom*
+pacman -Q chromium-update
+pacman -Rns chromium-update chromium-browser-bin
+sudo pacman -Rns chromium-update chromium-browser-bin
+sudo rm -r chromium-browser
+cd /usr/share/applications/
+sudo rm -r chromium.desktop.in
+cd /usr/share/icons/hicolor/
+sudo rm -r 128x128/apps/chromium-dev.png 16x16/apps/chromium-dev.png 22x22/apps/chromium-dev.png 24x24/apps/chromium-dev.png 256x256/apps/chromium-dev.png 32x32/apps/chromium-dev.png 48x48/apps/chromium-dev.png
+cd /usr/lib/
+sudo ls chromium
+sudo rm -r chromium
+ls -a .chromium
+sudo rm -r .chromium
+mv build
+mv chromium-browser-bin/ chromium
+rmdir chromium-browser-bin
+rmdir -r chromium-browser-bin
+vim .zsh/config/zshfunctions
+rm -r chromium-browser-bin
+ex chromium-browser-bin.tar.gz
+rm -r chromium
+sudo packer -S chromium-browser-bin
+cd /tmp
+sudo rm -r packertmp-0/ packerbuild-0
+hup
+packer -S xdg-utils chromium-codecs-ffmpeg-nonfreebin
+packer -S xdg-utils chromium-codecs-ffmpeg-nonfree-bin
+xdg-settings
+xdg-settings check
+xdg-settings check default-web-browser
+xdg-settings --list
+xdg-settings --help
+xdg-settings --manual
+xdg-settings check default-web-browser chromium-browser.desktop
+xdg-settings check default-web-browser chromium.desktop
+xdg-settings check Default-web-browser chromium.desktop
+chrome
+chromium-browser
+hlocate chorm
+cd apps
+ls google
+cd google
+ls app_launcher
+ls basic
+ls chrome-query
+ls blank_ntp
+ls chrome_search
+ls contentSettings
+ls gmail
+ls override_igoogle
+ls trunk
+cd trunk
+ls LayoutTests
+ls Source
+cd Source
+ls WebCore
+cd WebCore
+cd inspector
+cd front-end
+cd /opt
+cd chromium-browser
+vim chrome-wrapper
+sudo vim /var/abs/extra/chromium/chromium.install
+sudo vim /var/abs/extra/chromium/chromium.desktop
+sudo vim /var/abs/extra/chromium/chromium.sh
+sudo vim /var/abs/extra/chromium/nacl.gypi
+sudo vim /var/abs/extra/chromium/gcc-4.6.patch
+sudo vim chrome-wrapper
+vim xdg-settings
+vim chrome
+pacman -Q chromium
+sudo pacman -Rns chromium-browser-bin chromium-codecs-ffmpeg-nonfree-bin
+cd /opt/chromium-browser
+packer -Ss chrom
+cd chromium-browser-bin
+vim chromium-browser.default
+sudo packer -Ss msgclear-
+./chrome-wrapper
+echo $XDG_DATA_DIRS
+echo $XDG_DATA_HOME
+ls .local/share/applications/
+ls -a .local/share/applications/
+cd --help .local/share/applications/
+cd .local/share/applications/
+ls Makefile.am
+vim Makefile.am
+sudo vim Makefile.am
+vim chrome-http___www.google.com_ig.desktop
+cd data
+cd lucifer
+cd LocalStorage
+cat WebpageIcons.db
+ls LocalStorage
+ls Trash
+ls Trash/files
+ls -a Trash/files
+rm -r Trash/info/*
+ls desktop-directories
+ls gegl-0.1
+cd icons/hicolor/
+ls 128x128
+rm -r 16x16/apps/chro*
+ls mime
+ls webkit
+cd mime
+zcat pkg-list-pt-repo
+sudo packer -S chromium-stable-libpdf
+echo $DISPLAY clear
+mv downloads-complete/Rebelution/ music/rebelution
+cd .config/
+mv chromium-backup/Default/ chromium-backup/Backup-default
+ls downloads-complete
+ls -a -l downloads-complete
+mkdir music/the-expendables
+cd downloads-complete
+mv Prove\ It/ $HOME/music/the-expendables
+mkdir $HOME/music/iration
+mv Iration/ $HOME/music/iration/time-bomb
+ls $HOME/music/iration
+mv $HOME/music/iration/time-bomb/Time\ Bomb/* $HOME/music/iration
+rm -r $HOME/music/iration/time-bomb
+mv All\ That\ Remains\ -\ Two\ Weeks\ \(HD\)\ -Download\ Link\ Available!-.mp4 $HOME/videos/music-videos
+ls ffmpeg
+rm ffmpeg/*
+ls movies
+ls music-videos
+ee
+cd downloads-browser
+rm All\ That\ Remains\ -\ Two\ Weeks\ \(HD\)\ -Download\ Link\ Available!-.mp4
+mplayer All\ That\ Remains\ -\ Two\ Weeks\ \(HD\)\ -Download\ Link\ Available!-.flv
+rm All\ That\ Remains\ -\ Two\ Weeks\ \(HD\)\ -Download\ Link\ Available!-.flv All\ That\ Remains\ -\ Two\ Weeks\ \(HD\)\ -Download\ Link\ Available!-.mp4
+rm codesite.crx
+mv All\ That\ Remains\ -\ Not\ Alone\ music\ video\ HD.mp4 $HOME/videos/music-videos/
+sudo packer -S aria2
+sudo packer -Ss aria2
+sudo pacman -Ss chrom
+sudo packer -Ss chrom
+aria2c --no-conf --conf-path=/file/aria2.rapidshare http://rapidshare.com/files/12345678/aria2.example.rar
+ex aria2.example.rar
+unrar e aria2.example.rar
+vim aria2.example.rar
+rm aria2.example.rar
+rm *.htm
+rm *.html
+rm *shtml
+rm *phtml
+rm talkfilters.pdf
+mkdir zsh
+mkdir bash
+mv dot.zshrc zsh
+mv zsh-refcard.pdf zsh
+mv zshguide/ zsh
+ex zshguide_html.tar.gz
+rm -r zshguide
+cd bash
+mv linux-howtos/ howtos
+aria2c --help
+info wget
+info aria2
+info aria2c
+svn checkout http://chrome-download-assistant.googlecode.com/svn/trunk/ chrome-download-assistant-read-only
+cd chrome-download-assistant-read-only
+vim codereview.settings
+vim options.html
+vim background.js
+vim npdownload.js
+ls _locales
+ls _locales/en/
+vim downloader.js
+...
+cd documents/linux-docs/
+rm /home/lucifer/Pocket-Linux-Guide.pdf
+ex GNU-Linux-Tools-Summary.html.tar.gz
+rm -r GNU-Linux-Tools-Summary/
+mv INTRO/* $HOME/documents/linux-docs/guides/
+ls INTRO
+ls howtos
+mkdir txt
+mkdir text
+du
+chmod a howtos
+chmod -a howtos
+chmod he/p
+chmod help
+chmod --help
+sudo chmod u+s howtos
+chmod u+s howtos
+sudo chmod a howtos
+sudo chmod +a howtos
+sudo chmod a+w+r howtos
+sudo chmod a+w+r-s howtos
+sudo chmod a+w+r-s-x howtos
+man chmod
+sudo chmod a+s howtos
+sudo chmod g-s howtos
+sudo chmod a-s howtos
+sudo chmod a-x howtos
+info chmod
+sudo chmod u-rwx howtos
+sudo chmod a+rw howtos
+sudo chmod a-rwx howtos
+sudo chmod a+rwx howtos
+mv *HOWTO tex
+mv 3-Button-Mouse 3D-Modelling 4mb-Laptops ACP-Modem ADSM-Backup Advocacy Alsa-sound Apache+SSL+PHP+fp Apache-mods Automount Avr-Microcontrollers-in-Linux-Howto BTTV BackspaceDelete Backup-With-MSDOS Battery-Powered Boca BogoMips Boot+Root+Raid+LILO Bridge Bridge+Firewall Bzip2 C++-dlopen COPYRIGHT Cable-Modem Call-back Cipe+Masq Clock Coffee Commercial-Port-Advocacy Compressed-TCP Cyrus-IMAP DHCP Debian-Jigdo Debian-and-Windows-Shared-Printing DocBook-Install Domain Euro-Char-Support Ext2fs-Undeletion FBB FTP Fax-Server Firewall-Piercing GIS-GRASS HOWTO-INDEX Handspring-Visor Hard-Disk-Upgrade Home-Electrical-Control Howtos-with-LinuxDoc INDEX INDEX.html INFO-SHEET IO-Port-Programming IP-Alias IPMasquerading+Napster IRC Implement-Sys-Call-Linux-2.6-i386 Install-From-ZIP Install-Strategies Intkeyb Kerneld LBX LILO Leased-Line Lego Linux+DOS+Win95+OS2 Linux+FreeBSD Linux+NT-Loader Linux+Solaris Linux+Win95 Linux+WinNT Linux-Modem-Sharing Linuxdoc-Reference Loadlin+Win95-98-ME Lotus-DominoR5 META-FAQ MP3-CD-Burning MSSQL6-Openlink-PHP-ODBC Mac-Terminal Mail-Queue Mail2News Man-Page Mock-Mainframe Modules Motorola-Surfboard-Modem Mozilla-Optimization Multi-Distro-Dev Multiboot-with-GRUB Multiboot-with-LILO NCD-X-Terminal NFS-Root Netrom-Node Netscape+Proxy News-Leafsite Nvidia-OpenGL-Configuration Offline-Mailing Outlook-to-Unix-Mailbox PCTel-MicroModem-Config PLIP Pager Partition Partition-Rescue Path Pine-Exchange PortSlave Post-Installation-Checklist Pre-Installation-Checklist Print2Win Process-Accounting Programming-Languages Proxy-ARP-Subnet Public-Web-Browser Qmail+MH Quota RCS README Remote-Boot Remote-Bridging Remote-X-Apps SLIP-PPP-Emulator Saving-Space Scientific-Computing-with-GNU-Linux Scripting-GUI-TclTk Secure-CVS-Pserver Secure-POP+SSH Sendmail+UUCP Sendmail-Address-Rewrite Small-Memory Soundblaster-AWE Spam-Filtering-for-MX StarOffice Swap-Space Sybase-PHP-Apache TT-Debian TT-XFree86 TkRat Token-Ring TransparentProxy Update Upgrade VAIO+Linux VB6-to-Tcl Virtual-Web Visual-Bell Wireless-Link-sys-WPC11 WordPerfect X-Big-Cursor XDM-Xterm XFree86-R200 XFree86-Second-Mouse XFree86-XInside Xterm-Title Xterminals ZIP-Drive ZIP-Install ppp-ssh html
+mv html/ etc
+ls $HOME
+sudo pacan -Q
+sudo packer -S chromium-tmpfs
+ls -l
+ls -l -a --full-time --recursive
+ls -l -a --full-time --recursive | grep chromium
+ls -l -a --full-time --recursive | grep -B1 -A1 chromium
+cd .cache
+cd .config/chromium-backup/
+s
+nudo ls -l -a
+sudo ls -l -a
+ls /dev/shm
+sudo ls -a -l /dev/shm
+ls var
+cd var
+sudo cd /dev/shm/.chromium
+cd /dev/shm/.chromium
+cd /dev/shm/.chromium/
+cd chromium/
+ls -a -l /dev/shm
+cd lucifer.chromium
+info chromium-tmpfs
+info chromium
+cd /dev/shm
+sudo ls -a -l
+ls -a $HOME/.config/chromium_ref
+ls -a -l $HOME/.config/
+vim .config/awesome/rc.lua
+sudo cat /var/log/boot
+sudo cat /var/log/syslog.log
+sudo cat /var/log/dmesg.log
+sudo cat /var/log/crond.log
+sudo cat /var/log/faillog
+sudo cat /var/log/messages.log
+sudo cat /var/log/user.log
+sudo cat /var/log/lastlog
+sudo cat /var/log/everything.log
+locate org.free
+sudo vim /etc/acpi/events/lm_lid
+sudo cat /var/log/daemon.log
+sudo cat /var/log/Xorg.0.log
+sudo cat /var/log/acpid.log
+sudo cat /var/log/auth.log
+sudo cat /var/log/errors.log
+sudo vim /etc/dhcpcd.conf
+sudo vim /etc/dhcpd.conf
+ls -a bash
+ls -a guides
+ls -a howtos
+ex man-pages-3.32.tar.gz
+mv man-pages-3.32/ man-pages
+cd man-pages
+cat Changes
+make
+sudo make
+ls -al man4
+ls -al man5
+ls -al man6
+ls -al man7
+ls -al man8
+ls -al scripts
+cat README |less
+mv *.sh $HOME/scripts
+cd $HOME/scripts
+chmoh +x FIXME_list.sh add_parens_for_own_funcs.sh find_dots_no_parens.sh find_repeated_words.sh find_slashes_no_parens.sh remove_COLOPHON.sh unformat_parens.sh wid.sh
+chmod +x FIXME_list.sh add_parens_for_own_funcs.sh find_dots_no_parens.sh find_repeated_words.sh find_slashes_no_parens.sh remove_COLOPHON.sh unformat_parens.sh wid.sh
+vim add_parens_for_own_funcs.sh
+vim core
+status
+mkdir shell
+mv *.html shell
+mv *.php shell
+mv blank_title.jpg favicon.ico shell
+ls .xsel.log
+cat .xsel.log
+cat .rxvt-unicode-HELL
+cat .zcompdump
+cd documents/linux-docs/superman-pages
+mv X/ xorg
+ls -a base
+ls debuggers
+ls kernel
+ls libraries
+ls special-files
+ls text
+ls xorg
+/ls
+mkdir file-formats
+mv *.php file-formats
+mv favicon.ico index.html latest.rss linuxmanpages_logo.png noavatar32.png file-formats
+du -l
+du -l -h
+cd guides
+ex INTRO.pdf.tar.gz
+ls ../pdf
+ls ../../guides/
+rm -r INTRO
+sudo pacman -Syu && sudo packer -Ss system
+sudo packer -Syu && sudo packer -Ss system
+awesome-client --help
+ln pdf
+chmod u+s *
+sudo chmod a+rwx *
+ls -l -a
+mkdir misc
+mkdir general
+ls general
+ls download
+cat download
+rm download
+ls tex
+cd tex
+ls single-list
+ls single-list |grep acer
+ls single-list |grep Acer
+mv tex/single-list/ ../../linux-docs/howtos/tex-single-list
+ls tex-single-list
+rm -r tex
+ex sorted_howtos.gz
+cat sorted_howtos
+man aria2c
+cls\\
+ls
+rm sorted_howtos
+cd linux-doc-project/ls
+cd linux-doc-project/
+ex lpg-0.4.examples.tar.gz
+ex selection-1.8.tar.gz
+cat README
+cd ipc
+vim Makefile
+cd selection-1.8
+rm -r lpg-0.4.examples
+ls sa
+ex lpg-0.4.tar.gz
+mv lpg-0.4/ programmers-guide
+cat programmers-guide
+cd programmers-guide
+cat abbreviations.tex
+cat appendix1.tex
+vim books.tex
+vim linuxdoc.sty
+vim
+vim misc.tex
+vim cat lpg.tex
+vim cat lpg.log
+vim lpg.tex
+vim systemcalls.tex
+mv programmers-guide/ pg-exanples
+rm pg-exanples
+rm -r pg-exanples
+rm -r linux-doc-project
+ls pdf
+ls sorted
+cd sorted
+ex Linux-HOWTOs-20111208.tar.gz
+rm -r *
+mv etc/ ../howtos
+mv etc/ ../howtos/
+ls etc
+mkdir emp
+mv howtos/etc/ emp
+mv emp/etc/* howtos
+rm -r emp
+ls bash
+ls -l bash
+ls -l guides
+ls guides
+ls man-pages
+ls guides/
+mv man-pages/ man
+git clone git://git.kernel.org/pub/scm/docs/man-pages/man-pages.git
+find a2p
+find -iwholename a2p
+hlocate a2p
+cd man1
+cat ident
+cat check-foreground-console
+mv man8 man1
+mv man8/ man1/
+mv man1/man8/* ../man/man1
+mv man7/* man1
+mv man6/* man1
+mv man5/* man 1
+mv man5/* man1
+mv man4/* man1
+mv man3/* man1
+mv man2/* man1
+ls man1
+ls man2
+ls man3
+ls man4
+ls man5
+ls man6
+ls man7
+ls man8
+rm -r man1/man8
+mv man1 man
+rm -r man2/ man3/ man4/ man5/ man6/ man7
+vim man-pages-3.32.Announce
+vim man-pages-3.32.lsm
+rm man-pages-3.32.Announce man-pages-3.32.lsm
+vim Changes
+rm Changes.old Changes Makefile
+vim README
+rm README
+ls not_installed
+ls -a not_installed
+rm -r not_installed
+ls scripts
+rm -r scripts
+mv man/* ../man/
+vim man.~1~
+cd man.~1~
+mv * $HOME/documents/linux-docs/man/
+rm -r man.~1~
+cd howtos
+ls -a -X
+mkdir html
+mkdir tex
+mv *.html html
+rm poweredby_FFFFFF.gif linuxdoc-org-logo-new.png
+mv * tex
+mv tex/html/ ../howtos
+ls html
+cd html
+guides/Securing-Optimizing-Linux-The-Ultimate-Solution-v2.0.pdf
+ls shell
+ls system
+ls man
+sudo
+mv downloads-complete/Open\ Container/ music/the-expendables
+cat core
+hupdate
+hlocate chrome
+sudo vim /etc/sysctl.conf
+sysctl -p
+sudo sysctl -p
+hwdetect
+hwd
+ifconfig
+ifconfig -a
+ifconfig -a --help
+ifconfig -a -l
+ifconfig -a -v
+ifconfig -a -v -s
+cd .config/chromium-backup
+startq
+rm -r chrome-download-assistant-read-only/ chromium-browser-bin
+sudo rm -r chrome-download-assistant-read-only/ chromium-browser-bin
+hlocate chrom
+cd $HOME/.config/
+mkdir chromium
+ls -al man0
+ls -al man3
+ls -al man1
+ls -al man2
+ls -al --full-time --recursive -R | grep "Dec"
+touch $HOME/test
+ls -al --full-time --recursive -R > &HOME/test && cat $HOME/test | grep "Dec"
+ls -al --full-time --recursive -R > "&HOME"/test && cat "$HOME"/test | grep "Dec"
+ls -al --full-time --recursive -R > "&HOME/test" && cat "$HOME/test" | grep "Dec"
+ls -al --full-time --recursive -R > "$HOME/test" && cat "$HOME/test" | grep "Dec"
+ls -alh --full-time --recursive -R > "$HOME/test" && cat "$HOME/test" | grep "Dec"
+ls --all -l --full-time --human-readable --recursive > "$HOME/test" && cat "$HOME/test" | grep "Dec"
+ls --all -l --full-time --human-readable --recursive
+ls --all -l --human-readable --recursive > "$HOME/test" && cat "$HOME/test" | grep "Dec"
+ls --all -l --human-readable --recursive > "$HOME/test" && cat "$HOME/test" | grep "Dec" | grep "17:13"
+ls --all -l --human-readable --recursive -d > "$HOME/test" && cat "$HOME/test" | grep "Dec" | grep "17:13"
+ls -alR > "$HOME/test" && cat "$HOME/test" | grep "Dec" | grep "17:13"
+ls -alR > "$HOME/test" && cat "$HOME/test" | grep "Dec"
+ls -alR -t > "$HOME/test" && cat "$HOME/test" | grep "Dec"
+ls -alRh > "$HOME/test" && cat "$HOME/test" | grep "Dec"
+ls -palRh > "$HOME/test" && cat "$HOME/test" | grep "Dec"
+ls --author -palRh > "$HOME/test" && cat "$HOME/test" | grep "Dec"
+ls --author -palRh -c > "$HOME/test" && cat "$HOME/test" | grep "Dec"
+ls --author -palRh -c > "$HOME/test" && cat "$HOME/test" | grep "Dec  8"
+ls -alRh > "$HOME/test" && cat "$HOME/test" | grep "Dec  8  16"
+ls -AFlRh > "$HOME/test" && cat "$HOME/test" | grep "Dec  8 16"
+ls -AFlRh > "$HOME/test" && cat "$HOME/test" | grep "Dec  8 16" | grep --exclude-dir="man"
+ls -AFlRh > "$HOME/test" && cat "$HOME/test" | grep "Dec  8 16" | grep --exclude-dir=man
+ls -AFlRh > "$HOME/test" && cat "$HOME/test" | grep "Dec  8 16" | grep "man"
+ls -AFlRh > "$HOME/test" && cat "$HOME/test" | grep "Dec  8 16" --exclude-dir
+ls -AFlRh > "$HOME/test" && cat "$HOME/test" | grep "Dec  8 16" --exclude-dir "ma"
+ls -AFlRh > "$HOME/test" && cat "$HOME/test" | grep "Dec  8 16" --exclude-dir "man"
+ls -AFlRh > "$HOME/test" && cat "$HOME/test" | grep "Dec  8 16" --exclude-dir=man*
+ls -AFlRh > "$HOME/test" && cat "$HOME/test" | grep --directories=skip "Dec  8 16"
+ls -AFlRh > "$HOME/test" && cat "$HOME/test" | grep --directories=skip "Dec  8 16" > $HOME/test
+ls -AFlRh > "$HOME/test" && cat "$HOME/test" | grep --directories=skip "Dec  8 16" > $HOME/test && cat $HOME/test
+ls -AFlRh > "$HOME/test" && cat "$HOME/test" | grep --directories=skip "Dec  8 16" | cut --bytes=20k
+ls -AFlR > "$HOME/test" && cat "$HOME/test" | grep --directories=skip "Dec  8 16"
+info sed
+ls -AFlR > "$HOME/test" && cat "$HOME/test" | grep ^d
+find . -type f -name '*.[0-9]'
+find -exec ls -AFlRh | . -type f -name '*.[0-9]'
+ls -AFlRh | grep '*.[0-9]'
+man grep
+ls -AFlRh | grep "Dec  8 16" | grep '^*.[0-9]'
+ls -AFlRh | grep "Dec  8 16" | grep '^*.[0-9]$'
+ls -AFlRh | grep "Dec  8 16" | grep '*^.[0-9]$'
+ls -AFlRh | grep "Dec  8 16" | grep "*^.[0-9]$"
+ls -AFlRh | grep "Dec  8 16" | grep "*.^[0-9]$"
+ls -AFlRh | grep "Dec  8 16" | grep "*.[0-9]"
+ls -AFlRh | grep "Dec  8 16" | grep '*.[0-9]'
+info grep
+ls -AFlRh | grep "Dec  8 16" | grep -e '16:13'
+ls -AFlRh | grep "Dec  8 16" | grep -e "16:13"
+ls -AFlRh | grep "Dec  8 16"
+ls -AFlRh | grep -lv '*.[0-9]'
+ls -AFlRh | grep -lv '.[0-9]'
+ls -AFlRh | grep -lv "[0-9]"
+ls -AFlRh | grep -lv "^[0-9]^"
+ls -AFlRh | grep -lv ^[0-9]^
+ls -AFlRh | grep -lv ^[0-9]$
+ls -AFlRh | grep -lv '^[0-9]$'
+ls -AFlRh | grep -lv "^[0-9]$"
+ls -AFlRh | grep '[0-9]\>'
+ls -AFlRh |grep "Dec  8 16" |grep '[0-9]\>'
+ls -AFlRh |grep "Dec  8 16" |grep '.[0-9]\>'
+man awk
+info awk
+ls -AFlRh |grep '.[0-9]\>'
+ls -AFlRh |grep '.[0-9]\>' | awk -F "16:13" { print $1 " " $3 }
+ls -AFlRh |grep '.[0-9]\>' | awk -F "16:13" {print $1 " " $3}
+ls -AFlRh |grep '.[0-9]\>' | awk -F "16:13" '{print $1 " " $3}'
+ls -AFlRh |grep '.[0-9]\>' | awk -F "16:13" "{print $1 " " $3}"
+ls -AFlRh |grep '.[0-9]\>' | awk -F "16:13" '^{print $1 " " $3}$'
+ls -AFlRh |grep '.[0-9]\>' > $HOME/test && awk -F "16:13" '{print $1 " " $3}' $HOME/test
+ls -AFlRh | grep "Dec  8 16" | grep '.[0-9]\>' > $HOME/test && awk -F "16:13" '{print $1 " " $3}' $HOME/test
+ls -AFlRh | grep "Dec  8 16" | grep '.[0-9]\>' > $HOME/test && awk -f "16:13" '{print $1 " " $3}' $HOME/test
+ls -AFlRh | grep "Dec  8 16" | grep '.[0-9]\>' > $HOME/test && awk -F"16:13" '{ print $1 " " $3 }' $HOME/test
+ls -AFlRh | grep "Dec  8 16" | grep '.[0-9]\>' > $HOME/test && awk -F"16:13" '{ print $1 " " $2 }' $HOME/test
+ls -AFlRh | grep "Dec  8 16" | grep '.[0-9]\>' > $HOME/test && awk -F"16:13" '{ print " " $3 " " }' $HOME/test
+ls -AFlRh | grep "Dec  8 16" | grep '.[0-9]\>' > $HOME/test && awk -F"16:13" '{ print $3 " " }' $HOME/test
+ls -AFlRh | grep "Dec  8 16" | grep '.[0-9]\>' > $HOME/test && awk -F"16:13" '{ print $3 }' $HOME/test
+ls -AFlRh | grep "Dec  8 16" | grep '.[0-9]\>' > $HOME/test && awk -F"16:13" '{ print $1 }' $HOME/test
+ls -AFlRh | grep "Dec  8 16" | grep '.[0-9]\>' > $HOME/test && awk -F"16:13" '{ print $0 $1 }' $HOME/test
+ls -AFlRh | grep "Dec  8 16" | grep '.[0-9]\>' > $HOME/test && awk -F"16:13" '{ $1 print $3 }' $HOME/test
+ls -AFlRh | grep "Dec  8 16" | grep '.[0-9]\>' > $HOME/test && awk -F"16:13" '$1=$1 { print $3 }' $HOME/test
+ls -AFlRh | grep "Dec  8 16" | grep '.[0-9]\>' > $HOME/test && awk -F"16:13" '$1 { print $3 }' $HOME/test
+ls -AFlRh | grep "Dec  8 16" | grep '.[0-9]\>' > $HOME/test && awk -F"16:13" '$1 { print $1 }' $HOME/test
+ls -AFlRh | grep "Dec  8 16" | grep '.[0-9]\>' > $HOME/test && awk -F"16:13" '{ print $2 }' $HOME/test > $HOME/test2
+cat test2
+ls -AFlRh | grep "Dec  8 16" | grep '.[0-9]\>' > $HOME/test && awk -F"16:13" '{ print $2 printf }'
+ls 101-hacks
+cat 101-hacks/Sed-and-Awk-101-Hacks
+rtorrent
+ls $HOME/downloads-complete
+mv $HOME/downloads-complete/Sed\ \&\ awk,\ 2nd\ Edition/ $HOME/documents/linux-docs
+mv Sed\ \&\ awk,\ 2nd\ Edition/ 101-hacks/sed-awk
+cd 101
+cd 101-hacks
+rm Sed-and-Awk-101-Hacks
+sudo packer -S epub
+sudo packer -S coolreader
+coolreader
+hlocate coolreader
+hlocate cool
+Sed\ \&\ awk,\ 2nd\ Edition\ -\ Dale\ Dougherty\ \&\ Arnold\ Robbins.epub
+vim /var/lib/pacman/local/coolreader-3.0.49-1/install
+vim /var/lib/pacman/local/coolreader-3.0.49-1/desc
+vim /var/lib/pacman/local/coolreader-3.0.49-1/files
+cr3
+ls -a sed-awk
+ed
+cd documents/linux-docs/101-hacks
+cd sed-awk
+ls Torrent\ downloaded\ from\ Demonoid.me.txt
+vim Torrent\ downloaded\ from\ Demonoid.me.txt
+rm -r Torrent\ downloaded\ from\ Demonoid.me.txt
+man sed
+ls -AFlRh | grep "Dec  8 16" | grep '.\.[0-9]\>' > $HOME/test && awk -F"16:13" '{ print $2 }'
+cd /usr/share/man
+ls -AFlRh | grep "Dec  8 16" | grep '.[0-9]\>'
+ls -AFlRh | grep "Dec  8 16" | grep '.[0-9]\>' > $HOME/test && awk -F"16:13" '{ print $2 }'
+ls -AFlRh | grep "Dec  8 16" | grep '.[0-9]\>' > $HOME/test && awk -F"16:13" "{ print $2 }"
+ls -AFlRh | grep "Dec  8 16" | grep '.[0-9]\>' > $HOME/test && awk -F"16:13" '{ print $2 }' $HOME/test2
+ls -AFlRh | grep "Dec  8 16" | grep '.[0-9]\>' > $HOME/test && awk -F"16:13" '{ print $2 }' $HOME/test
+ls -AFlRh | grep "Dec  8 16" | grep .'/.[0-9]\>' > $HOME/test && awk -F"16:13" '{ print $2 }' $HOME/test
+ls -AFlRh | grep "Dec  8 16" | grep '\.[0-9]\>' > $HOME/test && awk -F"16:13" '{ print $2 }' $HOME/test
+ls -AFlRh | grep "Dec  8 16" | grep .'\.[0-9]\>' > $HOME/test && awk -F"16:13" '{ print $2 }' $HOME/test
+ls -AFlRh | grep "Dec  8 16" | grep .'\.[0-9]\>' > $HOME/test && awk -F"16:13" '{ print $2, avg }' $HOME/test
+ls -AFlRh | grep "Dec  8 16" | grep .'\.[0-9]\>' > $HOME/test && awk -F"16:13" '{ print $2, arg }' $HOME/test
+ls -AFlRh | grep "Dec  8 16" | grep .'\.[0-9]\>' > $HOME/test && awk -F"16:13" '{ print $2, $MR }' $HOME/test
+ls -AFlRh | grep "Dec  8 16" | grep .'\.[0-9]\>' > $HOME/test && awk -F"16:13" '{ print $2, $RS }' $HOME/test
+ls -AFlRh | grep "Dec  8 16" | grep .'\.[0-9]\>' > $HOME/test && awk -F"16:13" '{ print $2, $NR }' $HOME/test
+ls -AFlRh | grep "Dec  8 16" | grep .'\.[0-9]\>' > $HOME/test && awk -F"16:13" '{ print $2, $FS }' $HOME/test
+ls -AFlRh | grep "Dec  8 16" | grep .'\.[0-9]\>' > $HOME/test && awk -F"16:13" '{ print $2, $FS }' $HOME/test | sort --zero-terminated
+ls -AFlRh | grep "Dec  8 16" | grep .'\.[0-9]\>' > $HOME/test && awk -F"16:13" '{ print $2, $FS }' $HOME/test | sort
+ls -AFlRh | grep "Dec  8 16" | grep .'\.[0-9]\>' > $HOME/test && awk -F"16:13" '{ print $2, $FS }' $HOME/test | sort | sort --merge
+ls -AFlRh | grep "Dec  8 16" | grep .'\.[0-9]\>' > $HOME/test && awk -F"16:13" '{ print $2, $FS }' $HOME/test | ( {sort} -s )
+ls -AFlRh | grep "Dec  8 16" | grep .'\.[0-9]\>' > $HOME/test && awk -F"16:13" '{ print $2, $FS }' $HOME/test | ( (sort) -s )
+ls -AFlRh | grep "Dec  8 16" | sort | grep .'\.[0-9]\>' > $HOME/test && awk -F"16:13" '{ print $2, $FS }' $HOME/test | sort -k 2
+ls -AFlRh | grep "Dec  8 16" | sort | grep .'\.[0-9]\>' > $HOME/test && awk -F"16:13" '{ print $2, $FS }' $HOME/test | sort -nt
+ls -AFlRh | grep "Dec  8 16" | sort | grep .'\.[0-9]\>' > $HOME/test && awk -F"16:13" '{ print $2, $FS }' $HOME/test | sort -nt .
+ls -AFlRh | grep "Dec  8 16" | sort | grep .'\.[0-9]\>' > $HOME/test && awk -F"16:13" '{ print $2, $FS }' $HOME/test | sort -cu
+ls -AFlRh | grep "Dec  8 16" | sort | grep .'\.[0-9]\>' > $HOME/test && awk -F"16:13" '{ print $2, $FS }' $HOME/test | sort -uc
+ls -AFlRh | grep "Dec  8 16" | sort | grep .'\.[0-9]\>' > $HOME/test && awk -F"16:13" '{ print $2, $FS }' $HOME/test | sort -u
+ls -AFlRh | grep "Dec  8 16" | sort | grep .'\.[0-9]\>' > $HOME/test && awk -F"16:13" '{ print $2, $FS }' $HOME/test | sort -c
+ls -AFlRh | grep "Dec  8 16" | sort | grep .'\.[0-9]\>' > $HOME/test && awk -F"16:13" '{ print $2, $FS }' $HOME/test | sort -bu
+ls -AFlRh | grep "Dec  8 16" | sort | grep .'\.[0-9]\>' > $HOME/test && awk -F"16:13" '{ print $2, $FS }' $HOME/test | sort -bg
+ls -AFlRh | grep "Dec  8 16" | sort | grep .'\.[0-9]\>' > $HOME/test && awk -F"16:13" '{ print $2, $FS }' $HOME/test | sort -bgu
+ls -AFlRh | grep "Dec  8 16" | sort | grep .'\.[0-9]\>' > $HOME/test && awk -F"16:13" '{ print $2, $FS }' $HOME/test | sort -b
+ls -AFlRh | grep "Dec  8 16" | sort | grep .'\.[0-9]\>' > $HOME/test && awk -F"16:13" '{ print $2, $FS }' $HOME/test | sort -bs
+ls -AFlRh | grep "Dec  8 16" | sort | grep .'\.[0-9]\>' > $HOME/test && awk -F"16:13" '{ print $2, $FS }' $HOME/test | cut --only-delimited
+ls -AFlRh | grep "Dec  8 16" | sort | grep .'\.[0-9]\>' > $HOME/test && awk -F"16:13" '{ print $2, $FS }' $HOME/test | cut
+man cut
+ls -AFlRh | grep "Dec  8 16" | sort | grep .'\.[0-9]\>' > $HOME/test && awk -F"16:13" '{ print $2, $FS }' $HOME/test | cut --complement
+ls -AFlRh | grep "Dec  8 16" | sort | grep .'\.[0-9]\>' > $HOME/test && awk -F"16:13" '{ print $2, $FS }' $HOME/test | cut --complement --delimiter=[a-zA-Z]
+ls -AFlRh | grep "Dec  8 16" | sort | grep .'\.[0-9]\>' > $HOME/test && awk -F"16:13" '{ print $2, $FS }' $HOME/test && sed -n -e "l" $HOME/test
+ls -AFlRh | grep "Dec  8 16" | sort | grep .'\.[0-9]\>' > $HOME/test && awk -F"16:13" '{ print $2, $FS }' | sort --field-separator=
+ls -AFlRh | grep "Dec  8 16" | sort | grep .'\.[0-9]\>' > $HOME/test && awk -F"16:13" '{ print $2, $FS }' | sort --field-separator=""
+ls -AFlRh | grep "Dec  8 16" | sort | grep .'\.[0-9]\>' > $HOME/test && awk -F"16:13" '{ print $2, $FS }' $HOME/test | cut --delimiter=:
+ls -AFlRh | grep "Dec  8 16" | sort | grep .'\.[0-9]\>' > $HOME/test && awk -F"16:13" '{ print $2, $FS }' $HOME/test | cut --fields=$2
+ls -AFlRh | grep "Dec  8 16" | sort | grep .'\.[0-9]\>' > $HOME/test && awk -F"16:13" '{ print $2, $FS }' $HOME/test | cut --fields=1
+ls -AFlRh | grep "Dec  8 16" | sort | grep .'\.[0-9]\>' > $HOME/test && awk -F"16:13" '{ print $2, $FS }' $HOME/test | sort --zero-terminated --dictionary-order
+ls -AFlRh | grep "Dec  8 16" | grep .'\.[0-9]\>' > $HOME/test && awk -F"16:13" '{ print $2, $FS }' $HOME/test | sort --dictionary-order
+info sort
+ls -AFlRh | grep "Dec  8 16" | grep .'\.[0-9]\>' > $HOME/test && awk -F"16:13" '{ print $2, $FS }' $HOME/test | sort --key=1,1
+ls -AFlRh | grep "Dec  8 16" | grep .'\.[0-9]\>' > $HOME/test && awk -F"16:13" '{ print $2, $FS }' $HOME/test | sort --key=1,1 -z
+ls -AFlRh | grep "Dec  8 16" | grep .'\.[0-9]\>' > $HOME/test && awk -F"16:13" '{ print $2, $FS }' $HOME/test | sort --key=1,1 -z -b -d
+ls -AFlRh | grep "Dec  8 16" | grep .'\.[0-9]\>' > $HOME/test && awk -F"16:13" '{ print $2, $FS }' $HOME/test | sort --key=1,1 -b -d
+ls -AFlRh | grep "Dec  8 16" | grep .'\.[0-9]\>' > $HOME/test && awk -F"16:13" '{ print $2, $FS }' $HOME/test | sort -b -d
+ls -AFlRh | grep "Dec  8 16" | grep .'\.[0-9]\>' > $HOME/test && awk -F"16:13" '{ print $2, $FS }' $HOME/test | sort -b --general-numeric-sort
+ls -AFlRh | grep "Dec  8 16" | grep .'\.[0-9]\>' > $HOME/test && awk -F"16:13" '{ print $2, $FS }' $HOME/test | sort -b -g
+ls -AFlRh | grep "Dec  8 16" | grep .'\.[0-9]\>' > $HOME/test && awk -F"16:13" '{ print $2, $FS }' $HOME/test | sort -g
+ls -AFlRh | grep "Dec  8 16" | grep .'\.[0-9]\>' > $HOME/test && awk -F"16:13" '{ print $2, $FS }' $HOME/test | cut
+info cut
+ls -AFlRh | grep "Dec  8 16" | grep .'\.[0-9]\>' > $HOME/test && awk -F"16:13" '{ print $2, $FS }' $HOME/test | cut -f
+ls -AFlRh | grep "Dec  8 16" | grep .'\.[0-9]\>' > $HOME/test && awk -F"16:13" '{ print $2, $FS }' $HOME/test | sort -g | uniq -u
+ls -AFlRh | grep .'\.[0-9]\>' > $HOME/test && awk -F"16:13" '{ print $2, $FS }' $HOME/test | sort -u | uniq -u
+ls -AFlRh | grep .'\.[0-9]\>' > $HOME/test && awk -F"16:13" '{ print $2 }' $HOME/test | sort -u | uniq -u
+ls -AFlRh | grep .'\.[0-9]\>' > $HOME/test && awk -F"16:13" '{ print $2 }' $HOME/test | sort -u | uniq -u -D
+ls -AFlRh | grep .'\.[0-9]\>' > $HOME/test && awk -F"16:13" '{ print $2 }' $HOME/test | sort -u | uniq -u -s N
+ls -AFlRh | grep .'\.[0-9]\>' > $HOME/test && awk -F"16:13" '{ print $2 }' $HOME/test | sort -u | uniq -u -s
+ls -AFlRh | grep .'\.[0-9]\>' > $HOME/test && awk -F"16:13" '{ print $2 }' $HOME/test | sort -u | uniq -u -s NULL
+ls -AFlRh | grep .'\.[0-9]\>' > $HOME/test && awk -F"16:13" '{ print $2 }' $HOME/test | sort -u | uniq -u -s 0
+ls -AFlRh | grep .'\.[0-9]\>' > $HOME/test && awk -F"16:13" '{ print $2 }' $HOME/test | sort -u | uniq -u -s 0 | paste -s $HOME/test2
+cat $HOME/test2
+ls -a -/ $HOME
+ls -a -/$HOME
+sudo packer -Ss coolreader
+sudo packer -Ss epub
+ls -AFlRh | awk -F"16:13" '{ print $2 }' | grep .'\.[0-9]\>' | sort -u | uniq -u -s 0 | paste -s $HOME/test2clear
+mv $HOME/documents/linux-docs/guides/Linux-101-Hacks.pdf /home/lucifer/documents/linux-docs/101-hacks
+sudo packer -S html
+sudo packer -Ss html2text-with-utf8
+sudo packer -Ss html2text-with-utf8 docfrac wiki2htm
+sudo packer -S html2text-with-utf8 docfrac wiki2htm
+sudo packer -S html2text-with-utf8 docfrac wiki2html
+sudo packer -Ss html
+sudo packer -S html2text-with-utf8
+pacman -Qi | grep html
+pacman -Qi | grep "html" | grep "Name"
+man wiki2html
+unfo wiki2html
+info wiki2html
+wiki2html
+wiki2html --help
+wiki2html http://wiki.gnucash.org/wiki/GnuCash
+vim index.php\?title=Special:Book\&bookcmd=download\&collection_id=579c3763d701e360\&writer=rl\&return_to=Chapter+1%3A+Quick+Introduction+to+Linux
+mv index.php\?title=Special:Book\&bookcmd=download\&collection_id=579c3763d701e360\&writer=rl\&return_to=Chapter+1%3A+Quick+Introduction+to+Linux test.pdf
+test.pdf
+rm index.php\?title=Special:Book\&bookcmd=download\&collection_id=b3c7f90eccd02a59\&writer=rl\&return_to=Main+Page
+wvHtml --help
+man wvHtml
+man wvPDF
+man wvSummary
+info wv*
+pacman -Qi | grep "Name"
+pacman -Qi grep dor
+pacman -Qi grep doc
+pacman -Qi | grep doc
+packer -Si * | grep doc
+packer -Si html | grep doc
+packer -Ss html | grep doc
+packer -Ss | grep doc
+packer -Ss *c | grep doc
+packer -Ss a | grep doc
+packer -Ss b | grep doc
+packer -Ss diet | grep doc
+packer -Ss diet
+mkhtmlindex index.html
+mkhtmlindex --help
+man mkhtmlindex
+mkhtmlindex test
+bash-cyberciti-biz.pdf
+rm bash-cyberciti-biz.pdf
+chromium Main_Page
+find . html
+find -type f *html /
+find -type f *html
+find -type f html
+find -type f /
+find -type f /*\\
+find -type f /*
+find -type f /*\\
+find . -iname html
+ls -a -l test
+firefox test/Chapter_1:_Quick_Introduction_to_Linux
+find -type f /*\\
+find . html
+cd documents/linux-docs/wiki
+cd test
+firefox -browser Chapter_1:_Quick_Introduction_to_Linux
+firefox browse
+packer -Ssi html
+packer -Si html
+packer -Ss html | grep html
+packer -Ss html
+packer -Ss wiki
+packer -Ss nabber
+packer -Ss snatch
+packer -Ss grab
+packer -Ss website
+packer -Ss getleft
+packer -S getleft autoindex
+packer -S lynx
+sudo pacman -Rns links
+pacman -ii
+pacman -Qii -v
+pacman -Q -ii -v
+pacman -Qiiv
+pacman -Qiiv -m
+pacman -Qiiv -m -k
+pacman -Qiiv -m -u
+sudo pacman -Qiiv -m -u
+sudo pacman -Q -ii -v -m -u
+sudo pacman -Q -ii -v -ug -t
+sudo pacman -Q -ii -v -m -u -h
+sudo pacman -h -Q -ii -v -m -u
+sudo pacman -Qu
+sudo pacman -Q -u
+sudo pacman -h -Q -ii -v -m
+sudo pacman -h -Qm
+sudo pacman -Qm
+sudo info2man
+man info2man
+info info2man
+ls -a -l /usr/local/include
+hlocate info
+ls -al /etc/bin
+hlocate info | grep bin
+ls /usr/bin
+ls /usr/bin/*info*
+hlocate *info*
+hlocate *info
+hlocate -bcLiS info
+hlocate -S info
+hlocate -S
+hlocate -bcLi info
+hlocate -bLi info
+hlocate -bcLi dor
+hlocate -bcLi doc
+hlocate -bLi doc
+hlocate -bLi .html
+hlocate -bLi .xml
+hlocate -bLi .xml | grep -v /var/
+hlocate -bLi .xml | grep -v /var/ /usr/share/mime
+hlocate -bLi .xml | grep -v /var/:/usr/share/mime
+hlocate -bLi .xml | grep -v /var/;/usr/share/mime
+hlocate -bLi .xml | grep -v /var/,/usr/share/mime
+hlocate -bLi .xml | grep -v /var/, /usr/share/mime
+hlocate -bLi .xml | grep -v /var/ , /usr/share/mime
+hlocate -bLi .xml | grep -v "/var/" "/usr/share/mime/"
+find ~ -iname '*.xml' -print0 | xargs -0 ls -l
+find ~ -iname '*.xml' -print0 | xargs -0 ls -l -a --color=always
+find / -iname '*.xml' -print0 | xargs -0 ls -l -a --color=always
+su -c find // -iname '*.xml' -print0 | xargs -0 ls -l -a --color=always
+su -c find "/" -iname '*.xml' -print0 | xargs -0 ls -l -a --color=always
+su -c - find / -iname '*.xml' -print0 | xargs -0 ls -l -a --color=always
+su -c find / -iname '*.xml' -print0 | xargs -0 ls -l -a --color=always
+su -c {find / --iname '*.xml' -print0 | xargs -0 ls -l -a --color=always}
+su -c "{find / --iname '*.xml' -print0 | xargs -0 ls -l -a --color=always}"
+su -c [find / --iname '*.xml' -print0 | xargs -0 ls -l -a --color=always]
+su -c [ find / --iname '*.xml' -print0 | xargs -0 ls -l -a --color=yes ]
+su -c [ find // --iname '*.xml' -print0 | xargs -0 ls -l -a --color=yes ]
+su -c '[ find / --iname '*.xml' -print0 | xargs -0 ls -l -a --color=yes ]'
+su -c "[ find / --iname '*.xml' -print0 | xargs -0 ls -l -a --color=yes ]"
+su -c "{ find / --iname '*.xml' -print0 | xargs -0 ls -l -a --color=yes }"
+su -c { find / --iname '*.xml' -print0 | xargs -0 ls -l -a --color=yes }
+su -c '{ find / --iname '*.xml' -print0 | xargs -0 ls -l -a --color=yes }'
+su -c "{ find %/ -iname '*.xml' -print0 | xargs -0 ls -la --color=yes }"
+man zsh
+man zshall
+touch tmpp
+cat 'su -c "{ find %/ -iname '*.xml' -print0 | xargs -0 ls -la --color=yes }"' > tmpp
+su -c find %/ -iname '*.xml' -print0 | xargs -0 ls -la --color=yes
+su -c find / -iname '*.xml' -print0 | xargs -0 ls -la --color=yes
+su -c "find / -iname '*.xml' -print0" | xargs -0 ls -la --color=yes
+su -c "find / -iname '*.xml' -print0" > /home/lucifer/test && cat /home/lucifer/test | xargs ls -la --color=yes
+su -c "find / -iname '*.xml' -print0 > /home/lucifer/test" && cat /home/lucifer/test | xargs ls -la --color=yes
+su -c "find / -iname '*.xml' > /home/lucifer/test" && cat /home/lucifer/test | xargs ls -la --color=yes
+su -c "find / -iname '*.xml' > /home/lucifer/test" && cat /home/lucifer/test | xargs ls -la --color=always
+su -c "find / -iname '*.xml' > /home/lucifer/test" && cat /home/lucifer/test | xargs ls -la --color=always | grep --colour -v "/var/"
+su -c "find / -iname '*.xml' > /home/lucifer/test" && cat /home/lucifer/test | xargs ls -la | grep --colour=always -v "/var/"
+su -c "find / -iname '*.xml' > /home/lucifer/test" && cat /home/lucifer/test |xargs ls -la |grep --colour=always -v "/var/" |grep
+su -c "find / -iname '*.xml' > /home/lucifer/test" && cat /home/lucifer/test |xargs ls -la |grep --colour=always -v "/var/" |grep --color=always -v "/home/lucifer/"
+su -c "find / -iname '*.xml' > /home/lucifer/test" && cat /home/lucifer/test |xargs ls -la |grep -v "/var/" |grep -v "/home/lucifer/" |grep -v "/usr/share/mime/"
+su -c "find / -iname '*.xml' > /home/lucifer/test" && cat /home/lucifer/test |xargs ls -laA1Fgt |grep -v "/var/" |grep -v "/home/lucifer/" |grep -v "/usr/share/mime/"
+su -c "find / -iname '*.xml' > /home/lucifer/test" && cat /home/lucifer/test |xargs ls -laA1FgT |grep -v "/var/" |grep -v "/home/lucifer/" |grep -v "/usr/share/mime/"
+su -c "find / -iname '*.xml' > /home/lucifer/test" && cat /home/lucifer/test |xargs ls -la1gxAu |grep -v "/var/" |grep -v "/home/lucifer/" |grep -v "/usr/share/mime/"
+su -c "find / -iname '*.xml' > /home/lucifer/test" && cat /home/lucifer/test |xargs ls -a1xAu |grep -vC "/var/" "/home/lucifer/" "/usr/share/mime/"
+su -c "find / -iname '*.xml' > /home/lucifer/test" && cat /home/lucifer/test |xargs ls -a1xAu |grep -vC "/var/" , "/home/lucifer/" , "/usr/share/mime/"
+su -c "find / -iname '*.xml' > /home/lucifer/test" && cat /home/lucifer/test |xargs ls -a1xAu |grep -vC '/var/','/home/lucifer/','/usr/share/mime/'
+su -c "find / -iname '*.xml' > /home/lucifer/test" && cat /home/lucifer/test |xargs ls -a1xAu |grep -vC '/var/':'/home/lucifer/':'/usr/share/mime/'
+su -c "find / -iname '*.xml' > /home/lucifer/test" && cat /home/lucifer/test |xargs ls -a1xAu |grep -vC '/var/' '/home/lucifer/' '/usr/share/mime/'
+su -c "find / -iname '*.xml' > /home/lucifer/test" && cat /home/lucifer/test | xargs grep -vC '/var/' '/home/lucifer/' '/usr/share/mime/'
+su -c "find / -iname '*.xml' > /home/lucifer/test" && cat /home/lucifer/test | xargs grep -vC /var/ /home/lucifer/ /usr/share/mime/
+su -c "find / -iname '*.xml' > /home/lucifer/test" && cat /home/lucifer/test | xargs grep -v "/var/" "/home/lucifer/" "/usr/share/mime/"
+su -c "find  -iname /(etc|usr|src|)'*.xml' > /home/lucifer/test" && cat /home/lucifer/test | xargs grep -v "/var/" |grep -v "/home/lucifer/" |grep -v "/usr/share/mime/"
+touch doc-get.sh
+echo 'su -c "find  -iname /(etc|usr|src|)'*.xml' > /home/lucifer/test" && cat /home/lucifer/test | xargs grep -v "/var/" |grep -v "/home/lucifer/" |grep -v "/usr/share/mime/'' > doc-get.sh\
+\
+\
+
+echo 'su -c "find  -iname /(etc|usr|src|)'*.xml' > /home/lucifer/test" && cat /home/lucifer/test | xargs grep -v "/var/" |grep -v "/home/lucifer/" |grep -v "/usr/share/mime/"' > doc-get.sh\
+\
+\
+
+echo 'su -c find  -iname /(etc|usr|src|)*.xml > /home/lucifer/test && cat /home/lucifer/test | xargs grep -v /var/ |grep -v /home/lucifer/ |grep -v /usr/share/mime/ ' > doc-get.sh\
+\
+\
+
+vim doc-get.sh
+echo 'su -c "find  -iname /(etc|usr|src|)'*.xml' > /home/lucifer/test" && cat /home/lucifer/test | xargs grep -v "/var/" |grep -v "/home/lucifer/" |grep -v "/usr/share/mime/"' > doc-get.sh
+ls -AFlRh | awk -F"16:13" '{ print $2 }' | grep .'\.[0-9]\>' | sort -u | uniq -u -s 0 | paste -s $HOME/test2
+su -c "find / -iname '*.xml' > /home/lucifer/test" && cat /home/lucifer/test | xargs grep -v "/var/" |grep -v "/home/lucifer/" |grep -v "/usr/share/mime/"
+su -c "find / -iname '*.xml' > /home/lucifer/test" && cat /home/lucifer/test |xargs ls -a1xAu |grep -v "/var/" |grep -v "/home/lucifer/" |grep -v "/usr/share/mime/"
+mkdir aria2c
+mv *.html aria2c
+su -l root 'find  -iname "*(etc|usr)*.xml"'
+su -l root 'find  -iname "^*(etc|usr)^*.xml"'
+su -l root 'find  -iname ^\(etc|usr)*.xml'
+su -l root 'find  -iname /^\"(etc|usr)"*.xml$'
+su -l root '{find  -iname /^\"(etc|usr)*.xml$}'
+su -l root '"find  -iname /^\"(etc|usr)*.xml$"'
+su -l root '"find  -iname /^\(etc|usr)*.xml$"'
+su -l root "find  -iname /^\(etc|usr)*.xml$"
+su -l root 'find  -iname /^\(etc|usr)*.xml$'
+su -l root 'find  -iname /^\(etc|usr)*.xml$/'
+su -l root find -iname "/^\(etc|usr)*.xml$/p"
+su -l root 'find  [-iname /^\{etc|usr}*.xml$/g]'
+su -l root 'find  /[-iname /^\{etc|usr}*.xml$/g/]'
+su -l root 'find  /[/-iname /^\{etc|usr}*.xml$/g/]/'
+set -X
+set -x
+ls -a -l
+set +x
+hlocate precmd
+sudo vim /etc/skel
+sudo vim /usr/share/zsh/site-functions/_packer
+sudo vim /usr/share/zshdb/command/set_sub/prompt.sh
+sudo vim /usr/share/zshdb/lib/shell.sh
+sudo vim /usr/share/pacman/ChangeLog.proto
+sudo vim /usr/share/pacman/rc-script.proto
+sudo vim /usr/share/zsh
+sudo vim /usr/share/zsh/plugins/zsh-syntax-highlight/README.md
+sudo vim $HOME/pkg-list-pt-repo
+sudo vim ptardiff :q
+sudo vim /usr/share/archlinux/wmlogos/archlinux-wm-awesome.svg
+vim /usr/share/archlinux/wmlogos/README
+locate awesome
+locate awesome |grep 16
+sudo packer -Ss svn
+sudo packer -Ss svg
+sudo pacman -Q |grep cairo
+cd bin
+ex svg2png.tar.gz
+makepkg-sic
+makepkg -sic
+sudo packer -S svg2png
+cd pkg
+sudo ls a
+rm svg2png
+rm -r svg2png
+sudo packer -S libhx && sudo packer -S yu
+man hxtools
+pacman -Q |grep svg
+pacman -Q -dktt |grep svg
+pacman -Q -dkt |grep svg
+pacman -Q -dt |grep svg
+pacman -Q -d |grep svg
+pacman -Q -dk |grep svg
+pacman -Q -dkv |grep svg
+pacman -Q -dv |grep svg
+sudoupdatedb
+mandb
+locatesvg
+locate svg
+man rsvg
+rsvg-view --help
+rsvg-convert --help /usr/share/archlinux/wmlogos/archlinux-wm-awesome.svg
+rsvg-convert --base-uri=/usr/share/archlinux/wmlogos/archlinux-wm-awesome.svg --format=png --width=16 --hieght=16 --keep-aspet-ratio --output=$HOME/.config/awesome/
+rsvg-convert --base-uri=/usr/share/archlinux/wmlogos/archlinux-wm-awesome.svg --format=png --background-color=#00CDCD --keep-aspet-ratio --output=$HOME/.config/awesome/
+rsvg-convert --base-uri=/usr/share/archlinux/wmlogos/archlinux-wm-awesome.svg --format=png --background-color=#00CDCD -a output=$HOME/.config/awesome/
+rsvg-convert --base-uri=/usr/share/archlinux/wmlogos/archlinux-wm-awesome.svg --format=png --background-color=#00CDCD output=$HOME/.config/awesome/
+cd $HOME/.config/awesome
+rsvg-convert --base-uri=/usr/share/archlinux/wmlogos/archlinux-wm-awesome.svg --format=png output=$HOME/.config/awesome/
+sudo vim $HOME/.config/awesome/theme.lua
+sudo vim $HOME/.config/awesome/theme.lua\\
+
+rsvg-view -k /usr/share/archlinux/wmlogos/archlinux-wm-awesome.svg
+cd linux-docs
+cd man
+cd superman-pages
+less HACKING
+./pms/PMS.sh &
+kill
+kill 2871 2104
+./pms/PMS.sh /dev/null 2>&1 &
+l
+load --he/p
+ls -la
+sudo updatedb && sudo mandb && sudo packer -Syu && ls -al
+chmod a+xwr
+chmod +a +xwr
+chmod a +xwr
+chmod a+x+w+r
+chmod a+xwr doc-get.sh
+lesspipe.sh pacget.conf
+vim color.sh
+vim find_dots_no_parens.sh
+find_all clear
+kill 3561
+./pms/PMS.sh > /dev/null 2>&1 &
+kill 3 :q
+vim find_repeated_words.sh
+source $HOME/.zsh/config/zshexports
+echo $MANPATH
+df -a -h
+man ntp.conf
+less zsh_completion.in\?h=autotools
+cd documents/linux-docs/superman-pages/pacman
+ls -AFlRh
+ls -AC
+ls -A1
+sysctl -a
+sysinfo
+systool --help
+setsid --help
+load
+load --h
+ls -A1 | xargs
+cd $HOME/documents/linux-docs/superman-pages/pacman
+find $PWD -iname '?h=autotools' | xargs ls -A1
+sudo vim $HOME/.zshrc
+vim $HOME/.zshrc
+vim $HOME/.zsh/config/zshexports
+echo $PWD
+man wget
+vim $HOME/.zsh/config/zshaliases
+\:
+xinetd
+packer -Ss xinetd
+packer -Qii xinetd
+packer -Qi xinetd
+packer -Q xinetd
+packer --skipinteg ssS xinetd
+packer -S xinetd
+sudo updatedb && sudo mandb && sudo packer -Syu
+hupdatedb
+xinetd --help
+man xinetd
+sudo vim chkdupexe
+locate clear
+man inb clear
+sudo packer -Ss xam
+sudo packer -Syu xampp
+sudo packer -S ampp
+sudo packer -Ss xampp
+sudo packer -Ss xamp
+chear
+sudo packer -Si xampp
+sudo packer -S gcc-libs-
+sudo packer -S gcc-libs-multilib
+sudo packer -S xampp
+$HOME./pms/PMS.sh
+$HOME/pms/PMS.sh
+wget -mbNclear http://www.apachefriends.org/en/xampp-linux.html
+src
+dftest
+duh
+df --help
+sudo packer -Ss archlinux
+sudo packer -S archlinux-special-wallpapers pacsrc quick-boot fontune-mod-archlinux google-hacks finit-arc readahead bootstrap
+sudo packer -S archlinux-special-wallpapers pacsrc quick-boot forntune-mod-archlinux google-hacks finit-arc readahead bootstrap
+sudo packer -S archlinux-special-wallpapers pacsrc quick-boot fortune-mod-archlinux google-hacks finit-arc readahead bootstrap
+cat 'sudo packer -S archlinux-special-wallpapers pacsrc quick-boot fortune-mod-archlinux google-hacks finit-arc readahead bootstrap'
+mv test2 pacsss
+cat 'sudo packer -S archlinux-special-wallpapers pacsrc quick-boot fortune-mod-archlinux google-hacks finit-arc readahead bootstrap' > pacsss
+cat 'sudo packer -S archlinux-special-wallpapers pacsrc quick-boot fortune-mod-archlinux google-hacks finit-arc !readahead bootstrap' > pacsss
+cat 'sudo packer -S archlinux-special-wallpapers pacsrc quick-boot fortune-mod-archlinux google-hacks finit-arc /readahead /bootstrap' > pacsss
+echo 'sudo packer -S archlinux-special-wallpapers pacsrc quick-boot fortune-mod-archlinux google-hacks finit-arc readahead bootstrap' > pacsss
+cd documents/linux-docs/wiki/wikibooks
+cr3 AWK
+ls test
+*php
+*.php
+ex xac-2011-06-17-1.tar.xz
+mv xac-2011-06-17-1.tar.xz xac
+vim xac
+xac
+mv xac xac.php
+xac.php
+mv xac.php xac
+hlocate chromium
+rm core
+lynx google.com
+sudo vim /etc/conf.d/chromium-tmpfs
+sudo vim /etc/rc.d/chromium-tmpfs
+du -h /var/run
+vim .local/share/applications/
+sudo packer -S xpdf
+sudo packer -S poppler desktop-file-utils
+sudo vim /usr/bin/xdg-open
+vim .Xdefaults
+sudo packer -Ss util
+echo ps3-utils >> pacsss
+sudo packer -Ssv xpdf
+sudo packer -S -v xpdf
+sudo packer -S -V xpdf
+man parker
+sudo packer -Ss xpdf
+sudo packer -Ss\i xpdf-openmotif
+sudo packer -Si xpdf-openmotif
+vim .zsh/config/zshexports
+man packerclear
+sudo locatedb && sudo mandb && sudo pacman-db-upgrade && sudo packer -Syu
+sudo updatedb && sudo mandb && sudo pacman-db-upgrade && sudo packer -Syu
+sudo /usr/share/man/ ls -al
+sudo ls -al /usr/share/man/
+su -c "find / -iname '*.xml' > /home/lucifer/test" && cat /home/lucifer .bash_logout ech.. | xargs grep -vC '/var/' '/home/lucifer/' '/usr/share/mime/'
+xdg-open http://google.com
+vim $HOME/.config/awesome/rc.lua
+inet
+info init
+pacman -Q init
+pacman -Q *init*
+pacman -Q | grep init
+pacman -Q -mv *init*
+pacman -Q -mv init
+pacman -Q -mv
+pacman -Q -mv |grep init
+pacman -Qmv |grep init
+pacman -Qm |grep init
+pacman -Qm | xargs grep init
+cd /usr/share/archlinux
+ls docs
+ls cd-labels
+ls icons
+ls logos
+ls wallpaper
+ls web
+ls ls wmlogos
+.. ls
+/usr/share/archlinux
+cd ..
+/s
+ls texinfo
+ethtool emacs
+emacs
+ls help
+cat help/rarian.document
+ls archwall
+cp archwall/* /home/lucifer/pictures/wallpaper
+arch
+archey
+archey3
+cd /usr/bin
+gem2arch --help
+gawk --help
+awk --help
+awk info
+info aw
+cd $HOME/documents/linux-docs/man
+ls superman-pages
+hlocate 101
+pacman -Qm | xargs grep -d init
+pacman -Qm | xargs grep -d skip init
+pacman -Qm | xargs grep -d skip init > test
+pacman -Qm print0 | xargs 0 grep -d skip init > test
+pacman -Qm print0 | xargs -0 grep -d skip init > test
+pacman -Qm -print0 | xargs -0 grep -d skip init > test
+pacman -Qm -print0 | xargs -0 grep -d skip > test
+pacman -Qm | xargs grep -d skip > test
+cat test
+cluor
+find -path info
+find -ipath info
+find -iname info
+find / -iname info
+ls -al /usr/share
+ls -al /usr/share/info/dir
+ls -al /usr/share/info
+su -- find / -iname info
+su -c find / -iname info
+su -c find "/" -iname info
+su -c "find / -iname info"
+man xargs
+info xargs
+ls .config/chromium
+ls .config
+rm .config/chromium-backup
+cat pacsss
+sudo updatedb && sudo mandb && sudo packer -Syu sudo packer -S archlinux-special-wallpapers pacsrc quick-boot fortune-mod-archlinux google-hacks finit-arc readahead bootstrap
+sudo updatedb && sudo mandb && sudo packer -Syu && sudo packer -S archlinux-special-wallpapers pacsrc quick-boot fortune-mod-archlinux google-hacks finit-arc
+cat /etc/rc.single
+cat /etc/inittab.backup
+touch /etc/rc.local.redahead
+sudo touch /etc/rc.local.redahead
+sudo mv /etc/rc.local /etc/rc.local.quickboot
+cat /etc/rc.local.redahead
+sudo cat /etc/rc.local.redahead
+ls -al /etc
+cat qinit.multi
+cat qinit.sysinit
+cat rc.local.quickboot
+sudo mv rc.local.quickboot rc.local
+sudo chmod a+rwx rc.local.redahead
+sudo chmod a+rx-x rc.local.redahead
+ls al
+sudo chmod a+rx-w
+sudo chmod a+rx
+sudo chmod a+rx-w rc.local.redahead
+ls rc.d/functions.d/readahead
+cat rc.d/functions.d/readahead
+pacman -Q |grep init
+pacman -Qi |grep init
+pacman -Qi sysvinit initscripts xorg-init module-init-tools readahead quick-boot
+pacman -Qi sysvinit initscripts xorg-init module-init-tools readahead-fedora quick-boot
+sudo vim finittab
+cd documents/linux-docs/zsh
+wget --mirror -p --convert-links -P $HOME/documents/linux-docs/ http://zsh.sourceforge.net/Doc/Release/index-frame.html
+ls zshguide
+mv zsh.sourceforge.net/ zsh/zsh-doc-web
+cd zsh-doc-web
+Guide
+cat $HOME/.Xdefaults
+vim $HOME/.Xdefaults
+ls Arc
+ls Contrib
+ls Contrib/scripts
+Contrib/scripts/index.html
+Arc
+find -name tac
+find -name toc
+find "toc"
+find -depth 8 "toc"
+find -depth "toc"
+find -depth "toc" pwd
+find -D help "toc" pwd
+find -D tree "toc"
+find -D tree toc
+find -D help -iname toc
+find -D search -iname toc
+find -iname toc
+pwd
+find $PWD -iname toc
+find $PWD -depth -iname toc
+find $PWD -depth -help -iname toc
+find $PWD -maxdepth 10 -iname toc
+find -maxdepth 10 toc
+find -maxdepth 10 toc $PWD
+find -maxdepth 25 toc $HOME
+find -maxdepth 25 toc /home/lucifer/documents
+find -maxdepth 25 $HOME/documents toc
+find -maxdepth 25 $HOME/documents -name toc
+find -maxdepth 25 /home/lucifer/documents -name toc
+find -maxdepth 10 /home/lucifer/documents -name toc
+find -maxdepth 10 /home/lucifer/documents "toc"
+find -maxdepth 10 "toc"
+find /home/lucifer/documents -maxdepth 10 "toc"
+find /home/lucifer/documents -maxdepth 10 toc
+find /home/lucifer/documents -maxdepth 10 toccd
+find tac
+find toc
+find Toc
+find TOC
+find -maxdepth TOC
+find -maxdepth 25 tac
+find -maxdepth=25 toc
+find -maxdepth 25 toc
+find -maxdepth 25 -D search toc
+find -D search toc
+find -mtime 0 $HOME
+man find
+find $HOME -mtime 0
+sudo mandb && sudo updatedb
+man finit
+info finit
+man initscript
+find / -mtime 0
+sudo packer -S quick
+sudo packer -Ss quick
+sudo packer -Ss quick-boot
+sudo packer -S guichan k-init
+sudo packer -S quick-init
+cat rc.multi
+cd etc
+touch inittab.original
+sudo touch inittab.original
+cat inittab > inittab.original
+sudo cat inittab > inittab.original
+sudo vim inittab.original
+sudo packman
+sudo pacman -Rns finit
+sudo pacman -Qi finit-arc
+sudo pacman -Qii finit-arc
+sudo pacman -S finit-arc
+sudo pacman -Rns finit-arc
+cat rc.sysinit
+cat qinittab
+cat rc.local
+sudo packer -S quick-boot
+init
+sudo init
+sudo init --help
+man init
+cat /boot/syslinux/syslinux.cfg
+sudo pacman -Rns quick-boot
+sudo pacman -Rn quick-boot
+sudo vim rc.local
+cat rc.local.redahead
+packer -Ss readahead
+packer -S readahead
+packer -S readahead-fedora
+cat readahead.conf
+cat readahead.d/
+ls readahead.d
+sudo ls -al readahead.d
+sudo cp inittab.original inittab.cp
+cat inittab.cp
+sudo cat inittab.cp
+cat inittab.original
+sudo cat inittab.original
+mv inittab.cp inittab.readahead
+sudo mv inittab.cp inittab.readahead
+sudo cat inittab.original inittab
+sudo cat inittab.original > inittab
+su -c cat inittab.original > inittab
+sudo rm inittab
+mv inittab.original inittab
+sudo vim rc.conf
+sudo vim rc.sysinit
+cp inittab inittab.backup
+sudo cp inittab inittab.backup
+cat inittab.backup
+cat inittab
+sudo cat inittab.backup
+sudo vim inittab.backup
+sudo vim cron.weekly
+cat cron.daily/backup
+sudo cat cron.daily/backup
+sudo touch cron.monthly/mkreadahead
+sudo vim cron.monthly/mkreadahead
+sh --help
+sh -c holp
+sh -c help
+cat /home/lucifer/.zshrc
+locate bus
+cat /etc/inittab
+sudo cat /etc/inittab
+man *read
+man reada
+info info
+ls -al /
+cd /
+find read
+locate read
+locate readahead
+sudo mandb && sudo updatedb && sudo pacman -Syy && sudo packer -Syu
+lsof
+sudo vim /etc/inittab
+sudo vim .switch-collector-to-later
+cat /etc/inittab.readahead
+sudo cat /etc/inittab.readahead
+sudo pacman -Si readahead
+sudo pacman -Ssi readahead
+sudo pacman -Ss readahead
+sudo packer -Ss readahead
+sudo packer -S libaudit
+sudo packer -Ss libaudit
+sudo packer -S readahead-fedora
+sudo vim /etc/rc.d/functions.d/readahead
+sudo vim /etc/readahead.d/custom.early
+sudo vim /etc/readahead.d/custom.later
+locate urxvt
+locate /bin/ chromium
+chromium
+sudo vim /etc/rc.local.redahead
+sudo mv /etc/rc.local.redahead /etc/rc.local.r
+sudo mv /etc/rc.local /etc/rc.local.backup
+sudo mv /etc/rc.local.r /etc/rc.local
+cat /etc/rc.local
+cat /etc/rc.local.backup
+sudo cat inittab
+sudo vim inittab
+cllear
+sudo vim /etc/readahead.conf
+startk
+chattr +i /etc/services
+pacman -S cups ghostscript gsfonts
+sudo pacman -S cups ghostscript gsfonts
+sudo packer -S hpli/
+sudo packer -Ss hplip-all
+sudo packer -S cups dbus-python sane python-imaging python-notify python2-qt python2-gobject2 hplip-plugin
+sudo packer -S cups dbus-python sane python-imaging python-notify python-qt python-gobject2 hplip-plugin
+sudo packer -S cups dbus-python sane python-imaging python-notify python2-gobject2 hplip-plugin
+hplip-plugin
+sudo packer -S python
+sudo packer -Ss python
+sudo packer -Ss python |grep qt
+sudo packer -S cups hplip-plugin
+packer -S cups hplip-plugin
+sudo reboot
+sudo chattr +i /etc/services
+cat /etc/services
+sudo vim /etc/services
+tail /var/log/messages.log
+sudo tail /var/log/messages.log
+sudo cat /var/log/messages.log |less
+cat /var/log/messages.log | less
+su -c cat /var/log/messages.log | less
+su -c root cat /var/log/messages.log | less
+locate blocklist
+locate blacklist
+locate modprobe
+sudo modprobe usbcore
+su -c "cat /var/log/messages.log | less"
+su -c "cat /var/log/messages.log |grep usb"
+sudo cat /var/log/messages.log |grep usb
+/etc/rc.d/cupsd start
+cat /etc/passwd-
+sudo cat /etc/passwd
+sudo cat /etc/group
+sudo packer -Ss sano
+sudo packer -S sane
+sudo gpasswd lucifer scanner
+hplip
+sane
+scanimage -help
+sane -L
+sudo vim /etc/sane.d/hp5400.conf
+sudo packer -Ss sane
+sudo packer -S hplip
+sudo gpasswd -a lucifer scanner
+lsusb
+sudo gpasswd -a dbus lp
+sudo gpasswd -a dbus scanner
+sudo /etc/sane.d/dll.d
+ls /etc/sane.d/dll.d/d11.conf
+sudo vim /etc/sane.d/dll.d/d11.conf
+scanimage -L
+hp-check
+rm hplip-3.11.10-plugin.run.1
+hp-plugin
+sudo hp-plugin
+rm hplip-3.11.10-plugin.run hp-check.log
+vim .fbtermrc
+iconv --list
+cat /etc/rc.conf
+sudo vim /etc/passwd
+sudo cp .zsh/ /home
+cp --copy-contents -nr --target-directory=/home
+cp --copy-contents -nr --help --target-directory=/home
+cp --copy-contents -nr --help --backup --target-directory=/home
+cp --copy-contents -nr --backup --target-directory=/home
+cp --copy-contents -nr --backup none --target-directory=/home
+cp --backup=none --copy-contents -nr --target-directory=/home
+cp --copy-contents -r --target-directory=/home
+chmod a+rwx
+chmod a+rwx .zsh
+chmod a+rwx --recursive .zsh
+cp --copy-contents -r --target-directory=/home .zsh
+packer -Ss init
+sudo packer -S binutils
+sudo packer -S gdb
+gdb
+sudo mandb && sudo updatedb && reload
+man gdb
+gdb chromium
+man
+gdb --tui
+pidstat
+gdb --pid=1623
+restart
+sudo packer -Ss vdpau
+sudo packer -S --devel
+sudo packer -Syu --devel
+cd /usr/share/doc
+ramspeed
+ramspeed -M -r
+ramspeed -m -r
+ramspeed -m
+ramspeed -r
+ramspeed -t
+ramspeed -b 15
+sudo vim /etc/securetty
+sudo gpasswd -a ls cups
+sudo gpasswd -a lucifer lp
+sudo hp-setup
+sudo gpasswd -a lucifer sys
+sudo packer -Ss hp
+sudo packer -Ss hplip
+sudo packer -Ss hplip hplip-all
+sudo packer -S hplip hplip-all
+sudo packer -S hplip-all
+sudo modinfo
+sudo modprobe --all
+sudo modprobe --all --list
+sudo modprobe --list --type
+sudo modprobe --list
+sudo modprobe usblp
+sudo modprobe -r usblp
+dmesg
+su
+rc.d restart cups
+hp-toolbox
+rc.d restart cupsclear
+hp-setup
+rc.d list
+rc.d start cupsd
+sudo rc.d start cupsd
+sudo vim /etc/cups/cupsd.conf
+sudo /etc/rc.d/cupsd start
+sudo /etc/rc.d/cupsd restart
+sudo vim /etc/modprobe.d/modprobe.conf
+sudo vim /etc/cups/cupsd.conf.default
+sudo packer -S hpoj
+sudo vim /etc/sane.d/dll.conf
+sudo vim /etc/sane.d/hp.conf
+sudo packer -S qt3
+sudo packer -S hplip hplip-all hpoj
+sudo updatedb && sudo mandb && reload
+ptal-init
+sudo ptal-init start
+sudo ptal-init setup
+hp-scan
+hpscan001.png
+feh hpscan001.png
+feh pictures/wallpaper/Arch-Black.png
+feh pictures/wallpaper/Arch-Black.png --bg-scale
+free
+free --help
+free -lmt
+free -l -m -t
+free -m -t
+free -m -l -t -s 3
+ulimit -u unlimited
+ulimit -a
+free -m
+sysctl -w vm.buffermem="80 60 10"
+sysctl -a vm/compact_memory
+sysctl -a |grep buff
+sudo sysctl -a |grep buff
+sudo packer -Ss alert
+sudo packer -Ss alarm
+sudo packer -Ss remind
+sudo packer -S remind
+remind
+remind -b 1
+remind -b1
+sudo pacman -Rns remind
+time --help
+man time
+tcsh --help
+info time
+pmap -x
+pmap
+pmap -q
+pgrep
+pgrep -n -l *
+pgrep -s -l
+pgrep -n -l -v
+kill -L
+kill -l
+man kill
+man pkill
+pgrep -u
+ps --help
+ps -A
+sudo updatedb && sudo mandb && sudo packer -h
+info paker
+sudo updatedb && sudo mandb && sudo packer -Syy --devel && hupdatedb && reload
+sudo updatedb && sudo mandb && sudo packer -Syu --devel && hupdatedb && reload
+sudo packer zsh
+sudo packer -Si zsh*
+sudo packer -Si *zsh
+sudo packer -Si zsh
+sudo packer -Si
+sudo packer -Si extra/
+sudo packer -Si extra/*
+sudo packer -Si extra/zsh
+sudo pacman -Q -ii -m -s
+sudo pacman -Q -ii
+sudo pacman -Q -ii -m
+sudo pacman -Q -ii -m |grep zsh
+sudo pacman -Q -ii -m |grep Name |grep zsh
+sudo packer -Ss zsh
+sudo pacman -Q -ii -m |grep zsh |grep Name
+sudo pacman -Rns zsh-systemctl-git && sudo packer -S oh-my-zsh-extra-git zcm-git shoktanzsh command-not-found pr11 && sudo updatedb && sudo mandb && hupdatedb && reload
+sudo packer -S oh-my-zsh-extra-git zcm-git shoktanzsh command-not-found prll && sudo updatedb && sudo mandb && hupdatedb && reload
+rm feh_005903_000001_hpscan001.png
+rm hpscan001.png
+cat .zshenv
+cat .zshrc
+cat .zprofile
+cat .zlogout
+fortune -a archlinux
+fortune -c
+fortune -c --
+fortune -o
+fortune -m
+fortune -i
+fortune -l
+fortune -f
+fortune -s
+fortune -w
+man fortune
+fortune archlinux
+fortune
+fortune --help
+fortune -help
+fortune -h
+fortune all
+fortune -l all
+fortune -s all
+fortune -a all
+fortune -f all
+fortune -
+fortune funnf
+fortune funny
+fortune archlinux linux
+fortune -e archlinux linux
+cat /usr/share/fortune/archlinux
+sudo pacman -Rns fortune-mod fortune-mod-archlinux
+forqclear
+echo $TERM
+printenv
+cd /usr/share/
+c
+cat .Xauthority
+cat .Xdefaults
+cat .Xresources
+cat /etc/zsh/zshrc
+echo $ZSHDIR
+echo $ZSHFILES
+cp /etc/zsh/ configs/zsh-files/
+cat configs/zsh-files
+ls configs/zsh-files
+cd configs/zsh-files/zsh
+man figlet
+zsh_linux_distrib
+zsh_status
+zsh_os_load
+man zshroadmap
+zcm update
+zcm
+zcm install
+man zcm
+man *zcm
+man zcmp
+locate zcm
+man xzcm
+man xzcmp
+man lzcmp
+info zcm
+zcm --help
+ls -al /usr/bin
+sudo pacman -Rns zcm && sudo pacman -Scc && sudo packer -S zcm && sudo packer -Syu --devel && sudo updatedb && sudo mandb && reload
+sudo pacman -Rns zcm-git && sudo pacman -Scc && sudo packer -S zcm-git && sudo packer -Syu --devel && sudo updatedb && sudo mandb && reload
+sudo pacman -Syy && sudo packer -Syu --devel && sudo updatedb && sudo mandb && reload
+pacman -Q |grep awesome
+pacman -Qii |grep zsh |grep Name
+pacman -Qii |grep zsh
+pacman -Qii |grep -B 1 -A 10 zsh
+sudo packer -Syy --devel && sudo updatedb && sudo mandb && reload
+sudo packer -Syu --devel && sudo updatedb && sudo mandb && reload
+man zshmisc
+cp --copy-contents --recursive /etc/zsh/ configs/zsh-files/
+rm --recursive --help
+rm -r $HOME/configs/zsh-files/zsh/ "~"
+ls $HOME/configs/zsh-files/zsh
+ls -al $HOME/configs/zsh-files/zsh
+ls -alr $HOME/configs/zsh-files/zsh
+rm -r $HOME/configs/zsh-files/zsh
+sudo rm -r $HOME/configs/zsh-files/zsh
+cp --copy-contents --recursive /etc/zsh $HOME/configs/zsh-files/
+cp --copy-contents --recursive /usr/share/oh-my-zsh/ $HOME/configs/zsh-files/
+cp --copy-contents --recursive /usr/share/zshdb $HOME/configs/zsh-files/
+cd /home/lucifer/configs/zsh-files
+ls -alr
+ls -a5l
+ls -al1
+ls -mAR
+ls -mARQ
+cd oh-my-zsh
+cat omz
+cat README.textile
+cat README.md
+ls lib
+ls plugins
+ls plugins/archlinux
+ls plugins/archlinux/meat/meat.plugin.zsh
+cat plugins/archlinux/meat/meat.plugin.zsh
+cat plugins/archlinux/README.md
+cat plugins/archlinux/archlinux.plugin.zsh
+cat plugins/colorizer
+cat plugins/colorizer/colorizer.plugin.zsh
+cat plugins/gnu-utils/gnu-utils.plugin.zsh
+cat plugins/thor/_thor
+cat templates/user.zsh-template
+cd zsh
+cd custom
+cat zshrc_user_custom_pre.zsh
+cat zlogin
+cat zlogout
+cat zshrc
+cat os/linux.zsh
+cat os/main.zsh
+ls -a $HOME
+ls $HOME/.zsh/cache/modules-3.1.5-2-ck
+cat $HOME/.zsh/cache/modules-3.1.5-2-ck
+ls $HOME/.zsh/hist/zsh.hist
+cat $HOME/.zsh/hist/zsh.hist
+cat utils/chroot.zsh
+cat utils/couleurs.zsh
+cat utils/jeux.zsh
+cat utils/programme.zsh
+cat utils/scripts_managing.zsh
+cat site-functions/_setup.py
+ls custom/zshrc_user_custom_pre.zsh
+cat os/linux/archlinux.zsh
+lsx
+cat kwtools-0.8.3
+ls kwtools-0.8.3
+cat kwtools-0.8.3/functions/kwnarcconf/main_conf
+cat .zshrc.local
+cat .zshrcgrml
+cd zsh-files
+cp --copy-contents --recursive /usr/share/zsh $HOME/configs/zsh-files/zsh-etc
+rm -r /home/lucifer/configs/zsh-files/zsh
+sudo rm -r /home/lucifer/configs/zsh-files/zsh
+cp --copy-contents --recursive /usr/share/zsh $HOME/configs/zsh-files/
+ls -a zsh
+mv zsh/ usr-share-zsh
+mv zsh-etc etc-zsh
+sudo rm -r *
+cp --copy-contents --recursive /etc/zsh $HOME/configs/zsh-files/etc-zsh
+mv --help
+mv zsh/ ..
+ls zsh
+rm -r etc-zsh/*
+sudo rm -r etc-zsh/*
+mv zsh/ etc-zsh
+ls etc-zsh
+mv etc-zsh/zsh/* etc-zsh
+ls -a etc-zsh
+ls zshdb
+cat zshdb/lib/shell.sh
+sudo reload
+ls /etc/dbus-1/session.conf
+cat /etc/dbus-1/session.conf
+cat /etc/dbus-1/system.conf
+cat /etc/logrotate.d/bootlog
+cat /etc/mail/aliases
+cat /etc/sysctl.conf
+cat /etc/pkgtools/spec2arch.conf
+cat depmod.d/depmod.conf
+cat default
+cat cat crypttab
+cat crypttab
+sudo cat crypttab
+cat anacrontab
+cat environment
+cat inittab.readahead
+sudo cat inittab.readahead
+cat openldap
+cat openldap/ldap.conf
+cat modprobe.d/modprobe.conf
+cat rc.conf
+cat os-release
+cat paccheck/mirrorlist
+cat quilt.quiltrc
+prll
+locate reload
+cat etc-zsh/utils/scripts_managing.zsh
+titre
+cd etc-zsh
+cat custom
+cat custom/zshrc_user_custom_pre.zsh
+sudo rm -r /etc/zsh
+sudo vim /home/lucifer/.zshrc
+relead
+sudo pacman -Qi |greppkg
+sudo pacman -Qi |grep pkg
+sudo pacman -Qi |grep Name |grep pkg
+sudo packer scripts
+sudo pacman -Syu && sudo updatedb && sudo mandb && reload
+source .zshrc
+source .zshenv
+source .zsh/config/zshexports
+source .zsh/config/zshzle
+docbook2html
+sudo find / -mtime 0
+cd $HOME/documents/legal
+ex pubinfo_2011.zip
+sudo packer lab
+rc.d/syslog-ng restart
+\:Q
+man syslog-ng-ctl
+man syslog-ng.conf
+sudo packer -Ss console
+wget --mirror -p --convert-links -P $HOME/documents/linux-docs/ http://www.balabit.com/sites/default/files/documents/syslog-ng-v3.0-guide-admin-en.html/index.html-single.html
+sudo rm -r documents/linux-docs/www.balabit.com
+ls documents
+ls documents/linux-docs
+wget --mirror -p --convert-links -P $HOME/documents/linux-docs/ http://www.balabit.com/sites/default/files/documents/syslog-ng-ose-3.3-guides/syslog-ng-ose-v3.3-guide-admin-en.html/index.html-single.html
+cd documents/linux-docs
+mv syslog
+cp www.balabit.com/ syslog
+www.balabit.com/ syslog
+mv www.balabit.com
+ls a
+ls``````222clear -a
+mv --h
+man mv
+rename www.balabit.com/ syslog
+rename -v www.balabit.com/ syslog
+man rename
+mmv --help
+man mmv
+rename www.balabit.com syslog
+rename -V www.balabit.com syslog
+rename -v www.balabit.com syslog
+cp --copy-contents --recursive www.balabit.com/ $HOME/documents/linux-docs/syslog
+ls www.balabit.com
+ls syslog
+rm -r www.balabit.com
+cd syslog
+ls wiki
+index.html
+find . log
+cd support/documentation/documents/syslog-ng-ose-3.3-guides/syslog-ng-ose-v3.3-guide-admin-en.html
+cd $HOME/documents/linux-docs/syslog/support/documentation/documents/syslog-ng-ose-3.3-guides/syslog-ng-ose-v3.3-guide-admin-en.html
+index.html-single.html
+sudo vim /etc/group
+groupadd --help
+sudo groupadd log
+gpasswd -a
+gpasswd -a lucifer log
+sudo gpasswd -a lucifer log
+gd
+cat sudo packer -S syslog
+sudo packer -Ss syslog
+sudo packer -Ss freedt
+cd videos
+cd music-videos
+mplayer Blindside\ -\ King\ Of\ The\ Closet\ \(Official\ Music\ Video\)\ HD.flv
+mplayer All\ That\ Remains\ -\ Two\ Weeks\ \(HD\)\ -Download\ Link\ Available!-.mp4
+mplayer All\ That\ Remains\ -\ The\ Last\ Time.flv
+mplayer All\ That\ Remains\ -\ This\ Calling.flv
+mplayer It\ Dies\ Today\ -\ Severed\ Ties\ Yield\ Severed\ Heads\ music\ video\ HD.flv
+sudo packer -Syu --devel && sudo packer -S freedt && sudo updatedb && sudo mandb && reload
+sudo pacman -Scc && sudo packer -Syu --devel && sudo packer -S freedt && sudo updatedb && sudo mandb && reload
+sudo vim syslog-ng/scl.conf
+sudo vim syslog-ng/modules.conf
+sudo vim /usr/include/sys/syslog.h
+sudo vim syslog-ng/syslog-ng.conf
+sudo rc.d/-naaoeg restart
+sudo rc.d/syslog-ng restart
+sudo rc.d syslog-ng restart
+sudo rc.d restart syslog-ng
+/var/log/2011.12.13
+sudo vim /etc/syslog-ng/syslog-ng.conf
+cat acpid.log.1
+cat Xorg.0.log
+cat boot
+/var/run/
+cat dbus.pid
+rm dbus.pid
+sudo rm -r dbus.pid
+cd /var/log
+cat btmp
+sudo cat btmp
+sudo cat crond.log
+sudo cat daemon.log.4
+sudo cat acpid.log
+sudo cat errors.log
+sudo cat everything
+sudo cat faillog
+sudo cat lastlog
+sudo cat mail.info
+sudo cat mail.log
+sudo cat pacget.log
+sudo cat ntp.log
+sudo cat pacman.log
+sudo cat messages.log
+sudo packer -Syu && sudo packer -Ss vdpau
+locate glibc
+sudo cat syslog.log
+sudo cat user.log
+sudo packer -Syu && sudo packer -Ss vdpau-video libvdpau
+sudo packer -Syu && sudo packer -S vdpau-video libvdpau
+sudo cd /etc
+sudo vim makepkg.conf
+sudo packer -Ss ccache
+sudo packer -Ss cache
+sudo packer -Ss make
+grep -R "$(pwd)/src" pkg/
+sudo packer -Ss expac
+sudo packer -S expac
+expac "%n %p" | grep "myname" | column -t
+expac "%n %p"
+expac
+expac -h
+man expac
+shell-fm
+expac "%n %d"
+pacsrc
+pacsrc -a
+pacsrc -a --help
+pacsrc --help
+pacsrc -a cache
+pacsrc -a memcache
+list
+last
+cat xac
+mkdir src
+sudo pacman -Ss abs
+sudo packer -Ss abs
+abs --help
+sudo vim /etc/abs.conf
+pacman -Qi gcc
+sudo vim /etc/cron.daily/backup
+ls /etc/syslog-ng
+abs
+sudo abs
+sudo vim /etc/openldap/ldap.conf
+sudo vim /etc/mdadm.conf
+echo $CC
+sudo .vim /etc/gconf/gconf.xml.defaults/\\
+sudo vim /etc/ld.so.cache
+sudo vim /etc/diet.ld.conf
+sudo vim /etc/ld.so.cache sudo vim /etc/krb5.conf
+sudo vim /etc/ld.so.conf.d/lib32-glibc.conf
+sudo vim /etc/ld.so.conf
+sudo cp /etc/diet.ld.conf /etc/ld.so.conf.d
+ls /etc/ld.so.conf.d
+cat /etc/ld.so.conf.d/diet.ld.conf
+sudo cat /etc/ld.so.conf.d/diet.ld.conf
+ls /opt/diet/bin/diet-dyn
+/opt/diet/bin/diet-dyn
+ls -l /bin
+sudo packer -Ss diet
+sudo packer -S dietlibc-cvs
+locate ld
+ld
+ld --help
+man make
+info make
+$ARGC
+echo $CPUTYPE
+echo $LC_COLLATE
+echo $LOGCHECK
+echo $LOGNAME
+echo $PKG_CONFIG_PATH
+echo $compile
+echo $compprefuncs
+echo $comppostfuncs
+echo $dirstack
+echo $pipestatus
+echo $switches
+echo $_comp_assocs
+echo $_comp_dumpfile
+echo $_comp_options
+echo $_comp_setup
+$_comp_setup
+$_compautos
+$_comps
+$_lastcomp
+$_patcomps
+$_services
+$BROWSER
+help
+cc
+command
+c_rehash
+cytune
+howtocomplete ld
+H-Glob
+H-Glob P
+FileBU="host.conf"
+# Test and then BackUp File.
+if [ -f /etc/$FileBU ]; then\
+ cp /etc/$FileBU /home/lucifer/configs/system-files/\
+else \
+ print "Failed to Copy $FileBU"\
+fi
+FileBU=""
+cd .findbrokenpkgs
+cat findbrokenpkgs.0_env
+sudo vim /home/lucifer/.zsh/config/zshexports
+cat findbrokenpkgs.1_files
+cat findbrokenpkgs.2_ldpath
+cat findbrokenpkgs.3_rebuild
+info find
+glear
+cat findbrokenpkgs.4_orphans
+cat findbrokenpkgs.4_package_owners
+cat findbrokenpkgs.4_packages_raw
+find_all
+fixdlsrps
+fixdlsrps --help
+cat findbrokenpkgs.5_package
+sudo pacman -Q "{cat /home/lucifer/.findbrokenpkgs/findbrokenpkgs.5_packages}"
+sudo pacman -Q "(cat /home/lucifer/.findbrokenpkgs/findbrokenpkgs.5_packages)"
+cat /home/lucifer/.findbrokenpkgs/findbrokenpkgs.5_packages | sudo pacman -Q xargs
+man cat
+info coreutils 'cat invocation'
+fixme='cat findbrokenpkgs.5_packages' && sudo pacman -Q "fixme"
+fixme='cat findbrokenpkgs.5_packages' && sudo pacman -Q $fixme
+cat findbrokenpkgs.5_packages
+cat findbrokenpkgs.5_packages | sudo pacman -Q
+cat findbrokenpkgs.5_packages | sudo pacman -Q $ARGC
+cat findbrokenpkgs.5_packages > ARGC | sudo pacman -Q $ARGC
+cat findbrokenpkgs.5_packages=fixme | sudo pacman -Q $fixme
+cat "findbrokenpkgs.5_packages"=fixme | sudo pacman -Q $fixme
+'cat findbrokenpkgs.5_packages'=fixme | sudo pacman -Q $fixme
+"cat findbrokenpkgs.5_packages"=fixme | sudo pacman -Q $fixme
+{cat findbrokenpkgs.5_packages}=fixme | sudo pacman -Q $fixme\
+\
+ls\
+..
+cat ARGC
+rm ARGC
+compfiles
+compfiles --help
+man compfiles
+cd-fix-profile
+echo \cd-fix-profile
+echo cd-fix-profile
+echo "cd-fix-profile"
+echo 'cd-fix-profile'
+_pacman_opts_pkgfile
+sudo packer script
+pk12util
+pkg-config
+pkg-config x11
+pkg-config x11 colord
+pkgupdate_gtk.py
+db_upgrade --hel.
+db_upgrade --help
+findbrokenpkgs.0_env findbrokenpkgs.1_files findbrokenpkgs.2_ldpath findbrokenpkgs.3_rebuild findbrokenpkgs.4_orphans findbrokenpkgs.4_package_owners findbrokenpkgs.4_packages_raw findbrokenpkgs.5_packages
+findbrokenpkgs --help
+sudo vim /usr/bin/findbrokenpkgs
+newpkg
+newpkg -i
+newpkg -i diet
+newpkg -p
+newpkg -p diet
+newpkg --help
+newpkg -a -e diet
+newpkg -a -P diet
+newpkg -P diet
+newpkg -P diet diet
+cd build
+cd src
+l/s
+cd builds
+cd diet
+vim PKGBUILD
+install --help
+touch /home/lucifer/configs/make.print
+make -p >> /home/lucifer/configs/make.print
+make -p
+make -p > /home/lucifer/configs/make.print
+vim $HOME/configs/make.print
+make --help
+make -d
+touch configs/make.debug
+make -d > configs/make.debug
+man makemap
+makeworld --help
+makepkg --help
+man makepkg
+builtin
+builtin local
+local --help
+local --h
+local terminfo
+local switches
+man local
+info loca/
+man aclocal
+man aclocal-1.11
+info aclocal
+install-info --help
+install-catalog
+locate info
+locate configure
+man config
+man config.guess
+autoreconf
+man config.sub
+aclocal -V
+aclocal --help
+aclocal --print-ac-dir
+cd /usr/share/aclocal
+ls /etc
+ls $HOME/configs/
+ls -a $HOME/configs/
+ls -a /etc
+ls -a /etc/conf.d
+locate aclocal
+lampp --help
+man XaMP
+man ldap.conf
+sudo vim lib-ld.m4
+man idn.conf
+socklog-conf unix
+socklog-conf unix logacct
+socklog-conf unix logacct /etc/sv/ /var/log/
+socklog-conf unix acct logacct /etc/sv/ /var/log/
+man acct
+socklog-conf unix acct
+socklog-conf unix acct logacct
+man socklog-conf unix acct logacct /etc/sv/ /var/log/
+socklog-check
+socklist
+socklog-conf
+man socklog-conf
+nmap
+man nmap
+nmap -A -T4 scanme.nmap.org
+get-versions
+get_device
+get_driver
+getcap
+getafm
+getfacl
+getconf
+getent
+gethostip
+gethostip --he/p
+gethostip --help
+man get_super
+sudo pacman -Sc && sudo pacman-optimize
+sudo pacman -Sc && sudo pt-pacman-uncage && sudo pacman -Syy && pt-pacman-cage && sudo pacman-optimize
+rm /var/lib/pacman/db.lck
+sudo rm /var/lib/pacman/db.lck
+sudo pacman -Sc && sudo pt-pacman-uncage && sudo pacman -Syy && sudo pacman-optimize && sudo pt-pacman-cage
+sudo pt-pacman-cage
+sudo pt-pacman-cage 40
+sudo pacman -Sc && sudo pt-pacman-uncage && sudo pacman -Syy && sudo pacman-optimize && sudo pt-pacman-cage 40 && reload
+xmessage
+sudo vim lib-prefix.m4
+sudo packer -Ss m4
+sudo packer -S m4
+sync --help
+sudo pacman -S -g
+sudo pacman -S --debug
+sudo pacman -S --debug -v
+sudo pacman -Sv --help
+sudo pacman -Sv -k
+sudo pacman -Sv -km-h
+sudo pacman -Svyk
+pacman -Qii
+sudo pacman -Sv -k -h
+cp /var/lib/pacman.bak/pacman/sync
+cp /var/lib/pacman
+sudo cp /var/lib/pacman.bak/local/ -/var/lib/pacman
+sudo cp /var/lib/pacman.bak/local/ /var/lib/pacman
+cp --help
+sudo cp -vr --no-clobber /var/lib/pacman.bak/local/ --target-directory=/var/lib/pacman
+cd /var/lib/pacman
+sudo ls -a local
+sudo cp -vr --no-clobber /var/lib/pacman.bak/pacman --target-directory=/var/lib/pacman
+sudo cp -vr --no-clobber /var/lib/pacman --target-directory=/var/lib/pacman
+sudo ls -a ../pacman.bak/pacman
+sudo ls -a ../pacman.bak/pacman/local
+sudo rboot
+sudo update-ca-certificates && sudo update-desktop-database && sudo update-mime-database && sudo update-patterndb && sudo update-pciids && sudo update-usbids.sh && sudo updatedb && sudo lupdate && sudo autoupdate
+sudo update-ca-certificates && sudo update-desktop-database && sudo update-patterndb && sudo update-pciids && sudo update-usbids.sh && sudo updatedb && sudo lupdate && sudo autoupdate
+sudo update-ca-certificates && sudo update-desktop-database && sudo update-patterndb && sudo update-pciids && sudo update-usbids.sh && sudo updatedb && sudo gtk-update-icon-cache && sudo autoupdate && sudo pacman-db-upgrade && pt-pacfix
+sudo update-ca-certificates && sudo update-desktop-database && sudo update-patterndb && sudo update-pciids && sudo update-usbids.sh && sudo updatedb && sudo gtk-update-icon-cache && sudo autoupdate && pt-pacfix
+sudo update-ca-certificates && sudo update-desktop-database && sudo update-patterndb && sudo update-pciids && sudo update-usbids.sh && sudo updatedb && sudo gtk-update-icon-cache && sudo mib2c-update && pt-pacfix
+mib2c-update
+sudo vim .mib2c-updaterc
+man mib2c
+man mib2c.conf
+pacman -Syu
+sudo cat /var/lib/pacman
+sudo cat /var/lib/pacman.db
+sudo cp -vr --no-clobber --copy-contents /var/lib/pacman.bak/pacman --target-directory=/var/lib/pacman
+sudo rm -r /var/lib/pacman
+sudo rm -fr /var/lib/pacman
+sudo rm -fr /var/lib/pacmanclear
+cd /var/lib/pacman/*
+sudo rm -r /var/lib/pacman/*
+sudo rm -r /var/lib/pacman/* --he/p
+sudo rm -r /var/lib/pacman/* --help
+sudo rm -rf /var/lib/pacman/* --help
+sudo cp -vr --no-clobber --copy-contents /var/lib/pacman.bak/ --target-directory=/var/lib/pacman
+df -h
+suda pacman -Qq
+sudo pacman -Qq
+chmod --reference=pacman.bak/ pacman
+sudo chmod --reference=pacman.bak/ pacman
+sudo pacman-db-upgrade --help
+sudo pacman-db-upgrade pacman.db
+sudo pacman-db-upgrade pacman/sync
+sudo update-ca-certificates && sudo update-desktop-database && sudo update-patterndb && sudo update-pciids && sudo update-usbids.sh && sudo updatedb && sudo gtk-update-icon-cache && sudo intltool-update && pt-pacfix
+ls cat pacman.db
+sudo pacman -Scc && 'sudo pt-pacman-uncage" && sudo pacman -Syy && sudo pacman-optimize && sudo pt-pacman-cage 40 && reload\
+\
+
+sudo pacman -Scc && 'sudo pt-pacman-uncage' && sudo pacman -Syy && sudo pacman-optimize && sudo pt-pacman-cage 40 && reload\
+\
+
+sudo pacman -Scc && "'sudo pt-pacman-uncage'"< && sudo pacman -Syy && sudo pacman-optimize && sudo pt-pacman-cage 40 && reload\
+\
+
+sudo pacman -Scc && "'sudo pt-pacman-uncage'" && sudo pacman -Syy && sudo pacman-optimize && sudo pt-pacman-cage 40 && reload\
+\
+
+sudo pacman -Scc && sudo pacman -Syy && sudo pt-pacman-cage 40 && reload\
+\
+
+sudo pacman -Sy
+sudo pacman -Syvhu
+sudo pacman -Syv
+sudo pacman -Syvu
+sudo pacman -ii yvu
+sudo pacman -Qii yvu
+sudo pacman -Qii
+sudo pacman -Scc
+sudo cp -vr --no-clobber --copy-contents /var/lib/pacman.bak/* --target-directory=/var/lib/pacman/
+cat pacman.new
+sudo mv pacman.new/ pacman
+sudo mv --help pacman.new/ pacman
+sudo mv -v pacman.new/ --target-directory=/var/lib/pacman
+sudo mv -vf pacman.new/ --target-directory=/var/lib/pacman
+dua
+sudo du
+sudo du --human-readable --separate-dirs
+sudo du --human-readable -m --summarize
+sudo du --human-readable -m
+sudo du --human-readable -m --one-file-system
+sudo rm -rf /var/lib/pacman/*
+sudo du --human-readable -m --max-depth=2
+sudo rm -rf /var/lib/pacman/
+sudo rm -r --force /var/lib/pacman/
+sudo cp -vr --copy-contents --force /var/lib/pacman.bak/* --target-directory=/var/lib/pacman/
+\\
+: 1323882807:0;sudo pacman -Qii
+sudo pacman -Qil -v
+sudo pacman -Q -h -l -v
+sudo pacman -Qi -v
+sudo pacman -Qilv
+sudo pacman -Qiv -t
+sudo pacman -Qivt
+sudo pacman -Qiv
+sudo pacman -Qvt
+sudo pacman -Rnsv appset-qt
+sudo pacman -Rnsv appset-qt epdfview gecko-mediaplayer heirloom-mailx habak mediabox-svn pacman2aria2 ramspeed
+sudo pacman -Scc && && sudo pt-pacman-cage 40 && reload
+sudo pacman -Scc && sudo pt-pacman-cage 40 && reload
+sudo pacman -Scc && reload
+sudo pacman -Q && reload
+sudo pacman -Scc && sudo pacman -Syy && sudo pacman-optimize && sudo pt-pacman-cage 40 && reload\
+\
+
+sudo pacman -Scc && sudo pacman -Syy && sudo pt-pacman-cage 40 && reload
+sudo rm -r /var/cache/pacman/
+sudo vim /etc/rc.single
+sudo pacman -Scc && sudo pt-pacman-uncage && sudo pacman -Syy && sudo pacman-optimize && sudo pt-pacman-cage 40 && reload
+sudo pt-pacman-uncage && sudo pacman -Syy && sudo pacman-optimize && sudo pt-pacman-cage 40 && reload
+lssn
+cat alsa
+ls alsa/asound.state
+ls color
+ls -al color
+sudo ls -al color
+sudo ls -al colord
+sudo ls -al pacman.bak
+sudo ls -alF --author pacman.bak
+sudo ls -alF --author --timestatus pacman.bak
+sudo ls -alF --author --color=always --full-time pacman.bak
+sudo ls -alF --author --color=always --numeric-uid-gid --full-time pacman.bak
+sudo ls -ac --author --color=always --numeric-uid-gid --full-time pacman.bak
+sudo ls -ac --author --color=always --numeric-uid-gid --classify --sort= pacman.bak
+sudo ls -ac --author --color=always --numeric-uid-gid --classify --sort=time pacman.bak
+sudo pacman -Scc sudo pacman -Syy && sudo pacman-optimize && sudo pt-pacman-cage 40 && reload && sudo pacman -Syu
+sudo pacman -Scc && sudo pacman -Syy && sudo pacman-optimize && sudo pt-pacman-cage 40 && reload && sudo pacman -Syu
+sudo rm -r pacman.new/ pacman.bak
+sudo pt-pacman-uncage && sudo pacman -Syy && sudo pacman-optimize && sudo pt-pacman-cage 40 && reload && sudo pacman -Syu
+sudo pt-pacman-uncage && sudo pacman -Syy && sudo pacman-optimize && sudo pt-pacman-cage 40 && reload && sudo pacman -Syu && reload && sudo packer -Syu
+sudo vim /usr/bin/pt-pacman-cage
+reboot
+startx
+sudo packer -Syu
+pacman -m
+pacman-db-upgrade --Help
+pacman -Q -m
+locate pacman
+rcc
+cd /usr/share/pacman
+cat rc-script.proto
+cat proto-info.install
+cat ChangeLog.proto
+/home/lucifer/documents/linux-docs/superman-pages/pacman/index.html
+db_archive /var/lib/pacman.db
+db_archive /var/lib/pacman.db --help
+db_archive /var/lib/pacman.db -help
+db_archive /var/lib/pacman.db +h
+sudo dbmmanage
+sudo dbmmanage ..
+sudo dbmmanage -m /var/lib/pacman.db
+sudo dbmmanage -d /var/lib/pacman.db
+sudo dbmmanage -d /var/lib/pacman.db update
+ls /var/lib/pacman/\\
+sudo dbmmanage -d /var/lib/pacman.db update
+cd-info
+cd local
+sudo cd lost+found
+sudo cd lost+found/
+cd-info lost+found
+cd sync
+db_checkpoint --he/p
+db_checkpoint --help
+db_checkpoint
+db_checkpoint -p
+pacman. bak
+pacman.bak
+sudo ls -a
+sudo cd pacman
+cd lucifer/.backup
+cd lost+found
+su -c cd lost+found
+su root -c cd lost+found
+su lucifer -c cd lost+found
+ls sync
+ls local
+sudo ls local
+ls cnf
+ls misc
+ls ex
+ls syslog-ng
+pacman -T
+pacman -D -h
+pacman -S -l
+pacman -S -h
+pacman -S -k
+sudo pacman -S -k
+sudo pacman -S -w
+sudo pacman -Sw
+sudo pacman -Svk
+locate db
+cd documents
+cd legal
+locate db |grep pacman
+ex pubinfo_2011.zip pubinfo_2011.zip
+LAW_TOC_SECTIONS_TBL.dat LAW_TOC_TBL.dat
+vim LAW_TOC_TBL.dat
+sudo packer -S ytnef
+ytnef LAW_TOC_SECTIONS_TBL.dat
+ytnef -h LAW_TOC_SECTIONS_TBL.dat
+ytnef -F -f $HOME LAW_TOC_SECTIONS_TBL.dat
+ytnef -F -f . LAW_TOC_SECTIONS_TBL.dat
+ytnef +F +f +a . LAW_TOC_SECTIONS_TBL.dat
+ytnef +F +f +v. LAW_TOC_SECTIONS_TBL.dat
+ytnef+v. LAW_TOC_SECTIONS_TBL.dat
+ytnef +v. LAW_TOC_SECTIONS_TBL.dat
+ytnef -v . LAW_TOC_SECTIONS_TBL.dat
+ytnef -v -F -f . LAW_TOC_SECTIONS_TBL.dat
+ytnef -v -F -f -a . LAW_TOC_SECTIONS_TBL.dat
+ytnef -v -F -f -a . LAW_SECTION_TBL.dat
+ls --directory
+ls --directory --all
+ls --directory --all --file-type
+ls --directory --all --file-type --human-readable
+ls --directory --all --file-type --human-readable -X
+ls --directory --all --file-type --human-readable -X -l
+cd documents/legal
+sudo packer -Ss hox
+sudo packer -Ss hex
+sudo packer -S bat-svn
+sudo updatedb && sudo mandb
+man batch\\
+
+man mknodat \
+
+man fchmodat\
+
+man openat \
+
+sudo packer -S bat
+sudo packer -Ss bat |grep bat
+sudo packer -Ss bat
+sudo packer -Ss .bat
+pacman -Qi |grep bat
+pacman -Qi
+suda pacman -Qi
+sudo pacman -Qi
+sudo pacman -Qi |grep bat
+sudo pacman -Qii bat
+sudo pacman -Qii bat-svn
+cd\\
+
+catman --help
+man catman
+aclocal
+automake
+automake --help
+compile
+man compile
+man Term::Complete
+man makeinfo
+locale -a
+sudo vim locale.gen
+locale-gen
+sudo locale-gen
+locale
+locale --help
+locale -m
+sudo vim $HOME/.zsh/config/zshexports
+watch
+watch --help
+man watch
+ls /var/log/
+watch -d 'ls -l /var/log/ | fgrep messages'
+watch -d 'cat /var/log/ | fgrep messages'
+sudo vim $HOME/.zsh/config/zshaliases
+sudo vim $HOME/.zsh/config/zshbindings
+sudo vim $HOME/.zsh/config/zshcompctl
+sudo vim $HOME/.zsh/config/zshfunctions
+sudo vim $HOME/.zsh/config/zshmisc
+sudo vim $HOME/.zsh/config/zshoptions
+sudo vim $HOME/.zsh/config/zshstatusbar
+sudo vim $HOME/.zsh/config/zshstyle
+sudo vim $HOME/.zsh/config/zshzle
+sudo vim $HOME/.zshenv
+sudo vim local.conf
+sudo vim locale.conf
+sudo vim logrotate.conf
+ls /var/log
+cat /var/log/wtmp
+sudo vim /var/log/wtmp
+sudo .vim /var/log/2011.12.14
+sudo vim /var/log/2011.12.13
+sudo vim /var/log/2011.12.14
+sudo vim cron.deny
+cat hardinfo.distro
+cat diet.ld.conf |ls -l $1
+ld.so.conf.d
+cat
+cat diet.ld.conf
+sudo cat diet.ld.conf
+sudo cat llvm.conf
+sudo vim ld.so.cache
+sudo vim ld.so.conf
+sudo vim libao.conf
+ls bat
+sudo vim login.defs
+ls /var/spool/mail/lucifer
+ls -al /var/spool/mail/lucifer
+sudo ls -al /var/spool/mail/lucifer
+sudo vim /var/spool/mail/lucifer
+findbrokenpkgs
+clera
+rm pacsss
+rm tmpp
+rm test
+ls pictures/wallpaper
+ls .new
+sudo ls .new
+sudo ls -a .new
+sudo ls -al .new
+ls .merged
+sudo ls -al .merged
+cat .zcompdump.zwc
+cat .zshenv.zwc
+cat .zshrc\.zwc
+sudo vim .zshrc\.zwc
+ls .zsh/cache
+ls .zsh/cache/zsh.cache
+cat .zsh/cache/zsh.cache
+cat .zsh/cache/svn-cmds
+cat .zsh/cache/modules-3.1.5-2-ck
+watch -d 'cat /var/log/messages'
+sudo vim /etc/makepkg.conf
+sudo update-ca-certificates && sudo update-desktop-database && sudo update-patterndb && sudo update-pciids && sudo update-usbids.sh && sudo updatedb && sudo gtk-update-icon-cache && sudo intltool-update && sudo pt-pacfix && sudo pt-repolist && sudo pt-deptree && reload
+sudo update-ca-certificates && sudo update-desktop-database && sudo update-patterndb && sudo update-pciids && sudo update-usbids.sh && sudo updatedb && sudo gtk-update-icon-cache && sudo intltool-update && sudo pt-pacfix && sudo pt-repolist && sudo pt-deptree &&sudo paker -Syu && reload
+sudo update-ca-certificates && sudo update-desktop-database && sudo update-patterndb && sudo update-pciids && sudo update-usbids.sh && sudo updatedb && sudo gtk-update-icon-cache && sudo intltool-update && sudo pt-pacfix && sudo pt-repolist && sudo paker -Syu && reload
+sudo pacman -S --help
+if fight/disrespect = 1 then; exit = 1; elseif fight/disrespect = 0 then; exit = 0; end if
+sync
+sudo pacman -Scc && "${sudo pt-pacman-uncage}"clear && sudo pacman -Syy && sudo pacman-optimize && sudo pt-pacman-cage 40 && reload\
+\
+
+echo ""
+sudo vim sysctl.conf
+cat bigpkg.txt
+cat find-zlib.txt
+packer -Ss log
+eventlog
+sudo pacman -Ss eventlog
+info eventlog
+socklog --help
+man socklog
+ls /dev/log
+cat /dev/log
+socket
+socklog
+socklog unix
+lsnew
+man socklog-check
+#!/bin/sh socklog-check || exit 1
+#!/bin/sh socklog-check || echo "1"
+#!/bin/sh socklog-check || echo 1
+#! /bin/sh socklog-check || echo 1
+sysctl debug/exception-trace
+sysctl -A
+pidof man_db.conf
+sudo vim
+sudo vim mdadm.conf
+sudo vim readahead.conf
+ls /
+ls / -a
+cat /.switch-collector-to-later
+readahead-collector
+sudo readahead-collector
+sudo readahead-collector --help
+sudo readahead
+sudo readahead -b
+sudo readahead -s -o $HOME/
+touch $HOME/.readahead
+sudo readahead -s -o $HOME/.readahead
+sudo readahead -sb -o $HOME/.readahead
+sudo readahead -sbv -o $HOME/.readahead
+man readahead
+man read
+M\\
+clear
+slap a hoe
+#!/clealrbin/sh socklog-check || echo 1
+\clear
+sudo packer -Ss monitor
+pkill java
+cd scripts/
+touch mirror_update
+chmod a+x mirror_update
+./mirror_update
+sudo ./mirror_update
+ls -al /etc/pacman.d/mirrorlist
+cat /etc/pacman.d/mirrorlist
+vim FIXME_list.sh
+./FIXME_list.sh
+./FIXME_list.sh $PWD
+cat rebuildlist.txt
+\:q
+cat rebuildorder.txt
+cat add_parens_for_own_funcs.sh
+sudo ./chromium-update
+sudo updatedb-
+sudo updatedb
+sudo mandb
+sudo locate chrom
+cd $HOME/downloads-browser
+mv /home/lucifer/documents/legal/*.zip
+mv /home/lucifer/documents/legal/sbcforms.zip $HOME/documents/
+cd $HOME/documents/
+rm -r legal
+mkdir legal
+cd documents/
+rm -r Book1.gnumeric Computer\ Benchmarks/ hardinfo_report.html
+ex sbcforms.zip
+rm *
+
+cat doc-get.sh
+sudo vim doc-get.sh
+vim mirror_update
+ncmpcpp
+cat wid.sh
+sudo cat /etc/pacget.stats
+cat pacget.conf
+./myupdate.sh
+cat myupdate.sh
+cat pacget
+./pms/PMS.sh > /dev/null &
+db_upgrade
+db_upgrade -h
+./pms/PMS.sh
+vim .zsh/config/zshaliases
+sudo update-ca-certificates && sudo update-desktop-database && sudo update-patterndb && sudo update-pciids && sudo update-usbids.sh && sudo updatedb && sudo gtk-update-icon-cache && sudo intltool-update && sudo pt-pacfix && sudo pt-repolist && sudo packer -Syu && reload
+db_load
+db_recover
+db_recover --help
+man dbmmanage
+pacman -D
+sudo pacman -Dv
+sudo pacman -Dv -h
+sudo pacman -Dv --debug
+sudo vim /var/lib/pacman.db
+ls /var/log/pacman.log
+touch detect_package
+vim detect.sh
+mv detect.sh detect_modules
+vim detect_package
+chmod +x detect_package
+name bigpkg.txt bigpkg
+name bigpkg.txt
+chmod +x bigpkg
+name find-zlib.txt
+chmod +x find-zlib
+name rebuildlist.txt
+name rebuildorder.txt
+chmod +x rebuildlist
+chmod +x rebuildorder
+cat color.sh
+cat rebuildlist
+vim log2pkglist.awk
+chmod +x log2pkglist.awk
+./log2pkglist.awk /var/log/pacman.log > pkglist.orig
+echo ":: PACGET ::"
+echo ":: PACGET ::" >> pkglist.orig
+comm --help
+comm -23 --nocheck-order <(pacman -Sgq base) pkglist.orig >> pkglist
+cat pkglist.orig |sort --dictionary-order
+cat pkglist.orig |sort --dictionary-order >> pkglist.sorted
+cat pkglist.sorted
+vim pkglist.sorted
+vim pkglist.orig
+comm -23 <(sort --dictionary-order<(pacman -Sgq base)) pkglist.sorted > pkglist
+comm -23 <(sort --dictionary-order <(pacman -Sgq base)) pkglist.sorted > pkglist
+man comm
+info coreutils 'comm invocation'
+comm -23 <(pacman -Sgq base) pkglist.sorted > pkglist
+sudo cat pkglist
+sudo rm pkglist
+cat pkg-list-pt-repo
+sudo cat pkg-list-pt-repo
+sudo cat pkg-list-pt-repo:q
+pt-deptree -h
+pt-deptree --help
+sudo vim /usr/bin/pt-deptree
+pt-deptree alsa
+sudo vim /usr/bin/pt-pacfix
+cp /usr/bin/pt-* $HOME/scripts
+pt-pacsize
+pt-repolist
+pt-repolist --help
+info
+install-info
+info2man
+echo $INFOPATH
+info2man /usr/share/info/*
+info2man /usr/share/info/*.gz
+info2man /usr/share/info/aalib.info-1.gz /usr/share/info/aalib.info-2.gz /usr/share/info/aalib.info-3.gz /usr/share/info/aalib.info.gz /usr/share/info/annotate.info.gz /usr/share/info/as.info.gz /usr/share/info/aspell-dev.info.gz /usr/share/info/aspell.info.gz /usr/share/info/assuan.info.gz /usr/share/info/autoconf.info.gz /usr/share/info/automake.info-1.gz /usr/share/info/automake.info-2.gz /usr/share/info/automake.info.gz /usr/share/info/autosprintf.info.gz /usr/share/info/bash.info.gz /usr/share/info/bc.info.gz /usr/share/info/bfd.info.gz /usr/share/info/binutils.info.gz /usr/share/info/bison.info.gz /usr/share/info/configure.info.gz /usr/share/info/coreutils.info.gz /usr/share/info/cpp.info.gz /usr/share/info/cppinternals.info.gz /usr/share/info/cvs.info-1.gz /usr/share/info/cvs.info-2.gz /usr/share/info/cvs.info.gz /usr/share/info/cvsclient.info.gz /usr/share/info/dc.info.gz /usr/share/info/diffutils.info.gz /usr/share/info/dirmngr.info.gz /usr/share/info/fftw3.info-1.gz /usr/share/info/fftw3.info-2.gz /usr/share/info/fftw3.info.gz /usr/share/info/find-maint.info.gz /usr/share/info/find.info.gz /usr/share/info/flex.info-1.gz /usr/share/info/flex.info-2.gz /usr/share/info/flex.info.gz /usr/share/info/gawk.info.gz /usr/share/info/gawkinet.info.gz /usr/share/info/gcc.info.gz /usr/share/info/gccinstall.info.gz /usr/share/info/gccint.info.gz /usr/share/info/gcrypt.info-1.gz /usr/share/info/gcrypt.info.gz /usr/share/info/gdb.info.gz /usr/share/info/gdbint.info.gz /usr/share/info/gdbm.info.gz /usr/share/info/gdk.info.gz /usr/share/info/gettext.info.gz /usr/share/info/glib.info.gz /usr/share/info/gmp.info-1.gz /usr/share/info/gmp.info-2.gz /usr/share/info/gmp.info.gz /usr/share/info/gnupg.info-1.gz /usr/share/info/gnupg.info-2.gz /usr/share/info/gnupg.info.gz /usr/share/info/gnupg1.info.gz /usr/share/info/gnutls-guile.info.gz /usr/share/info/gnutls.info-1.gz /usr/share/info/gnutls.info-2.gz /usr/share/info/gnutls.info-3.gz /usr/share/info/gnutls.info.gz /usr/share/info/gperf.info.gz /usr/share/info/gpgme.info-1.gz /usr/share/info/gpgme.info-2.gz /usr/share/info/gpgme.info.gz /usr/share/info/gpm.info.gz /usr/share/info/gprof.info.gz /usr/share/info/grep.info.gz /usr/share/info/groff.info-1.gz /usr/share/info/groff.info-2.gz /usr/share/info/groff.info-3.gz /usr/share/info/groff.info.gz /usr/share/info/grub.info.gz /usr/share/info/gtk.info-1.gz /usr/share/info/gtk.info-2.gz /usr/share/info/gtk.info-3.gz /usr/share/info/gtk.info-4.gz /usr/share/info/gtk.info-5.gz /usr/share/info/gtk.info-6.gz /usr/share/info/gtk.info.gz /usr/share/info/gzip.info.gz /usr/share/info/history.info.gz /usr/share/info/inetutils.info.gz /usr/share/info/info-stnd.info.gz /usr/share/info/info.info.gz /usr/share/info/ksba.info.gz /usr/share/info/ld.info.gz /usr/share/info/libIDL2.info.gz /usr/share/info/libc.info-1.gz /usr/share/info/libc.info-10.gz /usr/share/info/libc.info-11.gz /usr/share/info/libc.info-2.gz /usr/share/info/libc.info-3.gz /usr/share/info/libc.info-4.gz /usr/share/info/libc.info-5.gz /usr/share/info/libc.info-6.gz /usr/share/info/libc.info-7.gz /usr/share/info/libc.info-8.gz /usr/share/info/libc.info-9.gz /usr/share/info/libc.info.gz /usr/share/info/libcdio.info.gz /usr/share/info/libext2fs.info.gz /usr/share/info/libffi.info.gz /usr/share/info/libgomp.info.gz /usr/share/info/libidn-components.png.gz /usr/share/info/libidn.info.gz /usr/share/info/libmpc.info.gz /usr/share/info/libquadmath.info.gz /usr/share/info/libtasn1.info.gz /usr/share/info/libtool.info-1.gz /usr/share/info/libtool.info-2.gz /usr/share/info/libtool.info.gz /usr/share/info/m4.info-1.gz /usr/share/info/m4.info-2.gz /usr/share/info/m4.info.gz /usr/share/info/make.info-1.gz /usr/share/info/make.info-2.gz /usr/share/info/make.info.gz /usr/share/info/mmaker.info.gz /usr/share/info/mpfr.info.gz /usr/share/info/mtools.info.gz /usr/share/info/multiboot.info.gz /usr/share/info/nano.info.gz /usr/share/info/nettle.info.gz /usr/share/info/parted.info.gz /usr/share/info/pinentry.info.gz /usr/share/info/readline.info.gz /usr/share/info/recode.info-1.gz /usr/share/info/recode.info-2.gz /usr/share/info/recode.info.gz /usr/share/info/rluserman.info.gz /usr/share/info/sed.info.gz /usr/share/info/stabs.info.gz /usr/share/info/standards.info.gz /usr/share/info/tar.info-1.gz /usr/share/info/tar.info-2.gz /usr/share/info/tar.info.gz /usr/share/info/texinfo-1.gz /usr/share/info/texinfo-2.gz /usr/share/info/texinfo-3.gz /usr/share/info/texinfo.gz /usr/share/info/time.info.gz /usr/share/info/wdiff.info.gz /usr/share/info/wget.info.gz /usr/share/info/which.info.gz
+cat log.0000000001
+cat _list
+rm _list pkg-list-pt-repo log.0000000001 core
+sudo rm pkg-list-pt-repo
+cat .startx-errors
+rm -r home
+cd /usr/share/info
+info2pod
+-1
+info2man *
+aalib.info-1.gz aalib.info-2.gz aalib.info-3.gz aalib.info.gz annotate.info.gz as.info.gz aspell-dev.info.gz aspell.info.gz assuan.info.gz autoconf.info.gz automake.info-1.gz automake.info-2.gz automake.info.gz autosprintf.info.gz bash.info.gz bc.info.gz bfd.info.gz binutils.info.gz bison.info.gz configure.info.gz coreutils.info.gz cpp.info.gz cppinternals.info.gz cvs.info-1.gz cvs.info-2.gz cvs.info.gz cvsclient.info.gz dc.info.gz diffutils.info.gz dir dirmngr.info.gz fftw3.info-1.gz fftw3.info-2.gz fftw3.info.gz find-maint.info.gz find.info.gz flex.info-1.gz flex.info-2.gz flex.info.gz gawk.info.gz gawkinet.info.gz gcc.info.gz gccinstall.info.gz gccint.info.gz gcrypt.info-1.gz gcrypt.info.gz gdb.info.gz gdbint.info.gz gdbm.info.gz gdk.info.gz gettext.info.gz glib.info.gz gmp.info-1.gz gmp.info-2.gz gmp.info.gz gnupg.info-1.gz gnupg.info-2.gz gnupg.info.gz gnupg1.info.gz gnutls-client-server-use-case.png gnutls-guile.info.gz gnutls-handshake-sequence.png gnutls-handshake-state.png gnutls-internals.png gnutls-layers.png gnutls-logo.png gnutls-modauth.png gnutls-pgp.png gnutls-x509.png gnutls.info-1.gz gnutls.info-2.gz gnutls.info-3.gz gnutls.info.gz gperf.info.gz gpgme.info-1.gz gpgme.info-2.gz gpgme.info.gz gpm.info.gz gprof.info.gz grep.info.gz groff.info-1.gz groff.info-2.gz groff.info-3.gz groff.info.gz grub.info.gz gtk.info-1.gz gtk.info-2.gz gtk.info-3.gz gtk.info-4.gz gtk.info-5.gz gtk.info-6.gz gtk.info.gz gzip.info.gz history.info.gz inetutils.info.gz info-stnd.info.gz info.info.gz ksba.info.gz ld.info.gz libIDL2.info.gz libc.info-1.gz libc.info-10.gz libc.info-11.gz libc.info-2.gz libc.info-3.gz libc.info-4.gz libc.info-5.gz libc.info-6.gz libc.info-7.gz libc.info-8.gz libc.info-9.gz libc.info.gz libcdio.info.gz libext2fs.info.gz libffi.info.gz libgomp.info.gz libidn-components.png.gz libidn.info.gz libmpc.info.gz libquadmath.info.gz libtasn1.info.gz libtool.info-1.gz libtool.info-2.gz libtool.info.gz m4.info-1.gz m4.info-2.gz m4.info.gz make.info-1.gz make.info-2.gz make.info.gz mmaker.info.gz mpfr.info.gz mtools.info.gz multiboot.info.gz nano.info.gz nettle.info.gz parted.info.gz pinentry.info.gz pkcs11-vision.png readline.info.gz recode.info-1.gz recode.info-2.gz recode.info.gz rluserman.info.gz sed.info.gz stabs.info.gz standards.info.gz tar.info-1.gz tar.info-2.gz tar.info.gz texinfo-1.gz texinfo-2.gz texinfo-3.gz texinfo.gz time.info.gz wdiff.info.gz wget.info.gz which.info.gz
+ls dir
+cat dir
+< -help
+info2man "<(ls -a /usr/share/info)"
+info2man '<(ls -a /usr/share/info)'
+info2man <(ls -a /usr/share/info)
+info2man --help
+locate info2man
+sudo vim /usr/bin/info2man
+packer -Ss info
+rm pkglist.orig pkglist.sorted pkglist
+./log2pkglist.awk /var/log/pacman.log | sort > pkglist.orig
+cat pkglist.orig
+{ cat pkglist.orig; pacman -Slq; } | sort | uniq -d > pkglist
+uniq -h
+uniq --hel
+comm -23 <(pacman -Sgq base) pkglist.orig >> pkglist
+cat pkglist
+cat recovery_pacman
+chmod +x recovery_pacman
+./recovery_pacman -Sy
+$tmp
+echo $dbpath
+papd
+source $HOME/.zsh/config/zshfunctions
+recovery-pacman
+recovery_pacman -sy
+bootlogd
+echo $root
+sudo chmod +xrw /etc/pacget.stats
+sudo chmod a+rw /etc/pacget.stats
+sudo chmod a+rw-x /etc/pacget.stats
+ls -al /etc/pacget.stats
+sudo vim /usr/bin/pacget
+recovery_pacman -Sy
+funlist
+cp -r /var/lib/pacman/local ${dbpath}
+cp -r /var/lib/pacman/local '${dbpath}'
+sudo cp -r /var/lib/pacman/local '${dbpath}'
+ls tmp
+mv \$\{dbpath\}/* tmp
+sudo mv \$\{dbpath\}/* tmp
+sudo cp -r /var/lib/pacman/local $dbpath
+sudo cp -r /var/lib/pacman/local --target-directory="${dbpath}"
+sudo cp -r /var/lib/pacman/local --target-directory="/${dbpath}"
+ls \$\{dbpath\}
+ls -al \$\{dbpath\}
+rm -r \$\{dbpath\}/
+CLEAR
+$cache
+rm -r local
+sudo rm -r local
+sudo cp -r /var/lib/pacman/local "${dbpath}"
+ce
+cp --recursive --copy-contents /var/lib/pacman/local "${dbpath}"
+$dbpath
+sudo cp /root
+cd /var/lib/
+sudo pt-pacman-uncage
+vim $HOME/scripts/pt-pacman-cage
+cd /var
+cd lib
+/-
+update_system
+ls pacman.bak
+sudo cp pacman.bak/pacman pacman
+sudo cp -r pacman.bak/pacman pacman
+cd pacman
+sudo ls -alR pacman.bak/
+sudo cp -rv pacman.bak/
+sudo cp -rv pacman.bak/ pacman
+sudo cp -rv pacman.bak/* pacman/*
+sudo cp -rv pacman.bak/* pacman
+sudo cp -rv pacman.bak/local/* pacman
+sudo cp -rv pacman.bak/* --target-directory=/var/lib/pacman
+sudo cp -r --copy-contents pacman.bak/ --target-directory=/var/lib/pacman
+sudo ls pacman/pacman.bax]k
+sudo ls pacman/pacman.bak
+sudo rm -r pacman/pacman.bak
+recovery_pacman
+cd $tmp
+cd tmp
+ls dbpath
+mv dbpath/local/ tmp/dbpath
+sudo mv dbpath/local/ tmp/dbpath
+ls tmp/dbpath
+vim $HOME/.zsh/config/zshfunctions
+~S
+ls ~/tmp/dbpath
+pacman-db-upgrade
+sudo pacman-db-upgrade
+recovery-pacman -S --nodeps --needed $(< pkglist)
+man su
+info coreutils 'su invocation'
+su --help
+vim recovery_pacman
+./recovery_pacman
+fakeroot pacman -S --dbpath /home/lucifer/tmp/dbpath --root /home/lucifer/tmp/root --cache /home/lucifer/tmp/cache --log /dev/null --noscriptlet --nodeps --needed
+fakeroot pacman -S --dbpath /home/lucifer/tmp/dbpath --root /home/lucifer/tmp/root --cache /home/lucifer/tmp/cache --log /dev/null --noscriptlet --nodeps --needed $(< pkglist)
+pacman -Sy --dbpath /home/lucifer/tmp/dbpath --root /home/lucifer/tmp/root --cache /home/lucifer/tmp/cache --log /dev/null --noscriptlet
+sudo rm -r ~/tmp
+tmp=~/tmp
+mkdir -p "${tmp}"
+pushd "${tmp}"
+dbpath=$(readlink -f ./dbpath)
+root=$(readlink -f ./root)
+cache=$(readlink -f ./cache)
+log=/dev/null
+mkdir -p "${dbpath}" "${cache}" "${root}"
+popd
+fakeroot pacman -Sy --dbpath /home/lucifer/tmp/dbpath --root /home/lucifer/tmp/root --cache /home/lucifer/tmp/cache --log /dev/null --noscriptlet
+cp -r /var/lib/pacman/local "${dbpath}"
+fakeroot cp -r /var/lib/pacman/local "${dbpath}"
+su -p -r <(cp -r /var/lib/pacman/local "${dbpath}")
+su -p -c <(cp -r /var/lib/pacman/local "${dbpath}")
+sudo -E cp -r /var/lib/pacman/local "${dbpath}"
+sudo -E chmod --recursive a+wr /home/lucifer/tmp
+fakeroot pacman -Syy --dbpath /home/lucifer/tmp/dbpath --root /home/lucifer/tmp/root --cache /home/lucifer/tmp/cache --log /dev/null --noscriptlet --nodeps --needed $(< pkglist)
+cd /var/lib
+ls ~lucifer/tmp/cache
+ls ~lucifer/tmp/dbpath
+ls ~lucifer/tmp/dbpath/local
+ls ~lucifer/tmp/root
+rm -r ~lucifer/tmp/*
+ls /var/lib
+sudo cp -r pacman.bak/local /var/lib/pacman
+sudo pacman -S --print
+sudo pacman -S --print *
+sudo pacman -S --print --noprogressbar -v
+sudo cp -r pacman.bak/local/pacman/ /var/lib/pacman
+sudo ls pacman.bak/local/
+sudo cp -r pacman.bak/local/ /var/lib/pacman/local
+cd pacmas
+sudo ls
+sudo ls pacman.bak
+sudo ls pacman.bak/pacman
+sudo cp -r pacman.bak/pacman/ pacman
+sudo ls pacman/local
+sudo ls pacman/root
+sudo ls pacman/
+sudo ls pacman/sync
+sudo ls pacman/pacman
+sudo rm -r pacman/pacman
+sudo cp -r pacman.bak/local pacman
+ls pacman
+sudo ls pacman
+pacman
+pacman -V
+pacman -S
+sudo pacman -S
+sudo pacman -D
+sudo pacman -D -h
+pacman -Qq
+pacman -h
+pacman -U -b /var/lib/pacman/
+sudo pacman -U -b /var/lib/pacman/
+info pacman
+sudo pacman -Q -l
+sudo pacman -Q n
+sudo pacman -Q -M
+sudo pacman -Q -ml
+sudo vim /etc/pacman.conf
+sudo pacman -D $(echo /home/lucifer/scripts/pkglist)
+sudo pacman -D -h $(echo /home/lucifer/scripts/pkglist)
+pacman -D --asdeps $(pacman -Qq)
+sudo pacman -D --asdeps $(pacman -Qq)
+reloai
+man pacman.conf
+man pacman
+pacman -Q
+pacman -Q -k
+sudo pacman -D --asdeps $(sudo pacman -Qq)
+sudo pacman -D --asdeps $(sudo pacman -Qtq)
+sudo pacman -Q
+sudo pacman -Syy
+sudo pacman -Q -m
+sudo pacman -Q -t
+sudo pacman -Q -k
+sudo pacman -Q -k|grep "total files"
+sudo pacman -Q -k|grep "total files" |grep -v "0 missing"
+pt-deptree
+pt-pacfix
+vim pt-pacfix
+comm <( pt-pacfix ) <( cat pkglist.orig )
+echo "1111" >> pkglist.orig
+comm -23 <( pt-pacfix ) <( cat pkglist.orig )
+cat pkglist.orig | sort > pkglist.orig1
+comm -23 <( pt-pacfix ) <( cat pkglist.orig1 )
+comm -2 <( pt-pacfix ) <( cat pkglist.orig1 )
+comm -1 <( pt-pacfix ) <( cat pkglist.orig1 )
+comm -3 <( pt-pacfix ) <( cat pkglist.orig1 )
+rm pkglist.orig pkglist pkglist.orig1
+pt-pacman-info
+pt-pacman-info -f
+sudo pt-pacman-info -f
+sudo pt-pacfix
+vim pacdbtmp
+chmod +x pacdbtmp
+sudo cp pacdbtmp /etc/rc.d/
+ls /etc/rc.d
+sudo vim /etc/rc.conf
+sudo pacman
+sudo pacman -Syu
+chmod +x empty_swap
+./empty_swap
+sudo ./empty_swap
+vim empty_swap
+vim lost_files
+chmod +x lost_files
+./lost_files
+sudo ./lost_files
+sudo pacman -S -f -h
+sudo pacman -S -v -k
+M\
+sudo pacman -S -l
+sudo pacman -S -h
+sudo pacman -S -h --debug
+sudo pacman -S -h --debug -k -l
+sudo pacman -S -h --debug -k
+sudo pacman -S --debug -k
+less /var/log/pacman.log
+less /var/log/pacget.log
+vim /var/log/pacget.log
+sudo less /var/log/2011.12.15
+sudo ls /var/log/2011.12.15
+sudo ls /var/log/2011.12.15/everything.log
+sudo less /var/log/2011.12.15/everything.log
+sudo less /var/log/cron.log
+sudo /etc/rc.local
+sudo vim /etc/cron.d/0hourly
+cd ~S
+name sync-chromium
+locate chrom
+locate chromium
+sudo ls /usr/lib/chromium
+sudo chmod -vR a+r
+sudo chmod -vR a+r /usr/lib/chromium
+sudo chmod -v +rw /usr/lib/chromium
+ls /usr/lib
+cat /usr/lib/chromium/chrome
+ls /usr/lib/chromium/chrome
+sudo vim /usr/bin/chromium
+ls /usr/lib/chromium
+cd scripts
+cat chromium-update
+cat sync_chromium
+chmod +x sync_chromium
+sudo vim /etc/rc.local
+sudo vim /etc/rc.local.shutdown
+vim ~/.config/awesome/rc.lua
+sudo vim /etc/fstab
+vim ~/.config/autostart/sync-chromium.desktop
+mv ~/.config/autostart/sync-chromium.desktop ~/.config/autostart/sync_chromium.desktop
+crontab -e
+cd
+chown
+chown --help
+gpasswd --help
+gpasswd -A
+gpasswd -A -h
+gpasswd -A lucifer
+lucifer --help
+usermod --help
+usermod -g sys
+usermod -g sys lucifer
+sudo usermod -g sys lucifer
+users
+users --help
+rm -r /home/lucifer/.cache/chromium/ && mkdir ~lucifer/.cache/chromium && sudo chown -R lucifer:sys /home/lucifer/.config/chromium
+sudo -c "rm -r /home/lucifer/.cache/chromium/ && mkdir ~lucifer/.cache/chromium && sudo chown -R lucifer:sys /home/lucifer/.config/chromium"
+su\ -c "rm -r /home/lucifer/.cache/chromium/ && mkdir ~lucifer/.cache/chromium && sudo chown -R lucifer:sys /home/lucifer/.config/chromium"
+su -c "rm -r /home/lucifer/.cache/chromium/ && mkdir ~lucifer/.cache/chromium && sudo chown -R lucifer:sys /home/lucifer/.config/chromium"
+rm -r .cache
+mkdir .cache
+mkdir .cache/chromium
+cd .config
+sudo chown -R lucifer:sys chromium-backup
+ls -al chromium-backup
+name chromium-backup
+ls -al chromium
+ls -al chromium_ref
+sudo chown -R lucifer:sys chromium_ref
+mv chromium_ref/ chromium_bak
+ls -al
+cd chromium
+ls chromium-backup
+rn
+cat cache
+ls cache
+ls cache/Default/Cache
+cat chrome_shutdown_ms.txt
+ls chromium
+ls -a
+cat .flagged
+ls Temp
+..
+vim awesome/rc.lua
+mount -a
+sudo mount -a
+df
+sudo vim /etc/issue
+sudo packer -S dri
+sudo packer -Ss dri
+sudo packer -Ss dri |grep conf
+sudo packer -S driconf
+sudo packer-color -S -h
+sudo packer-color -S --auronly
+sudo packer-color -S --auronly driconf
+sudo packer -Ss dri |grep -A 1 driconf
+sudo packer -S --auronly driconf
+sudo pacman -S --noscriptlet driconf
+sudo pacman -S --print driconf
+sudo pacman -S -f
+sudo pacman -Sfyu
+grpck
+sudo grpck
+cd /etc
+ls
+rm *~
+rm *'~'
+rm group- gshadow-
+sudo rm group- gshadow-
+sudo vim group
+sudo vim gshadow
+sudo pacman -Syy && sudo packer -Syu
++
+man packer
+packer
+packer -yy
+packer -S yy
+packer -S -yy
+packer -Syu -yy
+packer -Syy
+sudo vim /usr/bin/packer
+ranlib
+man libalpm
+clrearpacman
+clear
+reload
+: 1324057818:0;listfdb --help
+: 1324057852:0;listfdb /var/lib/pacman
+: 1324057864:0;ls
+: 1324057878:0;sudo vim anacrontab
+: 1324057921:0;man color
+: 1324057930:0;man colord
+: 1324057964:0;sudo vim vconsole.conf
+: 1324057983:0;sudo vim updatedb.conf
+: 1324058044:0;slocate -d
+: 1324058084:0;ls
+: 1324058108:0;rm shadow-
+: 1324058119:0;sudo rm shadow-
+: 1324058199:0;sudo mv rc.local.backup inittab inittab.backup inittab.readahead /
+: 1324058202:0;ls
+: 1324058212:0;ls /
+: 1324058228:0;mv /inittab /etc
+: 1324058236:0;sudo mv /inittab /etc
+: 1324058237:0;ls
+: 1324058242:0;ls /
+: 1324058278:0;mv /inittab.backup /inittab.readahead /rc.local.backup /home
+: 1324058283:0;sudo mv /inittab.backup /inittab.readahead /rc.local.backup /home
+: 1324058286:0;ls /
+: 1324058316:0;c
+: 1324058317:0;cd
+: 1324058434:0;sudo cp -r .Xauthority .Xdefaults .Xresources .asoundrc .mib2c-updaterc .muttrc .procmailrc .readahead .rtorrent.rc .vimrc .zsh .zprofile .zshenv .zshrc .xinitrc .zcompdump .zlogout /root

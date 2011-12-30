@@ -1,0 +1,81 @@
+#!/usr/bin/env python2
+# Get feeds from list in ~/.feeds and print new links
+import sys
+import os
+import feedparser
+from thread import start_new_thread
+from urlparse import urlparse
+from subprocess import Popen, PIPE
+from email.utils import formatdate
+from time import mktime
+
+# Get a pickle library
+try:
+    import cPickle as pickle
+except ImportError:
+    import pickle
+
+# Configuration
+FEEDLIST_PATH= os.environ["HOME"]+"/.feeds"
+SEEN_PATH = os.environ["HOME"]+"/.feeds.seen"
+VERBOSE = True
+
+# Listed feeds
+Feeds = []
+
+# Lock
+if os.path.exists(SEEN_PATH+".lock"):
+    sys.stderr.write("Seen file in use, quitting. Remove "+SEEN_PATH+".lock to proceed.\n")
+    sys.exit(1)
+os.system("touch "+SEEN_PATH+".lock")
+
+# Seen cache
+Seen = {}
+if os.path.exists(SEEN_PATH):
+    with open(SEEN_PATH, 'rb') as fd:
+        Seen = pickle.load(fd)
+
+# Get all feeds
+with open(FEEDLIST_PATH) as fd:
+    for line in fd:
+        line = line.strip()
+        if not line.startswith("#") and line:
+            Feeds.append(line.strip().split())
+
+def feed_parse(name, feed):
+    if VERBOSE:
+        sys.stderr.write("Synchronising feed: "+str(feed)+"\n")
+
+    # Parse feed
+    data = feedparser.parse(feed)
+    num = 0
+
+    # Create seen list
+    if name not in Seen:
+        Seen[name] = {}
+
+    # Add all entries
+    for entry in data["entries"]:
+        if entry["title"] not in Seen[name]:
+            if VERBOSE:
+                sys.stderr.write("  New entry in "+name+": "+entry["title"].encode("utf-8")+"\n")
+
+            if entry["title"] not in Seen[name]:
+                print(entry["link"])
+
+            Seen[name][entry["title"]] = True
+            num += 1
+
+    return num
+
+try:
+    # Sync all feeds
+    num = sum(feed_parse(name, feed) for name, feed in Feeds)
+    sys.stderr.write("\n  %d new entries\n\n" % num)
+
+    # Save seen cache
+    with open(SEEN_PATH, 'wb') as fd:
+        pickle.dump(Seen, fd, pickle.HIGHEST_PROTOCOL)
+finally:
+    # Remove lock
+    os.unlink(SEEN_PATH+".lock")

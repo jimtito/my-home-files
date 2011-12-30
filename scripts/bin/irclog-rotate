@@ -1,0 +1,11 @@
+#!/bin/bash
+if [[ -d /data/others/irclogs ]]; then
+    cd /data/others/irclogs
+    dir=$(date +%Y)/$(date +%b)
+
+    mkdir -p ${dir}
+    chown archlucas: ${dir}
+
+    rm current
+    ln -s ${dir} current
+fi

@@ -1,0 +1,1012 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+          "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Gitorious</title>
+<link href="/stylesheets/gts-common.css?1322725723" media="screen" rel="stylesheet" type="text/css" />
+<link href="//fonts.googleapis.com/css?family=Nobile&amp;v1" type="text/css" rel="stylesheet">
+
+<script src="/javascripts/all.js?1322725757" type="text/javascript"></script>  <link href="/~zhuravlik/feed.atom" rel="alternate" title="Public activity feed" type="application/atom+xml" /><!--[if IE 8]><link rel="stylesheet" href="/stylesheets/ie8.css" type="text/css"><![endif]-->
+<!--[if IE 7]><link rel="stylesheet" href="/stylesheets/ie7.css" type="text/css"><![endif]-->
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-52238-3']);
+_gaq.push(['_setDomainName', '.gitorious.org'])
+_gaq.push(['_trackPageview']);
+(function() {
+   var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+   ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+   (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);
+})();
+</script>
+</head>
+<body id="users">
+  <div id="wrapper">
+        <ul id="user-nav">
+      <li><a href="/">Dashboard</a></li>
+      
+    	<li class="secondary"><a href="/users/new">Register</a></li>
+    <li class="secondary"><a href="/login">Login</a></li>
+    </ul>
+    <div id="header">
+      <h1 id="logo">
+        <a href="/"><img alt="Logo" src="/img/logo.png?1294322727" /></a>
+      </h1>
+      <ul id="menu">
+                  <li class="activity"><a href="/activities">Activities</a></li>
+          <li class="projects"><a href="/projects">Projects</a></li>
+          <li class="teams"><a href="/teams">Teams</a></li>
+              </ul>
+    </div>
+    <div id="top-bar">
+      <ul id="breadcrumbs">
+              </ul>
+              <div id="searchbox">
+          
+
+
+<div class="search_bar">
+<form action="https://gitorious.org/search" method="get"><p>
+  <input class="text search-field round-5" id="q" name="q" type="text" /> 
+  <input type="submit" value="Search" class="search-submit round-5" />
+</p>  
+<p class="hint search-hint" style="display: none;">
+  eg. 'wrapper', 'category:python' or '"document database"'
+  </p>
+</form></div>
+        </div>
+          </div>
+    <div id="container" class="">
+      <div id="content" class="">
+        
+        <div class="with_divider">
+	<div id="left">
+		<div class="user-profile not-dash">
+			<a href="/~zhuravlik" class="avatar"><img alt="avatar" height="64" src="https://secure.gravatar.com/avatar.php?gravatar_id=529bafdcdb8560db12a38c9ed37a8636&amp;default=https%3A%2F%2Fgitorious.org%2Fimages%2Fdefault_face.gif&amp;size=64" width="64" /></a>
+			<div class="profile-data">
+				<h1>
+					~<a href="/~zhuravlik">zhuravlik</a>				</h1>
+				<ul class="details">
+										<li class="email">
+						<script type="text/javascript">eval(decodeURIComponent('%64%6f%63%75%6d%65%6e%74%2e%77%72%69%74%65%28%27%3c%61%20%68%72%65%66%3d%22%6d%61%69%6c%74%6f%3a%61%68%6d%61%64%32%30%30%35%31%32%40%67%6d%61%69%6c%2e%63%6f%6d%22%3e%61%68%6d%61%64%32%30%30%35%31%32%20%40%67%6d%26%68%65%6c%6c%69%70%3b%6c%2e%63%6f%6d%3c%2f%61%3e%27%29%3b'))</script>					</li>					<li>
+						Member for over 1 year
+					</li>
+				</ul>
+			</div>
+			
+		  <ul class="buttons">
+                        <li class="new_email">
+          <div class="button small-button new_email"><a href="/messages/new?to=zhuravlik" class="">Send message</a></div>        </li>
+              </ul>
+      <div class="clear"></div>
+    </div>
+
+		<div class="content-container w-510">
+			<h2 class="activities">
+				 Activities  <a href="/~zhuravlik/feed.atom" alt="Atom feed" title="Atom feed"><img alt="Feed" class="feed_icon" src="/images/silk/feed.png?1322725723" /></a> 			</h2>			<div id="user_events" class="w-510">
+				
+
+
+
+
+<ul class="events w-510">
+  <li>
+    <p class="date">Sunday July 03 2011</p>
+    <ul class="event_instances">
+      
+
+
+<li class="event_instance  push_summary" id="event_42437863">
+	  <p class="event_category push">Push</p>
+      <p class="event_date">18:10</p>
+    <img alt="avatar" height="16" src="https://secure.gravatar.com/avatar.php?gravatar_id=529bafdcdb8560db12a38c9ed37a8636&amp;default=https%3A%2F%2Fgitorious.org%2Fimages%2Fdefault_face.gif&amp;size=16" width="16" />
+
+  <div class="event_meta">
+    <p class="event_action">
+        
+      
+        <strong><a href="/~zhuravlik" class="event-author">zhuravlik</a></strong>
+      
+      pushed <a href="/bashets/bashets/commits/master" class="commit_event_toggler" gts:id="42437863" gts:url="/events/42437863/commits" id="commits_in_event_42437863_toggler">1 commit</a>  to <a href="/bashets/bashets/commits/master">bashets/bashets:master</a>. <a href="/bashets/bashets/commit/dbbf7d6ed7bc41e3aff544724fe7ebadcb88e08c/diffs/b8dd569f9ebf86af94405a4b3bb030e9a2dd7ebf">View diff</a>
+    
+    </p>
+    <div class=" commit_message">
+      <p>master changed from dbbf7d6 to b8dd569</p>
+    </div>
+    
+              <div id="commits_in_event_42437863" style="display:none">
+        <img alt="Spinner" src="/images/spinner.gif?1322725723" />      </div>
+    
+  </div>
+</li>
+    </ul>
+  </li>
+  <li>
+    <p class="date">Wednesday May 04 2011</p>
+    <ul class="event_instances">
+      
+
+
+<li class="event_instance  edit_wiki_page" id="event_42300052">
+	  <p class="event_category wiki">Wiki</p>
+      <p class="event_date">15:44</p>
+    <img alt="avatar" height="16" src="https://secure.gravatar.com/avatar.php?gravatar_id=529bafdcdb8560db12a38c9ed37a8636&amp;default=https%3A%2F%2Fgitorious.org%2Fimages%2Fdefault_face.gif&amp;size=16" width="16" />
+
+  <div class="event_meta">
+    <p class="event_action">
+        
+      
+        <strong><a href="/~zhuravlik" class="event-author">zhuravlik</a></strong>
+      
+      edited wiki page <a href="/bashets">bashets</a>/<a href="/bashets/pages/Brief_Introduction">Brief_Introduction</a>
+    
+    </p>
+    <div class=" commit_message">
+      <p></p>
+    </div>
+    
+        
+  </div>
+</li>
+
+
+
+<li class="event_instance  edit_wiki_page" id="event_42300013">
+	  <p class="event_category wiki">Wiki</p>
+      <p class="event_date">15:19</p>
+    <img alt="avatar" height="16" src="https://secure.gravatar.com/avatar.php?gravatar_id=529bafdcdb8560db12a38c9ed37a8636&amp;default=https%3A%2F%2Fgitorious.org%2Fimages%2Fdefault_face.gif&amp;size=16" width="16" />
+
+  <div class="event_meta">
+    <p class="event_action">
+        
+      
+        <strong><a href="/~zhuravlik" class="event-author">zhuravlik</a></strong>
+      
+      edited wiki page <a href="/bashets">bashets</a>/<a href="/bashets/pages/Home">Home</a>
+    
+    </p>
+    <div class=" commit_message">
+      <p></p>
+    </div>
+    
+        
+  </div>
+</li>
+    </ul>
+  </li>
+  <li>
+    <p class="date">Monday May 02 2011</p>
+    <ul class="event_instances">
+      
+
+
+<li class="event_instance  push_summary" id="event_42294437">
+	  <p class="event_category push">Push</p>
+      <p class="event_date">16:06</p>
+    <img alt="avatar" height="16" src="https://secure.gravatar.com/avatar.php?gravatar_id=529bafdcdb8560db12a38c9ed37a8636&amp;default=https%3A%2F%2Fgitorious.org%2Fimages%2Fdefault_face.gif&amp;size=16" width="16" />
+
+  <div class="event_meta">
+    <p class="event_action">
+        
+      
+        <strong><a href="/~zhuravlik" class="event-author">zhuravlik</a></strong>
+      
+      pushed <a href="/bashets/bashets/commits/master" class="commit_event_toggler" gts:id="42294437" gts:url="/events/42294437/commits" id="commits_in_event_42294437_toggler">1 commit</a>  to <a href="/bashets/bashets/commits/master">bashets/bashets:master</a>. <a href="/bashets/bashets/commit/b0123d865021ddccbd7ef0ec65c8677d62f9c9f7/diffs/dbbf7d6ed7bc41e3aff544724fe7ebadcb88e08c">View diff</a>
+    
+    </p>
+    <div class=" commit_message">
+      <p>master changed from b0123d8 to dbbf7d6</p>
+    </div>
+    
+              <div id="commits_in_event_42294437" style="display:none">
+        <img alt="Spinner" src="/images/spinner.gif?1322725723" />      </div>
+    
+  </div>
+</li>
+    </ul>
+  </li>
+  <li>
+    <p class="date">Tuesday November 23 2010</p>
+    <ul class="event_instances">
+      
+
+
+<li class="event_instance  push" id="event_33443924">
+	  <p class="event_category push">Push</p>
+      <p class="event_date">19:38</p>
+    <img alt="avatar" height="16" src="https://secure.gravatar.com/avatar.php?gravatar_id=529bafdcdb8560db12a38c9ed37a8636&amp;default=https%3A%2F%2Fgitorious.org%2Fimages%2Fdefault_face.gif&amp;size=16" width="16" />
+
+  <div class="event_meta">
+    <p class="event_action">
+        
+      
+        <strong><a href="/~zhuravlik" class="event-author">zhuravlik</a></strong>
+      
+      pushed <a href="/bashets/awesome-config/commit/389319c9c76927ebfb3ede9faa6e3ad04f9adba0">389319c9</a> to <a href="/bashets/awesome-config">bashets/awesome-config:master</a>
+    
+    </p>
+    <div class=" commit_message">
+      <p></p>
+    </div>
+    
+      <div class="event_instance"><div><img alt="avatar" height="16" src="https://secure.gravatar.com/avatar.php?gravatar_id=9cbb4682819616e6ee48ead91f12f10b&amp;default=https%3A%2F%2Fgitorious.org%2Fimages%2Fdefault_face.gif&amp;size=16" width="16" />
+<span><span class="actor">Anton Lobov</span> <span class="timestamp">on November 23, 2010 19:48</span></span></div>
+<div class="commit_message"><a href="/bashets/awesome-config/commit/389319c9c76927ebfb3ede9faa6e3ad04f9adba0"><p>Updated rc.lua for recent versions of awesome and bashets</p></a></div></div>    
+        
+  </div>
+</li>
+    </ul>
+  </li>
+  <li>
+    <p class="date">Sunday November 21 2010</p>
+    <ul class="event_instances">
+      
+
+
+<li class="event_instance  edit_wiki_page" id="event_33354775">
+	  <p class="event_category wiki">Wiki</p>
+      <p class="event_date">14:21</p>
+    <img alt="avatar" height="16" src="https://secure.gravatar.com/avatar.php?gravatar_id=529bafdcdb8560db12a38c9ed37a8636&amp;default=https%3A%2F%2Fgitorious.org%2Fimages%2Fdefault_face.gif&amp;size=16" width="16" />
+
+  <div class="event_meta">
+    <p class="event_action">
+        
+      
+        <strong><a href="/~zhuravlik" class="event-author">zhuravlik</a></strong>
+      
+      edited wiki page <a href="/bashets">bashets</a>/<a href="/bashets/pages/Brief_Introduction">Brief_Introduction</a>
+    
+    </p>
+    <div class=" commit_message">
+      <p></p>
+    </div>
+    
+        
+  </div>
+</li>
+
+
+
+<li class="event_instance  edit_wiki_page" id="event_33354739">
+	  <p class="event_category wiki">Wiki</p>
+      <p class="event_date">14:02</p>
+    <img alt="avatar" height="16" src="https://secure.gravatar.com/avatar.php?gravatar_id=529bafdcdb8560db12a38c9ed37a8636&amp;default=https%3A%2F%2Fgitorious.org%2Fimages%2Fdefault_face.gif&amp;size=16" width="16" />
+
+  <div class="event_meta">
+    <p class="event_action">
+        
+      
+        <strong><a href="/~zhuravlik" class="event-author">zhuravlik</a></strong>
+      
+      edited wiki page <a href="/bashets">bashets</a>/<a href="/bashets/pages/Home">Home</a>
+    
+    </p>
+    <div class=" commit_message">
+      <p></p>
+    </div>
+    
+        
+  </div>
+</li>
+
+
+
+<li class="event_instance  push" id="event_33354651">
+	  <p class="event_category push">Push</p>
+      <p class="event_date">13:37</p>
+    <img alt="avatar" height="16" src="https://secure.gravatar.com/avatar.php?gravatar_id=529bafdcdb8560db12a38c9ed37a8636&amp;default=https%3A%2F%2Fgitorious.org%2Fimages%2Fdefault_face.gif&amp;size=16" width="16" />
+
+  <div class="event_meta">
+    <p class="event_action">
+        
+      
+        <strong><a href="/~zhuravlik" class="event-author">zhuravlik</a></strong>
+      
+      pushed <a href="/bashets/bashets/commits/master" class="commit_event_toggler" gts:id="33354651" gts:url="/events/33354651/commits" id="commits_in_event_33354651_toggler">2 commits</a>  to <a href="/bashets/bashets/commits/master">bashets/bashets:master</a>
+    
+    </p>
+    <div class=" commit_message">
+      <p>master changed from d8767b0 to b0123d8</p>
+    </div>
+    
+      <div id="commits_in_event_33354651" style="display: none"><img alt="Spinner" src="/images/spinner.gif?1322725723" /></div>    
+        
+  </div>
+</li>
+    </ul>
+  </li>
+  <li>
+    <p class="date">Friday November 05 2010</p>
+    <ul class="event_instances">
+      
+
+
+<li class="event_instance  edit_wiki_page" id="event_32136751">
+	  <p class="event_category wiki">Wiki</p>
+      <p class="event_date">07:21</p>
+    <img alt="avatar" height="16" src="https://secure.gravatar.com/avatar.php?gravatar_id=529bafdcdb8560db12a38c9ed37a8636&amp;default=https%3A%2F%2Fgitorious.org%2Fimages%2Fdefault_face.gif&amp;size=16" width="16" />
+
+  <div class="event_meta">
+    <p class="event_action">
+        
+      
+        <strong><a href="/~zhuravlik" class="event-author">zhuravlik</a></strong>
+      
+      edited wiki page <a href="/bashets">bashets</a>/<a href="/bashets/pages/Brief_Introduction">Brief_Introduction</a>
+    
+    </p>
+    <div class=" commit_message">
+      <p></p>
+    </div>
+    
+        
+  </div>
+</li>
+
+
+
+<li class="event_instance  edit_wiki_page" id="event_32136738">
+	  <p class="event_category wiki">Wiki</p>
+      <p class="event_date">07:17</p>
+    <img alt="avatar" height="16" src="https://secure.gravatar.com/avatar.php?gravatar_id=529bafdcdb8560db12a38c9ed37a8636&amp;default=https%3A%2F%2Fgitorious.org%2Fimages%2Fdefault_face.gif&amp;size=16" width="16" />
+
+  <div class="event_meta">
+    <p class="event_action">
+        
+      
+        <strong><a href="/~zhuravlik" class="event-author">zhuravlik</a></strong>
+      
+      edited wiki page <a href="/bashets">bashets</a>/<a href="/bashets/pages/Home">Home</a>
+    
+    </p>
+    <div class=" commit_message">
+      <p></p>
+    </div>
+    
+        
+  </div>
+</li>
+    </ul>
+  </li>
+  <li>
+    <p class="date">Thursday November 04 2010</p>
+    <ul class="event_instances">
+      
+
+
+<li class="event_instance  push" id="event_32067466">
+	  <p class="event_category push">Push</p>
+      <p class="event_date">09:56</p>
+    <img alt="avatar" height="16" src="https://secure.gravatar.com/avatar.php?gravatar_id=529bafdcdb8560db12a38c9ed37a8636&amp;default=https%3A%2F%2Fgitorious.org%2Fimages%2Fdefault_face.gif&amp;size=16" width="16" />
+
+  <div class="event_meta">
+    <p class="event_action">
+        
+      
+        <strong><a href="/~zhuravlik" class="event-author">zhuravlik</a></strong>
+      
+      pushed <a href="/bashets/bashets/commits/master" class="commit_event_toggler" gts:id="32067466" gts:url="/events/32067466/commits" id="commits_in_event_32067466_toggler">2 commits</a>  to <a href="/bashets/bashets/commits/master">bashets/bashets:master</a>
+    
+    </p>
+    <div class=" commit_message">
+      <p>master changed from 2dc7e3b to d8767b0</p>
+    </div>
+    
+      <div id="commits_in_event_32067466" style="display: none"><img alt="Spinner" src="/images/spinner.gif?1322725723" /></div>    
+        
+  </div>
+</li>
+    </ul>
+  </li>
+  <li>
+    <p class="date">Saturday September 04 2010</p>
+    <ul class="event_instances">
+      
+
+
+<li class="event_instance  push" id="event_27424396">
+	  <p class="event_category push">Push</p>
+      <p class="event_date">08:39</p>
+    <img alt="avatar" height="16" src="https://secure.gravatar.com/avatar.php?gravatar_id=529bafdcdb8560db12a38c9ed37a8636&amp;default=https%3A%2F%2Fgitorious.org%2Fimages%2Fdefault_face.gif&amp;size=16" width="16" />
+
+  <div class="event_meta">
+    <p class="event_action">
+        
+      
+        <strong><a href="/~zhuravlik" class="event-author">zhuravlik</a></strong>
+      
+      pushed <a href="/bashets/bashets/commit/2dc7e3b994406d8f8c7d7b2455a33a28848f0a74">2dc7e3b9</a> to <a href="/bashets/bashets">bashets/bashets:master</a>
+    
+    </p>
+    <div class=" commit_message">
+      <p></p>
+    </div>
+    
+      <div class="event_instance"><div><img alt="avatar" height="16" src="https://secure.gravatar.com/avatar.php?gravatar_id=9cbb4682819616e6ee48ead91f12f10b&amp;default=https%3A%2F%2Fgitorious.org%2Fimages%2Fdefault_face.gif&amp;size=16" width="16" />
+<span><span class="actor">Anton Lobov</span> <span class="timestamp">on September 04, 2010 08:44</span></span></div>
+<div class="commit_message"><a href="/bashets/bashets/commit/2dc7e3b994406d8f8c7d7b2455a33a28848f0a74"><p>Updated for connect_signal instead of add_signal</p></a></div></div>    
+        
+  </div>
+</li>
+    </ul>
+  </li>
+  <li>
+    <p class="date">Sunday July 04 2010</p>
+    <ul class="event_instances">
+      
+
+
+<li class="event_instance  create_branch" id="event_22417310">
+	  <p class="event_category commit">Commit</p>
+      <p class="event_date">10:55</p>
+    <img alt="avatar" height="16" src="https://secure.gravatar.com/avatar.php?gravatar_id=529bafdcdb8560db12a38c9ed37a8636&amp;default=https%3A%2F%2Fgitorious.org%2Fimages%2Fdefault_face.gif&amp;size=16" width="16" />
+
+  <div class="event_meta">
+    <p class="event_action">
+        
+      
+        <strong><a href="/~zhuravlik" class="event-author">zhuravlik</a></strong>
+      
+      started development of <a href="/cxpath">cxpath</a>/<a href="https://gitorious.org/cxpath/cxpath">cxpath</a>
+    
+    </p>
+    <div class=" commit_message">
+      <p></p>
+    </div>
+    
+        
+  </div>
+</li>
+
+
+
+<li class="event_instance  add_project_repository" id="event_22417305">
+	  <p class="event_category repository">Repository</p>
+      <p class="event_date">10:54</p>
+    <img alt="avatar" height="16" src="https://secure.gravatar.com/avatar.php?gravatar_id=529bafdcdb8560db12a38c9ed37a8636&amp;default=https%3A%2F%2Fgitorious.org%2Fimages%2Fdefault_face.gif&amp;size=16" width="16" />
+
+  <div class="event_meta">
+    <p class="event_action">
+        
+      
+        <strong><a href="/~zhuravlik" class="event-author">zhuravlik</a></strong>
+      
+      created repository <a href="/cxpath/cxpath">cxpath</a> in <a href="/cxpath">cxpath</a>
+    
+    </p>
+    <div class=" commit_message">
+      <p>Main cxpath repository</p>
+    </div>
+    
+        
+  </div>
+</li>
+
+
+
+<li class="event_instance  create_project" id="event_22417304">
+	  <p class="event_category project">Project</p>
+      <p class="event_date">10:53</p>
+    <img alt="avatar" height="16" src="https://secure.gravatar.com/avatar.php?gravatar_id=529bafdcdb8560db12a38c9ed37a8636&amp;default=https%3A%2F%2Fgitorious.org%2Fimages%2Fdefault_face.gif&amp;size=16" width="16" />
+
+  <div class="event_meta">
+    <p class="event_action">
+        
+      
+        <strong><a href="/~zhuravlik" class="event-author">zhuravlik</a></strong>
+      
+      created project <a href="/cxpath">cxpath</a>
+    
+    </p>
+    <div class=" commit_message">
+      <p>cxpath is a small command-line tool to retrieve XML nodes through XPath expressions, written with...</p>
+    </div>
+    
+        
+  </div>
+</li>
+    </ul>
+  </li>
+  <li>
+    <p class="date">Friday July 02 2010</p>
+    <ul class="event_instances">
+      
+
+
+<li class="event_instance  push" id="event_22378340">
+	  <p class="event_category push">Push</p>
+      <p class="event_date">15:43</p>
+    <img alt="avatar" height="16" src="https://secure.gravatar.com/avatar.php?gravatar_id=529bafdcdb8560db12a38c9ed37a8636&amp;default=https%3A%2F%2Fgitorious.org%2Fimages%2Fdefault_face.gif&amp;size=16" width="16" />
+
+  <div class="event_meta">
+    <p class="event_action">
+        
+      
+        <strong><a href="/~zhuravlik" class="event-author">zhuravlik</a></strong>
+      
+      pushed <a href="/bashets/awesome-config/commit/a61b1c7bd9b83772018700cf1fc9df88e907ea57">a61b1c7b</a> to <a href="/bashets/awesome-config">bashets/awesome-config:master</a>
+    
+    </p>
+    <div class=" commit_message">
+      <p></p>
+    </div>
+    
+      <div class="event_instance"><div><img alt="avatar" height="16" src="https://secure.gravatar.com/avatar.php?gravatar_id=529bafdcdb8560db12a38c9ed37a8636&amp;default=https%3A%2F%2Fgitorious.org%2Fimages%2Fdefault_face.gif&amp;size=16" width="16" />
+<span><span class="actor"><a href="/~zhuravlik"></a></span> <span class="timestamp">on July 02, 2010 15:40</span></span></div>
+<div class="commit_message"><a href="/bashets/awesome-config/commit/a61b1c7bd9b83772018700cf1fc9df88e907ea57"><p>Modified config for 0.4</p></a></div></div>    
+        
+  </div>
+</li>
+
+
+
+<li class="event_instance  edit_wiki_page" id="event_22378320">
+	  <p class="event_category wiki">Wiki</p>
+      <p class="event_date">15:36</p>
+    <img alt="avatar" height="16" src="https://secure.gravatar.com/avatar.php?gravatar_id=529bafdcdb8560db12a38c9ed37a8636&amp;default=https%3A%2F%2Fgitorious.org%2Fimages%2Fdefault_face.gif&amp;size=16" width="16" />
+
+  <div class="event_meta">
+    <p class="event_action">
+        
+      
+        <strong><a href="/~zhuravlik" class="event-author">zhuravlik</a></strong>
+      
+      edited wiki page <a href="/bashets">bashets</a>/<a href="/bashets/pages/Home">Home</a>
+    
+    </p>
+    <div class=" commit_message">
+      <p></p>
+    </div>
+    
+        
+  </div>
+</li>
+
+
+
+<li class="event_instance  push" id="event_22378264">
+	  <p class="event_category push">Push</p>
+      <p class="event_date">15:08</p>
+    <img alt="avatar" height="16" src="https://secure.gravatar.com/avatar.php?gravatar_id=529bafdcdb8560db12a38c9ed37a8636&amp;default=https%3A%2F%2Fgitorious.org%2Fimages%2Fdefault_face.gif&amp;size=16" width="16" />
+
+  <div class="event_meta">
+    <p class="event_action">
+        
+      
+        <strong><a href="/~zhuravlik" class="event-author">zhuravlik</a></strong>
+      
+      pushed <a href="/bashets/bashets/commits/master" class="commit_event_toggler" gts:id="22378264" gts:url="/events/22378264/commits" id="commits_in_event_22378264_toggler">3 commits</a>  to <a href="/bashets/bashets/commits/master">bashets/bashets:master</a>
+    
+    </p>
+    <div class=" commit_message">
+      <p>master changed from 79a63ab to 75f1e11</p>
+    </div>
+    
+      <div id="commits_in_event_22378264" style="display: none"><img alt="Spinner" src="/images/spinner.gif?1322725723" /></div>    
+        
+  </div>
+</li>
+
+
+
+<li class="event_instance  edit_wiki_page" id="event_22378183">
+	  <p class="event_category wiki">Wiki</p>
+      <p class="event_date">14:58</p>
+    <img alt="avatar" height="16" src="https://secure.gravatar.com/avatar.php?gravatar_id=529bafdcdb8560db12a38c9ed37a8636&amp;default=https%3A%2F%2Fgitorious.org%2Fimages%2Fdefault_face.gif&amp;size=16" width="16" />
+
+  <div class="event_meta">
+    <p class="event_action">
+        
+      
+        <strong><a href="/~zhuravlik" class="event-author">zhuravlik</a></strong>
+      
+      edited wiki page <a href="/bashets">bashets</a>/<a href="/bashets/pages/Brief_Introduction">Brief_Introduction</a>
+    
+    </p>
+    <div class=" commit_message">
+      <p></p>
+    </div>
+    
+        
+  </div>
+</li>
+
+
+
+<li class="event_instance  edit_wiki_page" id="event_22377912">
+	  <p class="event_category wiki">Wiki</p>
+      <p class="event_date">14:00</p>
+    <img alt="avatar" height="16" src="https://secure.gravatar.com/avatar.php?gravatar_id=529bafdcdb8560db12a38c9ed37a8636&amp;default=https%3A%2F%2Fgitorious.org%2Fimages%2Fdefault_face.gif&amp;size=16" width="16" />
+
+  <div class="event_meta">
+    <p class="event_action">
+        
+      
+        <strong><a href="/~zhuravlik" class="event-author">zhuravlik</a></strong>
+      
+      edited wiki page <a href="/bashets">bashets</a>/<a href="/bashets/pages/Brief_Introduction_previous">Brief_Introduction_previous</a>
+    
+    </p>
+    <div class=" commit_message">
+      <p></p>
+    </div>
+    
+        
+  </div>
+</li>
+    </ul>
+  </li>
+  <li>
+    <p class="date">Wednesday June 16 2010</p>
+    <ul class="event_instances">
+      
+
+
+<li class="event_instance  create_branch" id="event_21607916">
+	  <p class="event_category commit">Commit</p>
+      <p class="event_date">16:06</p>
+    <img alt="avatar" height="16" src="https://secure.gravatar.com/avatar.php?gravatar_id=529bafdcdb8560db12a38c9ed37a8636&amp;default=https%3A%2F%2Fgitorious.org%2Fimages%2Fdefault_face.gif&amp;size=16" width="16" />
+
+  <div class="event_meta">
+    <p class="event_action">
+        
+      
+        <strong><a href="/~zhuravlik" class="event-author">zhuravlik</a></strong>
+      
+      started development of <a href="/bashets">bashets</a>/<a href="https://gitorious.org/bashets/awesome-config">awesome-config</a>
+    
+    </p>
+    <div class=" commit_message">
+      <p></p>
+    </div>
+    
+        
+  </div>
+</li>
+
+
+
+<li class="event_instance  add_project_repository" id="event_21607897">
+	  <p class="event_category repository">Repository</p>
+      <p class="event_date">16:03</p>
+    <img alt="avatar" height="16" src="https://secure.gravatar.com/avatar.php?gravatar_id=529bafdcdb8560db12a38c9ed37a8636&amp;default=https%3A%2F%2Fgitorious.org%2Fimages%2Fdefault_face.gif&amp;size=16" width="16" />
+
+  <div class="event_meta">
+    <p class="event_action">
+        
+      
+        <strong><a href="/~zhuravlik" class="event-author">zhuravlik</a></strong>
+      
+      created repository <a href="/bashets/awesome-config">awesome-config</a> in <a href="/bashets">bashets</a>
+    
+    </p>
+    <div class=" commit_message">
+      <p>My Awesome configuration using bashets and some other libraries.</p>
+    </div>
+    
+        
+  </div>
+</li>
+
+
+
+<li class="event_instance  push" id="event_21607069">
+	  <p class="event_category push">Push</p>
+      <p class="event_date">15:40</p>
+    <img alt="avatar" height="16" src="https://secure.gravatar.com/avatar.php?gravatar_id=529bafdcdb8560db12a38c9ed37a8636&amp;default=https%3A%2F%2Fgitorious.org%2Fimages%2Fdefault_face.gif&amp;size=16" width="16" />
+
+  <div class="event_meta">
+    <p class="event_action">
+        
+      
+        <strong><a href="/~zhuravlik" class="event-author">zhuravlik</a></strong>
+      
+      pushed <a href="/bashets/bashets/commit/79a63ab656119882b50d1e3e172dce33f070c444">79a63ab6</a> to <a href="/bashets/bashets">bashets/bashets:master</a>
+    
+    </p>
+    <div class=" commit_message">
+      <p></p>
+    </div>
+    
+      <div class="event_instance"><div><img alt="avatar" height="16" src="https://secure.gravatar.com/avatar.php?gravatar_id=9cbb4682819616e6ee48ead91f12f10b&amp;default=https%3A%2F%2Fgitorious.org%2Fimages%2Fdefault_face.gif&amp;size=16" width="16" />
+<span><span class="actor">Anton Lobov</span> <span class="timestamp">on June 16, 2010 15:39</span></span></div>
+<div class="commit_message"><a href="/bashets/bashets/commit/79a63ab656119882b50d1e3e172dce33f070c444"><p>Previous version for Awesome 3.3- added</p></a></div></div>    
+        
+  </div>
+</li>
+
+
+
+<li class="event_instance  edit_wiki_page" id="event_21606852">
+	  <p class="event_category wiki">Wiki</p>
+      <p class="event_date">15:20</p>
+    <img alt="avatar" height="16" src="https://secure.gravatar.com/avatar.php?gravatar_id=529bafdcdb8560db12a38c9ed37a8636&amp;default=https%3A%2F%2Fgitorious.org%2Fimages%2Fdefault_face.gif&amp;size=16" width="16" />
+
+  <div class="event_meta">
+    <p class="event_action">
+        
+      
+        <strong><a href="/~zhuravlik" class="event-author">zhuravlik</a></strong>
+      
+      edited wiki page <a href="/bashets">bashets</a>/<a href="/bashets/pages/Brief_Introduction">Brief_Introduction</a>
+    
+    </p>
+    <div class=" commit_message">
+      <p></p>
+    </div>
+    
+        
+  </div>
+</li>
+
+
+
+<li class="event_instance  edit_wiki_page" id="event_21606784">
+	  <p class="event_category wiki">Wiki</p>
+      <p class="event_date">15:08</p>
+    <img alt="avatar" height="16" src="https://secure.gravatar.com/avatar.php?gravatar_id=529bafdcdb8560db12a38c9ed37a8636&amp;default=https%3A%2F%2Fgitorious.org%2Fimages%2Fdefault_face.gif&amp;size=16" width="16" />
+
+  <div class="event_meta">
+    <p class="event_action">
+        
+      
+        <strong><a href="/~zhuravlik" class="event-author">zhuravlik</a></strong>
+      
+      edited wiki page <a href="/bashets">bashets</a>/<a href="/bashets/pages/Home">Home</a>
+    
+    </p>
+    <div class=" commit_message">
+      <p></p>
+    </div>
+    
+        
+  </div>
+</li>
+
+
+
+<li class="event_instance  push" id="event_21606560">
+	  <p class="event_category push">Push</p>
+      <p class="event_date">14:50</p>
+    <img alt="avatar" height="16" src="https://secure.gravatar.com/avatar.php?gravatar_id=529bafdcdb8560db12a38c9ed37a8636&amp;default=https%3A%2F%2Fgitorious.org%2Fimages%2Fdefault_face.gif&amp;size=16" width="16" />
+
+  <div class="event_meta">
+    <p class="event_action">
+        
+      
+        <strong><a href="/~zhuravlik" class="event-author">zhuravlik</a></strong>
+      
+      pushed <a href="/bashets/bashets/commit/faa126987cd8ff4ec586647b9311792cf2c280d3">faa12698</a> to <a href="/bashets/bashets">bashets/bashets:master</a>
+    
+    </p>
+    <div class=" commit_message">
+      <p></p>
+    </div>
+    
+      <div class="event_instance"><div><img alt="avatar" height="16" src="https://secure.gravatar.com/avatar.php?gravatar_id=9cbb4682819616e6ee48ead91f12f10b&amp;default=https%3A%2F%2Fgitorious.org%2Fimages%2Fdefault_face.gif&amp;size=16" width="16" />
+<span><span class="actor">Anton Lobov</span> <span class="timestamp">on June 16, 2010 14:50</span></span></div>
+<div class="commit_message"><a href="/bashets/bashets/commit/faa126987cd8ff4ec586647b9311792cf2c280d3"><p>deleted temporary files</p></a></div></div>    
+        
+  </div>
+</li>
+
+
+
+<li class="event_instance  push" id="event_21606554">
+	  <p class="event_category push">Push</p>
+      <p class="event_date">14:47</p>
+    <img alt="avatar" height="16" src="https://secure.gravatar.com/avatar.php?gravatar_id=529bafdcdb8560db12a38c9ed37a8636&amp;default=https%3A%2F%2Fgitorious.org%2Fimages%2Fdefault_face.gif&amp;size=16" width="16" />
+
+  <div class="event_meta">
+    <p class="event_action">
+        
+      
+        <strong><a href="/~zhuravlik" class="event-author">zhuravlik</a></strong>
+      
+      pushed <a href="/bashets/bashets/commit/6c602e62ac9999d50ca61f6c69abc84971b6bf13">6c602e62</a> to <a href="/bashets/bashets">bashets/bashets:master</a>
+    
+    </p>
+    <div class=" commit_message">
+      <p></p>
+    </div>
+    
+      <div class="event_instance"><div><img alt="avatar" height="16" src="https://secure.gravatar.com/avatar.php?gravatar_id=9cbb4682819616e6ee48ead91f12f10b&amp;default=https%3A%2F%2Fgitorious.org%2Fimages%2Fdefault_face.gif&amp;size=16" width="16" />
+<span><span class="actor">Anton Lobov</span> <span class="timestamp">on June 16, 2010 14:46</span></span></div>
+<div class="commit_message"><a href="/bashets/bashets/commit/6c602e62ac9999d50ca61f6c69abc84971b6bf13"><p>userscripts added</p></a></div></div>    
+        
+  </div>
+</li>
+    </ul>
+  </li>
+  <li>
+    <p class="date">Tuesday June 15 2010</p>
+    <ul class="event_instances">
+      
+
+
+<li class="event_instance  create_branch" id="event_21590289">
+	  <p class="event_category commit">Commit</p>
+      <p class="event_date">17:48</p>
+    <img alt="avatar" height="16" src="https://secure.gravatar.com/avatar.php?gravatar_id=529bafdcdb8560db12a38c9ed37a8636&amp;default=https%3A%2F%2Fgitorious.org%2Fimages%2Fdefault_face.gif&amp;size=16" width="16" />
+
+  <div class="event_meta">
+    <p class="event_action">
+        
+      
+        <strong><a href="/~zhuravlik" class="event-author">zhuravlik</a></strong>
+      
+      started development of <a href="/bashets">bashets</a>/<a href="https://gitorious.org/bashets/bashets">bashets</a>
+    
+    </p>
+    <div class=" commit_message">
+      <p></p>
+    </div>
+    
+        
+  </div>
+</li>
+
+
+
+<li class="event_instance  add_project_repository" id="event_21590259">
+	  <p class="event_category repository">Repository</p>
+      <p class="event_date">17:47</p>
+    <img alt="avatar" height="16" src="https://secure.gravatar.com/avatar.php?gravatar_id=529bafdcdb8560db12a38c9ed37a8636&amp;default=https%3A%2F%2Fgitorious.org%2Fimages%2Fdefault_face.gif&amp;size=16" width="16" />
+
+  <div class="event_meta">
+    <p class="event_action">
+        
+      
+        <strong><a href="/~zhuravlik" class="event-author">zhuravlik</a></strong>
+      
+      created repository <a href="/bashets/bashets">bashets</a> in <a href="/bashets">bashets</a>
+    
+    </p>
+    <div class=" commit_message">
+      <p>Shellscript-powered widget system for Awesome window manager</p>
+    </div>
+    
+        
+  </div>
+</li>
+
+
+
+<li class="event_instance  create_project" id="event_21590258">
+	  <p class="event_category project">Project</p>
+      <p class="event_date">17:46</p>
+    <img alt="avatar" height="16" src="https://secure.gravatar.com/avatar.php?gravatar_id=529bafdcdb8560db12a38c9ed37a8636&amp;default=https%3A%2F%2Fgitorious.org%2Fimages%2Fdefault_face.gif&amp;size=16" width="16" />
+
+  <div class="event_meta">
+    <p class="event_action">
+        
+      
+        <strong><a href="/~zhuravlik" class="event-author">zhuravlik</a></strong>
+      
+      created project <a href="/bashets">bashets</a>
+    
+    </p>
+    <div class=" commit_message">
+      <p>Bashets is an alternative widget system for Awesome window manager allowing you to simply use you...</p>
+    </div>
+    
+        
+  </div>
+</li>
+    </ul>
+  </li>
+</ul>
+			</div>		</div>
+	</div>
+	<div id="right" class="w-390">
+		<div class="pull-box-container your-projects pull-box-390"><div class="pull-box-header"><h3>Projects</h3></div><div class="pull-box-content">		<ul class="with_icons">
+						  <li class="project">
+				  <a href="/bashets">bashets</a>          
+			  </li>
+      			  <li class="project">
+				  <a href="/cxpath">cxpath</a>          
+			  </li>
+      		</ul></div></div><div class="pull-box-container your-repositories pull-box-390"><div class="pull-box-header"><h3>Repositories</h3></div><div class="pull-box-content">		<ul class="with_icons">
+						<li class="repository">
+				<a href="/bashets/bashets">bashets/bashets</a>			</li>			<li class="repository">
+				<a href="/bashets/awesome-config">bashets/awesome-config</a>			</li>			<li class="repository">
+				<a href="/cxpath/cxpath">cxpath/cxpath</a>			</li>		</ul></div></div><div class="pull-box-container your-favorites favorite pull-box-390"><div class="pull-box-header"><h3>zhuravlik is watching</h3></div><div class="pull-box-content">
+		<div class="filters">
+			<ul>
+				<li>
+					<strong>Sort by:</strong>
+				</li>				<li>
+					<a href="#merge-requests" class="merge-requests">Merge requests</a>
+				</li>
+				<li>
+					<a href="#repos" class="repositories">Repositories</a>
+				</li>
+				<li>
+					<a href="#all" class="all">All</a>
+				</li>
+			</ul>
+		</div>
+		<ul class="with_icons">
+			
+			  <li class="favorite project foreign">
+				  <a href="/bashets">bashets</a>			  </li>
+      
+			  <li class="favorite repository foreign">
+				  <a href="/bashets/bashets">bashets/bashets</a>			  </li>
+      
+			  <li class="favorite repository foreign">
+				  <a href="/bashets/awesome-config">bashets/awesome-config</a>			  </li>
+      
+			  <li class="favorite project foreign">
+				  <a href="/cxpath">cxpath</a>			  </li>
+      
+			  <li class="favorite repository foreign">
+				  <a href="/cxpath/cxpath">cxpath/cxpath</a>			  </li>
+      
+      		</ul></div></div>	</div>
+	<div class="clear"></div>
+</div>
+      </div>
+          </div>
+    <div id="footer">
+      
+<div class="powered-by">
+  <a href="http://gitorious.org"><img alt="Poweredby" src="/images/../img/poweredby.png?1294322727" title="Powered by Gitorious" /></a></div>
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-52238-3']);
+_gaq.push(['_setDomainName', '.gitorious.org'])
+_gaq.push(['_trackPageview']);
+(function() {
+   var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+   ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+   (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);
+})();
+</script><script src="/javascripts/onload.js?1322725723" type="text/javascript"></script>
+      
+<div id="footer-links">
+  <h3>Gitorious</h3>
+  <ul>
+    <li><a href="/">Home</a></li>
+    <li><a href="/about">About</a></li>
+    <li><a href="/about/faq">FAQ</a></li>
+    <li><a href="/contact">Contact</a></li>
+  </ul>
+  
+    <ul>
+      <li><a href="http://groups.google.com/group/gitorious">Discussion group</a></li>
+      <li><a href="http://blog.gitorious.org">Blog</a></li>
+    </ul>
+  
+      
+<ul>
+  <li><a href="http://en.gitorious.org/tos">Terms of Service</a></li>
+  <li><a href="http://en.gitorious.org/privacy_policy">Privacy Policy</a></li>
+</ul>
+
+  
+  
+    <ul>
+      
+        <li><a href="http://gitorious.com/">Professional Gitorious Services</a></li>
+      
+    </ul>
+  
+</div>
+      <p class="footer-blurb">
+  
+    <a href="http://gitorious.com">Professional Gitorious services</a> - Git
+    hosting at your company, custom features, support and more.
+    <a href="http://gitorious.com">gitorious.com</a>.
+  
+</p>
+
+      <div class="clear"></div>
+    </div>
+  </div>
+</body>
+</html>

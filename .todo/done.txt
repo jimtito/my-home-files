@@ -1,0 +1,3 @@
+x 2011-12-27 fix prompt in zsh
+x 2011-12-27 fix urxvt
+x 2011-12-27 fix vim

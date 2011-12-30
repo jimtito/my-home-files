@@ -1,0 +1,6 @@
+#!/bin/bash
+echo " -- Searching Repositories -- " 
+pp -Ss $@
+
+echo " -- Searching AUR -- " 
+slurpy -c -s $@

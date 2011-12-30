@@ -1,0 +1,8 @@
+username = ###
+password = ###
+default-radio = lastfm://user/joelhurtado3/personal
+title-format = %R %t by %a on %s @last.fm
+term-format = shell-fm
+np-file = /home/lucifer/.shell-fm/nowplaying
+np-file-format = %t:%a:%S:%A
+delay-change = true
